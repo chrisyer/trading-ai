@@ -1,0 +1,511 @@
+{
+  "timestamp": "2026-02-03T22:14:22.742905",
+  "symbol": "XAUUSD",
+  "period_days": 60,
+  "total_candles": 1052,
+  "hourly_patterns": {
+    "0": {
+      "hour_utc": 0,
+      "hour_label": "Asian Open",
+      "total_candles": 45,
+      "up_candles": 29,
+      "down_candles": 16,
+      "bullish_rate": 64.4,
+      "avg_move_pts": 0.7,
+      "avg_range": 22.4,
+      "avg_return_pct": 0.07,
+      "character": "BULLISH",
+      "volatility": "NORMAL",
+      "recommendation": "SCALP LONG"
+    },
+    "1": {
+      "hour_utc": 1,
+      "hour_label": "1:00 UTC",
+      "total_candles": 46,
+      "up_candles": 26,
+      "down_candles": 20,
+      "bullish_rate": 56.5,
+      "avg_move_pts": 0.93,
+      "avg_range": 22.04,
+      "avg_return_pct": 0.02,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "2": {
+      "hour_utc": 2,
+      "hour_label": "2:00 UTC",
+      "total_candles": 46,
+      "up_candles": 24,
+      "down_candles": 22,
+      "bullish_rate": 52.2,
+      "avg_move_pts": 2.27,
+      "avg_range": 19.34,
+      "avg_return_pct": 0.045,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "3": {
+      "hour_utc": 3,
+      "hour_label": "Asian Mid",
+      "total_candles": 46,
+      "up_candles": 25,
+      "down_candles": 20,
+      "bullish_rate": 54.3,
+      "avg_move_pts": -1.3,
+      "avg_range": 26.26,
+      "avg_return_pct": -0.025,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "4": {
+      "hour_utc": 4,
+      "hour_label": "4:00 UTC",
+      "total_candles": 46,
+      "up_candles": 26,
+      "down_candles": 20,
+      "bullish_rate": 56.5,
+      "avg_move_pts": -1.02,
+      "avg_range": 23.11,
+      "avg_return_pct": 0.002,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "5": {
+      "hour_utc": 5,
+      "hour_label": "5:00 UTC",
+      "total_candles": 46,
+      "up_candles": 23,
+      "down_candles": 22,
+      "bullish_rate": 50.0,
+      "avg_move_pts": 1.57,
+      "avg_range": 19.43,
+      "avg_return_pct": 0.031,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "6": {
+      "hour_utc": 6,
+      "hour_label": "6:00 UTC",
+      "total_candles": 46,
+      "up_candles": 26,
+      "down_candles": 20,
+      "bullish_rate": 56.5,
+      "avg_move_pts": 2.52,
+      "avg_range": 20.51,
+      "avg_return_pct": 0.037,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "7": {
+      "hour_utc": 7,
+      "hour_label": "Pre-London",
+      "total_candles": 46,
+      "up_candles": 26,
+      "down_candles": 20,
+      "bullish_rate": 56.5,
+      "avg_move_pts": 0.17,
+      "avg_range": 21.55,
+      "avg_return_pct": -0.01,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "8": {
+      "hour_utc": 8,
+      "hour_label": "London Open",
+      "total_candles": 46,
+      "up_candles": 27,
+      "down_candles": 19,
+      "bullish_rate": 58.7,
+      "avg_move_pts": 2.48,
+      "avg_range": 31.05,
+      "avg_return_pct": 0.067,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "9": {
+      "hour_utc": 9,
+      "hour_label": "London Early",
+      "total_candles": 48,
+      "up_candles": 24,
+      "down_candles": 24,
+      "bullish_rate": 50.0,
+      "avg_move_pts": -2.86,
+      "avg_range": 34.81,
+      "avg_return_pct": -0.05,
+      "character": "NEUTRAL",
+      "volatility": "HIGH",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "10": {
+      "hour_utc": 10,
+      "hour_label": "10:00 UTC",
+      "total_candles": 48,
+      "up_candles": 27,
+      "down_candles": 21,
+      "bullish_rate": 56.2,
+      "avg_move_pts": -4.44,
+      "avg_range": 44.52,
+      "avg_return_pct": -0.097,
+      "character": "NEUTRAL",
+      "volatility": "HIGH",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "11": {
+      "hour_utc": 11,
+      "hour_label": "11:00 UTC",
+      "total_candles": 47,
+      "up_candles": 28,
+      "down_candles": 19,
+      "bullish_rate": 59.6,
+      "avg_move_pts": 5.44,
+      "avg_range": 31.77,
+      "avg_return_pct": 0.097,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "12": {
+      "hour_utc": 12,
+      "hour_label": "London Mid/Pre-US",
+      "total_candles": 47,
+      "up_candles": 25,
+      "down_candles": 22,
+      "bullish_rate": 53.2,
+      "avg_move_pts": 0.46,
+      "avg_range": 24.64,
+      "avg_return_pct": 0.009,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "13": {
+      "hour_utc": 13,
+      "hour_label": "NY Pre-Market",
+      "total_candles": 46,
+      "up_candles": 23,
+      "down_candles": 22,
+      "bullish_rate": 50.0,
+      "avg_move_pts": -1.22,
+      "avg_range": 22.87,
+      "avg_return_pct": -0.195,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "14": {
+      "hour_utc": 14,
+      "hour_label": "NY Open",
+      "total_candles": 46,
+      "up_candles": 26,
+      "down_candles": 18,
+      "bullish_rate": 56.5,
+      "avg_move_pts": -0.1,
+      "avg_range": 24.86,
+      "avg_return_pct": -0.0,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "15": {
+      "hour_utc": 15,
+      "hour_label": "NY Early",
+      "total_candles": 46,
+      "up_candles": 27,
+      "down_candles": 19,
+      "bullish_rate": 58.7,
+      "avg_move_pts": 7.17,
+      "avg_range": 25.93,
+      "avg_return_pct": 0.144,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "16": {
+      "hour_utc": 16,
+      "hour_label": "London Close",
+      "total_candles": 46,
+      "up_candles": 24,
+      "down_candles": 21,
+      "bullish_rate": 52.2,
+      "avg_move_pts": 1.86,
+      "avg_range": 19.82,
+      "avg_return_pct": 0.023,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "18": {
+      "hour_utc": 18,
+      "hour_label": "18:00 UTC",
+      "total_candles": 44,
+      "up_candles": 27,
+      "down_candles": 17,
+      "bullish_rate": 61.4,
+      "avg_move_pts": 7.4,
+      "avg_range": 27.05,
+      "avg_return_pct": 0.212,
+      "character": "BULLISH",
+      "volatility": "NORMAL",
+      "recommendation": "SCALP LONG"
+    },
+    "19": {
+      "hour_utc": 19,
+      "hour_label": "19:00 UTC",
+      "total_candles": 44,
+      "up_candles": 22,
+      "down_candles": 22,
+      "bullish_rate": 50.0,
+      "avg_move_pts": 0.59,
+      "avg_range": 22.55,
+      "avg_return_pct": 0.017,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "20": {
+      "hour_utc": 20,
+      "hour_label": "NY Late",
+      "total_candles": 44,
+      "up_candles": 30,
+      "down_candles": 14,
+      "bullish_rate": 68.2,
+      "avg_move_pts": 3.96,
+      "avg_range": 35.32,
+      "avg_return_pct": 0.089,
+      "character": "BULLISH",
+      "volatility": "HIGH",
+      "recommendation": "SCALP LONG"
+    },
+    "21": {
+      "hour_utc": 21,
+      "hour_label": "21:00 UTC",
+      "total_candles": 44,
+      "up_candles": 26,
+      "down_candles": 18,
+      "bullish_rate": 59.1,
+      "avg_move_pts": -2.76,
+      "avg_range": 28.13,
+      "avg_return_pct": -0.058,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "22": {
+      "hour_utc": 22,
+      "hour_label": "22:00 UTC",
+      "total_candles": 44,
+      "up_candles": 24,
+      "down_candles": 20,
+      "bullish_rate": 54.5,
+      "avg_move_pts": 0.38,
+      "avg_range": 19.53,
+      "avg_return_pct": 0.008,
+      "character": "NEUTRAL",
+      "volatility": "NORMAL",
+      "recommendation": "WAIT FOR SETUP"
+    },
+    "23": {
+      "hour_utc": 23,
+      "hour_label": "23:00 UTC",
+      "total_candles": 45,
+      "up_candles": 24,
+      "down_candles": 21,
+      "bullish_rate": 53.3,
+      "avg_move_pts": 2.55,
+      "avg_range": 15.06,
+      "avg_return_pct": 0.048,
+      "character": "NEUTRAL",
+      "volatility": "LOW",
+      "recommendation": "WAIT FOR SETUP"
+    }
+  },
+  "session_patterns": {
+    "ASIAN": {
+      "name": "Asian Session (00:00-08:00 UTC)",
+      "hours": "0:00-8:00 UTC",
+      "total_candles": 367,
+      "bullish_rate": 55.9,
+      "avg_hourly_move": 0.73,
+      "avg_hourly_range": 21.83,
+      "avg_session_move": 4.78,
+      "session_win_rate": 60.9,
+      "character": "BULLISH"
+    },
+    "LONDON": {
+      "name": "London Session (08:00-16:00 UTC)",
+      "hours": "8:00-16:00 UTC",
+      "total_candles": 374,
+      "bullish_rate": 55.3,
+      "avg_hourly_move": 0.83,
+      "avg_hourly_range": 30.15,
+      "avg_session_move": 4.78,
+      "session_win_rate": 57.1,
+      "character": "BULLISH"
+    },
+    "NEW_YORK": {
+      "name": "New York Session (13:00-21:00 UTC)",
+      "hours": "13:00-21:00 UTC",
+      "total_candles": 316,
+      "bullish_rate": 56.6,
+      "avg_hourly_move": 2.79,
+      "avg_hourly_range": 25.43,
+      "avg_session_move": 15.87,
+      "session_win_rate": 60.0,
+      "character": "BULLISH"
+    },
+    "OVERLAP": {
+      "name": "London/NY Overlap (13:00-16:00 UTC)",
+      "hours": "13:00-16:00 UTC",
+      "total_candles": 138,
+      "bullish_rate": 55.1,
+      "avg_hourly_move": 1.95,
+      "avg_hourly_range": 24.55,
+      "avg_session_move": 5.82,
+      "session_win_rate": 56.5,
+      "character": "BULLISH"
+    },
+    "LATE_NY": {
+      "name": "Late NY (17:00-21:00 UTC)",
+      "hours": "17:00-21:00 UTC",
+      "total_candles": 132,
+      "bullish_rate": 59.8,
+      "avg_hourly_move": 3.98,
+      "avg_hourly_range": 28.31,
+      "avg_session_move": 12.12,
+      "session_win_rate": 61.4,
+      "character": "BULLISH"
+    }
+  },
+  "day_of_week": {
+    "Monday": {
+      "day": "Monday",
+      "bullish_rate": 55.3,
+      "avg_hourly_move": 0.68,
+      "avg_range": 23.75,
+      "avg_daily_move": 16.49,
+      "daily_win_rate": 50.0
+    },
+    "Tuesday": {
+      "day": "Tuesday",
+      "bullish_rate": 59.5,
+      "avg_hourly_move": 3.12,
+      "avg_range": 24.96,
+      "avg_daily_move": 55.83,
+      "daily_win_rate": 81.8
+    },
+    "Wednesday": {
+      "day": "Wednesday",
+      "bullish_rate": 47.3,
+      "avg_hourly_move": 0.66,
+      "avg_range": 26.87,
+      "avg_daily_move": 14.5,
+      "daily_win_rate": 30.0
+    },
+    "Thursday": {
+      "day": "Thursday",
+      "bullish_rate": 59.6,
+      "avg_hourly_move": -0.48,
+      "avg_range": 27.69,
+      "avg_daily_move": -10.69,
+      "daily_win_rate": 71.4
+    },
+    "Friday": {
+      "day": "Friday",
+      "bullish_rate": 55.7,
+      "avg_hourly_move": -0.3,
+      "avg_range": 24.76,
+      "avg_daily_move": -5.07,
+      "daily_win_rate": 63.6
+    },
+    "Sunday": {
+      "day": "Sunday",
+      "bullish_rate": 65.5,
+      "avg_hourly_move": 4.94,
+      "avg_range": 23.42,
+      "avg_daily_move": 27.12,
+      "daily_win_rate": 80.0
+    }
+  },
+  "recommendations": {
+    "best_long_hours": [
+      {
+        "hour": 20,
+        "label": "NY Late",
+        "bullish_rate": 68.2,
+        "avg_move": 3.96
+      },
+      {
+        "hour": 0,
+        "label": "Asian Open",
+        "bullish_rate": 64.4,
+        "avg_move": 0.7
+      },
+      {
+        "hour": 18,
+        "label": "18:00 UTC",
+        "bullish_rate": 61.4,
+        "avg_move": 7.4
+      },
+      {
+        "hour": 11,
+        "label": "11:00 UTC",
+        "bullish_rate": 59.6,
+        "avg_move": 5.44
+      },
+      {
+        "hour": 21,
+        "label": "21:00 UTC",
+        "bullish_rate": 59.1,
+        "avg_move": -2.76
+      }
+    ],
+    "risk_off_hours": [
+      {
+        "hour": 23,
+        "label": "23:00 UTC",
+        "bullish_rate": 53.3,
+        "reason": "Low volatility"
+      }
+    ],
+    "best_sessions": [
+      {
+        "session": "ASIAN",
+        "name": "Asian Session (00:00-08:00 UTC)",
+        "bullish_rate": 55.9,
+        "session_win_rate": 60.9
+      },
+      {
+        "session": "LONDON",
+        "name": "London Session (08:00-16:00 UTC)",
+        "bullish_rate": 55.3,
+        "session_win_rate": 57.1
+      },
+      {
+        "session": "NEW_YORK",
+        "name": "New York Session (13:00-21:00 UTC)",
+        "bullish_rate": 56.6,
+        "session_win_rate": 60.0
+      },
+      {
+        "session": "OVERLAP",
+        "name": "London/NY Overlap (13:00-16:00 UTC)",
+        "bullish_rate": 55.1,
+        "session_win_rate": 56.5
+      },
+      {
+        "session": "LATE_NY",
+        "name": "Late NY (17:00-21:00 UTC)",
+        "bullish_rate": 59.8,
+        "session_win_rate": 61.4
+      }
+    ]
+  }
+}
