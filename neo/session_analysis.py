@@ -42,19 +42,24 @@ SESSIONS = {
 }
 
 # Key hours to analyze
+# Key hours with both UTC and EST (EST = UTC - 5)
 KEY_HOURS = {
-    0: "Asian Open",
-    3: "Asian Mid",
-    7: "Pre-London",
-    8: "London Open",
-    9: "London Early",
-    12: "London Mid/Pre-US",
-    13: "NY Pre-Market",
-    14: "NY Open",
-    15: "NY Early",
-    16: "London Close",
-    17: "NY Afternoon",
-    20: "NY Late"
+    0: "Asian Open (19:00 EST)",
+    3: "Asian Mid (22:00 EST)",
+    7: "Pre-London (02:00 EST)",
+    8: "London Open (03:00 EST)",
+    9: "London Early (04:00 EST)",
+    11: "London Mid (06:00 EST)",
+    12: "London Mid/Pre-US (07:00 EST)",
+    13: "NY Pre-Market (08:00 EST)",
+    14: "NY Open (09:00 EST)",
+    15: "NY Early (10:00 EST)",
+    16: "London Close (11:00 EST)",
+    17: "NY Afternoon (12:00 EST)",
+    18: "NY Mid (13:00 EST)",
+    20: "NY Late (15:00 EST)",
+    21: "NY Close (16:00 EST)",
+    23: "Pre-Asian (18:00 EST)"
 }
 
 
