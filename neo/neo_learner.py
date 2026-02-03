@@ -167,6 +167,144 @@ class NeoLearner:
         metrics_file.write_text(json.dumps(self.daily_metrics, indent=2))
     
     # ══════════════════════════════════════════════════════════════════════════
+    # SHOOTING STAR PATTERN DETECTION (Research Task #001)
+    # ══════════════════════════════════════════════════════════════════════════
+    # 
+    # Backtest Results (30 days, M15):
+    #   - 33 patterns found, 66.7% overall win rate
+    #   - With 1 red candle confirmation: 100% win rate (12/12)
+    #   - With 2 back-to-back reds: 100% win rate, avg drop $20.5
+    #
+    # Tiered Confidence:
+    #   - Shooting star alone: 47.6% win (LOW)
+    #   - SS + 1 red candle: 100% win (HIGH)
+    #   - SS + 2 red candles: 100% win, larger moves (VERY HIGH)
+    # ══════════════════════════════════════════════════════════════════════════
+    
+    def detect_shooting_star(self, candle: dict, prev_candles: List[dict] = None) -> dict:
+        """
+        Detect shooting star pattern from candle data.
+        
+        Returns:
+            {
+                'detected': bool,
+                'confirmed': int (0=none, 1=one red, 2=back-to-back reds),
+                'confidence_tier': str ('NONE', 'LOW', 'HIGH', 'VERY_HIGH'),
+                'confidence_boost': float
+            }
+        """
+        result = {
+            'detected': False,
+            'confirmed': 0,
+            'confidence_tier': 'NONE',
+            'confidence_boost': 1.0,
+            'sell_signal': False
+        }
+        
+        # Need OHLC data
+        open_price = candle.get('open', 0)
+        high = candle.get('high', 0)
+        low = candle.get('low', 0)
+        close = candle.get('close', 0)
+        
+        if not all([open_price, high, low, close]):
+            return result
+        
+        body = abs(close - open_price)
+        upper_wick = high - max(open_price, close)
+        lower_wick = min(open_price, close) - low
+        total_range = high - low
+        
+        if total_range == 0 or body == 0:
+            return result
+        
+        # Shooting star criteria:
+        # 1. Small body (<=30% of range)
+        # 2. Long upper wick (>=2x body)
+        # 3. Short lower wick (<=10% of range)
+        small_body = body <= total_range * 0.3
+        long_upper = upper_wick >= body * 2
+        short_lower = lower_wick <= total_range * 0.1
+        
+        # Check if after uptrend (price above recent average)
+        after_uptrend = True
+        if prev_candles and len(prev_candles) >= 5:
+            recent_avg = sum(c.get('close', 0) for c in prev_candles[-5:]) / 5
+            after_uptrend = close > recent_avg * 0.998  # Small tolerance
+        
+        if small_body and long_upper and short_lower and after_uptrend:
+            result['detected'] = True
+            result['confidence_tier'] = 'LOW'  # 47.6% win rate unconfirmed
+            result['confidence_boost'] = 0.8   # Actually reduces buy confidence
+            result['sell_signal'] = True
+            
+            # Check for red candle confirmation
+            if prev_candles and len(prev_candles) >= 1:
+                # The "prev_candles" here should be candles AFTER the shooting star
+                # Let's check the market_data for confirmation signals
+                pass
+        
+        return result
+    
+    def analyze_shooting_star_confirmation(self, market_data: dict) -> dict:
+        """
+        Analyze shooting star with confirmation from subsequent candles.
+        
+        Expected market_data fields:
+            - shooting_star: bool (pattern detected)
+            - candle_1_red: bool (1st candle after SS was red)
+            - candle_2_red: bool (2nd candle after SS was red)
+            OR
+            - recent_candles: list of OHLC dicts
+        """
+        result = {
+            'detected': market_data.get('shooting_star', False),
+            'confirmed': 0,
+            'confidence_tier': 'NONE',
+            'confidence_boost': 1.0,
+            'sell_signal': False,
+            'reasoning': ''
+        }
+        
+        if not result['detected']:
+            return result
+        
+        result['sell_signal'] = True
+        result['confidence_tier'] = 'LOW'
+        result['confidence_boost'] = 0.8  # Reduce BUY confidence
+        result['reasoning'] = 'Shooting star detected (47.6% win unconfirmed)'
+        
+        # Check confirmation level
+        candle_1_red = market_data.get('candle_1_red', False)
+        candle_2_red = market_data.get('candle_2_red', False)
+        
+        # Alternative: check from recent_candles array
+        recent_candles = market_data.get('recent_candles', [])
+        if recent_candles and len(recent_candles) >= 2:
+            # Candles should be in chronological order (oldest first)
+            # Last candle is current, second-to-last is candle_1, etc.
+            if len(recent_candles) >= 2:
+                c1 = recent_candles[-1]  # Most recent
+                candle_1_red = c1.get('close', 0) < c1.get('open', 0)
+            if len(recent_candles) >= 3:
+                c2 = recent_candles[-2]  # Second most recent
+                candle_2_red = c2.get('close', 0) < c2.get('open', 0)
+        
+        if candle_1_red:
+            result['confirmed'] = 1
+            result['confidence_tier'] = 'HIGH'
+            result['confidence_boost'] = 1.5  # 100% win rate
+            result['reasoning'] = 'Shooting star + red candle confirmation (100% win rate)'
+            
+            if candle_2_red:
+                result['confirmed'] = 2
+                result['confidence_tier'] = 'VERY_HIGH'
+                result['confidence_boost'] = 1.8  # 100% win, larger avg moves ($20+)
+                result['reasoning'] = 'Shooting star + back-to-back reds (100% win, avg $20+ drop)'
+        
+        return result
+    
+    # ══════════════════════════════════════════════════════════════════════════
     # FEATURE EXTRACTION
     # ══════════════════════════════════════════════════════════════════════════
     
@@ -189,15 +327,21 @@ class NeoLearner:
         else:
             direction = "SELL"
         
-        # Shooting star detection (from Research Task #001)
-        # Backtest showed 66.7% win rate, 100% with red candle confirmation
-        shooting_star = market_data.get('shooting_star', False)
-        shooting_star_confirmed = market_data.get('shooting_star_confirmed', False)
+        # ════════════════════════════════════════════════════════════════════
+        # SHOOTING STAR ANALYSIS (Research Task #001)
+        # ════════════════════════════════════════════════════════════════════
+        ss_analysis = self.analyze_shooting_star_confirmation(market_data)
+        
+        # Feature flags based on confirmation level
+        shooting_star_confirmed_1 = ss_analysis['confirmed'] >= 1  # 1 red candle
+        shooting_star_confirmed_2 = ss_analysis['confirmed'] >= 2  # 2 red candles
+        shooting_star_unconfirmed = ss_analysis['detected'] and ss_analysis['confirmed'] == 0
         
         features = {
             'adx_strong': adx > 25,
             'di_divergence': abs(plus_di - minus_di) > 10,
             'rsi_momentum': 40 < rsi < 70,
+            'rsi_overbought': rsi > 70,  # NEW: RSI overbought for SS context
             'h4_alignment': (h4_trend == "BULLISH" and direction == "BUY") or \
                            (h4_trend == "BEARISH" and direction == "SELL"),
             'ema_trend': price > ema50 if direction == "BUY" else price < ema50,
@@ -207,11 +351,15 @@ class NeoLearner:
             'volume_confirm': True,  # Default true without volume data
             'momentum_divergence': False,  # Complex calculation
             
-            # NEW: Shooting star pattern (Research Task #001)
-            # 100% win rate when confirmed with red candle
-            'shooting_star_confirmed': shooting_star_confirmed,
-            'shooting_star_unconfirmed': shooting_star and not shooting_star_confirmed
+            # SHOOTING STAR FEATURES (Research Task #001)
+            # Tiered by confirmation level
+            'shooting_star_unconfirmed': shooting_star_unconfirmed,    # 47.6% win - caution
+            'shooting_star_confirmed_1': shooting_star_confirmed_1,    # 100% win - strong SELL
+            'shooting_star_confirmed_2': shooting_star_confirmed_2,    # 100% win, $20+ moves
         }
+        
+        # Store SS analysis for signal generation
+        self._last_ss_analysis = ss_analysis
         
         return features
     
@@ -227,13 +375,19 @@ class NeoLearner:
     def generate_signal(self, market_data: dict) -> dict:
         """Generate a trading signal based on current market data"""
         
-        # Extract features
+        # Extract features (also runs shooting star analysis)
         features = self.extract_features(market_data)
+        
+        # Get shooting star analysis (populated by extract_features)
+        ss_analysis = getattr(self, '_last_ss_analysis', {
+            'detected': False, 'confirmed': 0, 'confidence_tier': 'NONE',
+            'confidence_boost': 1.0, 'sell_signal': False, 'reasoning': ''
+        })
         
         # Calculate weighted confidence
         total_weight = sum(self.confidence_weights.values())
         active_weight = sum(
-            self.confidence_weights[k] for k, v in features.items() if v
+            self.confidence_weights.get(k, 1.0) for k, v in features.items() if v
         )
         
         base_confidence = active_weight / total_weight if total_weight > 0 else 0
@@ -249,6 +403,28 @@ class NeoLearner:
         else:
             direction = "HOLD"
         
+        # ════════════════════════════════════════════════════════════════════
+        # SHOOTING STAR OVERRIDE (Research Task #001)
+        # ════════════════════════════════════════════════════════════════════
+        # If shooting star with confirmation detected, it overrides direction
+        shooting_star_override = None
+        if ss_analysis['detected'] and ss_analysis['sell_signal']:
+            if ss_analysis['confirmed'] >= 1:
+                # Confirmed shooting star = STRONG SELL signal
+                # Override any BUY direction
+                if direction == "BUY":
+                    shooting_star_override = "SELL"
+                    direction = "SELL"
+                    # Boost confidence for SELL based on confirmation level
+                    base_confidence = min(0.95, base_confidence * ss_analysis['confidence_boost'])
+                elif direction == "SELL":
+                    # Already SELL, boost confidence
+                    base_confidence = min(0.95, base_confidence * ss_analysis['confidence_boost'])
+            elif ss_analysis['confirmed'] == 0:
+                # Unconfirmed shooting star - just reduce BUY confidence
+                if direction == "BUY":
+                    base_confidence *= 0.7  # Reduce buy confidence
+        
         # Check pattern library for similar setups
         similar_patterns = self.find_similar_patterns(features, direction)
         
@@ -263,19 +439,44 @@ class NeoLearner:
         # Generate signal ID
         signal_id = f"NEO_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
         
+        # Build reasoning
+        reasoning = self._build_reasoning(features, market_data)
+        if ss_analysis['detected']:
+            reasoning = f"{ss_analysis['reasoning']}; {reasoning}"
+        
+        # Adjust SL/TP for shooting star trades
+        suggested_sl = self._calculate_sl(market_data)
+        suggested_tp = self._calculate_tp(market_data)
+        
+        if ss_analysis['detected'] and ss_analysis['confirmed'] >= 1 and direction == "SELL":
+            # Use researched SL/TP from backtest
+            suggested_sl = 8.0   # $8 above pattern high
+            suggested_tp = 11.2  # $11.2 target (70% of avg drop)
+            if ss_analysis['confirmed'] >= 2:
+                # Back-to-back reds have larger avg moves
+                suggested_tp = 15.0  # Larger target for double confirmation
+        
         # Build signal
         signal = {
             'signal_id': signal_id,
             'direction': direction,
             'confidence': round(confidence, 2),
-            'reasoning': self._build_reasoning(features, market_data),
+            'reasoning': reasoning,
             'timestamp': datetime.now().isoformat(),
             'suggested_lots': self._calculate_lots(confidence),
-            'suggested_sl': self._calculate_sl(market_data),
-            'suggested_tp': self._calculate_tp(market_data),
+            'suggested_sl': suggested_sl,
+            'suggested_tp': suggested_tp,
             'features_active': features,
             'similar_patterns_count': len(similar_patterns),
-            'weights_snapshot': dict(self.confidence_weights)
+            'weights_snapshot': dict(self.confidence_weights),
+            
+            # Shooting star details
+            'shooting_star': {
+                'detected': ss_analysis['detected'],
+                'confirmed': ss_analysis['confirmed'],
+                'tier': ss_analysis['confidence_tier'],
+                'override_applied': shooting_star_override is not None
+            }
         }
         
         # Cache signal for outcome matching
@@ -297,17 +498,27 @@ class NeoLearner:
         """Build human-readable reasoning for the signal"""
         reasons = []
         
+        # Shooting star patterns (highest priority)
+        if features.get('shooting_star_confirmed_2'):
+            reasons.append("🔥 SHOOTING STAR + 2 RED CANDLES (100% win rate, avg $20+ drop)")
+        elif features.get('shooting_star_confirmed_1'):
+            reasons.append("⚡ SHOOTING STAR + RED CANDLE (100% win rate)")
+        elif features.get('shooting_star_unconfirmed'):
+            reasons.append("⚠️ Shooting star detected (wait for red candle)")
+        
+        if features.get('rsi_overbought'):
+            reasons.append(f"RSI overbought ({market_data.get('rsi', 0):.1f})")
         if features.get('adx_strong'):
             reasons.append(f"Strong trend (ADX={market_data.get('adx', 0):.1f})")
         if features.get('di_divergence'):
             di_diff = abs(market_data.get('plus_di', 0) - market_data.get('minus_di', 0))
             reasons.append(f"DI divergence ({di_diff:.1f})")
         if features.get('h4_alignment'):
-            reasons.append(f"H4 trend aligned ({market_data.get('h4_trend', 'N/A')})")
+            reasons.append(f"H4 aligned ({market_data.get('h4_trend', 'N/A')})")
         if features.get('ema_trend'):
-            reasons.append("Price in EMA trend")
+            reasons.append("EMA trend")
         if features.get('rsi_momentum'):
-            reasons.append(f"RSI in zone ({market_data.get('rsi', 0):.1f})")
+            reasons.append(f"RSI momentum ({market_data.get('rsi', 0):.1f})")
         
         return "; ".join(reasons) if reasons else "Weak setup"
     
