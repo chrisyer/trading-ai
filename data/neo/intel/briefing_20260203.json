@@ -1,0 +1,186 @@
+{
+  "timestamp": "2026-02-03T22:06:21.542291",
+  "symbol": "XAUUSD",
+  "yesterday": {
+    "date": "2026-02-02",
+    "open": 4677.39990234375,
+    "high": 4882.0,
+    "low": 4653.5,
+    "close": 4832.60009765625,
+    "move": 155.2001953125,
+    "move_pct": 3.318086940454511,
+    "range": 228.5,
+    "character": "BULLISH TREND DAY",
+    "description": "Strong buyers, consistent higher lows",
+    "observations": [
+      "\u26a0\ufe0f Made new weekly low - bears attacking",
+      "\ud83d\udcc8 Closed near highs - bullish sentiment"
+    ],
+    "close_position_in_range": 0.7838078672045952
+  },
+  "correlations": {
+    "DXY": {
+      "current": 97.37699890136719,
+      "change_pct": -0.23870680004858552,
+      "gold_impact": "NEUTRAL"
+    },
+    "US10Y": {
+      "current": 4.27400016784668,
+      "change_bps": -0.09999275207519531,
+      "gold_impact": "NEUTRAL"
+    },
+    "VIX": {
+      "current": 18.0,
+      "change_pct": 10.159117698350832,
+      "gold_impact": "NEUTRAL"
+    },
+    "overall": "MIXED SIGNALS"
+  },
+  "news": [
+    {
+      "title": "",
+      "snippet": "",
+      "source": "Yahoo Finance",
+      "date": "",
+      "link": "",
+      "sentiment": "NEUTRAL",
+      "impact": "LOW"
+    },
+    {
+      "title": "",
+      "snippet": "",
+      "source": "Yahoo Finance",
+      "date": "",
+      "link": "",
+      "sentiment": "NEUTRAL",
+      "impact": "LOW"
+    },
+    {
+      "title": "",
+      "snippet": "",
+      "source": "Yahoo Finance",
+      "date": "",
+      "link": "",
+      "sentiment": "NEUTRAL",
+      "impact": "LOW"
+    },
+    {
+      "title": "",
+      "snippet": "",
+      "source": "Yahoo Finance",
+      "date": "",
+      "link": "",
+      "sentiment": "NEUTRAL",
+      "impact": "LOW"
+    },
+    {
+      "title": "",
+      "snippet": "",
+      "source": "Yahoo Finance",
+      "date": "",
+      "link": "",
+      "sentiment": "NEUTRAL",
+      "impact": "LOW"
+    },
+    {
+      "title": "",
+      "snippet": "",
+      "source": "Yahoo Finance",
+      "date": "",
+      "link": "",
+      "sentiment": "NEUTRAL",
+      "impact": "LOW"
+    },
+    {
+      "title": "",
+      "snippet": "",
+      "source": "Yahoo Finance",
+      "date": "",
+      "link": "",
+      "sentiment": "NEUTRAL",
+      "impact": "LOW"
+    },
+    {
+      "title": "",
+      "snippet": "",
+      "source": "Yahoo Finance",
+      "date": "",
+      "link": "",
+      "sentiment": "NEUTRAL",
+      "impact": "LOW"
+    },
+    {
+      "title": "",
+      "snippet": "",
+      "source": "Yahoo Finance",
+      "date": "",
+      "link": "",
+      "sentiment": "NEUTRAL",
+      "impact": "LOW"
+    },
+    {
+      "title": "",
+      "snippet": "",
+      "source": "Yahoo Finance",
+      "date": "",
+      "link": "",
+      "sentiment": "NEUTRAL",
+      "impact": "LOW"
+    },
+    {
+      "title": "",
+      "snippet": "",
+      "source": "Yahoo Finance",
+      "date": "",
+      "link": "",
+      "sentiment": "NEUTRAL",
+      "impact": "LOW"
+    },
+    {
+      "title": "",
+      "snippet": "",
+      "source": "Yahoo Finance",
+      "date": "",
+      "link": "",
+      "sentiment": "NEUTRAL",
+      "impact": "LOW"
+    },
+    {
+      "title": "",
+      "snippet": "",
+      "source": "Yahoo Finance",
+      "date": "",
+      "link": "",
+      "sentiment": "NEUTRAL",
+      "impact": "LOW"
+    }
+  ],
+  "calendar": [],
+  "scenarios": [
+    {
+      "name": "BULLISH CONTINUATION",
+      "probability": 45,
+      "description": "Yesterday's bulls continue, price makes new highs",
+      "trigger": "Price holds above $4654 (yesterday's low)",
+      "target": "$4912 (extension)",
+      "invalidation": "Close below $4654",
+      "action": "BUY dips to yesterday's range"
+    },
+    {
+      "name": "PULLBACK/MEAN REVERSION",
+      "probability": 25,
+      "description": "After strong up move, profit taking drags price down",
+      "trigger": "Failure to break $4882",
+      "target": "$4768 (mid-range)",
+      "invalidation": "New high above $4902",
+      "action": "Wait for reversal signals before shorting"
+    }
+  ],
+  "key_levels": {
+    "yesterday_high": 4882.0,
+    "yesterday_low": 4653.5,
+    "yesterday_close": 4832.60009765625,
+    "watch_above": 4902.0,
+    "watch_below": 4633.5
+  }
+}
