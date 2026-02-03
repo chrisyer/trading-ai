@@ -1,0 +1,13 @@
+{
+  "date": "2026-02-03",
+  "signals_generated": 1,
+  "signals_executed": 0,
+  "wins": 0,
+  "losses": 0,
+  "total_pnl": 0.0,
+  "avg_win_confidence": 0.0,
+  "avg_loss_confidence": 0.0,
+  "win_confidences": [],
+  "loss_confidences": [],
+  "win_rate": 0
+}

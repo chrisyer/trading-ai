@@ -1,0 +1,15 @@
+{
+  "symbol": "SPY",
+  "action": "HOLD",
+  "price": 695.41,
+  "confidence": 50,
+  "timestamp": "2026-02-03T08:29:19.823882",
+  "source": "OLLAMA_LOCAL",
+  "model": "mistral:latest",
+  "indicators": {
+    "rsi": 50.220086111663974,
+    "rsi_2": 49.119332466448235,
+    "trend": "NEUTRAL",
+    "bb_position": 0.2067203552766055
+  }
+}

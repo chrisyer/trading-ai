@@ -87,17 +87,28 @@ class GoldForexCorrelator:
         """Fetch current Gold (XAUUSD) data"""
         try:
             gold = yf.Ticker("GC=F")  # Gold futures
+            
+            # CRITICAL: Use info['regularMarketPrice'] for CURRENT price
+            # history() can return stale data, especially over weekends/holidays
+            info = gold.info
+            current_price = info.get('regularMarketPrice', 0)
+            
+            if current_price == 0:
+                # Fallback to fast_info
+                current_price = gold.fast_info.last_price if hasattr(gold.fast_info, 'last_price') else 0
+            
+            # Get historical data for calculations (may be stale but OK for change calcs)
             hist = gold.history(period=period, interval='1h')
             
             if hist.empty:
                 # Try alternative symbol
                 gold = yf.Ticker("XAUUSD=X")
                 hist = gold.history(period=period, interval='1h')
+                if current_price == 0:
+                    current_price = gold.info.get('regularMarketPrice', 0)
             
-            if hist.empty:
+            if hist.empty and current_price == 0:
                 return self._get_cached_gold_data()
-            
-            current_price = hist['Close'].iloc[-1]
             
             # Calculate changes
             if len(hist) >= 2:

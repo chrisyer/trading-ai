@@ -1,0 +1,40 @@
+{
+  "mt5_files_dir": "/home/jbot/.wine/drive_c/Program Files/MetaTrader 5/MQL5/Files",
+  "state_file": "aiiq_state.json",
+  "sentiment_file": "aiiq_sentiment.json",
+  "control_file": "aiiq_control.json",
+  "vision_summary_file": "aiiq_vision.json",
+  "chart_image_file": "aiiq_chart.png",
+  "memory_file": "memory/trades.jsonl",
+  "memory_index_file": "memory/index.json",
+  "atr_hist_file": "memory/atr_hist.json",
+  "audit_log_file": "logs/bridge_audit.jsonl",
+  "ollama_model_governor": "qwen2.5:7b-instruct",
+  "ollama_model_vision": "llava:7b",
+  "governor_loop_seconds": 2,
+  "memory_k": 3,
+  "screenshot_every_minutes": 15,
+  "enable_vision": false,
+  
+  "hysteresis_safe_cycles": 3,
+  "sentiment_stale_seconds": 600,
+  "vision_stale_seconds": 2700,
+  "state_stale_seconds": 10,
+  "atr_cold_start_min": 200,
+  "atr_spike_threshold": 1.6,
+  "spread_spike_threshold": 100,
+  
+  "sentiment_rules": {
+    "panic_bullish": {"disable_new_entries": true, "dca_mult_min": 1.5, "max_layers": 2},
+    "panic_bearish": {"disable_new_entries": true, "dca_mult_min": 1.5, "max_layers": 2},
+    "mild_bullish": {"disable_new_entries": false, "dca_mult_min": 1.0, "max_layers": 3},
+    "mild_bearish": {"disable_new_entries": false, "dca_mult_min": 1.0, "max_layers": 3},
+    "neutral": {"disable_new_entries": false, "dca_mult_min": 1.0, "max_layers": 3}
+  },
+  "vision_rules": {
+    "parabolic": {"disable_new_entries": true, "max_layers": 2},
+    "breakout": {"max_layers": 2},
+    "exhaustion": {"disable_new_entries": true, "max_layers": 1},
+    "stop_run": {"dca_mult_min": 1.3}
+  }
+}

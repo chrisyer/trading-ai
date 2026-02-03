@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-02-03T08:42:40.505307",
+  "symbol": "XAUUSD",
+  "direction": "BULLISH_BIAS",
+  "conviction": 50,
+  "defcon": 3,
+  "defcon_color": "ORANGE",
+  "action": "DEFCON 3 - ORANGE",
+  "market_data": {
+    "gold_gld": 427.13,
+    "gold_spot_approx": 4484.87,
+    "spy": 695.41,
+    "vix": 16.16,
+    "data_source": "GLD_ETF"
+  },
+  "targets": {
+    "tp": 0,
+    "sl": 0,
+    "hunt_zone": 0
+  },
+  "ea_instructions": {
+    "pause_longs": false,
+    "pause_shorts": false,
+    "reduce_lot_multiplier": 0.5,
+    "tighten_sl_pips": 0,
+    "max_drawdown_override": 0,
+    "close_partial": 0,
+    "set_breakeven": false,
+    "consider_hedge": false
+  },
+  "analysis": {
+    "sentiment": "neutral",
+    "intensity": 0.3,
+    "risk_level": "medium",
+    "reasoning": "Unable to analyze - defaulting to neutral"
+  },
+  "neo_intelligence": {
+    "defcon": 3,
+    "bullish_patterns": 17,
+    "bearish_patterns": 3,
+    "latest_pattern": "V_RECOVERY",
+    "latest_direction": "BULLISH",
+    "latest_message": "V-Recovery from $4788.00 - sharp reversal"
+  },
+  "valid_until": "2026-02-03T08:47:40.505328",
+  "source": "quinn_v2_REAL_DATA_+_NEO"
+}

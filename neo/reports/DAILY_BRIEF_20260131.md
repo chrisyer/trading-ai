@@ -7,25 +7,25 @@
 
 | Asset | Price | Status |
 |-------|-------|--------|
-| XAUUSD | $0 | N/A |
-| DXY | 0 | N/A |
+| XAUUSD | $0 | NEUTRAL |
+| DXY | 0 | NEUTRAL |
 | BTC | $0 | - |
 
 ---
 
 ## AI SENTIMENT ANALYSIS
 
-**Gold Outlook:** N/A
-**Confidence:** N/A%
-**Trading Bias:** N/A
+**Gold Outlook:** NEUTRAL
+**Confidence:** 0%
+**Trading Bias:** WAIT
 
-**Reasoning:** No analysis available
+**Reasoning:** No financial news provided to analyze sentiment drivers for gold/XAUUSD
 
 ---
 
 ## TODAY'S AGENT ACTIVITY
 
-**Analyses Made:** 6
+**Analyses Made:** 20
 **Journal Entries:** 0
 
 ### Agent Accuracy (7 Days)
@@ -48,14 +48,13 @@
 
 ## KEY EVENTS TO WATCH
 
-- No events identified
 
 ---
 
 ## TOMORROW'S FOCUS
 
 **Date:** Sunday, February 01, 2026
-**Recommended DEFCON:** 4
+**Recommended DEFCON:** 3
 **Primary Strategy:** Wait
 
 ### Key Levels to Watch
@@ -64,5 +63,5 @@
 
 ---
 
-*Generated: 2026-01-31 00:33:17 EST*
+*Generated: 2026-01-31 22:00:04 EST*
 *Source: Nightly Research Bot*

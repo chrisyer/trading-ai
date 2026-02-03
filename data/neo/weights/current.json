@@ -1,0 +1,12 @@
+{
+  "adx_strong": 1.0,
+  "di_divergence": 1.0,
+  "rsi_momentum": 1.0,
+  "h4_alignment": 1.2,
+  "ema_trend": 1.0,
+  "ema_crossover": 1.0,
+  "support_bounce": 1.0,
+  "resistance_rejection": 1.0,
+  "volume_confirm": 1.0,
+  "momentum_divergence": 1.0
+}

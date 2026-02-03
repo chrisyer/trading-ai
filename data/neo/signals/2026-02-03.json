@@ -1,0 +1,37 @@
+[
+  {
+    "signal_id": "NEO_20260203_083811",
+    "direction": "BUY",
+    "confidence": 0.71,
+    "reasoning": "Strong trend (ADX=46.5); DI divergence (30.0); H4 trend aligned (BULLISH); Price in EMA trend; RSI in zone (63.2)",
+    "timestamp": "2026-02-03T08:38:11.063000",
+    "suggested_lots": 0.6,
+    "suggested_sl": 27.6,
+    "suggested_tp": 46.0,
+    "features_active": {
+      "adx_strong": true,
+      "di_divergence": true,
+      "rsi_momentum": true,
+      "h4_alignment": true,
+      "ema_trend": true,
+      "ema_crossover": true,
+      "support_bounce": false,
+      "resistance_rejection": false,
+      "volume_confirm": true,
+      "momentum_divergence": false
+    },
+    "similar_patterns_count": 0,
+    "weights_snapshot": {
+      "adx_strong": 1.0,
+      "di_divergence": 1.0,
+      "rsi_momentum": 1.0,
+      "h4_alignment": 1.2,
+      "ema_trend": 1.0,
+      "ema_crossover": 1.0,
+      "support_bounce": 1.0,
+      "resistance_rejection": 1.0,
+      "volume_confirm": 1.0,
+      "momentum_divergence": 1.0
+    }
+  }
+]

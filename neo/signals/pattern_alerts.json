@@ -1,15 +1,114 @@
 {
   "alerts": [
     {
-      "pattern": "BULLISH_DIVERGENCE",
+      "pattern": "V_RECOVERY",
       "symbol": "XAUUSD",
       "severity": "MEDIUM",
       "direction": "BULLISH",
       "defcon_impact": 1,
-      "message": "Bullish RSI divergence detected - momentum building",
-      "action": "Watch for reversal confirmation",
-      "price": 5067.5,
-      "timestamp": "2026-01-31T04:43:16.843711"
+      "message": "V-Recovery from $4788.00 - sharp reversal",
+      "action": "Potential bottom, watch for follow-through",
+      "price": 4897.5,
+      "timestamp": "2026-02-03T07:11:08.554280"
+    },
+    {
+      "pattern": "BEARISH_ENGULFING",
+      "symbol": "XAUUSD",
+      "severity": "HIGH",
+      "direction": "BEARISH",
+      "defcon_impact": -1,
+      "message": "Bearish Engulfing at $4790.00 - reversal signal",
+      "action": "Reduce exposure, prepare for downside",
+      "price": 4790.0,
+      "timestamp": "2026-02-03T02:40:58.307834"
+    },
+    {
+      "pattern": "V_RECOVERY",
+      "symbol": "XAUUSD",
+      "severity": "MEDIUM",
+      "direction": "BULLISH",
+      "defcon_impact": 1,
+      "message": "V-Recovery from $4667.00 - sharp reversal",
+      "action": "Potential bottom, watch for follow-through",
+      "price": 4863.10009765625,
+      "timestamp": "2026-02-03T02:10:57.092071"
+    },
+    {
+      "pattern": "SHOOTING_STAR",
+      "symbol": "XAUUSD",
+      "severity": "HIGH",
+      "direction": "BEARISH",
+      "defcon_impact": -2,
+      "message": "Shooting Star at $4819.70 - rejection from highs",
+      "action": "Consider taking profits, tighten stops",
+      "price": 4804.7001953125,
+      "timestamp": "2026-02-03T00:15:52.646260"
+    },
+    {
+      "pattern": "V_RECOVERY",
+      "symbol": "XAUUSD",
+      "severity": "MEDIUM",
+      "direction": "BULLISH",
+      "defcon_impact": 1,
+      "message": "V-Recovery from $4653.50 - sharp reversal",
+      "action": "Potential bottom, watch for follow-through",
+      "price": 4806.2998046875,
+      "timestamp": "2026-02-03T00:10:52.393655"
+    },
+    {
+      "pattern": "V_RECOVERY",
+      "symbol": "XAUUSD",
+      "severity": "MEDIUM",
+      "direction": "BULLISH",
+      "defcon_impact": 1,
+      "message": "V-Recovery from $4617.60 - sharp reversal",
+      "action": "Potential bottom, watch for follow-through",
+      "price": 4696.89990234375,
+      "timestamp": "2026-02-02T20:55:44.040850"
+    },
+    {
+      "pattern": "V_RECOVERY",
+      "symbol": "XAUUSD",
+      "severity": "MEDIUM",
+      "direction": "BULLISH",
+      "defcon_impact": 1,
+      "message": "V-Recovery from $4617.60 - sharp reversal",
+      "action": "Potential bottom, watch for follow-through",
+      "price": 4727.5,
+      "timestamp": "2026-02-02T19:55:40.940528"
+    },
+    {
+      "pattern": "BULLISH_ENGULFING",
+      "symbol": "XAUUSD",
+      "severity": "HIGH",
+      "direction": "BULLISH",
+      "defcon_impact": 1,
+      "message": "Bullish Engulfing at $4700.50 - reversal signal",
+      "action": "Consider entry, upgrade DEFCON",
+      "price": 4700.5,
+      "timestamp": "2026-02-02T19:50:40.641939"
+    },
+    {
+      "pattern": "HAMMER",
+      "symbol": "XAUUSD",
+      "severity": "HIGH",
+      "direction": "BULLISH",
+      "defcon_impact": 1,
+      "message": "Hammer at $4639.60 - potential reversal",
+      "action": "Watch for confirmation, prepare entry",
+      "price": 4684.2001953125,
+      "timestamp": "2026-02-02T18:45:37.331595"
+    },
+    {
+      "pattern": "EVENING_STAR",
+      "symbol": "XAUUSD",
+      "severity": "HIGH",
+      "direction": "BEARISH",
+      "defcon_impact": -2,
+      "message": "Evening Star formation complete - classic reversal",
+      "action": "URGENT: Close longs, activate defensive mode",
+      "price": 4657.0,
+      "timestamp": "2026-02-02T18:25:36.173983"
     },
     {
       "pattern": "BULLISH_DIVERGENCE",
@@ -20,7 +119,7 @@
       "message": "Bullish RSI divergence detected - momentum building",
       "action": "Watch for reversal confirmation",
       "price": 5067.5,
-      "timestamp": "2026-01-31T03:43:14.492160"
+      "timestamp": "2026-02-02T16:50:31.566472"
     },
     {
       "pattern": "BULLISH_DIVERGENCE",
@@ -31,19 +130,107 @@
       "message": "Bullish RSI divergence detected - momentum building",
       "action": "Watch for reversal confirmation",
       "price": 5067.5,
-      "timestamp": "2026-01-31T02:43:12.148524"
+      "timestamp": "2026-02-02T15:50:29.121521"
+    },
+    {
+      "pattern": "BULLISH_DIVERGENCE",
+      "symbol": "XAUUSD",
+      "severity": "MEDIUM",
+      "direction": "BULLISH",
+      "defcon_impact": 1,
+      "message": "Bullish RSI divergence detected - momentum building",
+      "action": "Watch for reversal confirmation",
+      "price": 5067.5,
+      "timestamp": "2026-02-02T14:50:26.891437"
+    },
+    {
+      "pattern": "BULLISH_DIVERGENCE",
+      "symbol": "XAUUSD",
+      "severity": "MEDIUM",
+      "direction": "BULLISH",
+      "defcon_impact": 1,
+      "message": "Bullish RSI divergence detected - momentum building",
+      "action": "Watch for reversal confirmation",
+      "price": 5067.5,
+      "timestamp": "2026-02-02T13:50:24.655588"
+    },
+    {
+      "pattern": "BULLISH_DIVERGENCE",
+      "symbol": "XAUUSD",
+      "severity": "MEDIUM",
+      "direction": "BULLISH",
+      "defcon_impact": 1,
+      "message": "Bullish RSI divergence detected - momentum building",
+      "action": "Watch for reversal confirmation",
+      "price": 5067.5,
+      "timestamp": "2026-02-02T12:50:22.385603"
+    },
+    {
+      "pattern": "BULLISH_DIVERGENCE",
+      "symbol": "XAUUSD",
+      "severity": "MEDIUM",
+      "direction": "BULLISH",
+      "defcon_impact": 1,
+      "message": "Bullish RSI divergence detected - momentum building",
+      "action": "Watch for reversal confirmation",
+      "price": 5067.5,
+      "timestamp": "2026-02-02T11:50:20.125294"
+    },
+    {
+      "pattern": "BULLISH_DIVERGENCE",
+      "symbol": "XAUUSD",
+      "severity": "MEDIUM",
+      "direction": "BULLISH",
+      "defcon_impact": 1,
+      "message": "Bullish RSI divergence detected - momentum building",
+      "action": "Watch for reversal confirmation",
+      "price": 5067.5,
+      "timestamp": "2026-02-02T10:50:18.040964"
+    },
+    {
+      "pattern": "BULLISH_DIVERGENCE",
+      "symbol": "XAUUSD",
+      "severity": "MEDIUM",
+      "direction": "BULLISH",
+      "defcon_impact": 1,
+      "message": "Bullish RSI divergence detected - momentum building",
+      "action": "Watch for reversal confirmation",
+      "price": 5067.5,
+      "timestamp": "2026-02-02T09:50:15.782231"
+    },
+    {
+      "pattern": "BULLISH_DIVERGENCE",
+      "symbol": "XAUUSD",
+      "severity": "MEDIUM",
+      "direction": "BULLISH",
+      "defcon_impact": 1,
+      "message": "Bullish RSI divergence detected - momentum building",
+      "action": "Watch for reversal confirmation",
+      "price": 5067.5,
+      "timestamp": "2026-02-02T08:50:13.621865"
+    },
+    {
+      "pattern": "BULLISH_DIVERGENCE",
+      "symbol": "XAUUSD",
+      "severity": "MEDIUM",
+      "direction": "BULLISH",
+      "defcon_impact": 1,
+      "message": "Bullish RSI divergence detected - momentum building",
+      "action": "Watch for reversal confirmation",
+      "price": 5067.5,
+      "timestamp": "2026-02-02T07:50:11.263003"
     }
   ],
-  "last_updated": "2026-01-31T04:43:16.844480",
+  "last_updated": "2026-02-03T07:11:08.555085",
   "latest_alert": {
-    "pattern": "BULLISH_DIVERGENCE",
+    "pattern": "V_RECOVERY",
     "symbol": "XAUUSD",
     "severity": "MEDIUM",
     "direction": "BULLISH",
     "defcon_impact": 1,
-    "message": "Bullish RSI divergence detected - momentum building",
-    "action": "Watch for reversal confirmation",
-    "price": 5067.5,
-    "timestamp": "2026-01-31T04:43:16.843711"
+    "message": "V-Recovery from $4788.00 - sharp reversal",
+    "action": "Potential bottom, watch for follow-through",
+    "price": 4897.5,
+    "timestamp": "2026-02-03T07:11:08.554280"
   }
 }

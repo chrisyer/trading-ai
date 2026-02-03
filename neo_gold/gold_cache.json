@@ -1,14 +1,14 @@
 {
-  "price": 5062.1,
-  "change_1h": 0.32,
-  "change_4h": 1.62,
-  "change_24h": 2.12,
-  "rsi": 85.7,
-  "atr": 24.53,
-  "atr_pips": 245,
-  "volatility": "LOW",
+  "price": 4960.4,
+  "change_1h": 0.41,
+  "change_4h": 2.64,
+  "change_24h": -4.31,
+  "rsi": 43.7,
+  "atr": 90.18,
+  "atr_pips": 901,
+  "volatility": "EXTREME",
   "near_key_level": true,
-  "key_level": 5050,
-  "distance_to_level": 12.1,
-  "timestamp": "2026-01-26T05:45:27.078650"
+  "key_level": 4950,
+  "distance_to_level": 10.4,
+  "timestamp": "2026-02-03T08:40:16.019457"
 }

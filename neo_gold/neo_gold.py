@@ -246,10 +246,18 @@ class NeoGold:
         try:
             import yfinance as yf
             gold = yf.Ticker('GC=F')
-            hist = gold.history(period='2d', interval='1m')
-            if not hist.empty:
-                price_data["price"] = float(hist['Close'].iloc[-1])
-                logger.info(f"   📡 Price from Yahoo Finance: ${price_data['price']:.2f}")
+            
+            # Use info['regularMarketPrice'] for CURRENT price (history() can be stale!)
+            info = gold.info
+            if info.get('regularMarketPrice'):
+                price_data["price"] = float(info['regularMarketPrice'])
+                logger.info(f"   📡 Price from Yahoo Finance (live): ${price_data['price']:.2f}")
+            else:
+                # Fallback to history if info fails
+                hist = gold.history(period='2d', interval='1m')
+                if not hist.empty:
+                    price_data["price"] = float(hist['Close'].iloc[-1])
+                    logger.warning(f"   ⚠️ Price from Yahoo history (may be stale): ${price_data['price']:.2f}")
                 
                 # Also get real candles (H1)
                 h1_data = gold.history(period='5d', interval='1h')

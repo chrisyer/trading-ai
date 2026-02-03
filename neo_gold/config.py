@@ -9,7 +9,7 @@ Gold Trading Specialist - XAUUSD Only
 
 SYMBOL = "XAUUSD"
 MIN_CONFIDENCE = 70  # 70%+ is profitable territory
-MAX_SIGNALS_PER_DAY = 3  # Quality over quantity
+MAX_SIGNALS_PER_DAY = 10  # Quality over quantity
 LLM_MODEL = "qwen2.5:32b"  # Proven reasoning model
 
 # ═══════════════════════════════════════════════════════════════════════

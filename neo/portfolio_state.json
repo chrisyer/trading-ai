@@ -1,31 +1,28 @@
 {
-  "timestamp": "2026-01-30T01:34:53.414300",
-  "source": "MT5_API",
+  "timestamp": "2026-01-30T09:35:00.000000",
+  "source": "IBKR_REALTIME",
   "account": {
-    "balance": 88558.51,
-    "equity": 88550.62,
-    "margin": 413.0,
-    "free_margin": 88137.34,
-    "margin_level_pct": 21426.3,
-    "profit": 0.0
+    "net_liquidation": 1005277.98,
+    "unrealized_pnl": 8078.95
   },
-  "exposure_by_symbol": {},
-  "positions_by_bot": {},
-  "risk": {
-    "total_exposure_usd": 0,
-    "total_exposure_pct": 0.0,
-    "max_symbol_concentration_pct": 0,
-    "most_concentrated_symbol": "NONE",
-    "correlation_estimate": 0,
-    "daily_pnl": 0,
-    "position_count": 0,
-    "alerts": []
+  "positions": {
+    "MGC": {
+      "symbol": "MGC",
+      "contract": "MGCJ6",
+      "expiry": "202604",
+      "quantity": 15,
+      "avg_cost": 5045.44,
+      "current_price": 5099.30,
+      "bid": 5098.80,
+      "ask": 5099.00,
+      "total_pnl": 8078.95,
+      "pnl_pct": 1.07,
+      "tp_target": 5095.44
+    }
   },
-  "all_positions": [],
-  "summary": {
-    "total_positions": 0,
-    "total_exposure_usd": 0,
-    "can_open_new": true,
-    "recommended_max_position": 4427.93
+  "btc_miners": {
+    "IREN": {"contracts": 0, "status": "PENDING_10:15_ENTRY"},
+    "CLSK": {"contracts": 0, "status": "PENDING_10:15_ENTRY"},
+    "CIFR": {"contracts": 0, "status": "PENDING_10:15_ENTRY"}
   }
 }

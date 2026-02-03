@@ -1,14 +1,14 @@
 {
   "feature_stats": {
     "ema_trend": {
-      "total_uses": 29,
-      "correct_predictions": 22,
-      "bullish_signals": 27,
-      "bearish_signals": 2,
+      "total_uses": 55,
+      "correct_predictions": 25,
+      "bullish_signals": 29,
+      "bearish_signals": 26,
       "bullish_correct": 20,
-      "bearish_correct": 2,
-      "avg_contribution": 0.13841379310344828,
-      "accuracy": 75.86206896551724,
+      "bearish_correct": 5,
+      "avg_contribution": 0.1311658210986874,
+      "accuracy": 45.45454545454545,
       "inverted": false
     },
     "rsi_overbought": {
@@ -23,37 +23,37 @@
       "inverted": true
     },
     "momentum_h4": {
-      "total_uses": 15,
-      "correct_predictions": 8,
-      "bullish_signals": 12,
-      "bearish_signals": 3,
-      "bullish_correct": 8,
-      "bearish_correct": 0,
+      "total_uses": 39,
+      "correct_predictions": 13,
+      "bullish_signals": 21,
+      "bearish_signals": 18,
+      "bullish_correct": 9,
+      "bearish_correct": 4,
       "avg_contribution": 0.15,
-      "accuracy": 53.333333333333336,
-      "inverted": false
+      "accuracy": 33.33333333333333,
+      "inverted": true
     },
     "macd_signal": {
-      "total_uses": 19,
-      "correct_predictions": 7,
-      "bullish_signals": 10,
-      "bearish_signals": 9,
-      "bullish_correct": 7,
-      "bearish_correct": 0,
-      "avg_contribution": 0.1,
-      "accuracy": 36.84210526315789,
-      "inverted": false
+      "total_uses": 45,
+      "correct_predictions": 13,
+      "bullish_signals": 12,
+      "bearish_signals": 33,
+      "bullish_correct": 9,
+      "bearish_correct": 4,
+      "avg_contribution": 0.09826122004357302,
+      "accuracy": 28.888888888888886,
+      "inverted": true
     },
     "session_london": {
-      "total_uses": 8,
+      "total_uses": 16,
       "correct_predictions": 5,
-      "bullish_signals": 8,
+      "bullish_signals": 16,
       "bearish_signals": 0,
       "bullish_correct": 5,
       "bearish_correct": 0,
       "avg_contribution": 0.06,
-      "accuracy": 62.5,
-      "inverted": false
+      "accuracy": 31.25,
+      "inverted": true
     },
     "near_resistance": {
       "total_uses": 6,
@@ -67,36 +67,47 @@
       "inverted": false
     },
     "session_asia": {
-      "total_uses": 5,
-      "correct_predictions": 0,
+      "total_uses": 15,
+      "correct_predictions": 2,
       "bullish_signals": 0,
-      "bearish_signals": 5,
+      "bearish_signals": 15,
       "bullish_correct": 0,
-      "bearish_correct": 0,
+      "bearish_correct": 2,
       "avg_contribution": 0.0,
-      "accuracy": 0.0,
-      "inverted": false
+      "accuracy": 13.333333333333334,
+      "inverted": true
     },
     "patterns": {
-      "total_uses": 17,
-      "correct_predictions": 13,
-      "bullish_signals": 17,
-      "bearish_signals": 0,
-      "bullish_correct": 13,
-      "bearish_correct": 0,
-      "avg_contribution": 0.13065819638139692,
-      "accuracy": 76.47058823529412,
+      "total_uses": 34,
+      "correct_predictions": 16,
+      "bullish_signals": 21,
+      "bearish_signals": 13,
+      "bullish_correct": 14,
+      "bearish_correct": 2,
+      "avg_contribution": 0.12110589121220386,
+      "accuracy": 47.05882352941176,
       "inverted": false
     },
     "atr_spike": {
-      "total_uses": 3,
-      "correct_predictions": 0,
+      "total_uses": 5,
+      "correct_predictions": 1,
       "bullish_signals": 0,
-      "bearish_signals": 3,
+      "bearish_signals": 5,
       "bullish_correct": 0,
-      "bearish_correct": 0,
+      "bearish_correct": 1,
       "avg_contribution": 0.0,
-      "accuracy": 0.0,
+      "accuracy": 20.0,
+      "inverted": false
+    },
+    "rsi_oversold": {
+      "total_uses": 1,
+      "correct_predictions": 1,
+      "bullish_signals": 1,
+      "bearish_signals": 0,
+      "bullish_correct": 1,
+      "bearish_correct": 0,
+      "avg_contribution": 0.15,
+      "accuracy": 100.0,
       "inverted": false
     }
   },
@@ -212,7 +223,175 @@
       },
       "total_features": 9,
       "adjusted_features": 4
+    },
+    {
+      "timestamp": "2026-01-31T04:31:39.321549",
+      "adjustments": {
+        "ema_trend": {
+          "old_weight": 0.1253095721925134,
+          "new_weight": 0.1270499829174094,
+          "accuracy": 63.888888888888886,
+          "samples": 36,
+          "reason": "GOOD accuracy (64%)"
+        },
+        "rsi_overbought": {
+          "old_weight": 0.025600000000000008,
+          "new_weight": 0.02048000000000001,
+          "accuracy": 20.0,
+          "samples": 10,
+          "reason": "Still weak after inversion (20%)"
+        },
+        "macd_signal": {
+          "old_weight": 0.09659803921568628,
+          "new_weight": 0.04829901960784314,
+          "accuracy": 34.61538461538461,
+          "samples": 26,
+          "reason": "INVERTED (was 35%)"
+        },
+        "patterns": {
+          "old_weight": 0.11448000000000001,
+          "new_weight": 0.11552072727272727,
+          "accuracy": 59.09090909090909,
+          "samples": 22,
+          "reason": "GOOD accuracy (59%)"
+        }
+      },
+      "total_features": 9,
+      "adjusted_features": 4
+    },
+    {
+      "timestamp": "2026-02-01T00:31:41.659512",
+      "adjustments": {
+        "ema_trend": {
+          "old_weight": 0.1270499829174094,
+          "new_weight": 0.12813455594231413,
+          "accuracy": 58.536585365853654,
+          "samples": 41,
+          "reason": "GOOD accuracy (59%)"
+        },
+        "rsi_overbought": {
+          "old_weight": 0.02048000000000001,
+          "new_weight": 0.016384000000000006,
+          "accuracy": 20.0,
+          "samples": 10,
+          "reason": "Still weak after inversion (20%)"
+        },
+        "momentum_h4": {
+          "old_weight": 0.1,
+          "new_weight": 0.09846153846153846,
+          "accuracy": 42.30769230769231,
+          "samples": 26,
+          "reason": "LOW accuracy (42%)"
+        },
+        "macd_signal": {
+          "old_weight": 0.04829901960784314,
+          "new_weight": 0.038639215686274514,
+          "accuracy": 32.25806451612903,
+          "samples": 31,
+          "reason": "Still weak after inversion (32%)"
+        },
+        "session_london": {
+          "old_weight": 0.1,
+          "new_weight": 0.09833333333333334,
+          "accuracy": 41.66666666666667,
+          "samples": 12,
+          "reason": "LOW accuracy (42%)"
+        },
+        "patterns": {
+          "old_weight": 0.11552072727272727,
+          "new_weight": 0.11677638735177866,
+          "accuracy": 60.86956521739131,
+          "samples": 23,
+          "reason": "GOOD accuracy (61%)"
+        }
+      },
+      "total_features": 9,
+      "adjusted_features": 6
+    },
+    {
+      "timestamp": "2026-02-01T20:31:45.043023",
+      "adjustments": {
+        "rsi_overbought": {
+          "old_weight": 0.016384000000000006,
+          "new_weight": 0.013107200000000006,
+          "accuracy": 20.0,
+          "samples": 10,
+          "reason": "Still weak after inversion (20%)"
+        },
+        "momentum_h4": {
+          "old_weight": 0.09846153846153846,
+          "new_weight": 0.09560297766749379,
+          "accuracy": 35.483870967741936,
+          "samples": 31,
+          "reason": "LOW accuracy (35%)"
+        },
+        "macd_signal": {
+          "old_weight": 0.038639215686274514,
+          "new_weight": 0.030911372549019614,
+          "accuracy": 27.77777777777778,
+          "samples": 36,
+          "reason": "Still weak after inversion (28%)"
+        },
+        "session_london": {
+          "old_weight": 0.09833333333333334,
+          "new_weight": 0.09552380952380952,
+          "accuracy": 35.714285714285715,
+          "samples": 14,
+          "reason": "LOW accuracy (36%)"
+        },
+        "session_asia": {
+          "old_weight": 0.1,
+          "new_weight": 0.05,
+          "accuracy": 18.181818181818183,
+          "samples": 11,
+          "reason": "INVERTED (was 18%)"
+        }
+      },
+      "total_features": 9,
+      "adjusted_features": 5
+    },
+    {
+      "timestamp": "2026-02-02T16:31:48.136553",
+      "adjustments": {
+        "rsi_overbought": {
+          "old_weight": 0.013107200000000006,
+          "new_weight": 0.010485760000000005,
+          "accuracy": 20.0,
+          "samples": 10,
+          "reason": "Still weak after inversion (20%)"
+        },
+        "momentum_h4": {
+          "old_weight": 0.09560297766749379,
+          "new_weight": 0.047801488833746894,
+          "accuracy": 30.555555555555557,
+          "samples": 36,
+          "reason": "INVERTED (was 31%)"
+        },
+        "macd_signal": {
+          "old_weight": 0.030911372549019614,
+          "new_weight": 0.02472909803921569,
+          "accuracy": 24.390243902439025,
+          "samples": 41,
+          "reason": "Still weak after inversion (24%)"
+        },
+        "session_london": {
+          "old_weight": 0.09552380952380952,
+          "new_weight": 0.04776190476190476,
+          "accuracy": 31.25,
+          "samples": 16,
+          "reason": "INVERTED (was 31%)"
+        },
+        "session_asia": {
+          "old_weight": 0.05,
+          "new_weight": 0.04000000000000001,
+          "accuracy": 15.384615384615385,
+          "samples": 13,
+          "reason": "Still weak after inversion (15%)"
+        }
+      },
+      "total_features": 9,
+      "adjusted_features": 5
     }
   ],
-  "updated_at": "2026-01-30T00:29:50.102117"
+  "updated_at": "2026-02-03T08:31:49.841428"
 }

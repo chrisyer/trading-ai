@@ -1,26 +1,28 @@
 {
-  "defcon": 4,
-  "color": "BLUE",
-  "name": "ELEVATED",
-  "ghost": {
-    "lot_multiplier": 0.8,
-    "max_positions": 4,
-    "min_confidence": 70,
-    "entry_gap_multiplier": 1.2,
-    "pause_entries": false
-  },
-  "casper": {
-    "lot_multiplier": 0.8,
-    "max_positions": 3,
-    "min_confidence": 65,
-    "hedge_mode": false,
-    "hedge_percent": 0
-  },
-  "set_at": "2026-01-30T00:05:53.379951",
-  "valid_until": "2026-01-30T04:05:53.379962",
-  "triggers": [
-    "Scaled out to 11 contracts",
-    "Post-correction recovery",
-    "Elevated awareness maintained"
-  ]
+    "defcon": 3,
+    "color": "YELLOW",
+    "name": "NEUTRAL",
+    "ghost": {
+        "lot_multiplier": 0.5,
+        "max_positions": 3,
+        "min_confidence": 65,
+        "entry_gap_multiplier": 1.0,
+        "pause_entries": false,
+        "tighten_stops": 0,
+        "scale_out_percent": 0
+    },
+    "casper": {
+        "lot_multiplier": 0.5,
+        "max_positions": 2,
+        "min_confidence": 70,
+        "hedge_mode": false,
+        "hedge_percent": 0
+    },
+    "set_at": "2026-02-02T20:15:00.000000",
+    "valid_until": "2026-02-03T04:00:00.000000",
+    "triggers": [
+        "Manual reset - Neutral operations",
+        "18 specialists deployed",
+        "Data collection mode"
+    ]
 }
