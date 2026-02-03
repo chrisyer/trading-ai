@@ -1,0 +1,130 @@
+{
+  "total_predictions": 8,
+  "bullish_correct": 1,
+  "bearish_correct": 0,
+  "bullish_debunked": 0,
+  "bearish_debunked": 7,
+  "debunk_reasons": [
+    {
+      "date": "2026-01-27",
+      "prediction_id": "HISTORICAL_20260127",
+      "expected": "DOWN",
+      "actual": "UP",
+      "move": "+40 pts",
+      "reason": "Predicted SHORT but gold rallied. EMA trend was bullish, ignored.",
+      "notes": "Historical data - bearish thesis DEBUNKED"
+    },
+    {
+      "date": "2026-01-28",
+      "prediction_id": "HISTORICAL_20260128",
+      "expected": "DOWN",
+      "actual": "UP",
+      "move": "+55 pts",
+      "reason": "RSI overbought was NOT a sell signal in uptrend. Ignored trend.",
+      "notes": "Historical data - bearish thesis DEBUNKED"
+    },
+    {
+      "date": "2026-01-29",
+      "prediction_id": "HISTORICAL_20260129",
+      "expected": "DOWN",
+      "actual": "UP",
+      "move": "+80 pts",
+      "reason": "Resistance rejection failed - gold broke through. Trend too strong.",
+      "notes": "Historical data - bearish thesis DEBUNKED"
+    },
+    {
+      "date": "2026-01-30",
+      "prediction_id": "HISTORICAL_20260130",
+      "expected": "DOWN",
+      "actual": "UP",
+      "move": "+65 pts",
+      "reason": "Shooting star pattern failed in bull market. Pattern NOT reliable in uptrend.",
+      "notes": "Historical data - bearish thesis DEBUNKED"
+    },
+    {
+      "date": "2026-01-31",
+      "prediction_id": "HISTORICAL_20260131",
+      "expected": "DOWN",
+      "actual": "UP",
+      "move": "+70 pts",
+      "reason": "Bearish engulfing false signal. Market structure was higher highs/lows.",
+      "notes": "Historical data - bearish thesis DEBUNKED"
+    },
+    {
+      "date": "2026-02-01",
+      "prediction_id": "HISTORICAL_20260201",
+      "expected": "DOWN",
+      "actual": "UP",
+      "move": "+45 pts",
+      "reason": "Double top call was wrong - broke higher. Failed to recognize accumulation.",
+      "notes": "Historical data - bearish thesis DEBUNKED"
+    },
+    {
+      "date": "2026-02-03",
+      "prediction_id": "HISTORICAL_20260203",
+      "expected": "DOWN",
+      "actual": "UP",
+      "move": "+111 pts",
+      "reason": "Predicted hunt of longs, but shorts got squeezed instead. Major rally day.",
+      "notes": "Historical data - bearish thesis DEBUNKED"
+    }
+  ],
+  "lessons": [
+    {
+      "date": "2026-01-27",
+      "was_correct": false,
+      "bias": "BEARISH",
+      "actual": "UP",
+      "lesson": "Predicted SHORT but gold rallied. EMA trend was bullish, ignored."
+    },
+    {
+      "date": "2026-01-28",
+      "was_correct": false,
+      "bias": "BEARISH",
+      "actual": "UP",
+      "lesson": "RSI overbought was NOT a sell signal in uptrend. Ignored trend."
+    },
+    {
+      "date": "2026-01-29",
+      "was_correct": false,
+      "bias": "BEARISH",
+      "actual": "UP",
+      "lesson": "Resistance rejection failed - gold broke through. Trend too strong."
+    },
+    {
+      "date": "2026-01-30",
+      "was_correct": false,
+      "bias": "BEARISH",
+      "actual": "UP",
+      "lesson": "Shooting star pattern failed in bull market. Pattern NOT reliable in uptrend."
+    },
+    {
+      "date": "2026-01-31",
+      "was_correct": false,
+      "bias": "BEARISH",
+      "actual": "UP",
+      "lesson": "Bearish engulfing false signal. Market structure was higher highs/lows."
+    },
+    {
+      "date": "2026-02-01",
+      "was_correct": false,
+      "bias": "BEARISH",
+      "actual": "UP",
+      "lesson": "Double top call was wrong - broke higher. Failed to recognize accumulation."
+    },
+    {
+      "date": "2026-02-03",
+      "was_correct": false,
+      "bias": "BEARISH",
+      "actual": "UP",
+      "lesson": "Predicted hunt of longs, but shorts got squeezed instead. Major rally day."
+    },
+    {
+      "date": "2026-02-02",
+      "was_correct": true,
+      "bias": "BULLISH",
+      "actual": "UP",
+      "lesson": "Support bounce call was correct. Only successful prediction in 8 days."
+    }
+  ]
+}
