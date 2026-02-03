@@ -1,17 +1,29 @@
 {
+  "_comment": "BULLISH BIAS - Gold is in strong uptrend, favor BUY signals",
+  "_last_updated": "2026-02-03",
   "adx_strong": 1.0,
   "di_divergence": 1.0,
   "rsi_momentum": 1.0,
-  "rsi_overbought": 1.1,
-  "h4_alignment": 1.2,
-  "ema_trend": 1.0,
-  "ema_crossover": 1.0,
-  "support_bounce": 1.0,
-  "resistance_rejection": 1.0,
+  "rsi_overbought": 0.42515280000000016,
+  "rsi_oversold": 1.70170875,
+  "h4_alignment": 1.3,
+  "ema_trend": 1.772946532546876,
+  "ema_crossover": 1.1,
+  "support_bounce": 2.216183165683595,
+  "resistance_rejection": 0.41334300000000007,
   "volume_confirm": 1.0,
   "momentum_divergence": 1.0,
-  
-  "shooting_star_unconfirmed": 0.5,
-  "shooting_star_confirmed_1": 1.5,
-  "shooting_star_confirmed_2": 1.8
+  "bullish_engulfing": 1.8761338968750003,
+  "bearish_engulfing": 0.43740000000000007,
+  "shooting_star_unconfirmed": 0.4,
+  "shooting_star_confirmed_1": 0.6561000000000001,
+  "shooting_star_confirmed_2": 0.9900000000000001,
+  "hammer_confirmed": 1.7364375000000003,
+  "doji_at_support": 1.4332500000000004,
+  "_bias_explanation": {
+    "trend": "BULLISH",
+    "reason": "Gold in strong uptrend - err on BUY side",
+    "sell_penalty": "Sell signals weighted 30-40% lower",
+    "buy_boost": "Buy signals weighted 20-50% higher"
+  }
 }
