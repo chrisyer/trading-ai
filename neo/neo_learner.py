@@ -246,6 +246,162 @@ class NeoLearner:
         
         return result
     
+    # ══════════════════════════════════════════════════════════════════════════
+    # ENGULFING PATTERN DETECTION (Research Task #003)
+    # ══════════════════════════════════════════════════════════════════════════
+    # 
+    # KEY FINDING: Engulfing alone exits TOO EARLY
+    # Use as WARNING after $15 profit, not primary exit trigger
+    #
+    # Optimal Exit Strategy:
+    #   1. TP $15 minimum (100% win rate on winning setups)
+    #   2. After $15 profit, engulfing = tighten stop or exit
+    #   3. TP $20 stretch target
+    # ══════════════════════════════════════════════════════════════════════════
+    
+    def detect_bullish_engulfing(self, prev_candle: dict, curr_candle: dict) -> dict:
+        """
+        Detect bullish engulfing - EXIT signal for shorts
+        
+        Returns:
+            {
+                'detected': bool,
+                'engulfing_ratio': float (how much bigger current candle is)
+            }
+        """
+        result = {'detected': False, 'engulfing_ratio': 0.0}
+        
+        # Previous must be red
+        prev_red = prev_candle.get('close', 0) < prev_candle.get('open', 0)
+        
+        # Current must be green
+        curr_green = curr_candle.get('close', 0) > curr_candle.get('open', 0)
+        
+        if not (prev_red and curr_green):
+            return result
+        
+        prev_body = abs(prev_candle.get('close', 0) - prev_candle.get('open', 0))
+        curr_body = abs(curr_candle.get('close', 0) - curr_candle.get('open', 0))
+        
+        if prev_body == 0:
+            return result
+        
+        # Current body must engulf previous body
+        engulfs = (curr_candle.get('open', 0) <= prev_candle.get('close', 0) and 
+                   curr_candle.get('close', 0) >= prev_candle.get('open', 0))
+        
+        if engulfs:
+            result['detected'] = True
+            result['engulfing_ratio'] = round(curr_body / prev_body, 2)
+        
+        return result
+    
+    def detect_bearish_engulfing(self, prev_candle: dict, curr_candle: dict) -> dict:
+        """
+        Detect bearish engulfing - EXIT signal for longs
+        """
+        result = {'detected': False, 'engulfing_ratio': 0.0}
+        
+        # Previous must be green
+        prev_green = prev_candle.get('close', 0) > prev_candle.get('open', 0)
+        
+        # Current must be red
+        curr_red = curr_candle.get('close', 0) < curr_candle.get('open', 0)
+        
+        if not (prev_green and curr_red):
+            return result
+        
+        prev_body = abs(prev_candle.get('close', 0) - prev_candle.get('open', 0))
+        curr_body = abs(curr_candle.get('close', 0) - curr_candle.get('open', 0))
+        
+        if prev_body == 0:
+            return result
+        
+        # Current body must engulf previous body
+        engulfs = (curr_candle.get('open', 0) >= prev_candle.get('close', 0) and 
+                   curr_candle.get('close', 0) <= prev_candle.get('open', 0))
+        
+        if engulfs:
+            result['detected'] = True
+            result['engulfing_ratio'] = round(curr_body / prev_body, 2)
+        
+        return result
+    
+    def check_exit_signal(self, position_type: str, entry_price: float, 
+                          current_price: float, market_data: dict) -> dict:
+        """
+        Check if exit signal is triggered based on Research Task #003 findings.
+        
+        OPTIMAL EXIT STRATEGY:
+        1. TP $15 minimum (100% win rate on winning setups)
+        2. After $15 profit, engulfing = exit signal
+        3. TP $20 stretch target
+        """
+        result = {
+            'exit': False,
+            'reason': '',
+            'confidence': 0.0
+        }
+        
+        # Calculate current profit
+        if position_type == "SHORT":
+            profit = entry_price - current_price
+        else:
+            profit = current_price - entry_price
+        
+        # Get candle data for engulfing check
+        prev_candle = market_data.get('prev_candle', {})
+        curr_candle = market_data.get('curr_candle', {})
+        
+        # Check for engulfing
+        if position_type == "SHORT":
+            eng = self.detect_bullish_engulfing(prev_candle, curr_candle)
+        else:
+            eng = self.detect_bearish_engulfing(prev_candle, curr_candle)
+        
+        # EXIT LOGIC (from Research Task #003)
+        
+        # Stage 1: Hit $20 TP - always exit
+        if profit >= 20:
+            return {
+                'exit': True,
+                'reason': 'TP $20 hit - take profit',
+                'confidence': 0.95
+            }
+        
+        # Stage 2: Between $15-$20 and engulfing - exit
+        if profit >= 15 and eng['detected']:
+            return {
+                'exit': True,
+                'reason': f'Engulfing after $15 profit (ratio: {eng["engulfing_ratio"]}x)',
+                'confidence': 0.85
+            }
+        
+        # Stage 3: Hit $15 minimum - consider exit
+        if profit >= 15:
+            return {
+                'exit': False,
+                'reason': 'At $15 profit - watching for engulfing or $20',
+                'confidence': 0.0,
+                'suggestion': 'tighten_stop'
+            }
+        
+        # Stage 4: Engulfing appeared early (< $15 profit) - WARNING
+        if eng['detected'] and profit > 0:
+            return {
+                'exit': False,
+                'reason': f'Early engulfing warning at ${profit:.1f} profit',
+                'confidence': 0.0,
+                'suggestion': 'move_stop_to_breakeven'
+            }
+        
+        # Stage 5: Still in trade, no signals
+        return {
+            'exit': False,
+            'reason': f'Holding - current profit ${profit:.1f}',
+            'confidence': 0.0
+        }
+
     def analyze_shooting_star_confirmation(self, market_data: dict) -> dict:
         """
         Analyze shooting star with confirmation from subsequent candles.
