@@ -8,5 +8,7 @@
   "support_bounce": 1.0,
   "resistance_rejection": 1.0,
   "volume_confirm": 1.0,
-  "momentum_divergence": 1.0
+  "momentum_divergence": 1.0,
+  "shooting_star_confirmed": 1.5,
+  "shooting_star_unconfirmed": 0.8
 }

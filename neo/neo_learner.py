@@ -189,6 +189,11 @@ class NeoLearner:
         else:
             direction = "SELL"
         
+        # Shooting star detection (from Research Task #001)
+        # Backtest showed 66.7% win rate, 100% with red candle confirmation
+        shooting_star = market_data.get('shooting_star', False)
+        shooting_star_confirmed = market_data.get('shooting_star_confirmed', False)
+        
         features = {
             'adx_strong': adx > 25,
             'di_divergence': abs(plus_di - minus_di) > 10,
@@ -200,7 +205,12 @@ class NeoLearner:
             'support_bounce': False,  # Would need support levels
             'resistance_rejection': False,  # Would need resistance levels
             'volume_confirm': True,  # Default true without volume data
-            'momentum_divergence': False  # Complex calculation
+            'momentum_divergence': False,  # Complex calculation
+            
+            # NEW: Shooting star pattern (Research Task #001)
+            # 100% win rate when confirmed with red candle
+            'shooting_star_confirmed': shooting_star_confirmed,
+            'shooting_star_unconfirmed': shooting_star and not shooting_star_confirmed
         }
         
         return features
