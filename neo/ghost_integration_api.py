@@ -1571,10 +1571,16 @@ def generate_fresh_xauusd_signal(current_price: float) -> Dict:
             # 🎓 LEARNED: In Gold, prefer BUY on dips (fundamental thesis)
             rsi_overbought_weight = weights.get('rsi_overbought', 0.3)  # Default 0.3, learned may be 0.1
             
+            # 🔧 FIX: Initialize entry zones for all consolidation branches
+            entry_zone_low = current_price - atr * 0.5
+            entry_zone_high = current_price + atr * 0.5
+            
             if current_rsi < 40:
                 direction = "BUY"
                 strategy = "OVERSOLD_BOUNCE"
                 optimal_entry = current_price
+                entry_zone_low = current_price - atr * 0.3
+                entry_zone_high = current_price + atr * 0.5
                 stop_loss = recent_low - atr * 0.5
                 take_profit_1 = ema20_val
                 take_profit_2 = ema50_val
@@ -1586,6 +1592,8 @@ def generate_fresh_xauusd_signal(current_price: float) -> Dict:
                 direction = "SELL"
                 strategy = "OVERBOUGHT_FADE"
                 optimal_entry = current_price
+                entry_zone_low = current_price - atr * 0.5
+                entry_zone_high = current_price + atr * 0.3
                 stop_loss = recent_high + atr * 0.5
                 take_profit_1 = ema20_val
                 take_profit_2 = ema50_val
@@ -1596,6 +1604,8 @@ def generate_fresh_xauusd_signal(current_price: float) -> Dict:
                 direction = "HOLD"
                 strategy = "RSI_OVERBOUGHT_IGNORED"
                 optimal_entry = current_price
+                entry_zone_low = current_price - atr * 0.3
+                entry_zone_high = current_price + atr * 0.5
                 stop_loss = recent_low - atr * 0.5
                 take_profit_1 = current_price + atr
                 take_profit_2 = current_price + atr * 2
@@ -1606,6 +1616,7 @@ def generate_fresh_xauusd_signal(current_price: float) -> Dict:
                 direction = "WAIT"
                 strategy = "NO_CLEAR_SETUP"
                 optimal_entry = current_price
+                # entry_zone_low/high already set at start of else block
                 stop_loss = current_price - atr
                 take_profit_1 = current_price + atr
                 take_profit_2 = current_price + atr * 2
