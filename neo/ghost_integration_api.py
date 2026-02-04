@@ -2757,6 +2757,281 @@ async def get_gold_thesis():
     }
 
 
+# ═══════════════════════════════════════════════════════════════════════════════
+# NEO DESKTOP ↔ H100 SYNC
+# ═══════════════════════════════════════════════════════════════════════════════
+# Two-way sync between NEO Desktop (Crella's Windows machine) and H100 NEO
+
+# Global storage for Desktop signals
+_desktop_signal = {
+    "signal": None,
+    "received_at": None,
+    "signals_today": 0,
+    "last_reset": datetime.utcnow().date().isoformat()
+}
+
+
+@app.post("/api/neo/desktop/report")
+async def receive_desktop_report(data: dict):
+    """
+    Receive signal report from NEO Desktop.
+    
+    This enables two-way sync:
+    - Desktop sends its local analysis here
+    - H100 uses it in consensus calculations
+    - Desktop gets back the combined consensus
+    
+    Expected payload:
+    {
+        "source": "NEO_DESKTOP",
+        "timestamp": "2026-02-04T14:26:35",
+        "current_price": 4948.40,
+        "action": "BUY",
+        "confidence": 65,
+        "technicals": {
+            "rsi": 28.5,
+            "ema20": 4955.00,
+            "ema50": 4960.00
+        },
+        "reasoning": "RSI oversold; Price near support"
+    }
+    """
+    global _desktop_signal
+    
+    try:
+        # Reset counter if new day
+        today = datetime.utcnow().date().isoformat()
+        if _desktop_signal["last_reset"] != today:
+            _desktop_signal["signals_today"] = 0
+            _desktop_signal["last_reset"] = today
+        
+        # Store desktop signal
+        _desktop_signal["signal"] = {
+            **data,
+            "source": data.get("source", "NEO_DESKTOP"),
+            "received_at": datetime.utcnow().isoformat()
+        }
+        _desktop_signal["received_at"] = datetime.utcnow().isoformat()
+        _desktop_signal["signals_today"] += 1
+        
+        logger.info(f"📱 Desktop signal received: {data.get('action', 'N/A')} @ {data.get('current_price', 'N/A')}")
+        
+        return {
+            "status": "received",
+            "will_use_in_consensus": True,
+            "signals_today": _desktop_signal["signals_today"],
+            "received_at": _desktop_signal["received_at"]
+        }
+        
+    except Exception as e:
+        logger.error(f"Error receiving desktop report: {e}")
+        return {"status": "error", "message": str(e)}
+
+
+def get_recent_desktop_signal(max_age_seconds: int = 120) -> Optional[Dict]:
+    """Get Desktop signal if recent (within max_age_seconds)."""
+    global _desktop_signal
+    
+    if not _desktop_signal["signal"] or not _desktop_signal["received_at"]:
+        return None
+    
+    try:
+        received_at = datetime.fromisoformat(_desktop_signal["received_at"])
+        age = (datetime.utcnow() - received_at).total_seconds()
+        
+        if age <= max_age_seconds:
+            return _desktop_signal["signal"]
+        else:
+            return None  # Too stale
+    except:
+        return None
+
+
+@app.get("/api/neo/status")
+async def get_neo_status():
+    """
+    Dashboard showing status of all NEO sources:
+    - H100 NEO (this server)
+    - Desktop NEO (Crella's Windows machine)
+    - Meta Bot (multi-indicator consensus)
+    
+    Returns current signals and health from all sources.
+    """
+    global _desktop_signal
+    
+    # Get H100 NEO signal (use unified endpoint data)
+    h100_signal = None
+    h100_status = "unknown"
+    try:
+        # Get current price from yfinance
+        import yfinance as yf
+        gold = yf.Ticker("GC=F")
+        current_price = gold.info.get("regularMarketPrice") or gold.fast_info.get("lastPrice", 5000)
+        h100_signal = generate_fresh_xauusd_signal(float(current_price))
+        h100_status = "online" if h100_signal.get("valid") else "degraded"
+    except Exception as e:
+        h100_status = f"error: {str(e)[:50]}"
+    
+    # Get Meta Bot signal (async call)
+    meta_signal = None
+    meta_status = "unknown"
+    try:
+        meta_signal = await get_meta_bot_signal("xauusd")
+        if meta_signal:
+            meta_status = "online"
+        else:
+            meta_status = "no_response"
+    except Exception as e:
+        meta_status = f"error: {str(e)[:50]}"
+    
+    # Get Desktop signal status
+    desktop_signal = get_recent_desktop_signal(max_age_seconds=120)
+    desktop_status = "online" if desktop_signal else "stale" if _desktop_signal["signal"] else "no_data"
+    
+    # Calculate consensus
+    consensus = calculate_three_way_consensus(h100_signal, meta_signal, desktop_signal)
+    
+    return {
+        "timestamp": datetime.utcnow().isoformat(),
+        "h100_neo": {
+            "status": h100_status,
+            "action": h100_signal.get("action") if h100_signal else None,
+            "confidence": h100_signal.get("confidence") if h100_signal else None,
+            "strategy": h100_signal.get("strategy") if h100_signal else None,
+            "current_price": h100_signal.get("current_price") if h100_signal else None
+        },
+        "desktop_neo": {
+            "status": desktop_status,
+            "action": desktop_signal.get("action") if desktop_signal else None,
+            "confidence": desktop_signal.get("confidence") if desktop_signal else None,
+            "last_seen": _desktop_signal.get("received_at"),
+            "signals_today": _desktop_signal.get("signals_today", 0)
+        },
+        "meta_bot": {
+            "status": meta_status,
+            "action": meta_signal.get("action") if meta_signal else None,
+            "confidence": meta_signal.get("confidence") if meta_signal else None,
+            "bullish_count": meta_signal.get("bullish_count") if meta_signal else None,
+            "bearish_count": meta_signal.get("bearish_count") if meta_signal else None
+        },
+        "consensus": consensus
+    }
+
+
+def calculate_three_way_consensus(h100_signal: Dict, meta_signal: Dict, desktop_signal: Dict) -> Dict:
+    """
+    Calculate three-way consensus from H100, Meta Bot, and Desktop NEO.
+    
+    Returns:
+        {
+            "action": "BUY/SELL/HOLD",
+            "votes": "2/3" or "3/3",
+            "confidence": weighted average,
+            "sources_agree": ["H100", "Desktop"] etc
+        }
+    """
+    signals = []
+    sources = []
+    
+    if h100_signal and h100_signal.get("action") not in [None, "WAIT", "ERROR"]:
+        signals.append({
+            "source": "H100",
+            "action": h100_signal.get("action"),
+            "confidence": h100_signal.get("confidence", 50)
+        })
+        sources.append("H100")
+    
+    if meta_signal and meta_signal.get("action") not in [None, "WAIT", "HOLD"]:
+        signals.append({
+            "source": "Meta",
+            "action": meta_signal.get("action"),
+            "confidence": meta_signal.get("confidence", 50)
+        })
+        sources.append("Meta")
+    
+    if desktop_signal and desktop_signal.get("action") not in [None, "WAIT"]:
+        signals.append({
+            "source": "Desktop",
+            "action": desktop_signal.get("action"),
+            "confidence": desktop_signal.get("confidence", 50)
+        })
+        sources.append("Desktop")
+    
+    if not signals:
+        return {
+            "action": "HOLD",
+            "votes": "0/3",
+            "confidence": 0,
+            "sources_agree": [],
+            "reason": "No valid signals from any source"
+        }
+    
+    # Count votes
+    buy_votes = [s for s in signals if s["action"] == "BUY"]
+    sell_votes = [s for s in signals if s["action"] == "SELL"]
+    
+    total = len(signals)
+    
+    if len(buy_votes) > len(sell_votes):
+        action = "BUY"
+        agreeing = [s["source"] for s in buy_votes]
+        avg_conf = sum(s["confidence"] for s in buy_votes) / len(buy_votes)
+    elif len(sell_votes) > len(buy_votes):
+        action = "SELL"
+        agreeing = [s["source"] for s in sell_votes]
+        avg_conf = sum(s["confidence"] for s in sell_votes) / len(sell_votes)
+    else:
+        action = "HOLD"
+        agreeing = []
+        avg_conf = 40
+    
+    # Boost confidence if all agree
+    if len(agreeing) == 3:
+        avg_conf = min(95, avg_conf * 1.2)
+    elif len(agreeing) == 2:
+        avg_conf = min(85, avg_conf * 1.1)
+    
+    return {
+        "action": action,
+        "votes": f"{len(agreeing)}/{total}",
+        "confidence": round(avg_conf, 1),
+        "sources_agree": agreeing,
+        "all_sources": sources
+    }
+
+
+@app.get("/api/neo/desktop/latest")
+async def get_desktop_latest():
+    """
+    Get the latest signal from NEO Desktop.
+    Used by H100 to fetch what Desktop is seeing.
+    """
+    global _desktop_signal
+    
+    desktop_signal = get_recent_desktop_signal(max_age_seconds=300)  # 5 min
+    
+    if desktop_signal:
+        return {
+            "status": "online",
+            "signal": desktop_signal,
+            "age_seconds": (datetime.utcnow() - datetime.fromisoformat(_desktop_signal["received_at"])).total_seconds(),
+            "signals_today": _desktop_signal["signals_today"]
+        }
+    elif _desktop_signal["signal"]:
+        return {
+            "status": "stale",
+            "signal": _desktop_signal["signal"],
+            "last_seen": _desktop_signal["received_at"],
+            "signals_today": _desktop_signal["signals_today"]
+        }
+    else:
+        return {
+            "status": "no_data",
+            "signal": None,
+            "message": "No signals received from Desktop NEO yet"
+        }
+
+
 if __name__ == "__main__":
     uvicorn.run(
         "ghost_integration_api:app",
