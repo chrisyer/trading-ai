@@ -36,6 +36,14 @@ import uvicorn
 sys.path.insert(0, '/home/jbot/trading_ai/neo')
 sys.path.insert(0, '/home/jbot/trading_ai')
 
+# Forex Intel Spy Service
+try:
+    from forex_intel_service import forex_intel_router, start_forex_intel, stop_forex_intel
+    FOREX_INTEL_AVAILABLE = True
+except ImportError as e:
+    FOREX_INTEL_AVAILABLE = False
+    print(f"WARNING: Forex Intel Service not available: {e}")
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s %(levelname)s:%(name)s:%(message)s'
@@ -121,6 +129,19 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Mount Forex Intel Spy Service router
+if FOREX_INTEL_AVAILABLE:
+    app.include_router(forex_intel_router)
+    logger.info("Forex Intel Spy Service router mounted")
+
+    @app.on_event("startup")
+    async def on_startup():
+        await start_forex_intel()
+
+    @app.on_event("shutdown")
+    async def on_shutdown():
+        await stop_forex_intel()
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
