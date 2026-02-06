@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-04
+   Scanned: 22 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 ORCL @ $146.67
+   Move: -10.9% (3d) | RSI: 16
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold as indicated by the RSI of 15.8, which is below the threshold of 30. Additionally, the high volume on a negative move suggests capitulation or exhaustion. The stock is also at the lower end of its 52-week range, indicating it may have reached an extreme and could potentially reverse direction. Lastly, while there was a small gap today, it doesn't seem to be a significant one that would indicate a strong reversal. However, given the other factors, it suggests a potential bounce.
+   Fund: Oracle is a quality tech company with no fundamental issues reported. The selloff likely reflects sector rotation or broader market sentiment, not company-specific problems. Oversold blue-chip with strong fundamentals suggests high mean reversion potential.
+   Entry: $143.74-$148.14
+   Target: $161.34 | Stop: $139.34
+
+#2 COIN @ $168.62
+   Move: -13.4% (3d) | RSI: 2
+   Score: 81/100 (HIGH)
+   Tech: The stock is significantly oversold as indicated by the RSI of 2.1 (below 30), and there has been a high volume on the recent move down (-19.5% in 5 days). Additionally, the price is at 62.1% below its 52-week high, suggesting it may be nearing a potential reversal. The gap today also contributes to the potential for a bounce.
+   Fund: Sector rotation and temporary selloff likely drive the move, with no clear fundamental issues cited. P/E ratio suggests reasonable valuation, but not a blue-chip oversold scenario.
+   Entry: $165.25-$170.31
+   Target: $185.48 | Stop: $160.19
+
+#3 SHOP @ $114.02
+   Move: -13.1% (3d) | RSI: 15
+   Score: 81/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 14.7, indicating a potential rebound. The high volume ratio and the large distance from the 52-week high also suggest capitulation or exhaustion. Additionally, there is a gap today which could potentially be filled.
+   Fund: Selloff likely driven by sector rotation and overvaluation (high P/E) rather than company-specific issues. Shopify remains a quality e-commerce platform with strong fundamentals, suggesting potential mean reversion as macro concerns ease.
+   Entry: $111.74-$115.16
+   Target: $125.42 | Stop: $108.32
+
+#4 TSLA @ $406.01
+   Move: -5.7% (3d) | RSI: 36
+   Score: 81/100 (HIGH)
+   Tech: TSLA's RSI is at 36.5, indicating it may be oversold. The stock is also close to its 52-week low with a distance of 89.5%. High volume ratio (1.2x) suggests significant trading activity. However, the small gap today might not contribute much to the score.
+   Fund: Tesla is a quality company with no immediate fundamental issues. The drop likely reflects sector rotation and high P/E valuation correction, not company-specific problems. Mean reversion potential remains strong if the selloff is overextended.
+   Entry: $397.89-$410.07
+   Target: $446.61 | Stop: $385.71
+
+#5 AMD @ $200.19
+   Move: -15.4% (3d) | RSI: 40
+   Score: 79/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 40.0 and a high volume on move (2.5x the 20-day average). Additionally, AMD is currently at -25.0% from its 52W High, indicating it may be due for a potential reversal. The large gap today also suggests potential for a gap fill.
+   Fund: Sector rotation in tech, no company-specific issues, strong fundamentals with high P/E suggesting potential overcorrection
+   Entry: $196.19-$202.19
+   Target: $220.21 | Stop: $190.18
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

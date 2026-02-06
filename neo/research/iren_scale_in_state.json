@@ -1,56 +1,44 @@
 {
-  "reference_price": 56.7,
-  "last_scale_in_price": 52.66,
-  "scale_in_levels": [
-    {
-      "level": 1,
-      "price": 50.03,
-      "drop_from_ref": 11.8,
-      "contracts": 3,
-      "status": "PENDING"
+  "symbol": "IREN",
+  "strategy": "DCA_DOWN_TP_UP_FREEROLL",
+  "reference_price": 59.84,
+  "current_position": {
+    "contracts": 0,
+    "avg_cost": 0,
+    "total_invested": 0
+  },
+  "scale_in_plan": {
+    "initial_entry": {
+      "trigger": "10:15_AM_EST",
+      "contracts": 10,
+      "status": "PENDING",
+      "note": "Wait for GDP volatility to settle"
     },
-    {
-      "level": 2,
-      "price": 47.53,
-      "drop_from_ref": 16.2,
-      "contracts": 3,
-      "status": "PENDING"
-    },
-    {
-      "level": 3,
-      "price": 45.15,
-      "drop_from_ref": 20.4,
-      "contracts": 3,
-      "status": "PENDING"
-    },
-    {
-      "level": 4,
-      "price": 42.89,
-      "drop_from_ref": 24.4,
-      "contracts": 3,
-      "status": "PENDING"
-    },
-    {
-      "level": 5,
-      "price": 40.75,
-      "drop_from_ref": 28.1,
-      "contracts": 3,
-      "status": "PENDING"
-    }
-  ],
-  "executed_scale_ins": [
-    {
-      "timestamp": "2026-01-26T18:23:07.044848",
-      "price": 52.66,
-      "option_price": 5.45,
-      "contracts": 3,
-      "confidence": 70,
-      "signals": [
-        "Manual scale-in on -7% Monday dip"
-      ]
-    }
-  ],
-  "alerts": [],
-  "created_at": "2026-01-26T18:23:07.044869",
-  "updated_at": "2026-01-26T18:23:07.044870"
+    "dca_levels": [
+      {"level": 1, "drop_pct": 5, "price_approx": 56.85, "contracts": 10, "status": "PENDING"},
+      {"level": 2, "drop_pct": 10, "price_approx": 53.86, "contracts": 10, "status": "PENDING"},
+      {"level": 3, "drop_pct": 15, "price_approx": 50.86, "contracts": 10, "status": "PENDING"},
+      {"level": 4, "drop_pct": 20, "price_approx": 47.87, "contracts": 10, "status": "PENDING"},
+      {"level": 5, "drop_pct": 25, "price_approx": 44.88, "contracts": 10, "status": "PENDING"}
+    ]
+  },
+  "take_profit_plan": {
+    "levels": [
+      {"level": 1, "gain_pct": 10, "sell_pct": 20, "status": "PENDING"},
+      {"level": 2, "gain_pct": 20, "sell_pct": 20, "status": "PENDING"},
+      {"level": 3, "gain_pct": 30, "sell_pct": 20, "status": "PENDING"},
+      {"level": 4, "gain_pct": 50, "sell_pct": 20, "status": "PENDING"},
+      {"level": 5, "gain_pct": 100, "sell_pct": 20, "status": "PENDING", "note": "Let runners run"}
+    ]
+  },
+  "freeroll_target": {
+    "instrument": "LEAPS",
+    "min_expiry_months": 6,
+    "strike_preference": "ATM_or_slight_OTM",
+    "funded_by": "DCA_profits"
+  },
+  "executed_trades": [],
+  "realized_pnl": 0,
+  "account": "IBKR_PAPER_NEW",
+  "updated_at": "2026-01-30T14:30:00.000000"
 }

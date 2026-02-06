@@ -1,16 +1,28 @@
 {
+  "mode": "IBKR_LIVE",
   "positions": [
     {
-      "order_id": 6,
-      "contracts": 1,
-      "price": 5563.7,
+      "order_id": 1,
+      "contracts": 15,
+      "price": 5045.440333335,
       "type": "DROPBUYL1",
       "level": 1,
-      "time": "2026-01-28T23:47:39.544159"
+      "time": "2026-01-30T14:32:05.220700"
     }
   ],
   "runner_position": null,
-  "daily_pnl": 0,
-  "entry_price": 5563.7,
-  "last_update": "2026-01-28T23:56:50.504566"
+  "daily_pnl": 8078.95,
+  "entry_price": 5045.440333335,
+  "current_price": 5099.3,
+  "bid": 5098.8,
+  "ask": 5099.0,
+  "unrealized_pnl": 8078.95,
+  "account": {
+    "balance": 1005277.98,
+    "equity": 1005277.98,
+    "margin": 68632.37,
+    "free_margin": 926091.7
+  },
+  "tp_target": 5095.44,
+  "last_update": "2026-01-30T14:32:05.220722"
 }

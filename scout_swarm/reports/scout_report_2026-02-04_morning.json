@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-04T11:03:33.620818",
+  "scan_date": "2026-02-04",
+  "stocks_scanned": 20,
+  "bounce_candidates": 20,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "QCOM",
+      "price": 147.17999267578125,
+      "change_1d": -3.5644100481258767,
+      "change_3d": -3.311002827817866,
+      "rsi": 17.227637692260544,
+      "volume_ratio": 1.2448629067516084,
+      "technical_score": 85,
+      "fundamental_score": 88,
+      "combined_score": 86.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold (RSI of 17.2), it's close to its 52-week low (-21.8% from high, 21.8% from low), there was a small gap today, and the volume ratio is slightly higher than average. These factors suggest a potential mean reversion or bounce in the near future.",
+      "fundamental_reason": "Sector rotation in tech, no company-specific issues; strong fundamentals with oversold blue-chip potential",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        144.24,
+        148.65
+      ],
+      "target": 161.9,
+      "stop": 139.82
+    },
+    {
+      "symbol": "ORCL",
+      "price": 154.6699981689453,
+      "change_1d": -3.367486862340663,
+      "change_3d": -8.4847031560081,
+      "rsi": 15.622270886667167,
+      "volume_ratio": 1.6496864155698663,
+      "technical_score": 85,
+      "fundamental_score": 88,
+      "combined_score": 86.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "ORCL's current RSI of 15.6 indicates it is significantly oversold, which suggests a potential rebound. The stock has also moved away from its 52-week high by -55.3%, and today's gap could potentially be filled. Additionally, the volume ratio being 1.6x the 20-day average suggests increased trading activity, which can indicate exhaustion of sellers.",
+      "fundamental_reason": "Oracle is a high-quality tech blue chip with no recent earnings misses or company-specific issues. The selloff aligns with sector rotation out of high-P/E tech stocks, not structural problems. Oversold valuation and strong fundamentals suggest strong mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        151.58,
+        156.22
+      ],
+      "target": 170.14,
+      "stop": 146.94
+    },
+    {
+      "symbol": "SHOP",
+      "price": 119.29000091552734,
+      "change_1d": -9.765504032325545,
+      "change_3d": -16.952101488156856,
+      "rsi": 13.638438303622564,
+      "volume_ratio": 2.7206915386661294,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold as indicated by the RSI of 13.6, which is below the threshold of 30. The high volume ratio (2.7x vs 20d avg) suggests a capitulation or exhaustion event. Additionally, the stock is currently at 70.8% above its 52-week low and has moved away from its 52-week high by -34.5%, indicating it may have reached an extreme point. Lastly, while today's gap is only -0.7%, it could potentially contribute to a fill in the near future.",
+      "fundamental_reason": "Quality e-commerce platform with no recent earnings/guidance issues; selloff likely due to sector rotation and high P/E multiple correction, not structural problems.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        116.9,
+        120.48
+      ],
+      "target": 131.22,
+      "stop": 113.33
+    },
+    {
+      "symbol": "MSTR",
+      "price": 133.25999450683594,
+      "change_1d": -4.562064136087896,
+      "change_3d": -6.934847241610809,
+      "rsi": 26.48277728282021,
+      "volume_ratio": 1.151291623827655,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 26.5, indicating a potential rebound. It has also moved away from its 52-week high by -70.9%, suggesting it may be due for a correction. The volume ratio being 1.2x the 20-day average indicates higher than usual trading activity, which could indicate capitulation or exhaustion. However, there is no gap today, so the potential gap fill score is not factored in this analysis.",
+      "fundamental_reason": "Recent selloff likely due to sector rotation and macro concerns (e.g., interest rates, crypto volatility), not company-specific issues. Low P/E suggests undervaluation, and MSTR remains a quality tech company with strong fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        130.59,
+        134.59
+      ],
+      "target": 146.59,
+      "stop": 126.6
+    },
+    {
+      "symbol": "CRM",
+      "price": 196.3800048828125,
+      "change_1d": -6.845022931974798,
+      "change_3d": -8.267935723492037,
+      "rsi": 14.77449841084237,
+      "volume_ratio": 1.9736166542303033,
+      "technical_score": 85,
+      "fundamental_score": 82,
+      "combined_score": 83.80000000000001,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock CRM is significantly oversold with an RSI of 14.8, indicating a potential for mean reversion. Additionally, the high volume ratio and the large distance from the 52-week high suggest capitulation or exhaustion. Lastly, the gap down today could potentially lead to a gap fill.",
+      "fundamental_reason": "CRM is a high-quality blue-chip tech stock with no recent earnings misses or guidance cuts. The selloff aligns with broader tech sector rotation amid macroeconomic concerns, not company-specific issues. Oversold conditions and strong fundamentals suggest mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        192.45,
+        198.34
+      ],
+      "target": 216.02,
+      "stop": 186.56
+    }
+  ],
+  "top_fades": []
+}

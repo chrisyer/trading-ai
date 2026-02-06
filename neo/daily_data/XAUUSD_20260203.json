@@ -13,14 +13,14 @@
   "entry_level": 4885.0,
   "stop_loss": 4900.0,
   "take_profit": 4654.0,
-  "actual_high": 0.0,
-  "actual_low": 0.0,
-  "actual_close": 0.0,
-  "hunt_hit": false,
+  "actual_high": 5018.10009765625,
+  "actual_low": 4831.2998046875,
+  "actual_close": 4962.0,
+  "hunt_hit": true,
   "direction_correct": false,
   "tp_hit": false,
-  "sl_hit": false,
-  "pnl_pips": 0.0,
-  "score": 0,
-  "lesson_learned": ""
+  "sl_hit": true,
+  "pnl_pips": -15.0,
+  "score": 30,
+  "lesson_learned": "POOR prediction - significant model adjustment needed"
 }

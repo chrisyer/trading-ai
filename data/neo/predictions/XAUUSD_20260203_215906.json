@@ -1,0 +1,123 @@
+{
+  "prediction_id": "XAUUSD_20260203_215906",
+  "timestamp": "2026-02-03T21:59:06.218441",
+  "symbol": "XAUUSD",
+  "current_price": 4961.89990234375,
+  "indicators": {
+    "current_price": 4961.89990234375,
+    "ema20": 4945.177970466352,
+    "ema50": 5026.283858866479,
+    "rsi": 55.31809439792451,
+    "atr": 50.649972098214285,
+    "recent_high": 5018.10009765625,
+    "recent_low": 4768.5,
+    "above_ema20": true,
+    "above_ema50": false,
+    "ema20_rising": true,
+    "higher_highs": true,
+    "higher_lows": true,
+    "trend_structure": "BULLISH"
+  },
+  "bullish_thesis": {
+    "direction": "BUY",
+    "confidence": 95,
+    "reasons": [
+      "Price between EMAs (watch for breakout)",
+      "EMA20 rising (momentum bullish)",
+      "RSI bullish zone (55)",
+      "Higher highs + higher lows (bullish structure)",
+      "Historical: Bullish calls 1/8 correct"
+    ],
+    "entry_zone": "$4937 - $4962",
+    "stop_loss": "$4861",
+    "take_profit": "$5089",
+    "invalidation_level": 4743.175013950893,
+    "invalidation_trigger": "ABORT BUY if price closes below $4743"
+  },
+  "bearish_thesis": {
+    "direction": "SELL",
+    "confidence": 40,
+    "reasons": [],
+    "entry_zone": "$4962 - $4987",
+    "stop_loss": "$5063",
+    "take_profit": "$4835",
+    "invalidation_level": 5043.425083705357,
+    "invalidation_trigger": "ABORT SELL if price closes above $5043"
+  },
+  "current_bias": "BULLISH",
+  "bias_confidence": 95,
+  "primary_thesis": {
+    "direction": "BUY",
+    "confidence": 95,
+    "reasons": [
+      "Price between EMAs (watch for breakout)",
+      "EMA20 rising (momentum bullish)",
+      "RSI bullish zone (55)",
+      "Higher highs + higher lows (bullish structure)",
+      "Historical: Bullish calls 1/8 correct"
+    ],
+    "entry_zone": "$4937 - $4962",
+    "stop_loss": "$4861",
+    "take_profit": "$5089",
+    "invalidation_level": 4743.175013950893,
+    "invalidation_trigger": "ABORT BUY if price closes below $4743"
+  },
+  "secondary_thesis": {
+    "direction": "SELL",
+    "confidence": 40,
+    "reasons": [],
+    "entry_zone": "$4962 - $4987",
+    "stop_loss": "$5063",
+    "take_profit": "$4835",
+    "invalidation_level": 5043.425083705357,
+    "invalidation_trigger": "ABORT SELL if price closes above $5043"
+  },
+  "invalidation": {
+    "bearish_debunked_if": [
+      "Price closes above $5043 (recent high + ATR)",
+      "RSI drops below 30 then bounces (oversold reversal)",
+      "Bullish engulfing candle forms at support",
+      "Price reclaims EMA20 with volume"
+    ],
+    "bullish_debunked_if": [
+      "Price closes below $4743 (recent low - ATR)",
+      "RSI rises above 70 then drops (overbought reversal)",
+      "Bearish engulfing candle forms at resistance",
+      "Price loses EMA50 with volume"
+    ],
+    "switch_protocol": "When primary thesis is debunked, IMMEDIATELY switch to secondary thesis"
+  },
+  "historical_accuracy": {
+    "bullish_win_rate": "12%",
+    "bearish_win_rate": "0%",
+    "recent_debunks": [
+      {
+        "date": "2026-01-31",
+        "prediction_id": "HISTORICAL_20260131",
+        "expected": "DOWN",
+        "actual": "UP",
+        "move": "+70 pts",
+        "reason": "Bearish engulfing false signal. Market structure was higher highs/lows.",
+        "notes": "Historical data - bearish thesis DEBUNKED"
+      },
+      {
+        "date": "2026-02-01",
+        "prediction_id": "HISTORICAL_20260201",
+        "expected": "DOWN",
+        "actual": "UP",
+        "move": "+45 pts",
+        "reason": "Double top call was wrong - broke higher. Failed to recognize accumulation.",
+        "notes": "Historical data - bearish thesis DEBUNKED"
+      },
+      {
+        "date": "2026-02-03",
+        "prediction_id": "HISTORICAL_20260203",
+        "expected": "DOWN",
+        "actual": "UP",
+        "move": "+111 pts",
+        "reason": "Predicted hunt of longs, but shorts got squeezed instead. Major rally day.",
+        "notes": "Historical data - bearish thesis DEBUNKED"
+      }
+    ]
+  }
+}

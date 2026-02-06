@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-02
+   Scanned: 15 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 MSTR @ $139.63
+   Move: -11.9% (3d) | RSI: 37
+   Score: 79/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 37.3, indicating a potential for mean reversion. The price has also moved away from its 52-week high by -69.5%, suggesting it may have reached an extreme level. Additionally, the volume ratio is slightly higher than average, which could indicate capitulation or exhaustion. However, the gap fill potential is not as strong due to today's gap being only -6.5%.
+   Fund: MSTR's low P/E (5.7) suggests undervaluation. The selloff likely reflects sector rotation/macroeconomic concerns (e.g., interest rates) rather than company-specific issues. No recent earnings miss or guidance cut reported. Strong cash reserves and consistent revenue growth support mean reversion potential.
+   Entry: $136.84-$141.03
+   Target: $153.59 | Stop: $132.65
+
+#2 GLD @ $427.13
+   Move: -13.6% (3d) | RSI: 52
+   Score: 79/100 (HIGH)
+   Tech: The stock is currently at a 52-week high of 64.6%, indicating it may have reached an extreme level. The RSI value of 51.6 is not extremely oversold or overbought but still slightly below the 70 overbought threshold, suggesting some potential for a bounce. Additionally, there has been a high volume ratio compared to the 20-day average, which could indicate exhaustion or capitulation. Lastly, today's gap of +4.8% may provide an opportunity for a gap fill.
+   Fund: GLD tracks gold prices, which recently fell due to macro factors (e.g., dollar strength, rate hikes). No company-specific issues; selloff likely temporary. ETF is blue-chip and oversold, suggesting strong mean reversion potential.
+   Entry: $418.59-$431.40
+   Target: $469.84 | Stop: $405.77
+
+#3 MARA @ $9.12
+   Move: -12.1% (3d) | RSI: 37
+   Score: 79/100 (HIGH)
+   Tech: The stock is oversold with an RSI of 36.6, indicating a potential for mean reversion. It's also close to its 52-week low and has seen high volume on the recent move, suggesting possible capitulation or exhaustion. The gap today could also indicate a potential gap fill.
+   Fund: Likely sector rotation or market-wide correction; low P/E suggests undervaluation. No company-specific fundamental issues indicated.
+   Entry: $8.94-$9.21
+   Target: $10.03 | Stop: $8.66
+
+#4 MRNA @ $42.55
+   Move: -6.1% (3d) | RSI: 63
+   Score: 79/100 (HIGH)
+   Tech: The stock is currently at a distance of -22.9% from its 52-week high and has experienced a significant drop in the past 5 days (-11.3%). Additionally, it is not overbought or oversold according to the RSI (63.2), but close to the oversold threshold. The volume ratio is also slightly higher than the 20-day average, which could indicate some selling pressure but not necessarily exhaustion. However, the gap today is relatively small (-2.1%).
+   Fund: Sector rotation and temporary selloff without fundamental issues; strong company fundamentals with promising mRNA pipeline.
+   Entry: $41.70-$42.98
+   Target: $46.80 | Stop: $40.42
+
+#5 COIN @ $187.86
+   Move: -10.3% (3d) | RSI: 17
+   Score: 77/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 17.4, indicating a potential for mean reversion. The high volume ratio and the proximity to the 52-week low also suggest potential exhaustion. However, the gap today might indicate a continuation of the downward trend, but it could potentially be filled in the near future.
+   Fund: Recent selloff likely due to sector rotation and macroeconomic concerns rather than company-specific issues. COIN remains a quality player with strong fundamentals, and the drop appears overcorrected, suggesting mean reversion potential.
+   Entry: $184.10-$189.74
+   Target: $206.65 | Stop: $178.47
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

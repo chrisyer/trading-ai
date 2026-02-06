@@ -1,0 +1,45 @@
+# NEO GHOST DIRECTIVES
+# Generated: 2026-02-06T00:49:28.049233Z
+# This file is auto-generated every 60 seconds
+
+[SIGNAL]
+SYMBOL=XAUUSD
+ACTION=BUY
+CONFIDENCE=72.0
+STRATEGY=BUY_THE_DIP
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# CRITICAL: IS_NEW_SIGNAL prevents position stacking!
+# ═══════════════════════════════════════════════════════════════════════════════
+# IS_NEW_SIGNAL=true  → Direction JUST changed, OK to open position
+# IS_NEW_SIGNAL=false → Same direction as before, DO NOT open another position!
+#
+# EAs should ONLY open positions when IS_NEW_SIGNAL=true
+# Otherwise you get 8 stacked SELLs in 8 minutes!
+# ═══════════════════════════════════════════════════════════════════════════════
+IS_NEW_SIGNAL=false
+DIRECTION_AGE_SECONDS=906
+SIGNALS_SAME_DIRECTION=16
+
+[LEVELS]
+CURRENT_PRICE=4752.2001953125
+ENTRY=4723.0
+ENTRY_ZONE_LOW=4708.0
+ENTRY_ZONE_HIGH=4738.0
+STOP_LOSS=4703.0
+TAKE_PROFIT_1=4930.0
+TAKE_PROFIT_2=4960.0
+
+[CONSENSUS]
+NEO_H100=BUY
+META_BOT=HOLD
+UNIFIED=BUY
+
+[META]
+SIGNAL_ID=NEO_XAUUSD_20260206_003422
+VALID=False
+SIGNALS_TODAY=50
+LAST_UPDATED=2026-02-06T00:49:28.049247Z
+
+[REASONING]
+NEO BUY, Meta HOLD - cautious BUY

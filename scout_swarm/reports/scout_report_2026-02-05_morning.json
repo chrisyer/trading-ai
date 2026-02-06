@@ -1,0 +1,143 @@
+{
+  "scan_time": "2026-02-05T11:05:32.063248",
+  "scan_date": "2026-02-05",
+  "stocks_scanned": 22,
+  "bounce_candidates": 21,
+  "fade_candidates": 1,
+  "top_bounces": [
+    {
+      "symbol": "ORCL",
+      "price": 146.6699981689453,
+      "change_1d": -5.172302382302762,
+      "change_3d": -10.882247820421354,
+      "rsi": 15.7771708077685,
+      "volume_ratio": 1.5377716784279214,
+      "technical_score": 85,
+      "fundamental_score": 88,
+      "combined_score": 86.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "ORCL's RSI is extremely low at 15.8, indicating oversold conditions. The stock has also moved significantly from its 52-week high (-57.6%), suggesting it may be due for a rebound. Additionally, the volume ratio of today is 1.5x greater than the 20-day average, which could indicate capitulation or exhaustion. However, there is no gap today, which slightly reduces the score.",
+      "fundamental_reason": "Oracle is a quality blue-chip tech company with no recent earnings misses or guidance cuts. The drop aligns with broader tech sector rotation amid macro concerns, not company-specific issues. Oversold after a sharp 3-day decline, fundamentals remain strong with a reasonable P/E and recent guidance raises.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        143.74,
+        148.14
+      ],
+      "target": 161.34,
+      "stop": 139.34
+    },
+    {
+      "symbol": "MARA",
+      "price": 8.279999732971191,
+      "change_1d": -8.508292171661791,
+      "change_3d": -12.842108073987458,
+      "rsi": 26.841254029701545,
+      "volume_ratio": 1.2548436709036912,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold (RSI 26.8), has a high volume on move (1.3x average), is at the lower end of its 52-week range (-64.7% from high), and has a small gap today (-1.4%). These factors suggest a potential mean reversion scenario.",
+      "fundamental_reason": "Sector-wide selloff in Financial Services with no company-specific fundamental issues. Oversold with extremely low P/E ratio (3.5), suggesting strong mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        8.11,
+        8.36
+      ],
+      "target": 9.11,
+      "stop": 7.87
+    },
+    {
+      "symbol": "COIN",
+      "price": 168.6199951171875,
+      "change_1d": -6.144945073965968,
+      "change_3d": -13.41276041860513,
+      "rsi": 2.0553915201179507,
+      "volume_ratio": 1.6949805883910705,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 2.1 (below the oversold threshold of 30), it has experienced a large drop in the past 5 days (-19.5%), and it is currently at 18.3% away from its 52-week low, indicating potential for mean reversion. Additionally, the volume ratio is 1.7x higher than the 20-day average, suggesting increased trading activity which can be a sign of exhaustion or capitulation.",
+      "fundamental_reason": "Significant selloff likely due to sector rotation in Financial Services/crypto, no reported earnings misses or company-specific issues; P/E suggests reasonable valuation, suggesting potential mean reversion.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        165.25,
+        170.31
+      ],
+      "target": 185.48,
+      "stop": 160.19
+    },
+    {
+      "symbol": "SNOW",
+      "price": 165.2899932861328,
+      "change_1d": -4.589016367437693,
+      "change_3d": -14.224184793044648,
+      "rsi": 21.5270949261606,
+      "volume_ratio": 3.0834842658434525,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 21.5, indicating a potential rebound. The high volume ratio and the large distance from the 52-week high also suggest capitulation or exhaustion. Additionally, there is a gap today which could potentially be filled.",
+      "fundamental_reason": "Snowflake is a quality tech company with no mentioned fundamental issues. The selloff likely reflects sector rotation or macro concerns, not company-specific problems. High mean reversion potential as a blue-chip tech stock.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        161.98,
+        166.94
+      ],
+      "target": 181.82,
+      "stop": 157.03
+    },
+    {
+      "symbol": "SHOP",
+      "price": 114.0199966430664,
+      "change_1d": -4.417808895980125,
+      "change_3d": -13.114379063308224,
+      "rsi": 14.671015812238892,
+      "volume_ratio": 2.027619210391386,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold as indicated by the RSI of 14.7, which is below the threshold of 30. The high volume on a move suggests potential capitulation or exhaustion. Additionally, the stock is currently at 52-week lows, indicating it may have reached an extreme and could potentially reverse direction.",
+      "fundamental_reason": "Shopify is a quality tech company with no recent earnings misses or guidance cuts. The drop aligns with sector rotation in high-P/E tech stocks, not company-specific issues. High P/E suggests potential overreaction, supporting mean reversion.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        111.74,
+        115.16
+      ],
+      "target": 125.42,
+      "stop": 108.32
+    }
+  ],
+  "top_fades": [
+    {
+      "symbol": "META",
+      "price": 668.989990234375,
+      "change_1d": -3.283218385408815,
+      "change_3d": -6.630845745376835,
+      "rsi": 61.427651605672374,
+      "volume_ratio": 0.9042273963279331,
+      "technical_score": 65,
+      "fundamental_score": 88,
+      "combined_score": 74.2,
+      "direction": "FADE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The RSI is not extremely oversold (61.4), and the stock is not at its 52-week high or low. However, it has moved away from its 52-week high by -16.0%, indicating a potential for mean reversion. The volume ratio is slightly above average, but not significantly high to indicate capitulation or exhaustion. There's no gap fill today.",
+      "fundamental_reason": "Meta is a high-quality blue-chip company with no recent earnings misses or guidance cuts. The selloff aligns with sector rotation in Communication Services, not company-specific issues. Oversold valuation and strong fundamentals suggest mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        662.3,
+        682.37
+      ],
+      "target": 602.09,
+      "stop": 702.44
+    }
+  ]
+}

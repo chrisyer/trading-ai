@@ -110,5 +110,61 @@
     "current_pnl": -24.54545454545455,
     "reason": "DCA opportunity: -24.5% + NEO bullish",
     "timestamp": "2026-01-29T15:45:05.023360+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "LRCX",
+    "position_id": 13,
+    "price": 24.0,
+    "reason": "Call TP hit: +101.7% (2x)",
+    "timestamp": "2026-01-30T15:15:03.850766+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 34,
+    "current_pnl": -17.273673257023926,
+    "reason": "DCA opportunity: -17.3% + NEO bullish",
+    "timestamp": "2026-01-30T15:15:04.996840+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 34,
+    "current_pnl": -18.574401664932356,
+    "reason": "DCA opportunity: -18.6% + NEO bullish",
+    "timestamp": "2026-01-30T15:30:05.662459+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 35,
+    "current_pnl": -5.722891566265067,
+    "reason": "DCA opportunity: -5.7% + NEO bullish",
+    "timestamp": "2026-01-30T15:30:05.718815+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 34,
+    "current_pnl": -24.81789802289282,
+    "reason": "DCA opportunity: -24.8% + NEO bullish",
+    "timestamp": "2026-01-30T15:45:05.177718+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 35,
+    "current_pnl": -12.951807228915674,
+    "reason": "DCA opportunity: -13.0% + NEO bullish",
+    "timestamp": "2026-01-30T15:45:05.238959+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 36,
+    "current_pnl": -11.34969325153375,
+    "reason": "DCA opportunity: -11.3% + NEO bullish",
+    "timestamp": "2026-01-30T15:45:05.300794+00:00"
   }
 ]

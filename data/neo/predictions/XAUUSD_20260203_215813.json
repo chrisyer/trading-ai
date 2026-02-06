@@ -1,0 +1,93 @@
+{
+  "prediction_id": "XAUUSD_20260203_215813",
+  "timestamp": "2026-02-03T21:58:13.895135",
+  "symbol": "XAUUSD",
+  "current_price": 4960.10009765625,
+  "indicators": {
+    "current_price": 4960.10009765625,
+    "ema20": 4945.006560496114,
+    "ema50": 5026.21327829046,
+    "rsi": 54.838740011613446,
+    "atr": 50.649972098214285,
+    "recent_high": 5018.10009765625,
+    "recent_low": 4768.5,
+    "above_ema20": true,
+    "above_ema50": false,
+    "ema20_rising": true,
+    "higher_highs": true,
+    "higher_lows": true,
+    "trend_structure": "BULLISH"
+  },
+  "bullish_thesis": {
+    "direction": "BUY",
+    "confidence": 95,
+    "reasons": [
+      "Price between EMAs (watch for breakout)",
+      "EMA20 rising (momentum bullish)",
+      "RSI bullish zone (55)",
+      "Higher highs + higher lows (bullish structure)"
+    ],
+    "entry_zone": "$4935 - $4960",
+    "stop_loss": "$4859",
+    "take_profit": "$5087",
+    "invalidation_level": 4743.175013950893,
+    "invalidation_trigger": "ABORT BUY if price closes below $4743"
+  },
+  "bearish_thesis": {
+    "direction": "SELL",
+    "confidence": 40,
+    "reasons": [],
+    "entry_zone": "$4960 - $4985",
+    "stop_loss": "$5061",
+    "take_profit": "$4833",
+    "invalidation_level": 5043.425083705357,
+    "invalidation_trigger": "ABORT SELL if price closes above $5043"
+  },
+  "current_bias": "BULLISH",
+  "bias_confidence": 95,
+  "primary_thesis": {
+    "direction": "BUY",
+    "confidence": 95,
+    "reasons": [
+      "Price between EMAs (watch for breakout)",
+      "EMA20 rising (momentum bullish)",
+      "RSI bullish zone (55)",
+      "Higher highs + higher lows (bullish structure)"
+    ],
+    "entry_zone": "$4935 - $4960",
+    "stop_loss": "$4859",
+    "take_profit": "$5087",
+    "invalidation_level": 4743.175013950893,
+    "invalidation_trigger": "ABORT BUY if price closes below $4743"
+  },
+  "secondary_thesis": {
+    "direction": "SELL",
+    "confidence": 40,
+    "reasons": [],
+    "entry_zone": "$4960 - $4985",
+    "stop_loss": "$5061",
+    "take_profit": "$4833",
+    "invalidation_level": 5043.425083705357,
+    "invalidation_trigger": "ABORT SELL if price closes above $5043"
+  },
+  "invalidation": {
+    "bearish_debunked_if": [
+      "Price closes above $5043 (recent high + ATR)",
+      "RSI drops below 30 then bounces (oversold reversal)",
+      "Bullish engulfing candle forms at support",
+      "Price reclaims EMA20 with volume"
+    ],
+    "bullish_debunked_if": [
+      "Price closes below $4743 (recent low - ATR)",
+      "RSI rises above 70 then drops (overbought reversal)",
+      "Bearish engulfing candle forms at resistance",
+      "Price loses EMA50 with volume"
+    ],
+    "switch_protocol": "When primary thesis is debunked, IMMEDIATELY switch to secondary thesis"
+  },
+  "historical_accuracy": {
+    "bullish_win_rate": "0%",
+    "bearish_win_rate": "0%",
+    "recent_debunks": []
+  }
+}

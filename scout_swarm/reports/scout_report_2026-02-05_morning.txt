@@ -1,0 +1,59 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-05
+   Scanned: 22 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 ORCL @ $146.67
+   Move: -10.9% (3d) | RSI: 16
+   Score: 86/100 (HIGH)
+   Tech: ORCL's RSI is extremely low at 15.8, indicating oversold conditions. The stock has also moved significantly from its 52-week high (-57.6%), suggesting it may be due for a rebound. Additionally, the volume ratio of today is 1.5x greater than the 20-day average, which could indicate capitulation or exhaustion. However, there is no gap today, which slightly reduces the score.
+   Fund: Oracle is a quality blue-chip tech company with no recent earnings misses or guidance cuts. The drop aligns with broader tech sector rotation amid macro concerns, not company-specific issues. Oversold after a sharp 3-day decline, fundamentals remain strong with a reasonable P/E and recent guidance raises.
+   Entry: $143.74-$148.14
+   Target: $161.34 | Stop: $139.34
+
+#2 MARA @ $8.28
+   Move: -12.8% (3d) | RSI: 27
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold (RSI 26.8), has a high volume on move (1.3x average), is at the lower end of its 52-week range (-64.7% from high), and has a small gap today (-1.4%). These factors suggest a potential mean reversion scenario.
+   Fund: Sector-wide selloff in Financial Services with no company-specific fundamental issues. Oversold with extremely low P/E ratio (3.5), suggesting strong mean reversion potential.
+   Entry: $8.11-$8.36
+   Target: $9.11 | Stop: $7.87
+
+#3 COIN @ $168.62
+   Move: -13.4% (3d) | RSI: 2
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 2.1 (below the oversold threshold of 30), it has experienced a large drop in the past 5 days (-19.5%), and it is currently at 18.3% away from its 52-week low, indicating potential for mean reversion. Additionally, the volume ratio is 1.7x higher than the 20-day average, suggesting increased trading activity which can be a sign of exhaustion or capitulation.
+   Fund: Significant selloff likely due to sector rotation in Financial Services/crypto, no reported earnings misses or company-specific issues; P/E suggests reasonable valuation, suggesting potential mean reversion.
+   Entry: $165.25-$170.31
+   Target: $185.48 | Stop: $160.19
+
+#4 SNOW @ $165.29
+   Move: -14.2% (3d) | RSI: 22
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 21.5, indicating a potential rebound. The high volume ratio and the large distance from the 52-week high also suggest capitulation or exhaustion. Additionally, there is a gap today which could potentially be filled.
+   Fund: Snowflake is a quality tech company with no mentioned fundamental issues. The selloff likely reflects sector rotation or macro concerns, not company-specific problems. High mean reversion potential as a blue-chip tech stock.
+   Entry: $161.98-$166.94
+   Target: $181.82 | Stop: $157.03
+
+#5 SHOP @ $114.02
+   Move: -13.1% (3d) | RSI: 15
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold as indicated by the RSI of 14.7, which is below the threshold of 30. The high volume on a move suggests potential capitulation or exhaustion. Additionally, the stock is currently at 52-week lows, indicating it may have reached an extreme and could potentially reverse direction.
+   Fund: Shopify is a quality tech company with no recent earnings misses or guidance cuts. The drop aligns with sector rotation in high-P/E tech stocks, not company-specific issues. High P/E suggests potential overreaction, supporting mean reversion.
+   Entry: $111.74-$115.16
+   Target: $125.42 | Stop: $108.32
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+#1 META @ $668.99
+   Move: -6.6% (3d) | RSI: 61
+   Score: 74/100 (MEDIUM)
+   Tech: The RSI is not extremely oversold (61.4), and the stock is not at its 52-week high or low. However, it has moved away from its 52-week high by -16.0%, indicating a potential for mean reversion. The volume ratio is slightly above average, but not significantly high to indicate capitulation or exhaustion. There's no gap fill today.
+   Fund: Meta is a high-quality blue-chip company with no recent earnings misses or guidance cuts. The selloff aligns with sector rotation in Communication Services, not company-specific issues. Oversold valuation and strong fundamentals suggest mean reversion potential.
+   Entry: $662.30-$682.37
+   Target: $602.09 | Stop: $702.44
+
+══════════════════════════════════════════════════

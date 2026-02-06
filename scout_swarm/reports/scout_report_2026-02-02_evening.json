@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-02T23:03:41.279658",
+  "scan_date": "2026-02-02",
+  "stocks_scanned": 15,
+  "bounce_candidates": 14,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "MSTR",
+      "price": 139.6300048828125,
+      "change_1d": -6.733018087641973,
+      "change_3d": -11.87755912142886,
+      "rsi": 37.28337670049322,
+      "volume_ratio": 1.1980843714867357,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 37.3, indicating a potential for mean reversion. The price has also moved away from its 52-week high by -69.5%, suggesting it may have reached an extreme level. Additionally, the volume ratio is slightly higher than average, which could indicate capitulation or exhaustion. However, the gap fill potential is not as strong due to today's gap being only -6.5%.",
+      "fundamental_reason": "MSTR's low P/E (5.7) suggests undervaluation. The selloff likely reflects sector rotation/macroeconomic concerns (e.g., interest rates) rather than company-specific issues. No recent earnings miss or guidance cut reported. Strong cash reserves and consistent revenue growth support mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        136.84,
+        141.03
+      ],
+      "target": 153.59,
+      "stop": 132.65
+    },
+    {
+      "symbol": "GLD",
+      "price": 427.1300048828125,
+      "change_1d": -4.004945911975222,
+      "change_3d": -13.634340223360342,
+      "rsi": 51.6019336981848,
+      "volume_ratio": 1.4807899847222852,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently at a 52-week high of 64.6%, indicating it may have reached an extreme level. The RSI value of 51.6 is not extremely oversold or overbought but still slightly below the 70 overbought threshold, suggesting some potential for a bounce. Additionally, there has been a high volume ratio compared to the 20-day average, which could indicate exhaustion or capitulation. Lastly, today's gap of +4.8% may provide an opportunity for a gap fill.",
+      "fundamental_reason": "GLD tracks gold prices, which recently fell due to macro factors (e.g., dollar strength, rate hikes). No company-specific issues; selloff likely temporary. ETF is blue-chip and oversold, suggesting strong mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        418.59,
+        431.4
+      ],
+      "target": 469.84,
+      "stop": 405.77
+    },
+    {
+      "symbol": "MARA",
+      "price": 9.119999885559082,
+      "change_1d": -4.000001204641245,
+      "change_3d": -12.05400206166548,
+      "rsi": 36.649222589322875,
+      "volume_ratio": 1.1704271041321213,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is oversold with an RSI of 36.6, indicating a potential for mean reversion. It's also close to its 52-week low and has seen high volume on the recent move, suggesting possible capitulation or exhaustion. The gap today could also indicate a potential gap fill.",
+      "fundamental_reason": "Likely sector rotation or market-wide correction; low P/E suggests undervaluation. No company-specific fundamental issues indicated.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        8.94,
+        9.21
+      ],
+      "target": 10.03,
+      "stop": 8.66
+    },
+    {
+      "symbol": "MRNA",
+      "price": 42.54999923706055,
+      "change_1d": -3.449059378918462,
+      "change_3d": -6.0706402788417435,
+      "rsi": 63.23305699674053,
+      "volume_ratio": 1.0681255005738426,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently at a distance of -22.9% from its 52-week high and has experienced a significant drop in the past 5 days (-11.3%). Additionally, it is not overbought or oversold according to the RSI (63.2), but close to the oversold threshold. The volume ratio is also slightly higher than the 20-day average, which could indicate some selling pressure but not necessarily exhaustion. However, the gap today is relatively small (-2.1%).",
+      "fundamental_reason": "Sector rotation and temporary selloff without fundamental issues; strong company fundamentals with promising mRNA pipeline.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        41.7,
+        42.98
+      ],
+      "target": 46.8,
+      "stop": 40.42
+    },
+    {
+      "symbol": "COIN",
+      "price": 187.86000061035156,
+      "change_1d": -3.5329180901425006,
+      "change_3d": -10.299380613942056,
+      "rsi": 17.43086841304256,
+      "volume_ratio": 1.2936093050427508,
+      "technical_score": 75,
+      "fundamental_score": 80,
+      "combined_score": 77.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 17.4, indicating a potential for mean reversion. The high volume ratio and the proximity to the 52-week low also suggest potential exhaustion. However, the gap today might indicate a continuation of the downward trend, but it could potentially be filled in the near future.",
+      "fundamental_reason": "Recent selloff likely due to sector rotation and macroeconomic concerns rather than company-specific issues. COIN remains a quality player with strong fundamentals, and the drop appears overcorrected, suggesting mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        184.1,
+        189.74
+      ],
+      "target": 206.65,
+      "stop": 178.47
+    }
+  ],
+  "top_fades": []
+}

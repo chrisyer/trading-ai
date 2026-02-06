@@ -1,9 +1,9 @@
 {
   "symbol": "SPY",
   "action": "SELL",
-  "price": 695.4600219726562,
+  "price": 677.4400024414062,
   "confidence": 70,
-  "timestamp": "2026-02-03T08:33:31.070948",
+  "timestamp": "2026-02-06T00:12:26.646731",
   "source": "SPY_HUNTER_RL",
   "env_info": {
     "stop_hunt": 

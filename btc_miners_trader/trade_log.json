@@ -79,5 +79,635 @@
     "price": 5.5,
     "position_id": 27,
     "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-01-30T16:18:23.793093",
+    "symbol": "CIFR",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $16.26 <= Stop $16.29 (-8.1%)",
+    "price": 16.264999389648438,
+    "position_id": 32,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-01-30T17:19:00.597752",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $6.65 <= Stop $6.73 (-30.8%)",
+    "price": 6.65,
+    "position_id": 34,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-01-30T18:34:52.023262",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $5.80 <= Stop $5.81 (-30.1%)",
+    "price": 5.8,
+    "position_id": 35,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-01-30T18:50:04.144281",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $5.50 <= Stop $5.71 (-32.5%)",
+    "price": 5.5,
+    "position_id": 36,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-01-30T18:50:06.531887",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $5.50 <= Stop $5.56 (-30.8%)",
+    "price": 5.5,
+    "position_id": 39,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T14:33:04.683839",
+    "symbol": "CLSK",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $11.24 <= Stop $11.58 (-10.7%)",
+    "price": 11.239999771118164,
+    "position_id": 31,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T15:03:19.221789",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.80 <= Stop $5.18 (-35.1%)",
+    "price": 4.8,
+    "position_id": 37,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T15:03:19.644421",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.80 <= Stop $4.90 (-31.4%)",
+    "price": 4.8,
+    "position_id": 38,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T15:03:20.418758",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.80 <= Stop $5.18 (-35.1%)",
+    "price": 4.8,
+    "position_id": 40,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T15:03:20.852989",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.80 <= Stop $5.04 (-33.3%)",
+    "price": 4.8,
+    "position_id": 41,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T15:18:26.699043",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.15 <= Stop $4.79 (-39.4%)",
+    "price": 4.15,
+    "position_id": 43,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T15:18:27.225746",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.15 <= Stop $4.76 (-39.0%)",
+    "price": 4.15,
+    "position_id": 44,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T15:18:28.674929",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.15 <= Stop $4.17 (-30.3%)",
+    "price": 4.15,
+    "position_id": 48,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T15:18:29.135109",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.15 <= Stop $4.30 (-32.5%)",
+    "price": 4.15,
+    "position_id": 49,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T15:18:29.819649",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.15 <= Stop $4.34 (-33.1%)",
+    "price": 4.15,
+    "position_id": 50,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T18:04:45.221075",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "TP_HIT: Price $5.70 >= Target $5.46 (+35.7%)",
+    "price": 5.7,
+    "position_id": 54,
+    "source": "TP_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T18:19:52.732367",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "TP_HIT: Price $6.25 >= Target $5.72 (+42.0%)",
+    "price": 6.25,
+    "position_id": 53,
+    "source": "TP_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T18:19:53.294518",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "TP_HIT: Price $6.25 >= Target $6.24 (+30.2%)",
+    "price": 6.25,
+    "position_id": 55,
+    "source": "TP_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T18:19:53.850305",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "TP_HIT: Price $6.25 >= Target $5.98 (+35.9%)",
+    "price": 6.25,
+    "position_id": 56,
+    "source": "TP_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T18:19:55.358683",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "TP_HIT: Price $6.25 >= Target $6.05 (+34.4%)",
+    "price": 6.25,
+    "position_id": 58,
+    "source": "TP_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T18:19:55.912157",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "TP_HIT: Price $6.25 >= Target $6.17 (+31.6%)",
+    "price": 6.25,
+    "position_id": 59,
+    "source": "TP_AUTO"
+  },
+  {
+    "timestamp": "2026-02-02T18:19:56.520104",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "TP_HIT: Price $6.25 >= Target $6.17 (+31.6%)",
+    "price": 6.25,
+    "position_id": 60,
+    "source": "TP_AUTO"
+  },
+  {
+    "timestamp": "2026-02-03T19:31:48.543798",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.05 <= Stop $4.27 (-33.6%)",
+    "price": 4.05,
+    "position_id": 61,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-03T19:31:49.000533",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.05 <= Stop $4.27 (-33.6%)",
+    "price": 4.05,
+    "position_id": 62,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-03T19:31:50.169243",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.05 <= Stop $4.13 (-31.4%)",
+    "price": 4.05,
+    "position_id": 66,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-03T19:31:50.603162",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.05 <= Stop $4.09 (-30.8%)",
+    "price": 4.05,
+    "position_id": 67,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-03T19:31:51.034016",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.05 <= Stop $4.23 (-33.1%)",
+    "price": 4.05,
+    "position_id": 68,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-03T19:31:51.509712",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.05 <= Stop $4.23 (-33.1%)",
+    "price": 4.05,
+    "position_id": 69,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-03T19:31:51.937655",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.05 <= Stop $4.23 (-33.1%)",
+    "price": 4.05,
+    "position_id": 70,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T14:52:13.420090",
+    "symbol": "CLSK",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $10.66 <= Stop $10.70 (-8.3%)",
+    "price": 10.664999961853027,
+    "position_id": 46,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T14:52:13.835243",
+    "symbol": "CIFR",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $14.71 <= Stop $14.74 (-8.2%)",
+    "price": 14.71030044555664,
+    "position_id": 47,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T14:52:14.919493",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $49.35 <= Stop $49.41 (-8.1%)",
+    "price": 49.349300384521484,
+    "position_id": 63,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T14:52:15.516005",
+    "symbol": "CIFR",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $14.71 <= Stop $14.84 (-8.8%)",
+    "price": 14.71030044555664,
+    "position_id": 65,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T15:07:18.728853",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $47.98 <= Stop $49.33 (-10.5%)",
+    "price": 47.97990036010742,
+    "position_id": 45,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T15:07:19.212450",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $6.10 <= Stop $6.19 (-31.1%)",
+    "price": 6.1,
+    "position_id": 51,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T15:07:20.094548",
+    "symbol": "CLSK",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $10.39 <= Stop $10.45 (-8.5%)",
+    "price": 10.392000198364258,
+    "position_id": 64,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T15:07:20.809286",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $3.55 <= Stop $4.17 (-40.3%)",
+    "price": 3.55,
+    "position_id": 72,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T15:07:21.581872",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $3.55 <= Stop $3.85 (-35.5%)",
+    "price": 3.55,
+    "position_id": 74,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T15:37:27.845551",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $7.60 <= Stop $7.91 (-32.7%)",
+    "price": 7.6,
+    "position_id": 73,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T16:07:35.019530",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $3.15 <= Stop $3.50 (-37.0%)",
+    "price": 3.15,
+    "position_id": 57,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T16:37:43.470420",
+    "symbol": "CLSK",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $10.03 <= Stop $10.09 (-8.5%)",
+    "price": 10.029999732971191,
+    "position_id": 71,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T16:52:47.720138",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $2.95 <= Stop $3.04 (-32.2%)",
+    "price": 2.95,
+    "position_id": 75,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T17:07:52.591156",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $2.77 <= Stop $2.83 (-31.6%)",
+    "price": 2.77,
+    "position_id": 77,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T17:07:53.018091",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $2.77 <= Stop $2.80 (-30.8%)",
+    "price": 2.77,
+    "position_id": 79,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T18:23:17.598648",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $2.58 <= Stop $2.62 (-31.2%)",
+    "price": 2.58,
+    "position_id": 80,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T18:53:28.758459",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $2.50 <= Stop $2.52 (-30.6%)",
+    "price": 2.5,
+    "position_id": 76,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T18:53:32.561741",
+    "symbol": "CIFR",
+    "action": "SELL",
+    "reason": "TP_HIT: Price $16.26 >= Target $15.05 (+24.3%)",
+    "price": 16.260000228881836,
+    "position_id": 94,
+    "source": "TP_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T19:53:53.701722",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $2.36 <= Stop $2.38 (-30.6%)",
+    "price": 2.36,
+    "position_id": 82,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T19:53:54.240957",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $2.36 <= Stop $2.42 (-31.6%)",
+    "price": 2.36,
+    "position_id": 84,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-04T19:53:55.339697",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $2.36 <= Stop $2.42 (-31.6%)",
+    "price": 2.36,
+    "position_id": 88,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T15:02:14.428249",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.55 <= Stop $2.06 (-47.5%)",
+    "price": 1.55,
+    "position_id": 86,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T15:02:14.859012",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $4.95 <= Stop $6.02 (-42.4%)",
+    "price": 4.95,
+    "position_id": 87,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T15:02:15.977798",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.55 <= Stop $2.05 (-47.1%)",
+    "price": 1.55,
+    "position_id": 92,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T15:02:16.629208",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.55 <= Stop $1.93 (-43.8%)",
+    "price": 1.55,
+    "position_id": 95,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T15:02:17.136251",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.55 <= Stop $1.75 (-38.0%)",
+    "price": 1.55,
+    "position_id": 96,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T15:02:17.565033",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.55 <= Stop $1.86 (-41.7%)",
+    "price": 1.55,
+    "position_id": 97,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T15:32:23.234751",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $40.20 <= Stop $41.37 (-10.6%)",
+    "price": 40.20000076293945,
+    "position_id": 91,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T15:32:23.647737",
+    "symbol": "CLSK",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $9.02 <= Stop $9.27 (-10.5%)",
+    "price": 9.01990032196045,
+    "position_id": 93,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T15:32:24.178302",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.84 <= Stop $1.85 (-30.3%)",
+    "price": 1.84,
+    "position_id": 99,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T16:02:29.659052",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.50 <= Stop $1.50 (-30.2%)",
+    "price": 1.5,
+    "position_id": 100,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T19:18:39.084689",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.27 <= Stop $1.28 (-30.6%)",
+    "price": 1.27,
+    "position_id": 101,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T19:18:40.173311",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.27 <= Stop $1.32 (-32.8%)",
+    "price": 1.27,
+    "position_id": 103,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T19:33:46.259730",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.15 <= Stop $1.19 (-32.4%)",
+    "price": 1.15,
+    "position_id": 102,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T19:33:46.693136",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.15 <= Stop $1.26 (-36.1%)",
+    "price": 1.15,
+    "position_id": 104,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T19:33:47.806090",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.15 <= Stop $1.26 (-36.1%)",
+    "price": 1.15,
+    "position_id": 106,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T19:33:48.254709",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.15 <= Stop $1.27 (-36.5%)",
+    "price": 1.15,
+    "position_id": 107,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T19:33:48.699679",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.15 <= Stop $1.22 (-34.3%)",
+    "price": 1.15,
+    "position_id": 108,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T19:33:49.211820",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.15 <= Stop $1.16 (-30.7%)",
+    "price": 1.15,
+    "position_id": 109,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T20:49:12.560262",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $1.14 <= Stop $1.15 (-30.5%)",
+    "price": 1.14,
+    "position_id": 105,
+    "source": "SL_AUTO"
+  },
+  {
+    "timestamp": "2026-02-05T21:19:25.598585",
+    "symbol": "IREN",
+    "action": "SELL",
+    "reason": "SL_HIT: Price $0.94 <= Stop $0.95 (-30.9%)",
+    "price": 0.94,
+    "position_id": 116,
+    "source": "SL_AUTO"
   }
 ]

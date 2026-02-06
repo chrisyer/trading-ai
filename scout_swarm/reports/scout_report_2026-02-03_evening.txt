@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-03
+   Scanned: 20 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 PINS @ $20.77
+   Move: -7.1% (3d) | RSI: 11
+   Score: 86/100 (HIGH)
+   Tech: The stock PINS has shown significant negative price movement over the past few days (-11.3% in 5 days), which indicates a potential for mean reversion. The RSI(14) is at 10.6, indicating an oversold condition. Additionally, the volume ratio is slightly above the 20-day average, suggesting some level of selling pressure but not necessarily exhaustion. The stock is also close to its 52-week low (-49.2%). However, today's gap is only -0.9%, which is a relatively small gap and might not contribute significantly to the mean reversion potential.
+   Fund: Low P/E suggests undervaluation; no reported earnings misses or company-specific issues; likely sector rotation or temporary selloff.
+   Entry: $20.35-$20.98
+   Target: $22.85 | Stop: $19.73
+
+#2 ORCL @ $154.67
+   Move: -8.5% (3d) | RSI: 16
+   Score: 86/100 (HIGH)
+   Tech: ORCL has shown a significant drop in the past 5 days (-11.6%), reaching an oversold condition with RSI(14) at 15.6. The stock is also close to its 52-week low (30.1%) and there was high volume on the recent move (1.6x vs 20d avg). Additionally, today's gap indicates potential for a fill.
+   Fund: Temporary selloff likely due to sector rotation and macro concerns; no company-specific issues. High-quality blue-chip with strong fundamentals and oversold technicals.
+   Entry: $151.58-$156.22
+   Target: $170.14 | Stop: $146.94
+
+#3 SHOP @ $119.29
+   Move: -17.0% (3d) | RSI: 14
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 13.6, indicating a potential for mean reversion. The high volume ratio (2.6x) suggests capitulation or exhaustion among sellers. Additionally, the stock is currently at 70.8% from its 52-week low, which is near an extreme level and could indicate a potential reversal. However, the small gap today (-0.6%) might not significantly contribute to the mean reversion potential.
+   Fund: SHOP is a quality tech company with a high P/E ratio. The selloff likely reflects sector rotation and market volatility, not company-specific issues. No fundamental red flags reported, suggesting strong mean reversion potential.
+   Entry: $116.90-$120.48
+   Target: $131.22 | Stop: $113.33
+
+#4 ADBE @ $271.93
+   Move: -6.8% (3d) | RSI: 24
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold (RSI of 24.5), indicating a potential rebound. It's also close to its 52-week low and has experienced high volume on the recent move, which could suggest capitulation or exhaustion. Additionally, there was a gap today, which can sometimes indicate a potential gap fill.
+   Fund: Strong fundamentals with no recent earnings misses or guidance cuts. Drop likely due to sector rotation and broader market concerns, not company-specific issues. Low P/E suggests undervaluation.
+   Entry: $266.49-$274.65
+   Target: $299.12 | Stop: $258.33
+
+#5 MSTR @ $133.26
+   Move: -6.9% (3d) | RSI: 26
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 26.5, indicating a potential for mean reversion. Additionally, it's close to its 52-week low and has experienced high volume in the recent move, which could suggest capitulation or exhaustion. The gap today is small, but it can still be considered as a potential gap fill.
+   Fund: MSTR has a low P/E ratio (5.5) and strong balance sheet with Bitcoin reserves. Recent selloff likely due to sector rotation/macroeconomic fears, not company-specific issues. No earnings miss or guidance cut reported.
+   Entry: $130.59-$134.59
+   Target: $146.59 | Stop: $126.60
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

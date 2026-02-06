@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-04T23:04:24.856036",
+  "scan_date": "2026-02-04",
+  "stocks_scanned": 22,
+  "bounce_candidates": 22,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "ORCL",
+      "price": 146.6699981689453,
+      "change_1d": -5.172302382302762,
+      "change_3d": -10.882247820421354,
+      "rsi": 15.7771708077685,
+      "volume_ratio": 1.5341265131263664,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold as indicated by the RSI of 15.8, which is below the threshold of 30. Additionally, the high volume on a negative move suggests capitulation or exhaustion. The stock is also at the lower end of its 52-week range, indicating it may have reached an extreme and could potentially reverse direction. Lastly, while there was a small gap today, it doesn't seem to be a significant one that would indicate a strong reversal. However, given the other factors, it suggests a potential bounce.",
+      "fundamental_reason": "Oracle is a quality tech company with no fundamental issues reported. The selloff likely reflects sector rotation or broader market sentiment, not company-specific problems. Oversold blue-chip with strong fundamentals suggests high mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        143.74,
+        148.14
+      ],
+      "target": 161.34,
+      "stop": 139.34
+    },
+    {
+      "symbol": "COIN",
+      "price": 168.6199951171875,
+      "change_1d": -6.144945073965968,
+      "change_3d": -13.41276041860513,
+      "rsi": 2.0553915201179507,
+      "volume_ratio": 1.6911354428474186,
+      "technical_score": 85,
+      "fundamental_score": 75,
+      "combined_score": 81.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold as indicated by the RSI of 2.1 (below 30), and there has been a high volume on the recent move down (-19.5% in 5 days). Additionally, the price is at 62.1% below its 52-week high, suggesting it may be nearing a potential reversal. The gap today also contributes to the potential for a bounce.",
+      "fundamental_reason": "Sector rotation and temporary selloff likely drive the move, with no clear fundamental issues cited. P/E ratio suggests reasonable valuation, but not a blue-chip oversold scenario.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        165.25,
+        170.31
+      ],
+      "target": 185.48,
+      "stop": 160.19
+    },
+    {
+      "symbol": "SHOP",
+      "price": 114.0199966430664,
+      "change_1d": -4.417808895980125,
+      "change_3d": -13.114379063308224,
+      "rsi": 14.671015812238892,
+      "volume_ratio": 2.0270992043498586,
+      "technical_score": 85,
+      "fundamental_score": 75,
+      "combined_score": 81.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 14.7, indicating a potential rebound. The high volume ratio and the large distance from the 52-week high also suggest capitulation or exhaustion. Additionally, there is a gap today which could potentially be filled.",
+      "fundamental_reason": "Selloff likely driven by sector rotation and overvaluation (high P/E) rather than company-specific issues. Shopify remains a quality e-commerce platform with strong fundamentals, suggesting potential mean reversion as macro concerns ease.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        111.74,
+        115.16
+      ],
+      "target": 125.42,
+      "stop": 108.32
+    },
+    {
+      "symbol": "TSLA",
+      "price": 406.010009765625,
+      "change_1d": -3.779974882085746,
+      "change_3d": -5.66901180011593,
+      "rsi": 36.456373525489774,
+      "volume_ratio": 1.1877521591369458,
+      "technical_score": 85,
+      "fundamental_score": 75,
+      "combined_score": 81.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "TSLA's RSI is at 36.5, indicating it may be oversold. The stock is also close to its 52-week low with a distance of 89.5%. High volume ratio (1.2x) suggests significant trading activity. However, the small gap today might not contribute much to the score.",
+      "fundamental_reason": "Tesla is a quality company with no immediate fundamental issues. The drop likely reflects sector rotation and high P/E valuation correction, not company-specific problems. Mean reversion potential remains strong if the selloff is overextended.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        397.89,
+        410.07
+      ],
+      "target": 446.61,
+      "stop": 385.71
+    },
+    {
+      "symbol": "AMD",
+      "price": 200.19000244140625,
+      "change_1d": -17.314443047898198,
+      "change_3d": -15.435303487348506,
+      "rsi": 40.03914487421076,
+      "volume_ratio": 2.514711983132306,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 40.0 and a high volume on move (2.5x the 20-day average). Additionally, AMD is currently at -25.0% from its 52W High, indicating it may be due for a potential reversal. The large gap today also suggests potential for a gap fill.",
+      "fundamental_reason": "Sector rotation in tech, no company-specific issues, strong fundamentals with high P/E suggesting potential overcorrection",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        196.19,
+        202.19
+      ],
+      "target": 220.21,
+      "stop": 190.18
+    }
+  ],
+  "top_fades": []
+}

@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-05
+   Scanned: 25 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 ORCL @ $136.48
+   Move: -14.7% (3d) | RSI: 14
+   Score: 86/100 (HIGH)
+   Tech: ORCL has shown a significant drop in the past 5 days (-19.2%), indicating a potential for mean reversion. The RSI(14) is at a very low level of 14.4, suggesting oversold conditions. Additionally, the volume ratio is 1.3x higher than the 20-day average, which could indicate capitulation or exhaustion. Lastly, ORCL is currently 60.5% away from its 52-week high, indicating it may be nearing a potential reversal point.
+   Fund: Oracle is a high-quality tech company with no recent earnings misses or guidance cuts. The selloff aligns with sector rotation in tech, not company-specific issues. Oversold blue-chip with strong fundamentals.
+   Entry: $133.75-$137.84
+   Target: $150.13 | Stop: $129.66
+
+#2 CRM @ $189.97
+   Move: -9.9% (3d) | RSI: 18
+   Score: 86/100 (HIGH)
+   Tech: The stock CRM is significantly oversold with an RSI(14) of 18.2, indicating a potential for mean reversion. Additionally, the high volume on a move (-1.7x vs 20d avg) suggests capitulation or exhaustion. The stock is also at the lower end of its 52W range (-43.7%), which further supports the potential for a reversal. Lastly, there was a gap today (-2.7%), indicating potential for a gap fill.
+   Fund: High-quality SaaS leader with no recent earnings/guidance issues. Drop likely due to sector rotation and macro concerns (e.g., rate hikes impacting growth stocks). Oversold blue-chip with strong fundamentals.
+   Entry: $186.17-$191.87
+   Target: $208.97 | Stop: $180.47
+
+#3 MSTR @ $106.99
+   Move: -23.4% (3d) | RSI: 17
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 16.7, indicating a potential rebound. The high volume ratio and the large distance from the 52-week high also suggest capitulation or exhaustion. Additionally, there's a gap today which could potentially be filled, increasing the chances of a bounce.
+   Fund: Significant selloff likely due to sector rotation and Bitcoin-related volatility, not company-specific issues. Low P/E suggests undervaluation, indicating strong mean reversion potential.
+   Entry: $104.85-$108.06
+   Target: $117.69 | Stop: $101.64
+
+#4 QCOM @ $136.30
+   Move: -10.7% (3d) | RSI: 17
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 17.0, indicating a potential rebound. The high volume ratio and the large gap down suggest capitulation or exhaustion. Additionally, QCOM is currently at the lower end of its 52-week range, which could indicate a potential reversal.
+   Fund: Sector rotation and broader tech sell-off; no company-specific issues. Oversold blue-chip with strong fundamentals and high P/E suggesting potential overreaction.
+   Entry: $133.57-$137.66
+   Target: $149.93 | Stop: $129.49
+
+#5 NOW @ $102.63
+   Move: -13.0% (3d) | RSI: 24
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 24.4, indicating a potential reversal. The stock is also at the lower end of its 52-week range and has experienced high volume on the recent move down, which could suggest capitulation or exhaustion. Additionally, there is a gap today that may indicate a potential gap fill.
+   Fund: Temporary sector rotation in tech, no company-specific fundamental issues, and high P/E suggests potential overcorrection. Oversold blue-chip with strong long-term fundamentals.
+   Entry: $100.58-$103.66
+   Target: $112.89 | Stop: $97.50
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

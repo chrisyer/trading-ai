@@ -1,0 +1,59 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-03
+   Scanned: 15 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 COIN @ $187.86
+   Move: -10.3% (3d) | RSI: 17
+   Score: 85/100 (HIGH)
+   Tech: The stock COIN is significantly oversold with an RSI(14) of 17.4, indicating a potential for mean reversion. Additionally, the high volume on the recent move could suggest capitulation or exhaustion. Furthermore, the stock is currently at 52W low extremes and there was a gap today, both of which can indicate potential reversal points.
+   Fund: Quality company with temporary selloff; no fundamental issues reported; sector rotation likely, not company-specific; strong P/E ratio suggests undervaluation
+   Entry: $184.10-$189.74
+   Target: $206.65 | Stop: $178.47
+
+#2 SLV @ $72.44
+   Move: -31.4% (3d) | RSI: 47
+   Score: 80/100 (HIGH)
+   Tech: The stock SLV has a high score due to its current oversold condition indicated by the RSI of 46.6 (below the oversold threshold of 30). Additionally, it is at a distance of -34.0% from its 52-week high and has experienced a significant drop in the last 3 days (-31.4%) and 5 days (-26.3%), which could suggest exhaustion or capitulation. Furthermore, the volume ratio being 1.3x the 20-day average indicates higher than usual trading activity. However, the score is not a full 100 due to the stock not reaching its 52-week low (-172.6%), suggesting there may still be room for further downside before a potential reversal.
+   Fund: SLV is a blue-chip commodity ETF with no company-specific issues. The selloff likely reflects macro-driven sector rotation (e.g., interest rates, dollar strength) rather than fundamental problems. Oversold condition and large market cap suggest strong mean reversion potential.
+   Entry: $70.99-$73.16
+   Target: $79.68 | Stop: $68.82
+
+#3 MSTR @ $139.63
+   Move: -11.9% (3d) | RSI: 37
+   Score: 79/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 37.3 and a high volume on the move (1.2x average). Additionally, it's at the lower end of its 52-week range (-69.5% from high), indicating potential for mean reversion.
+   Fund: MSTR's selloff likely driven by sector rotation and macro concerns (e.g., interest rates, AI hype correction), not company-specific issues. Strong balance sheet, low P/E (5.7), and Bitcoin exposure suggest oversold blue-chip potential for mean reversion.
+   Entry: $136.84-$141.03
+   Target: $153.59 | Stop: $132.65
+
+#4 MARA @ $9.12
+   Move: -12.1% (3d) | RSI: 37
+   Score: 74/100 (MEDIUM)
+   Tech: The stock is oversold with a RSI of 36.6, indicating potential for mean reversion. Additionally, the volume ratio is slightly higher than average, suggesting some level of selling pressure. The stock is also close to its 52-week low, which can be another sign of potential reversal. However, it's not at the extremes and there's a gap today, which slightly reduces the mean reversion potential.
+   Fund: Low P/E ratio (3.5) suggests undervaluation; no reported earnings misses or company-specific news; likely sector rotation in Financial Services; strong mean reversion potential due to oversold fundamentals.
+   Entry: $8.94-$9.21
+   Target: $10.03 | Stop: $8.66
+
+#5 AMD @ $246.27
+   Move: -2.6% (3d) | RSI: 72
+   Score: 73/100 (MEDIUM)
+   Tech: The RSI is slightly overbought at 72.1 but not excessively so. The stock is currently -7.8% away from its 52-week high, indicating it's near a peak but not yet at an extreme level. However, the volume ratio and today's gap are not particularly significant in this case.
+   Fund: Quality company with temporary selloff; no fundamental issues reported; likely sector rotation or market volatility, not company-specific problems; high P/E suggests potential overreaction.
+   Entry: $241.34-$248.73
+   Target: $270.90 | Stop: $233.96
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+#1 MRNA @ $42.55
+   Move: -6.1% (3d) | RSI: 63
+   Score: 73/100 (MEDIUM)
+   Tech: MRNA is currently not oversold (RSI 63.2) and has a significant distance from its 52-week low (91.0%), indicating that it might not be due for a mean reversion yet. However, the stock has experienced a notable decline in the past five days (-11.3%) which could potentially lead to some correction. The high volume ratio compared to the 20-day average suggests some level of increased trading activity, but it doesn't necessarily indicate capitulation or exhaustion.
+   Fund: Recent selloff likely due to sector rotation and broader market volatility, not company-specific issues. Strong fundamentals with robust mRNA pipeline and profitability post-pandemic suggest temporary overreaction.
+   Entry: $42.12-$43.40
+   Target: $38.29 | Stop: $44.68
+
+══════════════════════════════════════════════════

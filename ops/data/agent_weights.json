@@ -1,0 +1,61 @@
+{
+  "quant": {
+    "weight": 1.0,
+    "accuracy": 0.5,
+    "bullish_accuracy": 0.5,
+    "bearish_accuracy": 0.5,
+    "total_predictions": 0,
+    "confidence_calibration": 1.0,
+    "best_timeframe": "1d",
+    "worst_conditions": []
+  },
+  "neo": {
+    "weight": 1.0,
+    "accuracy": 0.5,
+    "bullish_accuracy": 0.5,
+    "bearish_accuracy": 0.5,
+    "total_predictions": 0,
+    "confidence_calibration": 1.0,
+    "best_patterns": [],
+    "worst_patterns": []
+  },
+  "claudia": {
+    "weight": 1.0,
+    "accuracy": 0.5,
+    "bullish_accuracy": 0.5,
+    "bearish_accuracy": 0.5,
+    "total_predictions": 0,
+    "confidence_calibration": 1.0,
+    "best_sectors": [],
+    "catalyst_accuracy": 0.5
+  },
+  "sentinel": {
+    "weight": 1.0,
+    "pattern_accuracy": {},
+    "alert_accuracy": 0.5,
+    "false_positive_rate": 0.2,
+    "total_alerts": 0
+  },
+  "scouts": {
+    "tech_titan": {
+      "weight": 1.0,
+      "accuracy": 0.5
+    },
+    "energy_eagle": {
+      "weight": 1.0,
+      "accuracy": 0.5
+    },
+    "miner_hawk": {
+      "weight": 1.0,
+      "accuracy": 0.5
+    },
+    "growth_hunter": {
+      "weight": 1.0,
+      "accuracy": 0.5
+    },
+    "defense_fortress": {
+      "weight": 1.0,
+      "accuracy": 0.5
+    }
+  }
+}

@@ -1,85 +1,85 @@
 {
-  "timestamp": "2026-02-03T08:33:20.076527",
+  "timestamp": "2026-02-06T00:48:39.401391",
   "source": "MQL5 Top Signals",
   "consensus_signals": [],
   "top_traders_positions": [],
   "top_signals": [
     {
       "name": "Daily Gold Sniper",
-      "growth_pct": 925.33,
+      "growth_pct": 993.13,
       "drawdown": 34.3,
       "subscribers": 0,
       "url": "https://www.mql5.com/en/signals/2284676"
     },
     {
       "name": "Tharos II LiquidityMinerEA",
-      "growth_pct": 881.2,
+      "growth_pct": 900.67,
       "drawdown": 46.7,
       "subscribers": 0,
       "url": "https://www.mql5.com/en/signals/1059619"
     },
     {
       "name": "FXtrading",
-      "growth_pct": 831.01,
+      "growth_pct": 831.4,
       "drawdown": 14.1,
       "subscribers": 0,
       "url": "https://www.mql5.com/en/signals/2356441"
     },
     {
-      "name": "Aghost",
-      "growth_pct": 781.39,
-      "drawdown": 19.1,
+      "name": "Steady",
+      "growth_pct": 545.42,
+      "drawdown": 22.2,
       "subscribers": 0,
-      "url": "https://www.mql5.com/en/signals/2333819"
-    },
-    {
-      "name": "Gold Reaper Goldtrade Pro Daytrade Pro",
-      "growth_pct": 746.53,
-      "drawdown": 32.6,
-      "subscribers": 0,
-      "url": "https://www.mql5.com/en/signals/2204998"
-    },
-    {
-      "name": "Scalp IC Markets MT5",
-      "growth_pct": 723.73,
-      "drawdown": 32.9,
-      "subscribers": 0,
-      "url": "https://www.mql5.com/en/signals/1560883"
-    },
-    {
-      "name": "MSC Gold Stable Pro",
-      "growth_pct": 687.92,
-      "drawdown": 33.7,
-      "subscribers": 0,
-      "url": "https://www.mql5.com/en/signals/2231030"
+      "url": "https://www.mql5.com/en/signals/2303631"
     },
     {
       "name": "XAU For Living",
-      "growth_pct": 485.9,
+      "growth_pct": 533.09,
       "drawdown": 20.7,
       "subscribers": 0,
       "url": "https://www.mql5.com/en/signals/2327733"
     },
     {
       "name": "Falqonea pro _Robofxea Pro",
-      "growth_pct": 443.31,
+      "growth_pct": 478.76,
       "drawdown": 18.7,
       "subscribers": 0,
       "url": "https://www.mql5.com/en/signals/2329641"
     },
     {
-      "name": "Techno Long term",
-      "growth_pct": 409.25,
-      "drawdown": 38.6,
+      "name": "King222",
+      "growth_pct": 423.61,
+      "drawdown": 21.7,
       "subscribers": 0,
-      "url": "https://www.mql5.com/en/signals/2307342"
+      "url": "https://www.mql5.com/en/signals/2335155"
+    },
+    {
+      "name": "GoldWave signal",
+      "growth_pct": 414.46,
+      "drawdown": 15.0,
+      "subscribers": 0,
+      "url": "https://www.mql5.com/en/signals/2339082"
+    },
+    {
+      "name": "The Pursuit of Happyness",
+      "growth_pct": 413.89,
+      "drawdown": 4.3,
+      "subscribers": 0,
+      "url": "https://www.mql5.com/en/signals/2337989"
+    },
+    {
+      "name": "Gold V2 Lmax 100",
+      "growth_pct": 372.29,
+      "drawdown": 29.0,
+      "subscribers": 0,
+      "url": "https://www.mql5.com/en/signals/2340140"
     }
   ],
   "summary": {
-    "total_signals_tracked": 20,
+    "total_signals_tracked": 19,
     "total_positions_found": 0,
     "consensus_count": 0,
     "confidence_boost": 0,
-    "top_growth": 925.33
+    "top_growth": 993.13
   }
 }

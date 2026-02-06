@@ -55,6 +55,56 @@ RESULTS_DIR.mkdir(exist_ok=True)
 LEARNING_FILE = DATA_DIR / "learning_stats.json"
 
 # ═══════════════════════════════════════════════════════════════════════════════
+# SIGNAL STATE TRACKING - CRITICAL FIX FOR EA POSITION STACKING
+# ═══════════════════════════════════════════════════════════════════════════════
+# 
+# BUG: Previously generated new signal_id every 60 seconds regardless of direction
+# RESULT: EAs saw "new signal" and opened positions → 8 stacked SELLs in minutes
+# 
+# FIX: Only generate new signal_id when DIRECTION CHANGES
+# Same direction = same signal_id = EAs don't open duplicate positions
+#
+_signal_state = {
+    "last_direction": None,        # BUY, SELL, HOLD, or None
+    "current_signal_id": None,     # Current signal ID (only changes on direction change)
+    "direction_since": None,       # When this direction started
+    "signals_same_direction": 0,   # How many signals generated with same direction
+}
+
+def get_or_create_signal_id(new_direction: str) -> tuple:
+    """
+    Get signal_id - ONLY creates new ID when direction changes.
+    
+    Returns: (signal_id, is_new_signal, direction_age_seconds)
+    """
+    global _signal_state
+    
+    now = datetime.utcnow()
+    
+    # Direction changed? Create new signal_id
+    if new_direction != _signal_state["last_direction"]:
+        new_id = f"NEO_XAUUSD_{now.strftime('%Y%m%d_%H%M%S')}"
+        
+        logger.info(f"🔄 DIRECTION CHANGE: {_signal_state['last_direction']} → {new_direction}")
+        logger.info(f"📝 NEW signal_id: {new_id}")
+        
+        _signal_state["last_direction"] = new_direction
+        _signal_state["current_signal_id"] = new_id
+        _signal_state["direction_since"] = now
+        _signal_state["signals_same_direction"] = 1
+        
+        return new_id, True, 0
+    
+    # Same direction - keep same signal_id
+    _signal_state["signals_same_direction"] += 1
+    direction_age = (now - _signal_state["direction_since"]).total_seconds() if _signal_state["direction_since"] else 0
+    
+    logger.info(f"↔️ SAME DIRECTION: {new_direction} (signal #{_signal_state['signals_same_direction']}, age: {direction_age:.0f}s)")
+    
+    return _signal_state["current_signal_id"], False, direction_age
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
 # FASTAPI APP
 # ═══════════════════════════════════════════════════════════════════════════════
 
@@ -1627,6 +1677,9 @@ def generate_fresh_xauusd_signal(current_price: float) -> Dict:
         distance_from_entry = abs(current_price - optimal_entry)
         in_entry_zone = distance_from_entry < atr * 0.5
         
+        # CRITICAL: Get signal_id that only changes on direction change
+        signal_id, is_new_signal, direction_age = get_or_create_signal_id(direction)
+        
         signal = {
             "symbol": "XAUUSD",
             "signal_type": "FRESH_INTRADAY",
@@ -1666,7 +1719,12 @@ def generate_fresh_xauusd_signal(current_price: float) -> Dict:
             },
             
             "last_updated": datetime.utcnow().isoformat(),
-            "signal_id": f"NEO_XAUUSD_FRESH_{datetime.utcnow().strftime('%Y%m%d_%H%M')}"
+            
+            # CRITICAL: Signal ID only changes when direction changes!
+            "signal_id": signal_id,
+            "is_new_signal": is_new_signal,
+            "direction_age_seconds": int(direction_age),
+            "signals_same_direction": _signal_state["signals_same_direction"]
         }
         
         logger.info(f"✅ FRESH SIGNAL: {direction} @ ${optimal_entry:.0f} (conf: {confidence}%)")
@@ -2496,6 +2554,10 @@ async def get_unified_xauusd_signal():
         consensus_confidence = neo_confidence * 0.75
         consensus_reason = f"Following NEO ({neo_action}) with caution"
     
+    # CRITICAL: Get signal_id - ONLY changes when direction changes!
+    # This prevents EAs from stacking positions on the same direction
+    signal_id, is_new_signal, direction_age = get_or_create_signal_id(consensus_action)
+    
     # Build unified response
     return {
         "symbol": "XAUUSD",
@@ -2543,7 +2605,13 @@ async def get_unified_xauusd_signal():
         "supertrend_confidence": neo_signal.get("supertrend", {}).get("confidence", 50) if isinstance(neo_signal.get("supertrend"), dict) else 50,
         
         "last_updated": datetime.utcnow().isoformat(),
-        "signal_id": f"UNIFIED_XAUUSD_{datetime.utcnow().strftime('%Y%m%d_%H%M')}"
+        
+        # CRITICAL FIX: signal_id only changes on DIRECTION CHANGE
+        # Prevents EAs from stacking 8 SELLs in 8 minutes!
+        "signal_id": signal_id,
+        "is_new_signal": is_new_signal,  # True = direction just changed, EAs can open position
+        "direction_age_seconds": int(direction_age),  # How long this direction has been active
+        "signals_same_direction": _signal_state["signals_same_direction"]  # How many signals with same direction
     }
 
 
@@ -2754,6 +2822,148 @@ async def get_gold_thesis():
         "2035_target": 50000,
         "bias": "EXTREME_LONG",
         "file_missing": True
+    }
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# HEALTH CHECK & MONITORING
+# ═══════════════════════════════════════════════════════════════════════════════
+# CRITICAL: This endpoint must ALWAYS work. If it fails, the system is broken.
+
+_health_stats = {
+    "signals_generated_24h": 0,
+    "last_signal_time": None,
+    "api_errors_consecutive": 0,
+    "last_error": None,
+    "service_start_time": datetime.utcnow().isoformat()
+}
+
+
+@app.get("/api/neo/health")
+async def get_health_status():
+    """
+    CRITICAL HEALTH CHECK ENDPOINT
+    
+    This endpoint is monitored. If it returns unhealthy:
+    - Alert is triggered
+    - Service needs immediate attention
+    - $5k/month H100 value is questioned
+    
+    Returns:
+        {
+            "status": "healthy" | "degraded" | "critical",
+            "last_signal_generated": "ISO timestamp",
+            "signals_generated_24h": count,
+            "ghost_directives_age_seconds": seconds since last update,
+            "api_latency_ms": response time,
+            "details": {...}
+        }
+    """
+    import time
+    start_time = time.time()
+    
+    issues = []
+    status = "healthy"
+    
+    # Check 1: ghost_directives.txt freshness
+    directives_file = Path("/home/jbot/trading_ai/intel/ghost_directives.txt")
+    directives_age = 999999
+    if directives_file.exists():
+        directives_age = (datetime.utcnow() - datetime.fromtimestamp(directives_file.stat().st_mtime)).total_seconds()
+        if directives_age > 120:  # More than 2 minutes old
+            issues.append(f"ghost_directives.txt is {directives_age:.0f}s old (should be < 120s)")
+            status = "degraded"
+        if directives_age > 300:  # More than 5 minutes
+            status = "critical"
+    else:
+        issues.append("ghost_directives.txt does not exist!")
+        status = "critical"
+    
+    # Check 2: Fresh signal file
+    signal_file = Path("/home/jbot/trading_ai/neo/signals/xauusd_fresh_signal.json")
+    signal_age = 999999
+    last_signal_time = None
+    if signal_file.exists():
+        signal_age = (datetime.utcnow() - datetime.fromtimestamp(signal_file.stat().st_mtime)).total_seconds()
+        last_signal_time = datetime.fromtimestamp(signal_file.stat().st_mtime).isoformat() + "Z"
+        if signal_age > 120:
+            issues.append(f"xauusd_fresh_signal.json is {signal_age:.0f}s old")
+            if status == "healthy":
+                status = "degraded"
+        if signal_age > 300:
+            status = "critical"
+    else:
+        issues.append("xauusd_fresh_signal.json does not exist!")
+        status = "critical"
+    
+    # Check 3: Signal generator service
+    try:
+        import subprocess
+        result = subprocess.run(
+            ["pm2", "jlist"],
+            capture_output=True,
+            text=True,
+            timeout=5
+        )
+        pm2_data = json.loads(result.stdout)
+        signal_gen = next((p for p in pm2_data if p.get("name") == "neo-signal-generator"), None)
+        
+        if signal_gen:
+            if signal_gen.get("pm2_env", {}).get("status") != "online":
+                issues.append(f"neo-signal-generator is {signal_gen.get('pm2_env', {}).get('status', 'unknown')}")
+                status = "critical"
+            restarts = signal_gen.get("pm2_env", {}).get("restart_time", 0)
+            if restarts > 5:
+                issues.append(f"neo-signal-generator has restarted {restarts} times")
+        else:
+            issues.append("neo-signal-generator service not found in PM2!")
+            status = "critical"
+    except Exception as e:
+        issues.append(f"Could not check PM2: {str(e)[:50]}")
+    
+    # Check 4: API can generate signal
+    api_healthy = False
+    try:
+        # Quick test - can we generate a signal?
+        import yfinance as yf
+        gold = yf.Ticker("GC=F")
+        price = gold.fast_info.get("lastPrice", 0)
+        if price > 0:
+            api_healthy = True
+        else:
+            issues.append("Cannot fetch gold price from yfinance")
+            if status == "healthy":
+                status = "degraded"
+    except Exception as e:
+        issues.append(f"API test failed: {str(e)[:50]}")
+        if status == "healthy":
+            status = "degraded"
+    
+    # Calculate response time
+    latency_ms = (time.time() - start_time) * 1000
+    
+    # Count signals in last 24h (approximate from file count)
+    signals_24h = 0
+    try:
+        signal_dir = Path("/home/jbot/trading_ai/neo/signals")
+        cutoff = datetime.utcnow() - timedelta(hours=24)
+        for f in signal_dir.glob("signal_*.json"):
+            if datetime.fromtimestamp(f.stat().st_mtime) > cutoff:
+                signals_24h += 1
+    except:
+        pass
+    
+    return {
+        "status": status,
+        "last_signal_generated": last_signal_time,
+        "signals_generated_24h": signals_24h,
+        "ghost_directives_age_seconds": int(directives_age),
+        "signal_file_age_seconds": int(signal_age),
+        "api_latency_ms": round(latency_ms, 1),
+        "api_can_generate": api_healthy,
+        "issues": issues if issues else None,
+        "service_uptime": _health_stats.get("service_start_time"),
+        "checked_at": datetime.utcnow().isoformat() + "Z"
     }
 
 

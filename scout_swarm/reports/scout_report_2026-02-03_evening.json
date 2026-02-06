@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-03T23:04:24.258146",
+  "scan_date": "2026-02-03",
+  "stocks_scanned": 20,
+  "bounce_candidates": 19,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "PINS",
+      "price": 20.770000457763672,
+      "change_1d": -5.590907010165125,
+      "change_3d": -7.069350768405469,
+      "rsi": 10.648149783392284,
+      "volume_ratio": 1.1236448635288596,
+      "technical_score": 85,
+      "fundamental_score": 88,
+      "combined_score": 86.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock PINS has shown significant negative price movement over the past few days (-11.3% in 5 days), which indicates a potential for mean reversion. The RSI(14) is at 10.6, indicating an oversold condition. Additionally, the volume ratio is slightly above the 20-day average, suggesting some level of selling pressure but not necessarily exhaustion. The stock is also close to its 52-week low (-49.2%). However, today's gap is only -0.9%, which is a relatively small gap and might not contribute significantly to the mean reversion potential.",
+      "fundamental_reason": "Low P/E suggests undervaluation; no reported earnings misses or company-specific issues; likely sector rotation or temporary selloff.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        20.35,
+        20.98
+      ],
+      "target": 22.85,
+      "stop": 19.73
+    },
+    {
+      "symbol": "ORCL",
+      "price": 154.6699981689453,
+      "change_1d": -3.367486862340663,
+      "change_3d": -8.4847031560081,
+      "rsi": 15.622270886667167,
+      "volume_ratio": 1.6364405069188634,
+      "technical_score": 85,
+      "fundamental_score": 88,
+      "combined_score": 86.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "ORCL has shown a significant drop in the past 5 days (-11.6%), reaching an oversold condition with RSI(14) at 15.6. The stock is also close to its 52-week low (30.1%) and there was high volume on the recent move (1.6x vs 20d avg). Additionally, today's gap indicates potential for a fill.",
+      "fundamental_reason": "Temporary selloff likely due to sector rotation and macro concerns; no company-specific issues. High-quality blue-chip with strong fundamentals and oversold technicals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        151.58,
+        156.22
+      ],
+      "target": 170.14,
+      "stop": 146.94
+    },
+    {
+      "symbol": "SHOP",
+      "price": 119.29000091552734,
+      "change_1d": -9.765504032325545,
+      "change_3d": -16.952101488156856,
+      "rsi": 13.638438303622564,
+      "volume_ratio": 2.564201624320135,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 13.6, indicating a potential for mean reversion. The high volume ratio (2.6x) suggests capitulation or exhaustion among sellers. Additionally, the stock is currently at 70.8% from its 52-week low, which is near an extreme level and could indicate a potential reversal. However, the small gap today (-0.6%) might not significantly contribute to the mean reversion potential.",
+      "fundamental_reason": "SHOP is a quality tech company with a high P/E ratio. The selloff likely reflects sector rotation and market volatility, not company-specific issues. No fundamental red flags reported, suggesting strong mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        116.9,
+        120.48
+      ],
+      "target": 131.22,
+      "stop": 113.33
+    },
+    {
+      "symbol": "ADBE",
+      "price": 271.92999267578125,
+      "change_1d": -7.311340871917715,
+      "change_3d": -6.761529790294585,
+      "rsi": 24.48978922870161,
+      "volume_ratio": 1.609594446677179,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold (RSI of 24.5), indicating a potential rebound. It's also close to its 52-week low and has experienced high volume on the recent move, which could suggest capitulation or exhaustion. Additionally, there was a gap today, which can sometimes indicate a potential gap fill.",
+      "fundamental_reason": "Strong fundamentals with no recent earnings misses or guidance cuts. Drop likely due to sector rotation and broader market concerns, not company-specific issues. Low P/E suggests undervaluation.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        266.49,
+        274.65
+      ],
+      "target": 299.12,
+      "stop": 258.33
+    },
+    {
+      "symbol": "MSTR",
+      "price": 133.25999450683594,
+      "change_1d": -4.562064136087896,
+      "change_3d": -6.934847241610809,
+      "rsi": 26.48277728282021,
+      "volume_ratio": 1.1481073745001948,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 26.5, indicating a potential for mean reversion. Additionally, it's close to its 52-week low and has experienced high volume in the recent move, which could suggest capitulation or exhaustion. The gap today is small, but it can still be considered as a potential gap fill.",
+      "fundamental_reason": "MSTR has a low P/E ratio (5.5) and strong balance sheet with Bitcoin reserves. Recent selloff likely due to sector rotation/macroeconomic fears, not company-specific issues. No earnings miss or guidance cut reported.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        130.59,
+        134.59
+      ],
+      "target": 146.59,
+      "stop": 126.6
+    }
+  ],
+  "top_fades": []
+}

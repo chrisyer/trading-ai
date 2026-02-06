@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-05T23:04:51.816681",
+  "scan_date": "2026-02-05",
+  "stocks_scanned": 25,
+  "bounce_candidates": 25,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "ORCL",
+      "price": 136.47999572753906,
+      "change_1d": -6.9475711247154015,
+      "change_3d": -14.73197687787211,
+      "rsi": 14.424719372202546,
+      "volume_ratio": 1.298184662395546,
+      "technical_score": 85,
+      "fundamental_score": 88,
+      "combined_score": 86.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "ORCL has shown a significant drop in the past 5 days (-19.2%), indicating a potential for mean reversion. The RSI(14) is at a very low level of 14.4, suggesting oversold conditions. Additionally, the volume ratio is 1.3x higher than the 20-day average, which could indicate capitulation or exhaustion. Lastly, ORCL is currently 60.5% away from its 52-week high, indicating it may be nearing a potential reversal point.",
+      "fundamental_reason": "Oracle is a high-quality tech company with no recent earnings misses or guidance cuts. The selloff aligns with sector rotation in tech, not company-specific issues. Oversold blue-chip with strong fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        133.75,
+        137.84
+      ],
+      "target": 150.13,
+      "stop": 129.66
+    },
+    {
+      "symbol": "CRM",
+      "price": 189.97000122070312,
+      "change_1d": -4.7482957805745745,
+      "change_3d": -9.885677424809147,
+      "rsi": 18.16718220683903,
+      "volume_ratio": 1.7003731781370441,
+      "technical_score": 85,
+      "fundamental_score": 88,
+      "combined_score": 86.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock CRM is significantly oversold with an RSI(14) of 18.2, indicating a potential for mean reversion. Additionally, the high volume on a move (-1.7x vs 20d avg) suggests capitulation or exhaustion. The stock is also at the lower end of its 52W range (-43.7%), which further supports the potential for a reversal. Lastly, there was a gap today (-2.7%), indicating potential for a gap fill.",
+      "fundamental_reason": "High-quality SaaS leader with no recent earnings/guidance issues. Drop likely due to sector rotation and macro concerns (e.g., rate hikes impacting growth stocks). Oversold blue-chip with strong fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        186.17,
+        191.87
+      ],
+      "target": 208.97,
+      "stop": 180.47
+    },
+    {
+      "symbol": "MSTR",
+      "price": 106.98999786376953,
+      "change_1d": -17.119838175744285,
+      "change_3d": -23.37606952491107,
+      "rsi": 16.701404855768487,
+      "volume_ratio": 2.3317590142871194,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 16.7, indicating a potential rebound. The high volume ratio and the large distance from the 52-week high also suggest capitulation or exhaustion. Additionally, there's a gap today which could potentially be filled, increasing the chances of a bounce.",
+      "fundamental_reason": "Significant selloff likely due to sector rotation and Bitcoin-related volatility, not company-specific issues. Low P/E suggests undervaluation, indicating strong mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        104.85,
+        108.06
+      ],
+      "target": 117.69,
+      "stop": 101.64
+    },
+    {
+      "symbol": "QCOM",
+      "price": 136.3000030517578,
+      "change_1d": -8.455904620526145,
+      "change_3d": -10.693220146481174,
+      "rsi": 17.01288832074674,
+      "volume_ratio": 2.7275018174136263,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 17.0, indicating a potential rebound. The high volume ratio and the large gap down suggest capitulation or exhaustion. Additionally, QCOM is currently at the lower end of its 52-week range, which could indicate a potential reversal.",
+      "fundamental_reason": "Sector rotation and broader tech sell-off; no company-specific issues. Oversold blue-chip with strong fundamentals and high P/E suggesting potential overreaction.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        133.57,
+        137.66
+      ],
+      "target": 149.93,
+      "stop": 129.49
+    },
+    {
+      "symbol": "NOW",
+      "price": 102.62999725341797,
+      "change_1d": -7.598813779234703,
+      "change_3d": -13.025426056425449,
+      "rsi": 24.40817106157384,
+      "volume_ratio": 1.5722185618568743,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 24.4, indicating a potential reversal. The stock is also at the lower end of its 52-week range and has experienced high volume on the recent move down, which could suggest capitulation or exhaustion. Additionally, there is a gap today that may indicate a potential gap fill.",
+      "fundamental_reason": "Temporary sector rotation in tech, no company-specific fundamental issues, and high P/E suggests potential overcorrection. Oversold blue-chip with strong long-term fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        100.58,
+        103.66
+      ],
+      "target": 112.89,
+      "stop": 97.5
+    }
+  ],
+  "top_fades": []
+}

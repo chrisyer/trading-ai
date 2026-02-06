@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-04
+   Scanned: 20 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 QCOM @ $147.18
+   Move: -3.3% (3d) | RSI: 17
+   Score: 86/100 (HIGH)
+   Tech: The stock is significantly oversold (RSI of 17.2), it's close to its 52-week low (-21.8% from high, 21.8% from low), there was a small gap today, and the volume ratio is slightly higher than average. These factors suggest a potential mean reversion or bounce in the near future.
+   Fund: Sector rotation in tech, no company-specific issues; strong fundamentals with oversold blue-chip potential
+   Entry: $144.24-$148.65
+   Target: $161.90 | Stop: $139.82
+
+#2 ORCL @ $154.67
+   Move: -8.5% (3d) | RSI: 16
+   Score: 86/100 (HIGH)
+   Tech: ORCL's current RSI of 15.6 indicates it is significantly oversold, which suggests a potential rebound. The stock has also moved away from its 52-week high by -55.3%, and today's gap could potentially be filled. Additionally, the volume ratio being 1.6x the 20-day average suggests increased trading activity, which can indicate exhaustion of sellers.
+   Fund: Oracle is a high-quality tech blue chip with no recent earnings misses or company-specific issues. The selloff aligns with sector rotation out of high-P/E tech stocks, not structural problems. Oversold valuation and strong fundamentals suggest strong mean reversion potential.
+   Entry: $151.58-$156.22
+   Target: $170.14 | Stop: $146.94
+
+#3 SHOP @ $119.29
+   Move: -17.0% (3d) | RSI: 14
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold as indicated by the RSI of 13.6, which is below the threshold of 30. The high volume ratio (2.7x vs 20d avg) suggests a capitulation or exhaustion event. Additionally, the stock is currently at 70.8% above its 52-week low and has moved away from its 52-week high by -34.5%, indicating it may have reached an extreme point. Lastly, while today's gap is only -0.7%, it could potentially contribute to a fill in the near future.
+   Fund: Quality e-commerce platform with no recent earnings/guidance issues; selloff likely due to sector rotation and high P/E multiple correction, not structural problems.
+   Entry: $116.90-$120.48
+   Target: $131.22 | Stop: $113.33
+
+#4 MSTR @ $133.26
+   Move: -6.9% (3d) | RSI: 26
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 26.5, indicating a potential rebound. It has also moved away from its 52-week high by -70.9%, suggesting it may be due for a correction. The volume ratio being 1.2x the 20-day average indicates higher than usual trading activity, which could indicate capitulation or exhaustion. However, there is no gap today, so the potential gap fill score is not factored in this analysis.
+   Fund: Recent selloff likely due to sector rotation and macro concerns (e.g., interest rates, crypto volatility), not company-specific issues. Low P/E suggests undervaluation, and MSTR remains a quality tech company with strong fundamentals.
+   Entry: $130.59-$134.59
+   Target: $146.59 | Stop: $126.60
+
+#5 CRM @ $196.38
+   Move: -8.3% (3d) | RSI: 15
+   Score: 84/100 (HIGH)
+   Tech: The stock CRM is significantly oversold with an RSI of 14.8, indicating a potential for mean reversion. Additionally, the high volume ratio and the large distance from the 52-week high suggest capitulation or exhaustion. Lastly, the gap down today could potentially lead to a gap fill.
+   Fund: CRM is a high-quality blue-chip tech stock with no recent earnings misses or guidance cuts. The selloff aligns with broader tech sector rotation amid macroeconomic concerns, not company-specific issues. Oversold conditions and strong fundamentals suggest mean reversion potential.
+   Entry: $192.45-$198.34
+   Target: $216.02 | Stop: $186.56
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

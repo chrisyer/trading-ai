@@ -1,0 +1,21 @@
+{
+  "generated": "2026-02-03T09:19:46.568092",
+  "timeframe": "H1",
+  "days": 60,
+  "total_patterns": 7,
+  "win_rate": 57.1,
+  "avg_drop": 27.3,
+  "confirmation_stats": {
+    "first_red_count": 1,
+    "first_red_win_rate": 100.0,
+    "back_to_back_count": 1,
+    "back_to_back_win_rate": 100.0
+  },
+  "patterns": [
+    {
+      "timestamp": "199",
+      "price": 4252.9,
+      "rsi": 67.0,
+      "max_drop": 47.8,
+      "max_rise": 37.6,
+      "bearish": 

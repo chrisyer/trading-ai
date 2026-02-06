@@ -3,12 +3,15 @@
   "mode_name": "BULLISH_DCA",
   "dca_enabled": true,
   "hedge_enabled": false,
-  "symbols": [
-    "CIFR",
-    "CLSK",
-    "IREN"
-  ],
-  "new_sells_enabled": true,
+  "symbols": ["IREN", "CLSK", "CIFR"],
+  "positions": {
+    "IREN": {"shares": 0, "options": [], "cost_basis": 0},
+    "CLSK": {"shares": 0, "options": [], "cost_basis": 0},
+    "CIFR": {"shares": 0, "options": [], "cost_basis": 0}
+  },
+  "new_sells_enabled": false,
   "close_longs": false,
-  "last_update": "2026-01-29T07:21:40.282512"
+  "account": "IBKR_PAPER_NEW",
+  "last_update": "2026-01-30T14:00:00.000000",
+  "notes": "Fresh paper account - all miner positions reset to zero"
 }

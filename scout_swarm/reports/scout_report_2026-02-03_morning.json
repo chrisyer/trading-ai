@@ -1,0 +1,143 @@
+{
+  "scan_time": "2026-02-03T11:03:01.102473",
+  "scan_date": "2026-02-03",
+  "stocks_scanned": 15,
+  "bounce_candidates": 14,
+  "fade_candidates": 1,
+  "top_bounces": [
+    {
+      "symbol": "COIN",
+      "price": 187.86000061035156,
+      "change_1d": -3.5329180901425006,
+      "change_3d": -10.299380613942056,
+      "rsi": 17.43086841304256,
+      "volume_ratio": 1.297594171078342,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock COIN is significantly oversold with an RSI(14) of 17.4, indicating a potential for mean reversion. Additionally, the high volume on the recent move could suggest capitulation or exhaustion. Furthermore, the stock is currently at 52W low extremes and there was a gap today, both of which can indicate potential reversal points.",
+      "fundamental_reason": "Quality company with temporary selloff; no fundamental issues reported; sector rotation likely, not company-specific; strong P/E ratio suggests undervaluation",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        184.1,
+        189.74
+      ],
+      "target": 206.65,
+      "stop": 178.47
+    },
+    {
+      "symbol": "SLV",
+      "price": 72.44000244140625,
+      "change_1d": -3.9766700727907334,
+      "change_3d": -31.401511848355955,
+      "rsi": 46.64894267171877,
+      "volume_ratio": 1.2643014641544654,
+      "technical_score": 75,
+      "fundamental_score": 88,
+      "combined_score": 80.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock SLV has a high score due to its current oversold condition indicated by the RSI of 46.6 (below the oversold threshold of 30). Additionally, it is at a distance of -34.0% from its 52-week high and has experienced a significant drop in the last 3 days (-31.4%) and 5 days (-26.3%), which could suggest exhaustion or capitulation. Furthermore, the volume ratio being 1.3x the 20-day average indicates higher than usual trading activity. However, the score is not a full 100 due to the stock not reaching its 52-week low (-172.6%), suggesting there may still be room for further downside before a potential reversal.",
+      "fundamental_reason": "SLV is a blue-chip commodity ETF with no company-specific issues. The selloff likely reflects macro-driven sector rotation (e.g., interest rates, dollar strength) rather than fundamental problems. Oversold condition and large market cap suggest strong mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        70.99,
+        73.16
+      ],
+      "target": 79.68,
+      "stop": 68.82
+    },
+    {
+      "symbol": "MSTR",
+      "price": 139.6300048828125,
+      "change_1d": -6.733018087641973,
+      "change_3d": -11.87755912142886,
+      "rsi": 37.28337670049322,
+      "volume_ratio": 1.206004845978559,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 37.3 and a high volume on the move (1.2x average). Additionally, it's at the lower end of its 52-week range (-69.5% from high), indicating potential for mean reversion.",
+      "fundamental_reason": "MSTR's selloff likely driven by sector rotation and macro concerns (e.g., interest rates, AI hype correction), not company-specific issues. Strong balance sheet, low P/E (5.7), and Bitcoin exposure suggest oversold blue-chip potential for mean reversion.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        136.84,
+        141.03
+      ],
+      "target": 153.59,
+      "stop": 132.65
+    },
+    {
+      "symbol": "MARA",
+      "price": 9.119999885559082,
+      "change_1d": -4.000001204641245,
+      "change_3d": -12.05400206166548,
+      "rsi": 36.649222589322875,
+      "volume_ratio": 1.1712864873667495,
+      "technical_score": 65,
+      "fundamental_score": 88,
+      "combined_score": 74.2,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is oversold with a RSI of 36.6, indicating potential for mean reversion. Additionally, the volume ratio is slightly higher than average, suggesting some level of selling pressure. The stock is also close to its 52-week low, which can be another sign of potential reversal. However, it's not at the extremes and there's a gap today, which slightly reduces the mean reversion potential.",
+      "fundamental_reason": "Low P/E ratio (3.5) suggests undervaluation; no reported earnings misses or company-specific news; likely sector rotation in Financial Services; strong mean reversion potential due to oversold fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        8.94,
+        9.21
+      ],
+      "target": 10.03,
+      "stop": 8.66
+    },
+    {
+      "symbol": "AMD",
+      "price": 246.27000427246094,
+      "change_1d": 4.029911171840594,
+      "change_3d": -2.5599434518007613,
+      "rsi": 72.0860984134111,
+      "volume_ratio": 0.9521188258116835,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The RSI is slightly overbought at 72.1 but not excessively so. The stock is currently -7.8% away from its 52-week high, indicating it's near a peak but not yet at an extreme level. However, the volume ratio and today's gap are not particularly significant in this case.",
+      "fundamental_reason": "Quality company with temporary selloff; no fundamental issues reported; likely sector rotation or market volatility, not company-specific problems; high P/E suggests potential overreaction.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        241.34,
+        248.73
+      ],
+      "target": 270.9,
+      "stop": 233.96
+    }
+  ],
+  "top_fades": [
+    {
+      "symbol": "MRNA",
+      "price": 42.54999923706055,
+      "change_1d": -3.449059378918462,
+      "change_3d": -6.0706402788417435,
+      "rsi": 63.23305699674053,
+      "volume_ratio": 1.0681842228069238,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "FADE",
+      "confidence": "MEDIUM",
+      "technical_reason": "MRNA is currently not oversold (RSI 63.2) and has a significant distance from its 52-week low (91.0%), indicating that it might not be due for a mean reversion yet. However, the stock has experienced a notable decline in the past five days (-11.3%) which could potentially lead to some correction. The high volume ratio compared to the 20-day average suggests some level of increased trading activity, but it doesn't necessarily indicate capitulation or exhaustion.",
+      "fundamental_reason": "Recent selloff likely due to sector rotation and broader market volatility, not company-specific issues. Strong fundamentals with robust mRNA pipeline and profitability post-pandemic suggest temporary overreaction.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        42.12,
+        43.4
+      ],
+      "target": 38.29,
+      "stop": 44.68
+    }
+  ]
+}

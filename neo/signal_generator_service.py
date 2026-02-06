@@ -67,14 +67,18 @@ def save_signal_to_file(signal: dict):
         # Save fresh signal file (always overwrite)
         FRESH_SIGNAL_FILE.write_text(json.dumps(signal, indent=2))
         
-        # Also save timestamped signal
-        timestamp = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
-        signal_id = signal.get("signal_id", f"NEO_XAUUSD_{timestamp}")
-        timestamped_file = SIGNAL_DIR / f"signal_{signal_id}.json"
-        timestamped_file.write_text(json.dumps(signal, indent=2))
+        # ONLY save new timestamped file if direction actually changed
+        # This prevents 1440 files/day of spam!
+        is_new_signal = signal.get("is_new_signal", False)
+        signal_id = signal.get("signal_id", "UNKNOWN")
+        
+        if is_new_signal:
+            # Direction changed - save this one
+            timestamped_file = SIGNAL_DIR / f"signal_{signal_id}.json"
+            timestamped_file.write_text(json.dumps(signal, indent=2))
+            logger.info(f"✅🆕 NEW SIGNAL saved: {timestamped_file}")
         
         SIGNALS_TODAY += 1
-        logger.info(f"✅ Signal saved: {FRESH_SIGNAL_FILE}")
         
     except Exception as e:
         logger.error(f"Failed to save signal: {e}")
@@ -97,6 +101,13 @@ def write_ghost_directives(signal: dict):
         neo_action = signal.get("neo", {}).get("action", "N/A")
         meta_action = signal.get("meta", {}).get("action", "N/A")
         
+        # CRITICAL: is_new_signal tells EAs if they should open a position
+        # True = direction just changed, OK to open
+        # False = same direction as before, DO NOT open another position!
+        is_new_signal = signal.get("is_new_signal", False)
+        direction_age = signal.get("direction_age_seconds", 0)
+        signals_same_dir = signal.get("signals_same_direction", 0)
+        
         content = f"""# NEO GHOST DIRECTIVES
 # Generated: {datetime.utcnow().isoformat()}Z
 # This file is auto-generated every {SIGNAL_INTERVAL} seconds
@@ -106,6 +117,19 @@ SYMBOL=XAUUSD
 ACTION={action}
 CONFIDENCE={confidence}
 STRATEGY={strategy}
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# CRITICAL: IS_NEW_SIGNAL prevents position stacking!
+# ═══════════════════════════════════════════════════════════════════════════════
+# IS_NEW_SIGNAL=true  → Direction JUST changed, OK to open position
+# IS_NEW_SIGNAL=false → Same direction as before, DO NOT open another position!
+#
+# EAs should ONLY open positions when IS_NEW_SIGNAL=true
+# Otherwise you get 8 stacked SELLs in 8 minutes!
+# ═══════════════════════════════════════════════════════════════════════════════
+IS_NEW_SIGNAL={str(is_new_signal).lower()}
+DIRECTION_AGE_SECONDS={direction_age}
+SIGNALS_SAME_DIRECTION={signals_same_dir}
 
 [LEVELS]
 CURRENT_PRICE={current_price}
@@ -133,7 +157,12 @@ LAST_UPDATED={datetime.utcnow().isoformat()}Z
         
         DIRECTIVES_FILE.parent.mkdir(exist_ok=True)
         DIRECTIVES_FILE.write_text(content)
-        logger.info(f"📝 Directives written: {DIRECTIVES_FILE}")
+        
+        # Log with clear indicator if new signal
+        if is_new_signal:
+            logger.info(f"📝🆕 NEW SIGNAL written: {DIRECTIVES_FILE} (direction changed!)")
+        else:
+            logger.info(f"📝 Same direction: {DIRECTIVES_FILE} (signal #{signals_same_dir})")
         
     except Exception as e:
         logger.error(f"Failed to write directives: {e}")

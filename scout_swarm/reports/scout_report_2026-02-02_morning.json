@@ -1,0 +1,143 @@
+{
+  "scan_time": "2026-02-02T11:04:40.886978",
+  "scan_date": "2026-02-02",
+  "stocks_scanned": 20,
+  "bounce_candidates": 19,
+  "fade_candidates": 1,
+  "top_bounces": [
+    {
+      "symbol": "SNOW",
+      "price": 192.6999969482422,
+      "change_1d": -3.34553760962113,
+      "change_3d": -9.424208249944922,
+      "rsi": 27.88671007251442,
+      "volume_ratio": 1.2790420866918664,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 27.9, indicating a potential rebound. It's also near the 52-week low (60.4%), suggesting it may have reached its bottom. The high volume ratio and today's gap could indicate exhaustion of sellers, further supporting a potential bounce.",
+      "fundamental_reason": "Sector rotation and macroeconomic concerns likely drove the selloff. No company-specific fundamental issues reported; Snowflake remains a high-quality cloud data leader with strong long-term fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        188.85,
+        194.63
+      ],
+      "target": 211.97,
+      "stop": 183.06
+    },
+    {
+      "symbol": "PLTR",
+      "price": 146.58999633789062,
+      "change_1d": -3.470304393046153,
+      "change_3d": -11.532891347198237,
+      "rsi": 14.302219116562938,
+      "volume_ratio": 1.1922258614937589,
+      "technical_score": 85,
+      "fundamental_score": 80,
+      "combined_score": 83.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 14.3, indicating a potential rebound. It's also near its 52-week low and has experienced high volume on the recent move down, suggesting possible capitulation or exhaustion. Additionally, there's a small gap today which could potentially fill.",
+      "fundamental_reason": "High-quality tech company with no reported company-specific issues; recent selloff likely due to sector rotation and broader market volatility, not structural problems. Oversold after a sharp 3-day drop, suggesting potential mean reversion.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        143.66,
+        148.06
+      ],
+      "target": 161.25,
+      "stop": 139.26
+    },
+    {
+      "symbol": "SHOP",
+      "price": 131.22999572753906,
+      "change_1d": -8.639657278502966,
+      "change_3d": -4.560003107244315,
+      "rsi": 20.45495960639009,
+      "volume_ratio": 1.6572313252112936,
+      "technical_score": 85,
+      "fundamental_score": 75,
+      "combined_score": 81.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 20.5, indicating a potential for mean reversion. It's also close to its 52-week low, which suggests it might be reaching an extreme point. The high volume on the recent move could indicate capitulation or exhaustion. Lastly, there is a small gap today, which can potentially lead to a gap fill.",
+      "fundamental_reason": "Sector rotation and high valuation likely caused selloff; no company-specific issues reported. Mean reversion potential exists if broader tech sentiment improves.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        128.61,
+        132.54
+      ],
+      "target": 144.35,
+      "stop": 124.67
+    },
+    {
+      "symbol": "SLV",
+      "price": 75.44000244140625,
+      "change_1d": -28.540302491726877,
+      "change_3d": -25.740717431969284,
+      "rsi": 52.0867465907834,
+      "volume_ratio": 3.100527413484144,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock SLV has shown a significant decrease in price over the past few days (-28.5% in 1 day, -25.7% in 3 days, and -18.8% in 5 days). The RSI(14) is currently at 52.1, which is not extremely oversold but still indicates a potential for mean reversion. The volume ratio is 3.1x the 20-day average, suggesting high volume on this move, which could be an indication of capitulation or exhaustion. SLV is also currently at -31.3% from its 52W High, indicating it is near a potential extreme point and potentially due for a reversal. However, the stock is also 183.9% above its 52W Low, which could suggest that there is still room for further price increases. The gap today (-15.4%) could also be a potential gap fill opportunity. Overall, these factors suggest a mean reversion potential score of 75, indicating a potential bounce in the near future.",
+      "fundamental_reason": "SLV is a silver ETF tracking the price of silver. The sharp drop likely reflects temporary macroeconomic factors (e.g., interest rates, dollar strength) impacting commodities, not structural issues. No company-specific problems; mean reversion potential high if oversold.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        73.93,
+        76.19
+      ],
+      "target": 82.98,
+      "stop": 71.67
+    },
+    {
+      "symbol": "MRNA",
+      "price": 44.06999969482422,
+      "change_1d": -5.953907125880454,
+      "change_3d": -3.036305929483074,
+      "rsi": 65.33751923966682,
+      "volume_ratio": 0.7423007267872532,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently not oversold (RSI is 65.3) but it has recently experienced a significant drop (-9.5% in 5 days), which could indicate potential mean reversion. The stock is also close to its 52-week high, suggesting it might be due for a correction. However, the volume ratio is only 0.7x of the 20-day average, which slightly lowers the score as it indicates less than usual trading activity.",
+      "fundamental_reason": "Sector rotation with no company-specific issues; quality company with temporary selloff",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        43.19,
+        44.51
+      ],
+      "target": 48.48,
+      "stop": 41.87
+    }
+  ],
+  "top_fades": [
+    {
+      "symbol": "IREN",
+      "price": 53.7400016784668,
+      "change_1d": -10.193847691454739,
+      "change_3d": -10.418402775680224,
+      "rsi": 58.01955724596812,
+      "volume_ratio": 1.093277360476656,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "FADE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently at a high of its 52-week range with a significant increase of 948.6%, indicating potential for a reversal. The RSI of 58.0 is not extremely overbought but still indicates some upward pressure. However, the recent negative price changes and today's gap suggest a possible downtrend. High volume ratio compared to the 20-day average also suggests increased trading activity, which could lead to a correction.",
+      "fundamental_reason": "Recent selloff likely due to sector rotation in Financial Services, no company-specific fundamental issues reported. Oversold blue-chip with strong balance sheet and stable earnings history, suggesting temporary dip.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        53.2,
+        54.81
+      ],
+      "target": 48.37,
+      "stop": 56.43
+    }
+  ]
+}
