@@ -44,6 +44,14 @@ except ImportError as e:
     FOREX_INTEL_AVAILABLE = False
     print(f"WARNING: Forex Intel Service not available: {e}")
 
+# Truth Analyzer — Research Auditor (analysis only, no signals)
+try:
+    from truth_analyzer import truth_analyzer_router, start_truth_analyzer, stop_truth_analyzer, auto_ingest_from_cache
+    TRUTH_ANALYZER_AVAILABLE = True
+except ImportError as e:
+    TRUTH_ANALYZER_AVAILABLE = False
+    print(f"WARNING: Truth Analyzer not available: {e}")
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s %(levelname)s:%(name)s:%(message)s'
@@ -142,6 +150,19 @@ if FOREX_INTEL_AVAILABLE:
     @app.on_event("shutdown")
     async def on_shutdown():
         await stop_forex_intel()
+
+# Mount Truth Analyzer router (research auditor — analysis only)
+if TRUTH_ANALYZER_AVAILABLE:
+    app.include_router(truth_analyzer_router)
+    logger.info("Truth Analyzer router mounted (RESEARCH AUDITOR mode)")
+
+    @app.on_event("startup")
+    async def on_startup_truth():
+        await start_truth_analyzer()
+
+    @app.on_event("shutdown")
+    async def on_shutdown_truth():
+        await stop_truth_analyzer()
 
 
 # ═══════════════════════════════════════════════════════════════════════════════

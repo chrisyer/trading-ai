@@ -109,7 +109,7 @@ def create_ea_signal(control: dict, sentiment: dict) -> dict:
         "action": f"DEFCON {defcon} - {defcon_colors.get(defcon, 'UNKNOWN')}",
         
         "targets": {
-            "tp": 0,
+            "tp": 20,
             "sl": 0,
             "hunt_zone": 0
         },

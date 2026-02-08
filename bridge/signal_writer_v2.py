@@ -295,7 +295,7 @@ def create_signal(market_data: dict, analysis: dict, defcon: int, neo_data: dict
         },
         
         "targets": {
-            "tp": 0,
+            "tp": 20,
             "sl": 0,
             "hunt_zone": 0
         },
