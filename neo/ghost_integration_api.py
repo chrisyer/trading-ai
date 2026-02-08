@@ -52,6 +52,14 @@ except ImportError as e:
     TRUTH_ANALYZER_AVAILABLE = False
     print(f"WARNING: Truth Analyzer not available: {e}")
 
+# Weekly Research Recap — After-the-fact weekly XAUUSD analysis
+try:
+    from weekly_research_recap import weekly_recap_router
+    WEEKLY_RECAP_AVAILABLE = True
+except ImportError as e:
+    WEEKLY_RECAP_AVAILABLE = False
+    print(f"WARNING: Weekly Research Recap not available: {e}")
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s %(levelname)s:%(name)s:%(message)s'
@@ -163,6 +171,11 @@ if TRUTH_ANALYZER_AVAILABLE:
     @app.on_event("shutdown")
     async def on_shutdown_truth():
         await stop_truth_analyzer()
+
+# Mount Weekly Research Recap router (after-the-fact analysis, no signals)
+if WEEKLY_RECAP_AVAILABLE:
+    app.include_router(weekly_recap_router)
+    logger.info("Weekly Research Recap router mounted (RESEARCH ONLY)")
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
