@@ -10,7 +10,7 @@
   "atr_hist_file": "memory/atr_hist.json",
   "audit_log_file": "logs/bridge_audit.jsonl",
   "ollama_model_governor": "qwen2.5:7b-instruct",
-  "ollama_model_vision": "llava:7b",
+  "ollama_model_vision": "qwen3-vl:32b",
   "governor_loop_seconds": 2,
   "memory_k": 3,
   "screenshot_every_minutes": 15,

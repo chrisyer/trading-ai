@@ -51,32 +51,44 @@ def encode_image_base64(path: Path) -> str:
 
 def ollama_vision(model: str, image_path: Path) -> str:
     """
-    Query Ollama vision model.
-    Uses the multimodal prompt format.
+    Query Ollama vision model via HTTP API (supports Qwen3-VL, LLaVA, etc.)
     """
-    # For llava and similar models, we use the --images flag
-    # or inline the image reference
+    import requests
+
     prompt = f"""{VISION_SYSTEM}
 
 Analyze the chart image and return JSON only."""
 
+    # Encode image as base64
+    img_b64 = encode_image_base64(image_path)
+
     try:
-        # Method 1: Use ollama run with image path (works with llava)
-        result = subprocess.run(
-            ["ollama", "run", model, prompt],
-            input=str(image_path).encode("utf-8"),
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            timeout=60
+        resp = requests.post(
+            "http://localhost:11434/api/chat",
+            json={
+                "model": model,
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": prompt,
+                        "images": [img_b64]
+                    }
+                ],
+                "stream": False,
+                "options": {"temperature": 0.2, "num_predict": 2048},
+            },
+            timeout=120,
         )
-        
-        if result.returncode != 0:
-            raise RuntimeError(result.stderr.decode("utf-8", errors="ignore")[:200])
-        
-        return result.stdout.decode("utf-8", errors="ignore").strip()
-        
-    except subprocess.TimeoutExpired:
-        raise RuntimeError("Vision model timeout")
+
+        if resp.status_code != 200:
+            raise RuntimeError(f"Ollama {resp.status_code}: {resp.text[:200]}")
+
+        return resp.json().get("message", {}).get("content", "").strip()
+
+    except requests.Timeout:
+        raise RuntimeError("Vision model timeout (120s)")
+    except requests.ConnectionError:
+        raise RuntimeError("Ollama not reachable")
 
 
 def extract_json(raw: str) -> dict:
