@@ -1026,6 +1026,178 @@ class NeoLearner:
         return {k: round(v, 3) for k, v in sorted_weights[:5]}
     
     # ══════════════════════════════════════════════════════════════════════════
+    # CRELLA OUTCOME CALIBRATION
+    # ══════════════════════════════════════════════════════════════════════════
+    # 
+    # Uses actual trade outcomes from CRELLA's bridge governor to calibrate
+    # NEO's confidence weights. CRELLA tracks every basket with full market
+    # context and P&L — this is REAL outcome data, not backtests.
+    #
+    # Data fetched by neo_training_sync.py → crella_index.json
+    # ══════════════════════════════════════════════════════════════════════════
+
+    CRELLA_INDEX_FILE = Path("/home/jbot/trading_ai/neo/training_data/crella_index.json")
+
+    def load_crella_outcomes(self) -> List[dict]:
+        """Load CRELLA bridge outcomes for confidence calibration"""
+        try:
+            if self.CRELLA_INDEX_FILE.exists():
+                data = json.loads(self.CRELLA_INDEX_FILE.read_text())
+                index = data.get("index", [])
+                # Only return records with actual outcomes
+                return [r for r in index if r.get("has_outcome")]
+            return []
+        except Exception as e:
+            print(f"Error loading CRELLA outcomes: {e}")
+            return []
+
+    def calibrate_from_crella(self) -> dict:
+        """
+        Use CRELLA's actual trade outcomes to calibrate NEO's confidence weights.
+        
+        Key insight: CRELLA's bridge governor makes DCA/risk decisions based on
+        market conditions. The OUTCOMES tell us which conditions were profitable.
+        NEO should boost confidence in conditions that led to wins and reduce
+        confidence in conditions that led to losses.
+        
+        Learning dimensions:
+        1. ATR regime (high/mid/low volatility)
+        2. Layer depth (how many DCA levels)
+        3. Direction bias (long vs short outcomes)
+        4. Sentiment regime (neutral/fear/greed)
+        5. Control effectiveness (were overrides profitable?)
+        
+        Returns: dict with calibration summary
+        """
+        outcomes = self.load_crella_outcomes()
+        if not outcomes:
+            return {"status": "no_data", "message": "No CRELLA outcomes available"}
+        
+        learning_rate = 0.03  # Conservative — real money outcomes
+        adjustments = {}
+        
+        wins = [r for r in outcomes if r.get("pnl", 0) > 0]
+        losses = [r for r in outcomes if r.get("pnl", 0) <= 0]
+        
+        for record in outcomes:
+            pnl = record.get("pnl", 0)
+            is_win = pnl > 0
+            atr_bucket = record.get("atr_bucket", "unknown")
+            layers = record.get("layers", 0)
+            max_layers = record.get("max_layers_reached", layers)
+            direction = record.get("dir", 0)  # -1 = short, 1 = long
+            sentiment = record.get("sentiment_regime", "neutral")
+            dd = record.get("dd", 0)  # drawdown %
+            duration = record.get("duration_min", 0)
+            
+            # Disabled entries control
+            control_disable = record.get("control_disable_entries", False)
+            control_dca_mult = record.get("control_dca_mult", 1.0)
+            
+            # ─── ATR REGIME LEARNING ─────────────────────────────────────
+            # High ATR losses = reduce confidence in volatile entries
+            if atr_bucket == "high" and not is_win:
+                key = 'atr_caution'
+                old = self.confidence_weights.get(key, 1.0)
+                self.confidence_weights[key] = min(2.5, old * (1 + learning_rate))
+                adjustments[key] = self.confidence_weights[key]
+            
+            # Low/mid ATR wins = boost confidence in calm entries
+            if atr_bucket in ["low", "mid"] and is_win:
+                key = 'calm_entry'
+                old = self.confidence_weights.get(key, 1.0)
+                self.confidence_weights[key] = min(2.5, old * (1 + learning_rate))
+                adjustments[key] = self.confidence_weights[key]
+            
+            # ─── LAYER DEPTH LEARNING ────────────────────────────────────
+            # Deep layers (4+) that lost = penalize aggressive DCA
+            if max_layers >= 4 and not is_win:
+                key = 'deep_layer_risk'
+                old = self.confidence_weights.get(key, 1.0)
+                self.confidence_weights[key] = min(2.5, old * (1 + learning_rate * 2))
+                adjustments[key] = self.confidence_weights[key]
+            
+            # Shallow layers (1-2) that won big = reward quick wins
+            if max_layers <= 2 and is_win and pnl > 5000:
+                key = 'shallow_win'
+                old = self.confidence_weights.get(key, 1.0)
+                self.confidence_weights[key] = min(2.5, old * (1 + learning_rate))
+                adjustments[key] = self.confidence_weights[key]
+            
+            # ─── DIRECTION BIAS LEARNING ─────────────────────────────────
+            # Short wins = shorts can work in this market
+            if direction == -1 and is_win:
+                key = 'short_confidence'
+                old = self.confidence_weights.get(key, 1.0)
+                self.confidence_weights[key] = min(2.5, old * (1 + learning_rate))
+                adjustments[key] = self.confidence_weights[key]
+            
+            # Short losses = market punishes shorts
+            if direction == -1 and not is_win:
+                key = 'short_confidence'
+                old = self.confidence_weights.get(key, 1.0)
+                self.confidence_weights[key] = max(0.3, old * (1 - learning_rate))
+                adjustments[key] = self.confidence_weights[key]
+            
+            # ─── SENTIMENT REGIME LEARNING ───────────────────────────────
+            if sentiment == "fear" and is_win:
+                key = 'fear_opportunity'
+                old = self.confidence_weights.get(key, 1.0)
+                self.confidence_weights[key] = min(2.5, old * (1 + learning_rate))
+                adjustments[key] = self.confidence_weights[key]
+            
+            # ─── CONTROL EFFECTIVENESS ───────────────────────────────────
+            # When controls were active and trade won → controls helped
+            if control_disable and is_win:
+                key = 'control_trust'
+                old = self.confidence_weights.get(key, 1.0)
+                self.confidence_weights[key] = min(2.5, old * (1 + learning_rate))
+                adjustments[key] = self.confidence_weights[key]
+            
+            # ─── DRAWDOWN-ADJUSTED LEARNING ──────────────────────────────
+            # Wins with low drawdown = excellent setup quality
+            if is_win and dd < 3.0:
+                key = 'clean_setup'
+                old = self.confidence_weights.get(key, 1.0)
+                self.confidence_weights[key] = min(2.5, old * (1 + learning_rate))
+                adjustments[key] = self.confidence_weights[key]
+            
+            # Wins with high drawdown = lucky, reduce confidence slightly
+            if is_win and dd > 10.0:
+                key = 'high_dd_caution'
+                old = self.confidence_weights.get(key, 1.0)
+                self.confidence_weights[key] = min(2.5, old * (1 + learning_rate * 0.5))
+                adjustments[key] = self.confidence_weights[key]
+        
+        # Save updated weights
+        self._save_weights()
+        
+        # Summary
+        total_pnl = sum(r.get("pnl", 0) for r in outcomes)
+        win_rate = (len(wins) / len(outcomes) * 100) if outcomes else 0
+        
+        summary = {
+            "status": "calibrated",
+            "outcomes_processed": len(outcomes),
+            "wins": len(wins),
+            "losses": len(losses),
+            "win_rate": round(win_rate, 1),
+            "total_pnl": round(total_pnl, 2),
+            "weights_adjusted": adjustments,
+            "calibrated_at": datetime.now().isoformat()
+        }
+        
+        print(f"[NEO] Calibrated from {len(outcomes)} CRELLA outcomes "
+              f"(WR={win_rate:.1f}%, PnL=${total_pnl:,.2f})")
+        print(f"[NEO] Adjusted weights: {adjustments}")
+        
+        # Save calibration log
+        cal_file = OUTCOMES_DIR / f"crella_calibration_{datetime.now().strftime('%Y%m%d')}.json"
+        cal_file.write_text(json.dumps(summary, indent=2))
+        
+        return summary
+
+    # ══════════════════════════════════════════════════════════════════════════
     # TEAM COMPETITION
     # ══════════════════════════════════════════════════════════════════════════
     

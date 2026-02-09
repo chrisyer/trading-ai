@@ -3297,6 +3297,130 @@ async def get_desktop_latest():
         }
 
 
+# ═══════════════════════════════════════════════════════════════════════════════
+# MT5/CRELLA FORWARDING ROUTES
+# ═══════════════════════════════════════════════════════════════════════════════
+# MT5 Ghost Commander sends /trade/update and /api/market-data to this port.
+# Forward them to the NEO Training API (port 8897) where the learner lives.
+
+import httpx
+
+NEO_TRAINING_API = "http://localhost:8897"
+
+
+@app.post("/trade/update")
+async def forward_trade_update(payload: Dict):
+    """
+    Forward trade updates from MT5/CRELLA to NEO Training API.
+    MT5 sends: {signal_id, outcome, profit, entry_price, exit_price, pips, lots}
+    """
+    try:
+        logger.info(f"📨 Trade update received from MT5: {payload}")
+        
+        # Forward to NEO Training API's /api/trade/outcome
+        async with httpx.AsyncClient(timeout=10.0) as client:
+            resp = await client.post(
+                f"{NEO_TRAINING_API}/api/trade/outcome",
+                json=payload
+            )
+            training_result = resp.json() if resp.status_code == 200 else {"error": resp.text}
+        
+        # Also process locally via trade-result endpoint
+        result = payload.copy()
+        result.setdefault("prediction_id", payload.get("signal_id", "unknown"))
+        result.setdefault("symbol", "XAUUSD")
+        result.setdefault("pnl_pips", payload.get("pips", payload.get("profit", 0)))
+        
+        # Save to results
+        date_str = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+        result_file = RESULTS_DIR / f"{result['symbol']}_{date_str}.json"
+        result["reported_at"] = datetime.utcnow().isoformat()
+        result["source"] = "mt5_forward"
+        with open(result_file, 'w') as f:
+            json.dump(result, f, indent=2)
+        
+        # Update learning stats
+        stats = update_learning_stats(result)
+        
+        logger.info(f"✅ Trade update forwarded + recorded: {result.get('signal_id', 'N/A')}")
+        
+        return {
+            "status": "received",
+            "forwarded_to_training_api": True,
+            "training_result": training_result,
+            "learning_stats": {
+                "total_trades": stats.get("total_trades", 0),
+                "win_rate": f"{stats.get('win_rate', 0):.1f}%"
+            }
+        }
+        
+    except Exception as e:
+        logger.error(f"Error forwarding trade update: {e}")
+        return {"status": "error", "message": str(e)}
+
+
+@app.post("/api/market-data")
+async def forward_market_data(payload: Dict):
+    """
+    Forward market data from MT5/CRELLA to NEO Training API.
+    MT5 sends: {symbol, price, adx, plus_di, minus_di, rsi, atr, ema20, ema50, ...}
+    """
+    try:
+        # Ensure required fields for training API
+        payload.setdefault("symbol", "XAUUSD")
+        payload.setdefault("timestamp", datetime.utcnow().isoformat())
+        payload.setdefault("h4_trend", "NEUTRAL")
+        
+        # Forward to NEO Training API
+        async with httpx.AsyncClient(timeout=10.0) as client:
+            resp = await client.post(
+                f"{NEO_TRAINING_API}/api/market/xauusd",
+                json=payload
+            )
+            result = resp.json() if resp.status_code == 200 else {"error": resp.text}
+        
+        return {
+            "status": "received",
+            "forwarded": True,
+            "training_result": result
+        }
+        
+    except Exception as e:
+        logger.error(f"Error forwarding market data: {e}")
+        return {"status": "error", "message": str(e)}
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# CRELLA TRAINING DATA ENDPOINT (local proxy)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+CRELLA_TRAINING_CACHE = Path("/home/jbot/trading_ai/neo/training_data/crella_index.json")
+
+
+@app.get("/api/neo/crella/training")
+async def get_crella_training_data():
+    """
+    Get cached CRELLA training data (fetched by neo_training_sync.py).
+    Used by dashboards and internal calibration.
+    """
+    try:
+        if CRELLA_TRAINING_CACHE.exists():
+            data = json.loads(CRELLA_TRAINING_CACHE.read_text())
+            return {
+                "status": "ok",
+                "cached": True,
+                "data": data
+            }
+        else:
+            return {
+                "status": "no_data",
+                "cached": False,
+                "message": "CRELLA training data not yet synced. Run neo_training_sync.py."
+            }
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
+
+
 if __name__ == "__main__":
     uvicorn.run(
         "ghost_integration_api:app",
