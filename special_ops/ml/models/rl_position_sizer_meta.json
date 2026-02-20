@@ -1,0 +1,16 @@
+{
+  "trained_at": "2026-02-20T08:06:33.443346",
+  "total_timesteps": 78900,
+  "n_baskets": 987,
+  "device": "cuda",
+  "action_space": {
+    "dca_mult": [
+      0.5,
+      2.0
+    ],
+    "lot_scale": [
+      0.3,
+      1.5
+    ]
+  }
+}

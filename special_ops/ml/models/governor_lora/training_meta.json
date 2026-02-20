@@ -1,0 +1,10 @@
+{
+  "base_model": "NousResearch/Meta-Llama-3-8B-Instruct",
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "epochs": 3,
+  "n_examples": 23,
+  "trained_at": "2026-02-20T08:16:37.503603",
+  "trainable_params": 41943040,
+  "total_params": 4582543360
+}
