@@ -3,7 +3,7 @@ import { usePolling } from '../hooks/usePolling';
 import { Card, CardHeader, CardTitle } from '../components/Card';
 import { Badge } from '../components/Badge';
 import { ACTION_COLORS, ACTION_BG, tsToFull, formatUSD, cn } from '../lib/utils';
-import { Clock, AlertTriangle, RefreshCw } from 'lucide-react';
+import { Clock, AlertTriangle, RefreshCw, Download } from 'lucide-react';
 
 function ActionCell({ action }) {
   const color = ACTION_COLORS[action] || 'text-gray-500';
@@ -33,12 +33,20 @@ export default function Timeline() {
             ({entries.length} entries)
           </span>
         </h2>
-        <button
-          onClick={refresh}
-          className="flex items-center gap-1 rounded-lg bg-[var(--bg-card)] px-3 py-1.5 text-xs text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition"
-        >
-          <RefreshCw size={13} /> Refresh
-        </button>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => api.exportCSV(30)}
+            className="flex items-center gap-1 rounded-lg bg-amber-500/15 border border-amber-500/30 px-3 py-1.5 text-xs font-medium text-amber-400 hover:bg-amber-500/25 transition"
+          >
+            <Download size={13} /> Export CSV (30d)
+          </button>
+          <button
+            onClick={refresh}
+            className="flex items-center gap-1 rounded-lg bg-[var(--bg-card)] px-3 py-1.5 text-xs text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition"
+          >
+            <RefreshCw size={13} /> Refresh
+          </button>
+        </div>
       </div>
 
       {loading && !data && (

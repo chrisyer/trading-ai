@@ -17,4 +17,10 @@ export const api = {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data),
     }).then((r) => r.json()),
+  exportCSV: (days = 30) => {
+    const a = document.createElement('a');
+    a.href = `${BASE}/export?days=${days}`;
+    a.download = `gold_signals_${days}d.csv`;
+    a.click();
+  },
 };

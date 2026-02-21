@@ -308,22 +308,62 @@
       "ts": "2026-02-21T19:01:35.178111+00:00",
       "equity": 578288.36,
       "fpnl": 0.0
+    },
+    {
+      "ts": "2026-02-21T19:06:35.678516+00:00",
+      "equity": 578288.36,
+      "fpnl": 0.0
+    },
+    {
+      "ts": "2026-02-21T19:11:36.199206+00:00",
+      "equity": 578288.36,
+      "fpnl": 0.0
+    },
+    {
+      "ts": "2026-02-21T19:16:36.708238+00:00",
+      "equity": 578288.36,
+      "fpnl": 0.0
+    },
+    {
+      "ts": "2026-02-21T19:21:37.229521+00:00",
+      "equity": 578288.36,
+      "fpnl": 0.0
+    },
+    {
+      "ts": "2026-02-21T19:26:37.738125+00:00",
+      "equity": 578288.36,
+      "fpnl": 0.0
+    },
+    {
+      "ts": "2026-02-21T19:31:38.258854+00:00",
+      "equity": 578288.36,
+      "fpnl": 0.0
+    },
+    {
+      "ts": "2026-02-21T19:36:38.771258+00:00",
+      "equity": 578288.36,
+      "fpnl": 0.0
+    },
+    {
+      "ts": "2026-02-21T19:41:39.283002+00:00",
+      "equity": 578288.36,
+      "fpnl": 0.0
     }
   ],
   "alert_counts": {
     "gold_mgc_buy_starter": 1
   },
-  "crella_checks": 61,
+  "crella_checks": 69,
   "crella_failures": 0,
   "ml_checks": {
-    "Direction Predictor": 61,
-    "RL Position Sizer": 61,
-    "LoRA Governor": 61
+    "Direction Predictor": 69,
+    "RL Position Sizer": 69,
+    "LoRA Governor": 69
   },
   "ml_failures": {},
   "last_weekly_recap_date": "2026-02-21",
-  "gold_mirror_checks": 4,
+  "gold_mirror_checks": 12,
   "gold_signal_counts": {
-    "MGC_BUY_STARTER": 4
+    "MGC_BUY_STARTER": 12
   }
 }

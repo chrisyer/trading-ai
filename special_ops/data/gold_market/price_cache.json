@@ -1,0 +1,90 @@
+{
+  "updated_at": "2026-02-21T19:34:24.977136+00:00",
+  "mgc": {
+    "ok": true,
+    "symbol": "MGC=F",
+    "price": 5059.3,
+    "prev_close": 4975.9,
+    "change": 83.4,
+    "change_pct": 1.676,
+    "volume": 52,
+    "high": 5059.3,
+    "low": 4991.2,
+    "date": "2026-02-20"
+  },
+  "gc": {
+    "ok": true,
+    "symbol": "GC=F",
+    "price": 5059.3,
+    "prev_close": 4975.9,
+    "change_pct": 1.676,
+    "volume": 37,
+    "date": "2026-02-20"
+  },
+  "gld": {
+    "ok": true,
+    "symbol": "GLD",
+    "price": 468.62,
+    "prev_close": 459.56,
+    "change": 9.06,
+    "change_pct": 1.971,
+    "volume": 14261600,
+    "date": "2026-02-20",
+    "options": {
+      "expiry": "2026-02-23",
+      "atm_strike": 469.0,
+      "atm_call_bid": 3.45,
+      "atm_call_ask": 3.7,
+      "atm_call_iv": 22.9,
+      "atm_put_bid": 4.15,
+      "atm_put_ask": 4.65,
+      "atm_put_iv": 26.3,
+      "strangle_cost": 8.35
+    }
+  },
+  "mirror_state": {
+    "price": 5107.13,
+    "regime": "EXPANSION",
+    "recommendation": {
+      "mgc": {
+        "action": "BUY_STARTER",
+        "contracts": 2,
+        "reason": "FRESH_ENTRY"
+      },
+      "gld": {
+        "action": "NO_TRADE",
+        "structure": null,
+        "reason": "CONF_TOO_LOW"
+      }
+    }
+  },
+  "comparison": {
+    "ts": "2026-02-21T19:34:24.977117+00:00",
+    "mgc_vs_spot": {
+      "xauusd_spot": 5107.13,
+      "mgc_price": 5059.3,
+      "basis": -47.83,
+      "basis_pct": -0.937,
+      "note": "positive = futures premium (contango)"
+    },
+    "mgc_signal": {
+      "mirror_action": "BUY_STARTER",
+      "mirror_contracts": 2,
+      "mirror_reason": "FRESH_ENTRY",
+      "actual_mgc_price": 5059.3,
+      "mgc_daily_change": 1.676,
+      "mgc_volume": 52
+    },
+    "gld_signal": {
+      "mirror_action": "NO_TRADE",
+      "mirror_structure": null,
+      "mirror_reason": "CONF_TOO_LOW",
+      "actual_gld_price": 468.62,
+      "gld_daily_change": 1.971,
+      "gld_volume": 14261600,
+      "atm_iv_call": 22.9,
+      "atm_iv_put": 26.3,
+      "strangle_cost": 8.35
+    }
+  }
+}

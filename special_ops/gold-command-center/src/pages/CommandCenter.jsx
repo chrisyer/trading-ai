@@ -7,7 +7,7 @@ import {
   REGIME_COLORS, cn
 } from '../lib/utils';
 import {
-  TrendingUp, Shield, Zap, AlertTriangle, BarChart3, Eye
+  TrendingUp, Shield, Zap, AlertTriangle, BarChart3, Eye, Brain
 } from 'lucide-react';
 
 function ScoreBar({ label, value, max = 1, color = 'bg-amber-500' }) {
@@ -82,8 +82,9 @@ export default function CommandCenter() {
     );
   }
 
-  const { price, oracle_gate, regime, confidence, scores, volatility, blocks, recommendation, xauusd, control } = state;
+  const { price, oracle_gate, regime, confidence, scores, volatility, blocks, recommendation, xauusd, control, decision_attribution } = state;
   const regimeColor = REGIME_COLORS[regime] || 'text-gray-400';
+  const decSource = decision_attribution?.decision_source;
 
   return (
     <div className="space-y-4">
@@ -102,6 +103,16 @@ export default function CommandCenter() {
         <Badge className="border-blue-500/30 bg-blue-500/10 text-blue-400">
           Confidence: {formatPct(confidence)}
         </Badge>
+        {decSource && (
+          <Badge className={cn('text-xs',
+            decSource === 'ML' ? 'border-purple-500/30 bg-purple-500/10 text-purple-400' :
+            decSource === 'HYBRID' ? 'border-cyan-500/30 bg-cyan-500/10 text-cyan-400' :
+            decSource === 'OLLAMA' ? 'border-orange-500/30 bg-orange-500/10 text-orange-400' :
+            'border-gray-500/30 bg-gray-500/10 text-gray-400'
+          )}>
+            {decSource === 'HYBRID' ? '⚡' : decSource === 'ML' ? '🧠' : decSource === 'OLLAMA' ? '🦙' : '📏'} {decSource}
+          </Badge>
+        )}
         <span className="ml-auto text-xs text-[var(--text-secondary)]">
           Updated: {tsToDate(state.ts)}
         </span>
@@ -206,6 +217,43 @@ export default function CommandCenter() {
           ))}
         </div>
       </Card>
+
+      {/* Decision Attribution */}
+      {decision_attribution && decSource && (
+        <Card>
+          <CardHeader>
+            <CardTitle><Brain size={14} className="mr-1 inline" />Decision Attribution</CardTitle>
+          </CardHeader>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 text-sm">
+            <div>
+              <div className="text-xs text-[var(--text-secondary)]">Source</div>
+              <div className={cn('mt-0.5 font-semibold',
+                decSource === 'ML' ? 'text-purple-400' :
+                decSource === 'HYBRID' ? 'text-cyan-400' :
+                decSource === 'OLLAMA' ? 'text-orange-400' : 'text-gray-400'
+              )}>
+                {decSource}
+              </div>
+            </div>
+            {decision_attribution.ml_confidence_used != null && (
+              <div>
+                <div className="text-xs text-[var(--text-secondary)]">ML Confidence Used</div>
+                <div className="mt-0.5 font-mono font-semibold">{(decision_attribution.ml_confidence_used * 100).toFixed(0)}%</div>
+              </div>
+            )}
+            <div>
+              <div className="text-xs text-[var(--text-secondary)]">RL Adjustment</div>
+              <div className="mt-0.5 font-semibold">
+                {decision_attribution.rl_adjustment_applied ? (
+                  <span className="text-cyan-400">Applied</span>
+                ) : (
+                  <span className="text-gray-500">None</span>
+                )}
+              </div>
+            </div>
+          </div>
+        </Card>
+      )}
     </div>
   );
 }
