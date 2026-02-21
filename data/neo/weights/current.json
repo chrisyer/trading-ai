@@ -25,5 +25,12 @@
     "reason": "Gold in strong uptrend - err on BUY side",
     "sell_penalty": "Sell signals weighted 30-40% lower",
     "buy_boost": "Buy signals weighted 20-50% higher"
-  }
+  },
+  "short_confidence": 2.5,
+  "clean_setup": 2.5,
+  "calm_entry": 2.5,
+  "atr_caution": 2.5,
+  "deep_layer_risk": 2.5,
+  "control_trust": 2.5,
+  "shallow_win": 2.5
 }

@@ -1,0 +1,78 @@
+{
+  "symbol": "XAUUSD",
+  "timeframe": "H1",
+  "price_current": "4988.60",
+  "trend": {
+    "direction": "BULLISH",
+    "structure": "Series of Higher Highs and Higher Lows",
+    "strength": "STRONG"
+  },
+  "candlestick_patterns": [
+    {
+      "name": "Engulfing",
+      "location": "Around 08:00",
+      "significance": "MEDIUM"
+    }
+  ],
+  "support_resistance": [
+    {
+      "type": "SUPPORT",
+      "level": "4950.00",
+      "strength": "MODERATE",
+      "touches": "2"
+    },
+    {
+      "type": "RESISTANCE",
+      "level": "5000.00",
+      "strength": "STRONG",
+      "touches": "1"
+    }
+  ],
+  "indicators": {
+    "ema_crossover": "BULLISH_CROSS",
+    "rsi": {
+      "value": null,
+      "state": "OVERBOUGHT",
+      "divergence": "NONE"
+    },
+    "macd": {
+      "state": "BULLISH",
+      "histogram": "GROWING"
+    },
+    "bollinger": {
+      "position": "UPPER",
+      "width": "EXPANDING"
+    },
+    "ichimoku": {
+      "cloud": "ABOVE",
+      "color": "BULLISH"
+    },
+    "volume": "HIGH",
+    "other": "Fibonacci retracement levels are visible"
+  },
+  "pattern_classification": {
+    "primary": "breakout",
+    "confidence": "MEDIUM",
+    "description": "Price has broken above a resistance level and is showing bullish momentum."
+  },
+  "key_levels": {
+    "nearest_resistance": "5000.00",
+    "nearest_support": "4950.00",
+    "pivot_point": "4970.00"
+  },
+  "risk_assessment": {
+    "reversion_risk": 0.2,
+    "continuation_probability": 0.8,
+    "volatility": "HIGH"
+  },
+  "observations": [
+    "The price is currently trading near the upper band of the Bollinger Bands.",
+    "MACD histogram is expanding, indicating strengthening bullish momentum.",
+    "Fibonacci retracement levels are acting as potential support and resistance."
+  ],
+  "_meta": {
+    "model": "gemma3:27b",
+    "inference_time_s": 20.3,
+    "analyzed_at": "2026-02-08T09:31:01.541652+00:00"
+  }
+}

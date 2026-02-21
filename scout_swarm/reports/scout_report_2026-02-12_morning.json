@@ -1,0 +1,143 @@
+{
+  "scan_time": "2026-02-12T11:04:14.105421",
+  "scan_date": "2026-02-12",
+  "stocks_scanned": 18,
+  "bounce_candidates": 17,
+  "fade_candidates": 1,
+  "top_bounces": [
+    {
+      "symbol": "PINS",
+      "price": 19.09000015258789,
+      "change_1d": -6.099359447966579,
+      "change_3d": -2.6020419334481293,
+      "rsi": 13.956048401379917,
+      "volume_ratio": 0.9317823487009568,
+      "technical_score": 95,
+      "fundamental_score": 85,
+      "combined_score": 91.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock PINS is highly oversold with an RSI(14) of 14.0, indicating a potential for mean reversion. Additionally, it's currently at a 52-week low with only a 0.2% distance from the lower bound, suggesting a possible reversal. The volume ratio is also slightly below average, but this could indicate that the selling pressure might be starting to decrease.",
+      "fundamental_reason": "Low P/E ratio suggests undervaluation; no reported earnings misses or company-specific news. Sector rotation in Communication Services likely drove the selloff, indicating temporary market sentiment rather than structural issues.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        18.71,
+        19.28
+      ],
+      "target": 21.0,
+      "stop": 18.14
+    },
+    {
+      "symbol": "CRM",
+      "price": 185.0,
+      "change_1d": -4.368052252026134,
+      "change_3d": -3.31852934464002,
+      "rsi": 14.109595935461115,
+      "volume_ratio": 1.238026451509734,
+      "technical_score": 85,
+      "fundamental_score": 88,
+      "combined_score": 86.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold as indicated by the RSI of 14.1 (below 30), it has moved away from its 52-week high (-44.0%), and there was slightly higher than average volume on the recent move. However, the gap today is minimal, which slightly reduces the score.",
+      "fundamental_reason": "Temporary sector rotation and macro concerns, no fundamental issues. High-quality blue-chip with strong fundamentals and recurring revenue model.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        181.3,
+        186.85
+      ],
+      "target": 203.5,
+      "stop": 175.75
+    },
+    {
+      "symbol": "COIN",
+      "price": 153.1999969482422,
+      "change_1d": -5.728876914214731,
+      "change_3d": -7.218991352613324,
+      "rsi": 18.832444370704224,
+      "volume_ratio": 1.1524221745586263,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold as indicated by the RSI of 18.8, which is below the oversold threshold of 30. Additionally, the high volume on a downward move could suggest capitulation or exhaustion. The stock is also at 65.5% distance from its 52-week high, indicating it has fallen significantly and may be due for a rebound. Lastly, there was a gap today which can sometimes indicate potential gap fill.",
+      "fundamental_reason": "Recent selloff likely due to sector rotation in financial services/crypto, no fundamental issues reported. Low P/E suggests undervaluation, supporting mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        150.14,
+        154.73
+      ],
+      "target": 168.52,
+      "stop": 145.54
+    },
+    {
+      "symbol": "MSTR",
+      "price": 126.06999969482422,
+      "change_1d": -5.210526545244953,
+      "change_3d": -6.566362900683176,
+      "rsi": 35.09521431649635,
+      "volume_ratio": 0.9689526426965015,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold (RSI of 35.1), close to its 52-week low (-21.0%), and there was a small gap today (+0.5%). These factors suggest a potential mean reversion, indicating a bounce in the price.",
+      "fundamental_reason": "MSTR is a high-quality SaaS company with no recent company-specific news. The selloff aligns with broader tech sector rotation amid macroeconomic concerns, not structural issues. Strong fundamentals and recurring revenue model suggest mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        123.55,
+        127.33
+      ],
+      "target": 138.68,
+      "stop": 119.77
+    },
+    {
+      "symbol": "MRNA",
+      "price": 40.5099983215332,
+      "change_1d": -3.5361367975272784,
+      "change_3d": -1.2192148755525878,
+      "rsi": 18.21488846014762,
+      "volume_ratio": 1.077258846521956,
+      "technical_score": 85,
+      "fundamental_score": 65,
+      "combined_score": 77.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold (RSI 18.2), at a distance of -26.6% from its 52-week high, and has a high volume ratio (1.1x) compared to the 20-day average. Additionally, there was a large gap today (-10.5%) which may indicate potential for a gap fill.",
+      "fundamental_reason": "Moderna is a quality biotech company, but its recent selloff may reflect sector rotation and reduced vaccine demand. No immediate company-specific issues, but structural challenges (e.g., post-pandemic revenue decline) limit mean reversion potential.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        39.7,
+        40.92
+      ],
+      "target": 44.56,
+      "stop": 38.48
+    }
+  ],
+  "top_fades": [
+    {
+      "symbol": "CIFR",
+      "price": 16.280000686645508,
+      "change_1d": -4.795319745798398,
+      "change_3d": 10.522750798224777,
+      "rsi": 46.559210289040784,
+      "volume_ratio": 0.8770951903893848,
+      "technical_score": 75,
+      "fundamental_score": 35,
+      "combined_score": 59.0,
+      "direction": "FADE",
+      "confidence": "LOW",
+      "technical_reason": "The stock is currently at a high of its 52-week range and has shown significant price increases in the past 5 days. However, the RSI is not extremely overbought (46.6), suggesting that there might still be room for further price increase. The volume ratio is only 0.9x compared to the 20-day average, which indicates a moderate level of trading activity and could suggest that the recent price increase might not be driven by strong demand. The gap today is minimal (+0.4%), which suggests that there might not be a significant gap fill happening immediately.",
+      "fundamental_reason": "P/E ratio is N/A (suggesting unprofitability or no earnings), no clear fundamental catalyst provided for the move, and lack of earnings data raises structural concerns. Recent move may be speculative or sector-driven rather than fundamentals.",
+      "fundamental_quality": "LOW",
+      "entry_zone": [
+        16.12,
+        16.61
+      ],
+      "target": 14.65,
+      "stop": 17.09
+    }
+  ]
+}

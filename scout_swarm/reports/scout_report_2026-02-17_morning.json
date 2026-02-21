@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-17T11:03:42.942469",
+  "scan_date": "2026-02-17",
+  "stocks_scanned": 13,
+  "bounce_candidates": 13,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "PINS",
+      "price": 15.420000076293945,
+      "change_1d": -16.828482660000212,
+      "change_3d": -24.151499586021842,
+      "rsi": 8.080001831054688,
+      "volume_ratio": 3.433908617923721,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock PINS has shown significant signs of oversold conditions with an RSI(14) of 8.1, indicating a potential rebound. The high volume on the recent move suggests capitulation or exhaustion. Additionally, the stock is at a 52-week extreme, having dropped -61.4% from its high, which increases the potential for a reversal. Lastly, today's gap of -22.7% indicates a possible gap fill, further supporting the case for a bounce.",
+      "fundamental_reason": "Significant selloff likely due to sector rotation and market sentiment rather than company-specific issues. P/E ratio remains reasonable, and no fundamental red flags reported.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        15.11,
+        15.57
+      ],
+      "target": 16.96,
+      "stop": 14.65
+    },
+    {
+      "symbol": "IREN",
+      "price": 42.220001220703125,
+      "change_1d": 5.470903093154478,
+      "change_3d": -1.6538529686128567,
+      "rsi": 40.06272044607586,
+      "volume_ratio": 0.6537322073057527,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently oversold (RSI of 40.1), it's close to its 52-week low (-45.1%), and there was a gap today (+2.0%). These factors suggest a potential bounce in the near future.",
+      "fundamental_reason": "Recent selloff likely due to sector rotation in Financial Services amid macroeconomic concerns. No company-specific fundamental issues reported. P/E ratio remains elevated but not extreme, suggesting potential mean reversion if sector stabilizes.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        41.38,
+        42.64
+      ],
+      "target": 46.44,
+      "stop": 40.11
+    },
+    {
+      "symbol": "VRTX",
+      "price": 491.4700012207031,
+      "change_1d": 5.687930160407273,
+      "change_3d": 6.03909328793053,
+      "rsi": 56.929049639813606,
+      "volume_ratio": 1.7650207939508507,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is not extremely overbought as the RSI is at 56.9, but it has been on an upward trend for the past few days. The high volume ratio and being close to the 52-week high suggest some potential for a bounce. However, the gap today is only +1.4%, which slightly reduces the score.",
+      "fundamental_reason": "Quality healthcare company with no recent fundamental issues; recent move likely driven by sector rotation or temporary oversold conditions.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        481.64,
+        496.38
+      ],
+      "target": 540.62,
+      "stop": 466.9
+    },
+    {
+      "symbol": "SNOW",
+      "price": 182.2899932861328,
+      "change_1d": 5.424781345996199,
+      "change_3d": -0.15883916201853143,
+      "rsi": 36.69909195194615,
+      "volume_ratio": 1.231545082779156,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is currently oversold with an RSI of 36.7, indicating a potential for mean reversion. Additionally, the stock is at a distance of -35.1% from its 52-week high, suggesting it may have reached an extreme level and could potentially reverse. However, the score is not as high due to the lack of significant volume on the move and no gap fill today.",
+      "fundamental_reason": "No fundamental issues reported; minor selloff likely due to sector rotation or market noise. Snowflake remains a high-quality tech company with strong market position.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        178.64,
+        184.11
+      ],
+      "target": 200.52,
+      "stop": 173.18
+    },
+    {
+      "symbol": "MSTR",
+      "price": 133.8800048828125,
+      "change_1d": 8.845532425050816,
+      "change_3d": 0.6616578066259482,
+      "rsi": 39.43829438640848,
+      "volume_ratio": 0.9523770700399551,
+      "technical_score": 75,
+      "fundamental_score": 65,
+      "combined_score": 71.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is significantly undervalued relative to its 52-week high (-70.7%), indicating a potential for mean reversion. The RSI (14) of 39.4 indicates the stock may be oversold, suggesting a bounce could occur. While volume ratio is only 1.0x vs 20d avg, the large one-day increase (+8.8%) and today's gap (+3.3%) suggest some level of exhaustion or capitulation.",
+      "fundamental_reason": "MSTR's move likely driven by sector/crypto rotation, not fundamentals. Core business remains stable, but P/E N/A and Bitcoin exposure create volatility. No immediate company-specific issues, but structural risks persist.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        131.2,
+        135.22
+      ],
+      "target": 147.27,
+      "stop": 127.19
+    }
+  ],
+  "top_fades": []
+}

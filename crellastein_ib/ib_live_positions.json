@@ -3,19 +3,22 @@
     {
       "ticket": "IB706903676",
       "symbol": "mgc",
-      "time": "2026.02.05 01:15:53",
+      "time": "2026.02.08 23:32:28",
       "type": "BUY",
-      "volume": 142,
-      "entry_price": 5001.33,
-      "current_price": 5021.3,
+      "volume": 93,
+      "entry_price": 5032.68,
+      "current_price": 5016.7,
       "sl": null,
-      "tp": 5051.33,
-      "profit": 28362.63,
+      "tp": 5082.68,
+      "profit": -14860.91,
       "magic": "8880777",
-      "comment": "GRID|LONG|5001"
+      "comment": "GRID|LONG|5033"
     }
   ],
-  "current_price": 5021.3,
-  "updated": "2026-02-05T01:15:53.496918",
-  "connection": "ERROR: "
+  "current_price": 5016.7,
+  "updated": "2026-02-08T23:32:28.058234",
+  "connection": "PAUSED",
+  "paused": true,
+  "paused_at": "2026-02-09T14:22:00",
+  "paused_reason": "IB connection intentionally paused - may not use this exchange"
 }

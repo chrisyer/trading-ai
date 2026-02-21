@@ -1,0 +1,8 @@
+numpy>=1.24
+pandas>=2.0
+numba>=0.58
+optuna>=3.4
+scipy>=1.11
+oandapyV20>=0.7
+requests>=2.31
+tqdm>=4.66

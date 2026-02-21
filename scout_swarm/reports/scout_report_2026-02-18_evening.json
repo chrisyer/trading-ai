@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-18T23:02:38.297921",
+  "scan_date": "2026-02-18",
+  "stocks_scanned": 9,
+  "bounce_candidates": 9,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "SLV",
+      "price": 70.08999633789062,
+      "change_1d": 5.604932103909199,
+      "change_3d": 3.4844129100658483,
+      "rsi": 29.212026417492666,
+      "volume_ratio": 0.37603151658101874,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock SLV is significantly oversold with an RSI(14) of 29.2, indicating a potential bounce. Additionally, it's currently at a distance of -36.2% from its 52-week high, which suggests it may be nearing a potential reversal point. The gap today also contributes to the score as it indicates potential for gap fill.",
+      "fundamental_reason": "SLV tracks silver prices, not a company. Recent move likely due to temporary commodity demand/sentiment. No company-specific issues; mean reversion potential high if driven by short-term factors.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        68.69,
+        70.79
+      ],
+      "target": 77.1,
+      "stop": 66.59
+    },
+    {
+      "symbol": "XOM",
+      "price": 150.67999267578125,
+      "change_1d": 3.0713387778857237,
+      "change_3d": 0.5002334667099317,
+      "rsi": 67.66775225998518,
+      "volume_ratio": 0.8897175021513222,
+      "technical_score": 65,
+      "fundamental_score": 88,
+      "combined_score": 74.2,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The RSI is slightly below the oversold level (67.7 < 70), and the stock is currently at a distance of -4.0% from its 52-week high, indicating it might be due for a potential reversion. However, the volume ratio is only 0.9x compared to the 20-day average and there's no significant gap fill today. Therefore, while there are signs of mean reversion, they are not as strong.",
+      "fundamental_reason": "Blue-chip energy company with no fundamental issues; recent move likely due to sector rotation and stable fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        147.67,
+        152.19
+      ],
+      "target": 165.75,
+      "stop": 143.15
+    },
+    {
+      "symbol": "SLB",
+      "price": 51.59000015258789,
+      "change_1d": 3.5112359443063346,
+      "change_3d": 1.8759888909746891,
+      "rsi": 62.03479348620788,
+      "volume_ratio": 0.7330383537688624,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is currently not oversold (RSI 62.0) and it's not at its 52-week extreme (-1.5% from high, 65.8% from low). However, the recent positive price movement (+3.5% in 1 day, +1.9% in 3 days, +3.1% in 5 days) and the gap today suggest a potential short-term bounce.",
+      "fundamental_reason": "SLB's move aligns with sector rotation in energy, no recent earnings misses or guidance cuts. As a blue-chip with stable fundamentals, temporary selloffs are likely overcorrected, supporting strong mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        50.56,
+        52.11
+      ],
+      "target": 56.75,
+      "stop": 49.01
+    },
+    {
+      "symbol": "MRNA",
+      "price": 46.599998474121094,
+      "change_1d": 6.0778469164516125,
+      "change_3d": 16.18049804291102,
+      "rsi": 53.57339014625244,
+      "volume_ratio": 0.9694340863205203,
+      "technical_score": 65,
+      "fundamental_score": 75,
+      "combined_score": 69.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is currently not significantly oversold (RSI 53.6) nor at its 52-week high (-15.6% from the high), but it has shown a strong upward trend in the last few days (+16.2% in 3 days, +11.0% in 5 days). The volume ratio is 1.0x which is close to average, and there was a gap today (+6.3%). While not extremely high, these factors suggest a potential bounce in the near term.",
+      "fundamental_reason": "Moderna (MRNA) is a quality healthcare company, but the recent 16.2% move may reflect sector rotation or speculative momentum rather than clear fundamental catalysts. While the P/E is N/A (likely due to unprofitability), the stock lacks structural issues or company-specific bad news. Mean reversion potential is moderate due to mixed fundamentals and possible overbought conditions.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        45.67,
+        47.07
+      ],
+      "target": 51.26,
+      "stop": 44.27
+    },
+    {
+      "symbol": "RIOT",
+      "price": 15.489999771118164,
+      "change_1d": 5.733789586761517,
+      "change_3d": 9.084506895636268,
+      "rsi": 41.15120602918734,
+      "volume_ratio": 1.3226229142604808,
+      "technical_score": 65,
+      "fundamental_score": 75,
+      "combined_score": 69.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is currently oversold with an RSI of 41.2 and has a high volume on move (1.3x average). Additionally, it is at the lower end of its 52-week range (-35.3%), suggesting potential for mean reversion.",
+      "fundamental_reason": "Recent move likely driven by sector rotation/crypto market optimism rather than company-specific fundamentals. P/E ratio suggests growth expectations but no clear earnings issues. Not a blue chip, but structural risks in crypto sector could limit mean reversion.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        15.18,
+        15.64
+      ],
+      "target": 17.04,
+      "stop": 14.72
+    }
+  ],
+  "top_fades": []
+}

@@ -20,7 +20,7 @@ and sends Telegram alerts when anything breaks + a daily recap at 8 AM EST.
 ## CRELLA ENDPOINT
 
 ```
-GET http://100.91.17.86:8097/ops/health
+GET http://100.119.161.65:8097/ops/health
 ```
 
 Returns full system health in one JSON call:
@@ -120,7 +120,7 @@ All three have `GET /health` and `POST /reload`.
 |---------|---------|-------------|
 | `TELEGRAM_BOT_TOKEN` | (hardcoded fallback) | Telegram bot token |
 | `TELEGRAM_CHAT_ID` | (hardcoded fallback) | Telegram chat ID |
-| `CRELLA_IP` | 100.91.17.86 | CRELLA Tailscale IP |
+| `CRELLA_IP` | 100.119.161.65 | CRELLA Tailscale IP |
 | `CRELLA_PORT` | 8097 | CRELLA truth server port |
 | `OPS_POLL_SECONDS` | 300 | Poll interval (5 min) |
 

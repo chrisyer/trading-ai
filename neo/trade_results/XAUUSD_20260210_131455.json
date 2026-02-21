@@ -1,0 +1,131 @@
+{
+  "bot": "Crellastein_0201_Commander",
+  "magic": 8880202,
+  "regime": "QUIET",
+  "totalPnL": 0.0,
+  "totalPositions": 0,
+  "fleet": [
+    {
+      "magic": 888007,
+      "name": "v007_AGGRESSIVE",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    },
+    {
+      "magic": 8880071,
+      "name": "v0071_AGGRESSIVE_FIXED",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    },
+    {
+      "magic": 888008,
+      "name": "v008_DIVERGENCE",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    },
+    {
+      "magic": 888009,
+      "name": "v009_STRATEGIST",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    },
+    {
+      "magic": 8880091,
+      "name": "v0091_STRATEGIST_IMPROVED",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    },
+    {
+      "magic": 888010,
+      "name": "v010_LIQUIDITY",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    },
+    {
+      "magic": 888011,
+      "name": "v011_PATIENT",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    },
+    {
+      "magic": 888014,
+      "name": "v014_ULTIMATE",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    },
+    {
+      "magic": 888015,
+      "name": "v015_GTO",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    },
+    {
+      "magic": 888016,
+      "name": "v016_JACKAL_HEDGE",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    },
+    {
+      "magic": 888030,
+      "name": "v030_CORRELATION_SIMPLE",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    },
+    {
+      "magic": 888021,
+      "name": "v021_SHADOW",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    },
+    {
+      "magic": 888022,
+      "name": "v022_VIPER",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    },
+    {
+      "magic": 888023,
+      "name": "v023_PHANTOM",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    },
+    {
+      "magic": 888024,
+      "name": "v024_CHAOS",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    },
+    {
+      "magic": 888025,
+      "name": "v025_MIRAGE",
+      "positions": 0,
+      "pnl": 0.0,
+      "exposure": 0.0
+    }
+  ],
+  "raidActive": true,
+  "raidId": "RAID_2026.02.10_1",
+  "raidPnL": 0.0,
+  "raidsToday": 1,
+  "timestamp": "2026.02.10 15:14:55",
+  "prediction_id": "unknown",
+  "symbol": "XAUUSD",
+  "pnl_pips": 0,
+  "reported_at": "2026-02-10T13:14:55.288178",
+  "source": "mt5_forward"
+}

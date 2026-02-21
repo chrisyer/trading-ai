@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-20
+   Scanned: 7 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 MRNA @ $49.70
+   Move: +17.7% (3d) | RSI: 57
+   Score: 76/100 (HIGH)
+   Tech: The stock is currently not oversold (RSI 57.2) but it has shown a significant price increase in the last 5 days (+22.7%). It is also close to its 52-week high (-10.0%) which indicates potential for mean reversion. The volume ratio is slightly below average, but not significantly low to indicate capitulation or exhaustion. There is no gap fill today.
+   Fund: Moderna is a high-quality healthcare company, but the recent move likely reflects sector rotation or speculative buying rather than fundamental improvements. The N/A P/E ratio suggests unprofitability, and without earnings/guidance news, the move appears overbought with mean reversion potential.
+   Entry: $48.71-$50.20
+   Target: $54.67 | Stop: $47.22
+
+#2 RIOT @ $16.22
+   Move: +6.6% (3d) | RSI: 47
+   Score: 69/100 (MEDIUM)
+   Tech: The stock is currently not extremely overbought (RSI of 46.8) but has recently experienced significant price increases (+9.6% in 5 days). The stock is also near its 52-week low (-32.2% from high), suggesting it may be due for a bounce. However, the volume ratio and gap are not particularly indicative of capitulation or exhaustion, which slightly reduces the score.
+   Fund: Recent move likely driven by sector rotation in Financial Services with no company-specific fundamental catalysts. Elevated P/E suggests potential overvaluation, but no structural issues or earnings misses reported. Mean reversion potential remains moderate as fundamentals appear stable.
+   Entry: $15.90-$16.38
+   Target: $17.84 | Stop: $15.41
+
+#3 OXY @ $51.53
+   Move: +11.9% (3d) | RSI: 68
+   Score: 65/100 (MEDIUM)
+   Tech: The stock has shown significant price increases over the past few days (3-Day Change: +11.9%, 5-Day Change: +9.1%), which might indicate a potential for mean reversion. The RSI(14) is at 67.9, slightly above the oversold threshold of 30 but below the overbought threshold of 70, suggesting some overbought conditions but not extreme. The high volume on this move (Volume Ratio: 2.9x vs 20d avg) might indicate exhaustion or capitulation, further supporting a potential mean reversion. However, the stock is only -2.0% away from its 52W High and 48.2% away from its 52W Low, which means it's not at an extreme position in terms of its 52-week range. The gap today (+5.6%) also suggests a potential continuation rather than a reversal.
+   Fund: OXY is a quality energy company with a recent sector-driven rally. The move aligns with potential sector rotation (e.g., rising oil prices) rather than company-specific news. While fundamentals support energy stocks, the P/E ratio suggests some overvaluation, indicating moderate mean reversion potential.
+   Entry: $50.50-$52.05
+   Target: $56.68 | Stop: $48.95
+
+#4 MSTR @ $129.45
+   Move: -3.3% (3d) | RSI: 44
+   Score: 65/100 (MEDIUM)
+   Tech: The stock is not extremely oversold or overbought as RSI(14) is at 44.3. However, it is close to the 52-week low with a distance of -24.3%. The recent price increase might indicate some buying interest, but there is no significant high volume on move or gap fill to suggest strong capitulation or exhaustion. Therefore, the potential for mean reversion seems moderate.
+   Fund: MSTR's selloff likely tied to crypto market rotation and Bitcoin volatility, not company-specific issues. However, structural reliance on Bitcoin and lack of traditional profitability (N/A P/E) limit mean reversion potential.
+   Entry: $126.86-$130.74
+   Target: $142.39 | Stop: $122.98
+
+#5 SMCI @ $32.16
+   Move: +5.3% (3d) | RSI: 55
+   Score: 59/100 (LOW)
+   Tech: The stock is currently not extremely oversold (RSI 55.2) or overbought, but it has recently moved up significantly (+8.2% in 1 day and +5.3% in 3 days). It is also close to its 52-week low (-51.6%) which could indicate potential for a rebound. The volume ratio being 1.2x the 20-day average suggests some level of buying interest, but not necessarily capitulation or exhaustion. The gap today (+5.2%) might also contribute to a bounce as it indicates an upward move that could be followed by a correction.
+   Fund: Parse error
+   Entry: $31.52-$32.48
+   Target: $35.38 | Stop: $30.55
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

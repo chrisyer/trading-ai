@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-17T23:02:36.897502",
+  "scan_date": "2026-02-17",
+  "stocks_scanned": 10,
+  "bounce_candidates": 10,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "ORCL",
+      "price": 153.97000122070312,
+      "change_1d": -3.8528776023862954,
+      "change_3d": -2.0297800757657747,
+      "rsi": 36.059683872557116,
+      "volume_ratio": 0.5948545800669829,
+      "technical_score": 75,
+      "fundamental_score": 88,
+      "combined_score": 80.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "ORCL's RSI is at a low level of 36.1, indicating potential oversold conditions. Additionally, the stock is currently at a distance of -55.5% from its 52-week high, which suggests it may be near a bottom. However, the volume ratio is only 0.6x compared to the 20-day average, which is not a strong indication of capitulation or exhaustion. The gap today is also relatively small at -1.3%. Therefore, while there are signs of mean reversion potential, it's not as strong as it could be.",
+      "fundamental_reason": "Oracle is a high-quality blue-chip tech stock with no recent earnings misses or guidance cuts. The drop aligns with sector rotation and market volatility, not company-specific issues. Oversold conditions and strong fundamentals suggest mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        150.89,
+        155.51
+      ],
+      "target": 169.37,
+      "stop": 146.27
+    },
+    {
+      "symbol": "MARA",
+      "price": 7.510000228881836,
+      "change_1d": -5.176765700284724,
+      "change_3d": -0.6613718819595937,
+      "rsi": 29.579373978148297,
+      "volume_ratio": 0.8275714708142738,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock MARA is currently oversold with an RSI of 29.6 (below 30), indicating a potential for mean reversion. Additionally, it's relatively close to its 52-week low (-12.8%). Although the volume ratio is only 0.8x the 20-day average and there was no significant gap today, these factors combined suggest a possible bounce in the near future.",
+      "fundamental_reason": "No fundamental issues indicated; low P/E suggests undervaluation. Minor drop likely due to sector rotation or market volatility, not company-specific problems. Strong mean reversion potential if fundamentals remain stable.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        7.36,
+        7.59
+      ],
+      "target": 8.26,
+      "stop": 7.13
+    },
+    {
+      "symbol": "AAPL",
+      "price": 263.8800048828125,
+      "change_1d": 3.1667863563111576,
+      "change_3d": -4.217784071574416,
+      "rsi": 54.915067240250536,
+      "volume_ratio": 0.983174002380156,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The RSI is slightly below the oversold level (54.9 < 30), indicating a potential for mean reversion. The stock is also not too far from its 52-week high (-8.6%), which could indicate potential exhaustion. However, the volume ratio is only at 1.0x of the 20-day average and there was no significant gap today, which slightly reduces the mean reversion potential.",
+      "fundamental_reason": "Temporary selloff in a high-quality blue-chip with no fundamental issues; likely sector rotation or market-wide tech sell-off rather than company-specific problems.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        258.6,
+        266.52
+      ],
+      "target": 290.27,
+      "stop": 250.69
+    },
+    {
+      "symbol": "GLD",
+      "price": 448.20001220703125,
+      "change_1d": -3.11702543391007,
+      "change_3d": -4.1549927234995065,
+      "rsi": 43.19644921993662,
+      "volume_ratio": 0.3837544425501194,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "GLD is currently oversold with an RSI of 43.2 (below the 70 overbought threshold), and it's also close to its 52-week low (-12.1%). However, the volume ratio is only 0.4x versus the 20-day average, which suggests that the volume on the recent move might not be high enough for a strong capitulation or exhaustion signal. The gap today also doesn't provide a significant score as it's relatively small (-2.7%).",
+      "fundamental_reason": "GLD tracks gold prices, which recently fell due to macro factors (e.g., dollar strength, rate expectations). No company-specific issues; ETF is a blue-chip, stable asset with strong fundamentals. Oversold conditions suggest mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        439.24,
+        452.68
+      ],
+      "target": 493.02,
+      "stop": 425.79
+    },
+    {
+      "symbol": "CLSK",
+      "price": 9.279999732971191,
+      "change_1d": -5.7868083900874385,
+      "change_3d": -3.5343051625008504,
+      "rsi": 29.889103604534228,
+      "volume_ratio": 0.6615771541215005,
+      "technical_score": 85,
+      "fundamental_score": 50,
+      "combined_score": 71.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is significantly oversold with an RSI of 29.9, indicating a potential rebound. Additionally, it's currently at a 60.7% distance from its 52-week high, suggesting it may have reached an extreme level. The volume ratio is also slightly above the 20-day average, which could indicate some selling pressure but not enough to negate the oversold condition. However, there's no gap fill in this case.",
+      "fundamental_reason": "P/E ratio is N/A, suggesting potential structural issues or unprofitability. No explicit company-specific news provided, but lack of fundamental data limits confidence in mean reversion potential.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        9.09,
+        9.37
+      ],
+      "target": 10.21,
+      "stop": 8.82
+    }
+  ],
+  "top_fades": []
+}

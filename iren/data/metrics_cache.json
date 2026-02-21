@@ -1,45 +1,48 @@
 {
-  "timestamp": "2026-01-31T04:01:34.116767",
+  "timestamp": "2026-02-08T09:30:03.528999",
   "symbol": "IREN",
   "price": {
-    "current": 53.74,
-    "previous_close": 59.84,
-    "change": -6.1,
-    "change_pct": -10.19,
-    "day_high": 58.58,
-    "day_low": 52.31,
+    "current": 41.83,
+    "previous_close": 39.79,
+    "change": 2.04,
+    "change_pct": 5.13,
+    "day_high": 44.2199,
+    "day_low": 36.52,
     "52w_high": 76.87,
     "52w_low": 5.125
   },
   "volume": {
-    "current": 47650679,
-    "average": 39764420,
-    "ratio": 1.2
+    "current": 74326025,
+    "average": 40095863,
+    "ratio": 1.85
   },
   "technicals": {
-    "rsi": 58.0,
-    "ma_5": 57.77,
-    "ma_20": 52.18,
-    "momentum_5d": 2.64,
-    "trend": "NEUTRAL",
-    "trend_strength": 50
+    "rsi": 34.8,
+    "ma_5": 46.81,
+    "ma_20": 52.58,
+    "momentum_5d": -21.19,
+    "trend": "BEARISH",
+    "trend_strength": 100
   },
   "btc_correlation": {
-    "btc_price": 83896.1,
-    "correlation_30d": 0.026,
+    "btc_price": 70369.7,
+    "correlation_30d": -0.488,
     "coupling_status": "DECOUPLING"
   },
   "earnings": {
     "date": "2026-02-05",
-    "days_away": 4,
-    "phase": "PRE_EARNINGS_FINAL"
+    "days_away": -4,
+    "phase": "POST_EARNINGS"
   },
   "signal": {
-    "action": "WAIT",
-    "confidence": 40,
-    "score": -10,
+    "action": "HOLD",
+    "confidence": 50,
+    "score": 0,
     "reasons": [
-      "Positive momentum (+2.6%)",
+      "RSI oversold (34.8)",
+      "Bearish trend - wait",
+      "High volume (1.9x)",
+      "Negative momentum (-21.2%)",
       "\u26a0\ufe0f Earnings within 7 days - reduce size"
     ]
   },

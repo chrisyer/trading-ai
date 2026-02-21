@@ -1,0 +1,72 @@
+{
+  "symbol": "XAUUSD",
+  "timeframe": "H1",
+  "price_current": "4988.60",
+  "trend": {
+    "direction": "BULLISH",
+    "structure": "Series of Higher Highs and Higher Lows",
+    "strength": "STRONG"
+  },
+  "candlestick_patterns": [],
+  "support_resistance": [
+    {
+      "type": "SUPPORT",
+      "level": "4900",
+      "strength": "MODERATE",
+      "touches": "2"
+    },
+    {
+      "type": "RESISTANCE",
+      "level": "5000",
+      "strength": "MODERATE",
+      "touches": "1"
+    }
+  ],
+  "indicators": {
+    "ema_crossover": "NONE",
+    "rsi": {
+      "value": null,
+      "state": "NOT_VISIBLE",
+      "divergence": "NOT_VISIBLE"
+    },
+    "macd": {
+      "state": "NOT_VISIBLE",
+      "histogram": "NOT_VISIBLE"
+    },
+    "bollinger": {
+      "position": "NOT_VISIBLE",
+      "width": "NOT_VISIBLE"
+    },
+    "ichimoku": {
+      "cloud": "NOT_VISIBLE",
+      "color": "NOT_VISIBLE"
+    },
+    "volume": "AVERAGE",
+    "other": "Fibonacci retracement levels are visible"
+  },
+  "pattern_classification": {
+    "primary": "breakout",
+    "confidence": "MEDIUM",
+    "description": "Price has broken above a consolidation range and is exhibiting bullish momentum."
+  },
+  "key_levels": {
+    "nearest_resistance": "5000",
+    "nearest_support": "4900",
+    "pivot_point": "4950"
+  },
+  "risk_assessment": {
+    "reversion_risk": 0.3,
+    "continuation_probability": 0.7,
+    "volatility": "MODERATE"
+  },
+  "observations": [
+    "Fibonacci retracement levels suggest potential support and resistance areas.",
+    "The price is currently trading above the 50% Fibonacci retracement level.",
+    "Volume appears to be increasing with the bullish price action."
+  ],
+  "_meta": {
+    "model": "gemma3:27b",
+    "inference_time_s": 17.9,
+    "analyzed_at": "2026-02-08T09:27:46.549512+00:00"
+  }
+}

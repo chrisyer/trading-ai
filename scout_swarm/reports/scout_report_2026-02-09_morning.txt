@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-09
+   Scanned: 28 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 AMZN @ $210.32
+   Move: -11.9% (3d) | RSI: 28
+   Score: 86/100 (HIGH)
+   Tech: AMZN's RSI is significantly low at 27.8, indicating oversold conditions. The stock has also moved away from its 52-week high by -18.7%. High volume ratio (3.5x) suggests a significant move and could indicate capitulation or exhaustion. Additionally, the large gap today may lead to a potential gap fill, which often signals a reversal.
+   Fund: AMZN is a quality blue-chip company with no recent earnings misses or guidance cuts. The selloff likely reflects sector rotation and macroeconomic concerns (e.g., interest rates, AI hype fatigue) rather than company-specific issues. Oversold valuation and strong fundamentals suggest mean reversion potential.
+   Entry: $206.11-$212.42
+   Target: $231.35 | Stop: $199.80
+
+#2 COIN @ $165.12
+   Move: -8.1% (3d) | RSI: 17
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold (RSI of 16.7), has a high volume on move (1.7x average), is at 52W low extremes (-62.9%), and there was a gap today (+5.8%). These factors suggest a potential mean reversion or bounce.
+   Fund: Sector rotation and macroeconomic concerns likely drove the selloff. COIN has strong fundamentals (low P/E, $44.5B market cap) with no reported earnings misses or structural issues. The drop appears overcorrected, suggesting high mean reversion potential.
+   Entry: $161.82-$166.77
+   Target: $181.63 | Stop: $156.86
+
+#3 ORCL @ $142.82
+   Move: -7.7% (3d) | RSI: 20
+   Score: 81/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 19.9 and has a high volume ratio compared to its 20-day average. It is also at the lower end of its 52-week range, indicating potential for mean reversion. The positive gap today also suggests potential for a bounce.
+   Fund: Oracle's selloff likely reflects sector rotation and temporary concerns over cloud growth slowdown, not structural issues. Guidance was raised, and it remains a quality blue-chip with strong fundamentals.
+   Entry: $139.96-$144.25
+   Target: $157.10 | Stop: $135.68
+
+#4 MSTR @ $134.93
+   Move: +1.3% (3d) | RSI: 34
+   Score: 79/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 34.0, indicating a potential for mean reversion. Additionally, the high volume on the recent move suggests possible capitulation or exhaustion. The stock is also at the lower end of its 52-week range, which further supports the potential for a bounce.
+   Fund: No fundamental issues driving the move; likely sector rotation in tech. Quality tech company with strong balance sheet and no recent company-specific news.
+   Entry: $132.23-$136.28
+   Target: $148.42 | Stop: $128.18
+
+#5 SNOW @ $168.43
+   Move: -2.8% (3d) | RSI: 26
+   Score: 78/100 (HIGH)
+   Tech: The stock is significantly oversold with a RSI of 26.1 (below the 30 threshold), indicating potential for mean reversion. Additionally, it has moved away from its 52-week high (-40.0%) and today's gap (+3.6%). However, the score is not 100 due to the recent -12.6% drop over the past 5 days which might suggest further downside potential before a possible rebound.
+   Fund: Snowflake is a high-quality tech company with no recent company-specific negative news. The drop aligns with broader tech sector rotation and macro concerns, not structural issues. Oversold blue-chip with strong fundamentals.
+   Entry: $165.06-$170.11
+   Target: $185.27 | Stop: $160.01
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

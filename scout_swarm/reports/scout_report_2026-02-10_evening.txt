@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-10
+   Scanned: 9 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 IREN @ $42.93
+   Move: +7.9% (3d) | RSI: 41
+   Score: 79/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 40.6 and has recently reached a 52-week low (737.7%). The volume ratio is also slightly above the 20-day average, indicating some level of activity. However, it's not a high volume move that suggests capitulation or exhaustion. The recent large drop (-21.1% in 5 days) and today's gap could indicate potential for a bounce.
+   Fund: Positive move likely due to sector rotation in Financial Services with no fundamental issues reported. High-quality company with stable fundamentals suggests mean reversion potential.
+   Entry: $42.07-$43.36
+   Target: $47.22 | Stop: $40.78
+
+#2 REGN @ $754.91
+   Move: -1.5% (3d) | RSI: 52
+   Score: 74/100 (MEDIUM)
+   Tech: REGN has moved away from its 52-week high (-8.1%) and is currently in a neutral RSI range (51.9). While there is no significant volume spike or gap today, the stock's recent modest decline might indicate potential for mean reversion.
+   Fund: No fundamental issues reported; likely sector rotation or temporary selloff. Strong fundamentals, stable healthcare sector, and reasonable valuation suggest mean reversion potential.
+   Entry: $739.81-$762.46
+   Target: $830.40 | Stop: $717.16
+
+#3 MARA @ $7.66
+   Move: +13.8% (3d) | RSI: 30
+   Score: 73/100 (MEDIUM)
+   Tech: The stock is currently oversold as indicated by the RSI of 30.5, which suggests a potential rebound. Additionally, it is close to its 52-week low, indicating potential for mean reversion. However, the volume ratio and today's gap are not extremely high, which slightly reduces the score.
+   Fund: Low P/E suggests undervaluation, but SPAC nature introduces speculative risk. Recent move may reflect sector rotation or short-term speculation rather than fundamental improvement.
+   Entry: $7.51-$7.74
+   Target: $8.43 | Stop: $7.28
+
+#4 SHOP @ $127.24
+   Move: +14.4% (3d) | RSI: 41
+   Score: 71/100 (MEDIUM)
+   Tech: The stock is currently not extremely oversold (RSI 40.6) but it has recently experienced significant price increases (+14.4% in 3 days). The high volume ratio and the proximity to the 52-week high suggest potential exhaustion of buyers. However, the gap fill potential is limited due to today's smaller gap (+3.6%).
+   Fund: Recent positive move likely driven by sector rotation and speculative optimism rather than company-specific fundamentals. High P/E ratio suggests overvaluation, increasing mean reversion potential.
+   Entry: $124.70-$128.51
+   Target: $139.96 | Stop: $120.88
+
+#5 SNOW @ $182.58
+   Move: +16.5% (3d) | RSI: 38
+   Score: 65/100 (MEDIUM)
+   Tech: The stock is currently oversold (RSI of 37.7), has experienced a significant price increase in the past few days (+16.5% in 3 days and +5.4% in 5 days), and is at a distance of -34.9% from its 52-week high. However, the volume ratio is only 1.4x compared to the 20-day average which suggests that while there has been some increased activity, it might not be enough for a full capitulation or exhaustion. The gap today also adds to the potential for a bounce.
+   Fund: Snowflake (SNOW) is a quality tech company, but its P/E ratio being N/A suggests ongoing unprofitability. The recent move may reflect sector rotation or speculative buying rather than fundamental improvement. While structural issues (unprofitability) exist, the absence of company-specific news supports moderate mean reversion potential.
+   Entry: $178.93-$184.41
+   Target: $200.84 | Stop: $173.45
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

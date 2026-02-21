@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-16T23:03:34.106711",
+  "scan_date": "2026-02-16",
+  "stocks_scanned": 13,
+  "bounce_candidates": 13,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "PINS",
+      "price": 15.420000076293945,
+      "change_1d": -16.828482660000212,
+      "change_3d": -24.151499586021842,
+      "rsi": 8.080001831054688,
+      "volume_ratio": 3.433908617923721,
+      "technical_score": 85,
+      "fundamental_score": 78,
+      "combined_score": 82.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock PINS has shown significant signs of oversold conditions with an RSI(14) of 8.1, indicating a potential rebound. Additionally, the high volume on the recent move suggests capitulation or exhaustion. Furthermore, the stock is currently at 61.4% below its 52-week high, which increases the potential for a reversal. Lastly, the large gap today also indicates a potential gap fill.",
+      "fundamental_reason": "Sector rotation in Communication Services likely drove the selloff. No company-specific fundamental issues reported; P/E ratio remains reasonable. Oversold but not a blue-chip or structural problem.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        15.11,
+        15.57
+      ],
+      "target": 16.96,
+      "stop": 14.65
+    },
+    {
+      "symbol": "COIN",
+      "price": 164.32000732421875,
+      "change_1d": 16.464676156554383,
+      "change_3d": 1.113785538468326,
+      "rsi": 32.1729107840159,
+      "volume_ratio": 2.3929437680627688,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock COIN has a high RSI (32.2) indicating it is oversold, which suggests potential mean reversion. Additionally, the stock has a high volume ratio (2.4x vs 20d avg), suggesting capitulation or exhaustion. The stock is also at a distance of -63.0% from its 52W High, indicating it is near a potential extreme point. Lastly, there was a gap today (+8.9%) which could potentially fill.",
+      "fundamental_reason": "Recent move likely driven by sector rotation in crypto and fintech, no company-specific fundamental issues reported. High-quality player with elevated P/E but no structural problems.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        161.03,
+        165.96
+      ],
+      "target": 180.75,
+      "stop": 156.1
+    },
+    {
+      "symbol": "IREN",
+      "price": 42.220001220703125,
+      "change_1d": 5.470903093154478,
+      "change_3d": -1.6538529686128567,
+      "rsi": 40.06272044607586,
+      "volume_ratio": 0.6537322073057527,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently oversold with an RSI of 40.1 and it's also close to its 52-week low, indicating potential for a rebound. However, the volume ratio is only 0.7x of the 20-day average, which is slightly lower than ideal for a strong reversal. The gap today could potentially be filled, contributing to the score.",
+      "fundamental_reason": "Likely sector rotation in Financial Services without company-specific fundamental issues; P/E suggests potential overvaluation but no earnings misses or guidance cuts reported.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        41.38,
+        42.64
+      ],
+      "target": 46.44,
+      "stop": 40.11
+    },
+    {
+      "symbol": "SNOW",
+      "price": 182.2899932861328,
+      "change_1d": 5.424781345996199,
+      "change_3d": -0.15883916201853143,
+      "rsi": 36.69909195194615,
+      "volume_ratio": 1.231545082779156,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently oversold with an RSI of 36.7 (below the 30 threshold), indicating a potential bounce. Additionally, it's relatively close to its 52-week low and has shown a high volume on the recent move, which could suggest capitulation or exhaustion. Lastly, there was a positive gap today, which can sometimes indicate a potential gap fill.",
+      "fundamental_reason": "Small selloff likely due to sector rotation; no company-specific issues reported. Strong fundamentals and blue-chip status suggest mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        178.64,
+        184.11
+      ],
+      "target": 200.52,
+      "stop": 173.18
+    },
+    {
+      "symbol": "MARA",
+      "price": 7.920000076293945,
+      "change_1d": 9.2413803626751,
+      "change_3d": 3.3942589303010973,
+      "rsi": 36.26667197333374,
+      "volume_ratio": 1.0232260768022727,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The RSI is relatively low at 36.3, indicating the stock may be oversold. Additionally, there was a gap today which can sometimes indicate potential for a gap fill. However, the stock is not as close to its 52-week high or low extremes, and volume ratio is only 1x average, suggesting it might not be a strong capitulation/exhaustion event.",
+      "fundamental_reason": "Low P/E ratio (3.1) suggests undervaluation; no company-specific bad news reported; likely sector rotation or temporary selloff driving mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        7.76,
+        8.0
+      ],
+      "target": 8.71,
+      "stop": 7.52
+    }
+  ],
+  "top_fades": []
+}

@@ -1,0 +1,59 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-12
+   Scanned: 18 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 PINS @ $19.09
+   Move: -2.6% (3d) | RSI: 14
+   Score: 91/100 (HIGH)
+   Tech: The stock PINS is highly oversold with an RSI(14) of 14.0, indicating a potential for mean reversion. Additionally, it's currently at a 52-week low with only a 0.2% distance from the lower bound, suggesting a possible reversal. The volume ratio is also slightly below average, but this could indicate that the selling pressure might be starting to decrease.
+   Fund: Low P/E ratio suggests undervaluation; no reported earnings misses or company-specific news. Sector rotation in Communication Services likely drove the selloff, indicating temporary market sentiment rather than structural issues.
+   Entry: $18.71-$19.28
+   Target: $21.00 | Stop: $18.14
+
+#2 CRM @ $185.00
+   Move: -3.3% (3d) | RSI: 14
+   Score: 86/100 (HIGH)
+   Tech: The stock is significantly oversold as indicated by the RSI of 14.1 (below 30), it has moved away from its 52-week high (-44.0%), and there was slightly higher than average volume on the recent move. However, the gap today is minimal, which slightly reduces the score.
+   Fund: Temporary sector rotation and macro concerns, no fundamental issues. High-quality blue-chip with strong fundamentals and recurring revenue model.
+   Entry: $181.30-$186.85
+   Target: $203.50 | Stop: $175.75
+
+#3 COIN @ $153.20
+   Move: -7.2% (3d) | RSI: 19
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold as indicated by the RSI of 18.8, which is below the oversold threshold of 30. Additionally, the high volume on a downward move could suggest capitulation or exhaustion. The stock is also at 65.5% distance from its 52-week high, indicating it has fallen significantly and may be due for a rebound. Lastly, there was a gap today which can sometimes indicate potential gap fill.
+   Fund: Recent selloff likely due to sector rotation in financial services/crypto, no fundamental issues reported. Low P/E suggests undervaluation, supporting mean reversion potential.
+   Entry: $150.14-$154.73
+   Target: $168.52 | Stop: $145.54
+
+#4 MSTR @ $126.07
+   Move: -6.6% (3d) | RSI: 35
+   Score: 79/100 (HIGH)
+   Tech: The stock is significantly oversold (RSI of 35.1), close to its 52-week low (-21.0%), and there was a small gap today (+0.5%). These factors suggest a potential mean reversion, indicating a bounce in the price.
+   Fund: MSTR is a high-quality SaaS company with no recent company-specific news. The selloff aligns with broader tech sector rotation amid macroeconomic concerns, not structural issues. Strong fundamentals and recurring revenue model suggest mean reversion potential.
+   Entry: $123.55-$127.33
+   Target: $138.68 | Stop: $119.77
+
+#5 MRNA @ $40.51
+   Move: -1.2% (3d) | RSI: 18
+   Score: 77/100 (HIGH)
+   Tech: The stock is significantly oversold (RSI 18.2), at a distance of -26.6% from its 52-week high, and has a high volume ratio (1.1x) compared to the 20-day average. Additionally, there was a large gap today (-10.5%) which may indicate potential for a gap fill.
+   Fund: Moderna is a quality biotech company, but its recent selloff may reflect sector rotation and reduced vaccine demand. No immediate company-specific issues, but structural challenges (e.g., post-pandemic revenue decline) limit mean reversion potential.
+   Entry: $39.70-$40.92
+   Target: $44.56 | Stop: $38.48
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+#1 CIFR @ $16.28
+   Move: +10.5% (3d) | RSI: 47
+   Score: 59/100 (LOW)
+   Tech: The stock is currently at a high of its 52-week range and has shown significant price increases in the past 5 days. However, the RSI is not extremely overbought (46.6), suggesting that there might still be room for further price increase. The volume ratio is only 0.9x compared to the 20-day average, which indicates a moderate level of trading activity and could suggest that the recent price increase might not be driven by strong demand. The gap today is minimal (+0.4%), which suggests that there might not be a significant gap fill happening immediately.
+   Fund: P/E ratio is N/A (suggesting unprofitability or no earnings), no clear fundamental catalyst provided for the move, and lack of earnings data raises structural concerns. Recent move may be speculative or sector-driven rather than fundamentals.
+   Entry: $16.12-$16.61
+   Target: $14.65 | Stop: $17.09
+
+══════════════════════════════════════════════════

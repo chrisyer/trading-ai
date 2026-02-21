@@ -1,13 +1,13 @@
 {
   "weights": {
-    "ema_trend": 0.11855006896874637,
+    "ema_trend": 0.01,
     "rsi_overbought": 0.01,
-    "macd_signal": 0.01012903855686275,
-    "patterns": 0.1155847915624748,
-    "momentum_h4": 0.019579489826302733,
-    "session_london": 0.019563276190476195,
-    "session_asia": 0.016384000000000006,
-    "near_resistance": 0.04000000000000001
+    "macd_signal": 0.01,
+    "patterns": 0.012561413546727594,
+    "momentum_h4": 0.01,
+    "session_london": 0.01,
+    "session_asia": 0.01,
+    "near_resistance": 0.01
   },
-  "updated_at": "2026-02-06T00:31:57.512923"
+  "updated_at": "2026-02-21T00:32:39.824829"
 }

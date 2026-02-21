@@ -1,0 +1,72 @@
+{
+  "symbol": "XAUUSD",
+  "timeframe": "H1",
+  "price_current": null,
+  "trend": {
+    "direction": "BULLISH",
+    "structure": "HH/HL",
+    "strength": "STRONG"
+  },
+  "candlestick_patterns": [],
+  "support_resistance": [
+    {
+      "type": "SUPPORT",
+      "level": null,
+      "strength": "STRONG",
+      "touches": 3
+    },
+    {
+      "type": "RESISTANCE",
+      "level": null,
+      "strength": "MODERATE",
+      "touches": 1
+    }
+  ],
+  "indicators": {
+    "ema_crossover": "NOT_VISIBLE",
+    "rsi": {
+      "value": null,
+      "state": "NOT_VISIBLE",
+      "divergence": "NOT_VISIBLE"
+    },
+    "macd": {
+      "state": "NOT_VISIBLE",
+      "histogram": "NOT_VISIBLE"
+    },
+    "bollinger": {
+      "position": "NOT_VISIBLE",
+      "width": "NOT_VISIBLE"
+    },
+    "ichimoku": {
+      "cloud": "NOT_VISIBLE",
+      "color": "NOT_VISIBLE"
+    },
+    "volume": "CLIMACTIC",
+    "other": "VOLUME"
+  },
+  "pattern_classification": {
+    "primary": "parabolic",
+    "confidence": "HIGH",
+    "description": "The chart shows a strong upward parabolic trend with accelerating price movement and increasing volume."
+  },
+  "key_levels": {
+    "nearest_resistance": null,
+    "nearest_support": null,
+    "pivot_point": null
+  },
+  "risk_assessment": {
+    "reversion_risk": 0.4,
+    "continuation_probability": 0.7,
+    "volatility": "HIGH"
+  },
+  "observations": [
+    "The chart displays a strong upward trend with higher highs and higher lows.",
+    "Volume is increasing at the end of the chart, with the last bar being the highest.",
+    "The price is accelerating in a parabolic manner, indicating a strong bullish momentum."
+  ],
+  "_meta": {
+    "model": "qwen3-vl:32b",
+    "inference_time_s": 52.1,
+    "analyzed_at": "2026-02-08T09:14:47.029053+00:00"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "error": "JSON parse error: Expecting ',' delimiter: line 15 column 6 (char 305)",
+  "raw_response": "{\n  \"symbol\": \"XAUUSD\",\n  \"timeframe\": \"H1\",\n  \"price_current\": \"4962.680\",\n  \"trend\": {\n    \"direction\": \"BULLISH\",\n    \"structure\": \"HH/HL\",\n    \"strength\": \"STRONG\"\n  },\n  \"candlestick_patterns\": [\n    {\n      \"name\": \"Bullish Harami\",\n      \"location\": \"4800 low\",\n      \"significance\": \"MEDIUM\"\n    },\n    {\n      \"name\": \"Bullish Engulfing\",\n      \"location\": \"48888888888888888888888888888888",
+  "_meta": {
+    "model": "qwen3-vl:32b",
+    "inference_time_s": 111.6,
+    "analyzed_at": "2026-02-08T09:18:33.725610+00:00"
+  }
+}

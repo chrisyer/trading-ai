@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-09T11:05:39.574238",
+  "scan_date": "2026-02-09",
+  "stocks_scanned": 28,
+  "bounce_candidates": 28,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "AMZN",
+      "price": 210.32000732421875,
+      "change_1d": -5.554804877440455,
+      "change_3d": -11.859855993656554,
+      "rsi": 27.832518795138043,
+      "volume_ratio": 3.4742316858276214,
+      "technical_score": 85,
+      "fundamental_score": 88,
+      "combined_score": 86.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "AMZN's RSI is significantly low at 27.8, indicating oversold conditions. The stock has also moved away from its 52-week high by -18.7%. High volume ratio (3.5x) suggests a significant move and could indicate capitulation or exhaustion. Additionally, the large gap today may lead to a potential gap fill, which often signals a reversal.",
+      "fundamental_reason": "AMZN is a quality blue-chip company with no recent earnings misses or guidance cuts. The selloff likely reflects sector rotation and macroeconomic concerns (e.g., interest rates, AI hype fatigue) rather than company-specific issues. Oversold valuation and strong fundamentals suggest mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        206.11,
+        212.42
+      ],
+      "target": 231.35,
+      "stop": 199.8
+    },
+    {
+      "symbol": "COIN",
+      "price": 165.1199951171875,
+      "change_1d": 13.003011658166352,
+      "change_3d": -8.09306926892176,
+      "rsi": 16.662282034023505,
+      "volume_ratio": 1.7027405633835813,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold (RSI of 16.7), has a high volume on move (1.7x average), is at 52W low extremes (-62.9%), and there was a gap today (+5.8%). These factors suggest a potential mean reversion or bounce.",
+      "fundamental_reason": "Sector rotation and macroeconomic concerns likely drove the selloff. COIN has strong fundamentals (low P/E, $44.5B market cap) with no reported earnings misses or structural issues. The drop appears overcorrected, suggesting high mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        161.82,
+        166.77
+      ],
+      "target": 181.63,
+      "stop": 156.86
+    },
+    {
+      "symbol": "ORCL",
+      "price": 142.82000732421875,
+      "change_1d": 4.645377927279926,
+      "change_3d": -7.661466984555643,
+      "rsi": 19.872676419900003,
+      "volume_ratio": 1.0108421305908515,
+      "technical_score": 85,
+      "fundamental_score": 75,
+      "combined_score": 81.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 19.9 and has a high volume ratio compared to its 20-day average. It is also at the lower end of its 52-week range, indicating potential for mean reversion. The positive gap today also suggests potential for a bounce.",
+      "fundamental_reason": "Oracle's selloff likely reflects sector rotation and temporary concerns over cloud growth slowdown, not structural issues. Guidance was raised, and it remains a quality blue-chip with strong fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        139.96,
+        144.25
+      ],
+      "target": 157.1,
+      "stop": 135.68
+    },
+    {
+      "symbol": "MSTR",
+      "price": 134.92999267578125,
+      "change_1d": 26.114585820992108,
+      "change_3d": 1.2531879317011718,
+      "rsi": 33.99108081638536,
+      "volume_ratio": 2.207929481849462,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 34.0, indicating a potential for mean reversion. Additionally, the high volume on the recent move suggests possible capitulation or exhaustion. The stock is also at the lower end of its 52-week range, which further supports the potential for a bounce.",
+      "fundamental_reason": "No fundamental issues driving the move; likely sector rotation in tech. Quality tech company with strong balance sheet and no recent company-specific news.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        132.23,
+        136.28
+      ],
+      "target": 148.42,
+      "stop": 128.18
+    },
+    {
+      "symbol": "SNOW",
+      "price": 168.42999267578125,
+      "change_1d": 7.4787731860118445,
+      "change_3d": -2.7765023463778515,
+      "rsi": 26.124061545131283,
+      "volume_ratio": 1.568878685666858,
+      "technical_score": 75,
+      "fundamental_score": 82,
+      "combined_score": 77.80000000000001,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with a RSI of 26.1 (below the 30 threshold), indicating potential for mean reversion. Additionally, it has moved away from its 52-week high (-40.0%) and today's gap (+3.6%). However, the score is not 100 due to the recent -12.6% drop over the past 5 days which might suggest further downside potential before a possible rebound.",
+      "fundamental_reason": "Snowflake is a high-quality tech company with no recent company-specific negative news. The drop aligns with broader tech sector rotation and macro concerns, not structural issues. Oversold blue-chip with strong fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        165.06,
+        170.11
+      ],
+      "target": 185.27,
+      "stop": 160.01
+    }
+  ],
+  "top_fades": []
+}

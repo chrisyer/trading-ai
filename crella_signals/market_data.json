@@ -1,15 +1,15 @@
 {
   "gold": {
     "source": "GLD_ETF",
-    "gld_price": 441.88,
-    "spot_approx": 4639.74,
-    "timestamp": "2026-02-06T00:48:12.537439"
+    "gld_price": 468.62,
+    "spot_approx": 4920.51,
+    "timestamp": "2026-02-21T19:04:04.549575"
   },
   "spy": {
     "source": "SPY",
-    "price": 677.62,
-    "timestamp": "2026-02-06T00:48:12.725765"
+    "price": 689.43,
+    "timestamp": "2026-02-21T19:04:04.736099"
   },
-  "vix": 21.77,
-  "timestamp": "2026-02-06T00:48:12.384497"
+  "vix": 19.09,
+  "timestamp": "2026-02-21T19:04:04.400955"
 }

@@ -1,36 +1,179 @@
 {
-  "total_trades": 1,
-  "wins": 1,
+  "total_trades": 3293,
+  "wins": 2,
   "losses": 0,
-  "breakeven": 0,
-  "win_rate": 100.0,
-  "total_pips": 38.0,
-  "avg_pips_per_trade": 38.0,
+  "breakeven": 3291,
+  "win_rate": 0.06073489219556636,
+  "total_pips": 48.0,
+  "avg_pips_per_trade": 0.014576374126935925,
   "best_trade": 38,
   "worst_trade": 0.0,
-  "hunt_accuracy": 100.0,
-  "direction_accuracy": 100.0,
+  "hunt_accuracy": 0.030367446097783128,
+  "direction_accuracy": 0.030367446097783128,
   "by_strategy": {
     "FADE_THE_SQUEEZE": {
       "trades": 1,
       "wins": 1,
       "pips": 38
+    },
+    "UNKNOWN": {
+      "trades": 3292,
+      "wins": 1,
+      "pips": 10
     }
   },
   "by_day_of_week": {
     "Tuesday": {
-      "trades": 1,
+      "trades": 2295,
       "wins": 1,
       "pips": 38
+    },
+    "Monday": {
+      "trades": 998,
+      "wins": 1,
+      "pips": 10
     }
   },
   "recent_trades": [
     {
-      "date": "2026-01-27T06:40:02.817487",
+      "date": "2026-02-10T19:05:08.288786",
       "symbol": "XAUUSD",
-      "strategy": "FADE_THE_SQUEEZE",
-      "pnl": 38,
-      "direction_correct": true
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:05:38.267243",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:06:09.019081",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:06:38.447429",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:07:08.213366",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:07:38.336613",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:08:08.408923",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:08:38.332659",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:09:08.407095",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:09:53.364920",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:10:23.308967",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:11:10.106227",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:11:39.210211",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:12:27.598422",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:14:24.965856",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:14:54.338202",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:15:24.575659",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:15:54.266731",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:17:20.850563",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
+    },
+    {
+      "date": "2026-02-10T19:17:50.316260",
+      "symbol": "XAUUSD",
+      "strategy": "UNKNOWN",
+      "pnl": 0,
+      "direction_correct": false
     }
   ]
 }

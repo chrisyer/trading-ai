@@ -1,0 +1,14 @@
+{
+  "signal_id": "VERIFY_001",
+  "outcome": "WIN",
+  "profit": 100,
+  "entry_price": 5000,
+  "exit_price": 5010,
+  "pips": 10,
+  "lots": 0.5,
+  "prediction_id": "VERIFY_001",
+  "symbol": "XAUUSD",
+  "pnl_pips": 10,
+  "reported_at": "2026-02-09T14:41:38.856802",
+  "source": "mt5_forward"
+}

@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-10T11:03:32.395671",
+  "scan_date": "2026-02-10",
+  "stocks_scanned": 14,
+  "bounce_candidates": 13,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "ROKU",
+      "price": 88.5199966430664,
+      "change_1d": 3.110073635878008,
+      "change_3d": -3.91837698683708,
+      "rsi": 27.786449407215457,
+      "volume_ratio": 0.9863028179414275,
+      "technical_score": 85,
+      "fundamental_score": 75,
+      "combined_score": 81.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 27.8, indicating a potential rebound. It's also close to its 52-week low and has experienced a high volume on the move, suggesting possible capitulation or exhaustion. Additionally, there was a gap today which could potentially fill.",
+      "fundamental_reason": "Roku is a quality company in a competitive sector. The recent selloff aligns with sector rotation in Communication Services, with no company-specific fundamental issues reported. No earnings misses or guidance cuts identified, suggesting a temporary pullback rather than structural problems.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        86.75,
+        89.41
+      ],
+      "target": 97.37,
+      "stop": 84.09
+    },
+    {
+      "symbol": "IREN",
+      "price": 46.150001525878906,
+      "change_1d": 10.327514955108219,
+      "change_3d": 2.692485394182431,
+      "rsi": 42.413472556122265,
+      "volume_ratio": 0.9722780698384829,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently oversold with an RSI of 42.4 (below the oversold threshold of 30), it's at a 52-week extreme (-40.0% from high), and there was a gap today (-2.4%). These factors suggest a potential mean reversion or bounce in the near future.",
+      "fundamental_reason": "Recent move likely driven by sector rotation in Financial Services; no company-specific fundamental issues reported. P/E ratio is elevated but not extreme, suggesting potential overbought conditions without structural problems.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        45.23,
+        46.61
+      ],
+      "target": 50.77,
+      "stop": 43.84
+    },
+    {
+      "symbol": "ORCL",
+      "price": 156.58999633789062,
+      "change_1d": 9.641498604892472,
+      "change_3d": 6.763481484140144,
+      "rsi": 35.89650069800078,
+      "volume_ratio": 1.619548428975729,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 35.9, indicating a potential for mean reversion. Additionally, the high volume on the recent move suggests possible capitulation or exhaustion. Furthermore, the current price is near the 52-week low, which could indicate a bottoming process. Lastly, there's a gap up today, which might suggest a potential gap fill.",
+      "fundamental_reason": "Sector rotation in tech without company-specific catalyst; Oracle remains a stable, high-quality company with no recent negative fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        153.46,
+        158.16
+      ],
+      "target": 172.25,
+      "stop": 148.76
+    },
+    {
+      "symbol": "SLV",
+      "price": 76.04000091552734,
+      "change_1d": 8.3345181231538,
+      "change_3d": -3.9656471047565534,
+      "rsi": 44.48767858484205,
+      "volume_ratio": 0.48198416597156357,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock SLV is currently not extremely overbought (RSI of 44.5) but has recently moved away from its 52-week high (-30.8%). The volume ratio is also slightly above the 20-day average, suggesting some increased interest in the stock. However, the score is reduced due to the recent gap up (+3.8%) which might indicate further upward momentum.",
+      "fundamental_reason": "SLV tracks silver prices, which are influenced by macroeconomic factors (e.g., dollar strength, inflation). The selloff likely reflects temporary market conditions, not structural issues. No company-specific risks apply to this ETF.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        74.52,
+        76.8
+      ],
+      "target": 83.64,
+      "stop": 72.24
+    },
+    {
+      "symbol": "SNOW",
+      "price": 175.9499969482422,
+      "change_1d": 4.464765540266069,
+      "change_3d": 6.449273455807991,
+      "rsi": 33.410079034519995,
+      "volume_ratio": 1.3921608087791366,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently oversold with an RSI of 33.4 and has recently moved away from its 52-week high by -37.3%. Additionally, the volume ratio is 1.4x higher than the 20-day average, suggesting increased trading activity. However, there was no gap today which slightly reduces the score.",
+      "fundamental_reason": "No fundamental catalyst identified; likely sector rotation in tech. Company remains a high-quality cloud data platform with strong long-term positioning. Recent move appears overbought, suggesting potential mean reversion.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        172.43,
+        177.71
+      ],
+      "target": 193.54,
+      "stop": 167.15
+    }
+  ],
+  "top_fades": []
+}

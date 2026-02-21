@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-13T23:03:25.430922",
+  "scan_date": "2026-02-13",
+  "stocks_scanned": 13,
+  "bounce_candidates": 13,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "PINS",
+      "price": 15.420000076293945,
+      "change_1d": -16.828482660000212,
+      "change_3d": -24.151499586021842,
+      "rsi": 8.080001831054688,
+      "volume_ratio": 3.3099941659392367,
+      "technical_score": 85,
+      "fundamental_score": 75,
+      "combined_score": 81.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock PINS has shown significant signs of oversold conditions with an RSI(14) of 8.1, indicating a potential rebound. Additionally, the high volume on the recent move suggests possible capitulation or exhaustion. Furthermore, the stock is currently at 61.4% below its 52-week high, which could indicate a potential reversal. Lastly, today's gap of -22.7% might lead to a gap fill, further supporting the idea of a bounce.",
+      "fundamental_reason": "Significant drop likely due to sector rotation and macro concerns in Communication Services, with no clear company-specific fundamental issues reported. P/E remains reasonable, suggesting potential overreaction.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        15.11,
+        15.57
+      ],
+      "target": 16.96,
+      "stop": 14.65
+    },
+    {
+      "symbol": "IREN",
+      "price": 42.220001220703125,
+      "change_1d": 5.470903093154478,
+      "change_3d": -1.6538529686128567,
+      "rsi": 40.06272044607586,
+      "volume_ratio": 0.6527357816979984,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently at a 45.1% distance from its 52W high and has shown a significant increase of +5.5% in one day, which indicates potential for mean reversion. The RSI (14) is 40.1, slightly below the oversold level of 30, but not overly so. The volume ratio is 0.7x versus the 20-day average, suggesting some increased activity but not necessarily capitulation or exhaustion. The gap today is +1.8%, which can be a potential gap fill opportunity.",
+      "fundamental_reason": "No fundamental issues reported; likely sector rotation or temporary selloff. P/E ratio suggests potential overvaluation correction, but company-specific fundamentals remain stable.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        41.38,
+        42.64
+      ],
+      "target": 46.44,
+      "stop": 40.11
+    },
+    {
+      "symbol": "MRNA",
+      "price": 42.22999954223633,
+      "change_1d": 5.285462227935334,
+      "change_3d": 0.5595918950557222,
+      "rsi": 32.55602243808801,
+      "volume_ratio": 1.206556997283847,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently oversold (RSI of 32.6), indicating a potential for mean reversion. Additionally, it is close to its 52-week low (-89.5% from high) and has shown a significant increase in volume (1.2x vs 20d avg). Furthermore, there was a gap today (+4.3%) which could potentially be filled.",
+      "fundamental_reason": "No fundamental issues reported; recent move likely due to sector rotation and potential oversold conditions in healthcare biotech stocks.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        41.39,
+        42.65
+      ],
+      "target": 46.45,
+      "stop": 40.12
+    },
+    {
+      "symbol": "ROKU",
+      "price": 90.05999755859375,
+      "change_1d": 8.597609100663384,
+      "change_3d": -0.9349973262292366,
+      "rsi": 30.429763231477665,
+      "volume_ratio": 3.4415860243884975,
+      "technical_score": 75,
+      "fundamental_score": 75,
+      "combined_score": 75.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently oversold with an RSI of 30.4, indicating a potential bounce. It's also close to the 52-week low and has shown high volume on the recent move, which could suggest capitulation or exhaustion. Additionally, there was a significant gap today, which can sometimes lead to a gap fill.",
+      "fundamental_reason": "Roku is a quality company with no recent earnings misses or guidance cuts. The minor selloff likely reflects sector rotation and high P/E volatility, not structural issues. Mean reversion potential is strong if broader market or sector conditions improve.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        88.26,
+        90.96
+      ],
+      "target": 99.07,
+      "stop": 85.56
+    },
+    {
+      "symbol": "MSTR",
+      "price": 133.8800048828125,
+      "change_1d": 8.845532425050816,
+      "change_3d": 0.6616578066259482,
+      "rsi": 39.43829438640848,
+      "volume_ratio": 0.9230736951783541,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is currently not extremely oversold (RSI 39.4) but it's close to the lower bound of the normal range. The recent move up (+8.8% in 1 day) suggests some buying pressure, but there's also a gap that needs to be filled (-3.3% today's gap). However, the volume ratio is only slightly above average and the stock is not at its 52-week low, which reduces the score.",
+      "fundamental_reason": "MSTR is a high-quality tech company with no recent fundamental issues. The minor 3-day gain aligns with sector rotation rather than company-specific news. Oversold blue-chip characteristics and stable fundamentals suggest strong mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        131.2,
+        135.22
+      ],
+      "target": 147.27,
+      "stop": 127.19
+    }
+  ],
+  "top_fades": []
+}

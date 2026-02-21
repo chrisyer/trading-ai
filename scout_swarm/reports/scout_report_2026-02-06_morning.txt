@@ -1,0 +1,59 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-06
+   Scanned: 25 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 ORCL @ $136.48
+   Move: -14.7% (3d) | RSI: 14
+   Score: 86/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 14.4 (below the 30 oversold threshold), it has experienced a large drop in price (-19.2% over 5 days) which puts it near its 52-week low, and there was a high volume on the move (1.5x vs 20d avg). The gap today is relatively small, but given the other factors, it could potentially be filled.
+   Fund: Oracle is a quality tech company with no fundamental issues. The selloff aligns with broader tech sector rotation and macroeconomic concerns, not company-specific problems. Oversold blue-chip with strong fundamentals suggests high mean reversion potential.
+   Entry: $133.75-$137.84
+   Target: $150.13 | Stop: $129.66
+
+#2 MSFT @ $393.67
+   Move: -7.0% (3d) | RSI: 29
+   Score: 86/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 29.1, indicating a potential bounce. Additionally, the price is at the lower end of its 52-week range and there has been high volume on the recent move down, which could indicate capitulation or exhaustion. The gap today also suggests potential for a gap fill.
+   Fund: Microsoft is a high-quality blue-chip with no recent earnings misses or guidance cuts. The selloff aligns with broader tech sector rotation amid macroeconomic concerns, not company-specific issues. Oversold valuation and strong fundamentals suggest strong mean reversion potential.
+   Entry: $385.80-$397.61
+   Target: $433.04 | Stop: $373.99
+
+#3 QCOM @ $136.30
+   Move: -10.7% (3d) | RSI: 17
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 17.0, indicating a potential rebound. Additionally, the high volume on the recent move suggests capitulation or exhaustion. The stock is also at the lower end of its 52-week range, which adds to the potential for a reversal. Lastly, there's a gap today that could potentially fill.
+   Fund: Temporary sector rotation and broader tech sell-off; no company-specific issues. Oversold blue-chip with strong fundamentals.
+   Entry: $133.57-$137.66
+   Target: $149.93 | Stop: $129.49
+
+#4 NOW @ $102.63
+   Move: -13.0% (3d) | RSI: 24
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold as indicated by the RSI of 24.4, which is below the threshold of 30. The high volume on a negative move suggests capitulation or exhaustion. Additionally, the stock is currently at 52-week low extremes and there was a small gap today. These factors suggest a potential mean reversion scenario.
+   Fund: Likely sector rotation in high-P/E tech stocks; no reported company-specific issues or guidance cuts; strong fundamentals with temporary overreaction.
+   Entry: $100.58-$103.66
+   Target: $112.89 | Stop: $97.50
+
+#5 SNOW @ $156.71
+   Move: -17.8% (3d) | RSI: 18
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold with a RSI of 17.6, indicating potential for mean reversion. Additionally, it's currently at a 44.2% distance from its 52-week high and has experienced high volume on the recent move, which could suggest capitulation or exhaustion. The gap today is also a factor that might indicate a potential gap fill.
+   Fund: Sector rotation and temporary selloff without fundamental issues; no earnings miss or company-specific bad news reported.
+   Entry: $153.58-$158.28
+   Target: $172.38 | Stop: $148.87
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+#1 MRNA @ $40.87
+   Move: -3.9% (3d) | RSI: 53
+   Score: 73/100 (MEDIUM)
+   Tech: The RSI is not extremely oversold (below 30), and the volume ratio is only slightly below average. However, the stock is currently at a distance of -26.0% from its 52-week high, indicating it might be overextended. The gap today also suggests potential for downward movement.
+   Fund: Moderna's drop appears driven by sector rotation and macro concerns (e.g., interest rates) rather than company-specific issues. No earnings miss or guidance cut reported. The stock remains fundamentally strong with a robust pipeline, and the selloff may present a short-term overreaction.
+   Entry: $40.46-$41.69
+   Target: $36.78 | Stop: $42.91
+
+══════════════════════════════════════════════════

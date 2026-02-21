@@ -1,0 +1,143 @@
+{
+  "scan_time": "2026-02-11T23:03:56.736836",
+  "scan_date": "2026-02-11",
+  "stocks_scanned": 18,
+  "bounce_candidates": 17,
+  "fade_candidates": 1,
+  "top_bounces": [
+    {
+      "symbol": "COIN",
+      "price": 153.1999969482422,
+      "change_1d": -5.728876914214731,
+      "change_3d": -7.218991352613324,
+      "rsi": 18.832444370704224,
+      "volume_ratio": 1.1451541363963578,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 18.8, indicating a potential rebound. The stock is also close to its 52-week low and has experienced high volume on the recent move, which could suggest capitulation or exhaustion. Additionally, there is a gap that needs to be filled.",
+      "fundamental_reason": "Temporary selloff likely due to sector rotation and macro concerns; no company-specific issues reported; low P/E suggests undervaluation potential",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        150.14,
+        154.73
+      ],
+      "target": 168.52,
+      "stop": 145.54
+    },
+    {
+      "symbol": "CRM",
+      "price": 185.0,
+      "change_1d": -4.368052252026134,
+      "change_3d": -3.31852934464002,
+      "rsi": 14.109595935461115,
+      "volume_ratio": 1.2332112669959714,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold as indicated by the RSI of 14.1, which is below the threshold of 30. The stock is also close to its 52-week low and has experienced a high volume ratio (1.2x) compared to its 20-day average, suggesting potential exhaustion. However, today's gap is only -0.2%, which slightly reduces the score.",
+      "fundamental_reason": "CRM is a high-quality tech blue chip with no recent earnings misses or guidance cuts. The selloff aligns with broader tech sector rotation amid rate uncertainty, not company-specific issues. Oversold conditions and strong fundamentals suggest strong mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        181.3,
+        186.85
+      ],
+      "target": 203.5,
+      "stop": 175.75
+    },
+    {
+      "symbol": "MRNA",
+      "price": 40.5099983215332,
+      "change_1d": -3.5361367975272784,
+      "change_3d": -1.2192148755525878,
+      "rsi": 18.21488846014762,
+      "volume_ratio": 1.0766672673111646,
+      "technical_score": 85,
+      "fundamental_score": 75,
+      "combined_score": 81.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold as indicated by the RSI of 18.2, and it has also moved away from its 52-week high by -26.6%. Additionally, there was a large gap down today which could potentially lead to a fill. The volume ratio being 1.1x the 20-day average suggests some level of increased trading activity.",
+      "fundamental_reason": "Moderna is a quality healthcare company with no immediate company-specific news. The minor selloff likely reflects sector rotation or broader market sentiment. While the N/A P/E ratio suggests unprofitability, this is common for biotech firms in R&D phases. Structural risks exist but are not currently triggered.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        39.7,
+        40.92
+      ],
+      "target": 44.56,
+      "stop": 38.48
+    },
+    {
+      "symbol": "PINS",
+      "price": 19.09000015258789,
+      "change_1d": -6.099359447966579,
+      "change_3d": -2.6020419334481293,
+      "rsi": 13.956048401379917,
+      "volume_ratio": 0.9166121188361586,
+      "technical_score": 85,
+      "fundamental_score": 72,
+      "combined_score": 79.8,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock PINS is significantly oversold with an RSI(14) of 14.0, indicating a potential rebound. Additionally, it's currently at 0.2% from its 52-week low and has experienced negative changes over the past 3 days, suggesting potential for mean reversion. However, the volume ratio is only 0.9x compared to the 20-day average, which slightly reduces the score.",
+      "fundamental_reason": "PINS' selloff appears sector-related with no clear company-specific issues. Low P/E suggests potential undervaluation, but growth concerns and sector volatility limit high-quality classification. Mean reversion likely if sector rotation reverses.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        18.71,
+        19.28
+      ],
+      "target": 21.0,
+      "stop": 18.14
+    },
+    {
+      "symbol": "SMCI",
+      "price": 32.040000915527344,
+      "change_1d": -3.8703895729324755,
+      "change_3d": -6.806282954883491,
+      "rsi": 48.83984160042037,
+      "volume_ratio": 0.6338070406079214,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is currently oversold with an RSI of 48.8, which is below the standard threshold for oversold conditions (<30). Additionally, it's relatively close to its 52-week low, indicating potential for a rebound. However, the volume ratio is only 0.6x the 20-day average and there was a gap today, which slightly reduces the score.",
+      "fundamental_reason": "Recent selloff likely due to sector rotation and broader tech market volatility, not company-specific issues. SMCI remains a quality tech player with strong fundamentals and no structural problems.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        31.4,
+        32.36
+      ],
+      "target": 35.24,
+      "stop": 30.44
+    }
+  ],
+  "top_fades": [
+    {
+      "symbol": "C",
+      "price": 117.38999938964844,
+      "change_1d": -3.8968498377153216,
+      "change_3d": -4.319832868443352,
+      "rsi": 54.777598826452014,
+      "volume_ratio": 0.8344079928944821,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "FADE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is not extremely oversold (RSI 54.8) and it's not at its 52-week high or low extremes. However, the stock has recently moved away from its 52-week high by -6.2% which suggests some potential for mean reversion. The gap today (+1.2%) might indicate a short-term bounce but it doesn't significantly contribute to a strong mean reversion potential.",
+      "fundamental_reason": "Sector rotation and temporary selloff; no company-specific fundamental issues. Oversold blue-chip with strong balance sheet and stable earnings.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        116.22,
+        119.74
+      ],
+      "target": 105.65,
+      "stop": 123.26
+    }
+  ]
+}

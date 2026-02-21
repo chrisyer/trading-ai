@@ -1,0 +1,18 @@
+{
+  "status": "calibrated",
+  "outcomes_processed": 23,
+  "wins": 16,
+  "losses": 7,
+  "win_rate": 69.6,
+  "total_pnl": 47773.25,
+  "weights_adjusted": {
+    "short_confidence": 2.5,
+    "clean_setup": 2.5,
+    "calm_entry": 2.5,
+    "atr_caution": 2.5,
+    "deep_layer_risk": 2.5,
+    "control_trust": 2.5,
+    "shallow_win": 2.5
+  },
+  "calibrated_at": "2026-02-17T23:03:18.703147"
+}

@@ -1,0 +1,7 @@
+{
+  "error": "All vision models failed",
+  "models_tried": [
+    "qwen3-vl:32b",
+    "llava:34b"
+  ]
+}

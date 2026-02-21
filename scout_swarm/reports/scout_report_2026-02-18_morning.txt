@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-18
+   Scanned: 10 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 SLV @ $66.37
+   Move: -13.3% (3d) | RSI: 29
+   Score: 86/100 (HIGH)
+   Tech: The stock SLV is significantly oversold with an RSI(14) of 29.5 and has a high negative 3-day change (-13.3%). It's also at the lower end of its 52W range, which indicates potential for mean reversion. Additionally, there was a gap today, suggesting potential for a gap fill.
+   Fund: SLV tracks silver prices, which fell due to macro factors (e.g., dollar strength, rate hikes). No company-specific issues; ETF structure ensures price reflects commodity value. Oversold commodity with potential mean reversion.
+   Entry: $65.04-$67.03
+   Target: $73.01 | Stop: $63.05
+
+#2 MARA @ $7.51
+   Move: -0.7% (3d) | RSI: 30
+   Score: 79/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 29.6, which indicates a potential for mean reversion. Additionally, it is close to its 52-week low and has experienced a high volume ratio compared to the 20-day average. However, the score is not at its maximum due to the absence of a gap fill in today's trading.
+   Fund: Low P/E ratio suggests undervaluation; no company-specific bad news indicated; likely sector rotation or temporary selloff.
+   Entry: $7.36-$7.59
+   Target: $8.26 | Stop: $7.13
+
+#3 MRNA @ $43.93
+   Move: +8.4% (3d) | RSI: 45
+   Score: 79/100 (HIGH)
+   Tech: The stock is currently not oversold (RSI 45.1) but it's close to the 52-week high (-20.4% from peak), indicating a potential for mean reversion. The volume ratio is also slightly above the 20-day average, suggesting some activity but not necessarily capitulation or exhaustion. There was a small gap today (+0.1%) which could potentially be filled.
+   Fund: Moderna is a quality healthcare company with no recent company-specific news. The move likely reflects sector rotation into defensive healthcare stocks rather than structural issues. P/E N/A may indicate temporary unprofitability but not a structural problem.
+   Entry: $43.05-$44.37
+   Target: $48.32 | Stop: $41.73
+
+#4 ORCL @ $153.97
+   Move: -2.0% (3d) | RSI: 36
+   Score: 79/100 (HIGH)
+   Tech: ORCL's RSI is at 36.1 which indicates it may be oversold. The stock is also close to its 52-week low (29.5%). Although the volume ratio is not particularly high, the combination of these factors suggests a potential mean reversion scenario.
+   Fund: Strong fundamentals with no company-specific issues; likely sector rotation or market-wide correction. High-quality blue-chip with strong cloud growth and solid balance sheet.
+   Entry: $150.89-$155.51
+   Target: $169.37 | Stop: $146.27
+
+#5 AAPL @ $263.88
+   Move: -4.2% (3d) | RSI: 55
+   Score: 74/100 (MEDIUM)
+   Tech: AAPL's RSI is neither extremely oversold nor overbought at 54.9, but it has recently been in an uptrend. The stock is currently about 8.6% away from its 52-week high and has seen a significant drop in the past 5 days, which could indicate potential for mean reversion. However, the volume ratio is only at 1.0x of the 20-day average, suggesting that the recent move might not be due to heavy selling or buying pressure. The gap today is +0.9%, but without context about previous gaps it's hard to definitively say if this indicates a potential gap fill.
+   Fund: Temporary selloff likely due to sector rotation and macroeconomic concerns, no fundamental issues reported; AAPL remains a high-quality, oversold blue-chip with strong fundamentals.
+   Entry: $258.60-$266.52
+   Target: $290.27 | Stop: $250.69
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

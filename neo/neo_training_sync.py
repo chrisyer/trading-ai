@@ -15,8 +15,8 @@ Modes:
   python neo_training_sync.py daemon    # Run as daemon (hourly index + daily full)
 
 Data Flow:
-  CRELLA (100.91.17.86:8097/truth/training) → crella_index.json
-  CRELLA (100.91.17.86:8097/truth/training/full) → crella_trades_annotated.jsonl
+  CRELLA (100.119.161.65:8097/truth/training) → crella_index.json
+  CRELLA (100.119.161.65:8097/truth/training/full) → crella_trades_annotated.jsonl
   → NeoLearner.calibrate_from_crella() reads crella_index.json
 
 Author: Quinn

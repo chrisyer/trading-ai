@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-19
+   Scanned: 9 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 PINS @ $16.38
+   Move: -11.7% (3d) | RSI: 19
+   Score: 79/100 (HIGH)
+   Tech: The stock PINS is significantly oversold with an RSI of 19.5, indicating a potential rebound. The stock is also at the lower end of its 52-week range and has experienced high volume on the recent move, which could suggest capitulation or exhaustion. Additionally, there was a small gap today, although it was not significant, it could still contribute to a potential gap fill.
+   Fund: Sector rotation and elevated P/E ratio suggest temporary selloff, but lack of company-specific news and mid-cap size limit high-quality designation
+   Entry: $16.05-$16.54
+   Target: $18.02 | Stop: $15.56
+
+#2 SLV @ $70.09
+   Move: +3.5% (3d) | RSI: 29
+   Score: 79/100 (HIGH)
+   Tech: The stock SLV is currently oversold with an RSI of 29.2, indicating a potential bounce. Additionally, it is at the lower end of its 52-week range (-36.2%), suggesting a possible reversal. The gap today also adds to the potential for a gap fill.
+   Fund: SLV tracks silver prices, which are influenced by macroeconomic factors. The recent move likely reflects temporary demand shifts or market rotation, not structural issues. No company-specific fundamentals justify the move, suggesting high mean reversion potential.
+   Entry: $68.69-$70.79
+   Target: $77.10 | Stop: $66.59
+
+#3 SLB @ $51.59
+   Move: +1.9% (3d) | RSI: 62
+   Score: 73/100 (MEDIUM)
+   Tech: The stock is currently not oversold (RSI 62.0) or extremely overbought, but it's close to the upper Bollinger Band which can indicate a potential short-term reversal. The stock is also near its 52-week high, suggesting it might be due for a pullback. However, the volume ratio is only 0.7x of the 20-day average, indicating less than usual trading activity, which slightly reduces the likelihood of a significant reversal. The gap up today could potentially indicate a continuation of the upward trend rather than a fill and reverse.
+   Fund: Quality energy company with no recent earnings misses or guidance cuts. The move aligns with sector rotation and potential oversold conditions, lacking company-specific fundamental catalysts.
+   Entry: $50.56-$52.11
+   Target: $56.75 | Stop: $49.01
+
+#4 MU @ $420.95
+   Move: +1.7% (3d) | RSI: 47
+   Score: 70/100 (MEDIUM)
+   Tech: The stock is not extremely oversold (RSI is 46.7) but it has recently experienced a significant price increase (12.8% in 5 days). The distance from the 52-week high suggests potential for mean reversion, although it's not at the extremes yet. There is no gap fill today.
+   Fund: Micron is a quality semiconductor company in a cyclical sector. The minor 1.7% move aligns with sector rotation and macroeconomic sentiment rather than company-specific issues. No recent earnings misses or guidance cuts reported, and the stock remains oversold relative to its high P/E ratio, suggesting potential for mean reversion.
+   Entry: $412.53-$425.16
+   Target: $463.05 | Stop: $399.90
+
+#5 SHOP @ $121.64
+   Move: +9.9% (3d) | RSI: 40
+   Score: 65/100 (MEDIUM)
+   Tech: The RSI is below 70 but not extremely low, suggesting a potential for mean reversion. The stock is also at a distance of -33.2% from its 52-week high, indicating it might be near a peak. However, the volume ratio and today's gap are not particularly significant in this case.
+   Fund: Shopify is a quality company with a high P/E ratio, suggesting potential overvaluation. The move may reflect sector rotation or optimism in tech, but fundamentals (high valuation) imply limited mean reversion potential unless the rally is overextended.
+   Entry: $119.21-$122.86
+   Target: $133.80 | Stop: $115.56
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

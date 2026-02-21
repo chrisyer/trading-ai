@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-02-06T00:49:12.872146",
+  "timestamp": "2026-02-21T19:05:04.896094",
   "symbol": "XAUUSD",
-  "direction": "BULLISH_BIAS",
+  "direction": "BEARISH_BIAS",
   "conviction": 50,
   "defcon": 3,
   "defcon_color": "ORANGE",
   "action": "DEFCON 3 - ORANGE",
   "market_data": {
-    "gold_gld": 441.88,
-    "gold_spot_approx": 4639.74,
-    "spy": 677.62,
-    "vix": 21.77,
+    "gold_gld": 468.62,
+    "gold_spot_approx": 4920.51,
+    "spy": 689.43,
+    "vix": 19.09,
     "data_source": "GLD_ETF"
   },
   "targets": {
-    "tp": 0,
+    "tp": 20,
     "sl": 0,
     "hunt_zone": 0
   },
@@ -36,12 +36,12 @@
   },
   "neo_intelligence": {
     "defcon": 3,
-    "bullish_patterns": 17,
-    "bearish_patterns": 3,
-    "latest_pattern": "HANGING_MAN",
+    "bullish_patterns": 0,
+    "bearish_patterns": 20,
+    "latest_pattern": "FAILED_BREAKOUT",
     "latest_direction": "BEARISH",
-    "latest_message": "Hanging Man at $4745.70 - potential reversal"
+    "latest_message": "Failed breakout above $5104.60 - bull trap"
   },
-  "valid_until": "2026-02-06T00:54:12.872165",
+  "valid_until": "2026-02-21T19:10:04.896115",
   "source": "quinn_v2_REAL_DATA_+_NEO"
 }

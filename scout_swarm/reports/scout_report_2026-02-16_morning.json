@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-16T11:03:05.284934",
+  "scan_date": "2026-02-16",
+  "stocks_scanned": 13,
+  "bounce_candidates": 13,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "ROKU",
+      "price": 90.05999755859375,
+      "change_1d": 8.597609100663384,
+      "change_3d": -0.9349973262292366,
+      "rsi": 30.429763231477665,
+      "volume_ratio": 3.4462412118524663,
+      "technical_score": 85,
+      "fundamental_score": 82,
+      "combined_score": 83.80000000000001,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 30.4, high volume on move (3.4x the 20-day average), and it's currently at a distance of -22.8% from its 52-week high. Additionally, there was a large gap up today which could indicate potential for a gap fill.",
+      "fundamental_reason": "Roku is a quality company in a growing sector. The minor 3-day decline likely reflects sector rotation or market-wide volatility, not company-specific issues. High P/E suggests potential overvaluation, but no fundamental red flags justify the move. Mean reversion potential is strong if the sector stabilizes.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        88.26,
+        90.96
+      ],
+      "target": 99.07,
+      "stop": 85.56
+    },
+    {
+      "symbol": "VRTX",
+      "price": 491.4700012207031,
+      "change_1d": 5.687930160407273,
+      "change_3d": 6.03909328793053,
+      "rsi": 56.929049639813606,
+      "volume_ratio": 1.7650207939508507,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently not oversold (RSI 56.9) but it has recently experienced a significant price increase (+6.0% in 3 days). The volume ratio is also higher than the 20-day average, suggesting increased trading activity. The stock is also close to its 52-week high (-5.4%) and there was a gap today (+1.4%), both of which could indicate potential for a short-term reversal.",
+      "fundamental_reason": "Vertex Pharmaceuticals is a high-quality healthcare company with no recent company-specific news driving the move. The recent rally aligns with sector rotation into healthcare, not structural issues or earnings misses, suggesting the move is overbought and likely to revert.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        481.64,
+        496.38
+      ],
+      "target": 540.62,
+      "stop": 466.9
+    },
+    {
+      "symbol": "IREN",
+      "price": 42.220001220703125,
+      "change_1d": 5.470903093154478,
+      "change_3d": -1.6538529686128567,
+      "rsi": 40.06272044607586,
+      "volume_ratio": 0.6537322073057527,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently oversold with an RSI of 40.1 and has a high distance from its 52-week low (723.8%). Additionally, it has shown a significant gap today (+2.0%) which could indicate potential for a gap fill.",
+      "fundamental_reason": "Temporary sector rotation in Financial Services without company-specific issues; no earnings misses or structural problems reported; P/E suggests potential overvaluation but not extreme.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        41.38,
+        42.64
+      ],
+      "target": 46.44,
+      "stop": 40.11
+    },
+    {
+      "symbol": "NOW",
+      "price": 107.08000183105469,
+      "change_1d": 3.6692815199284246,
+      "change_3d": 0.5634846498922652,
+      "rsi": 25.152859986109533,
+      "volume_ratio": 0.9075247022044973,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold as indicated by the RSI of 25.2, which is below the oversold threshold of 30. Additionally, it's currently at a distance of -49.4% from its 52-week high, suggesting it may have reached an extreme point and could potentially revert. However, the volume ratio is only 0.9x versus the 20-day average, which is slightly below the criterion for high volume on a move. The gap fill potential is also present due to today's +1.8% gap.",
+      "fundamental_reason": "Quality tech company with no evident fundamental issues; recent move likely due to sector rotation or temporary selloff, suggesting strong mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        104.94,
+        108.15
+      ],
+      "target": 117.79,
+      "stop": 101.73
+    },
+    {
+      "symbol": "PINS",
+      "price": 15.420000076293945,
+      "change_1d": -16.828482660000212,
+      "change_3d": -24.151499586021842,
+      "rsi": 8.080001831054688,
+      "volume_ratio": 3.433908617923721,
+      "technical_score": 75,
+      "fundamental_score": 75,
+      "combined_score": 75.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock PINS has shown significant price drop in the last few days (-24.2% in 3 days, -21.3% in 5 days), which could indicate a potential reversal. The RSI(14) is at 8.1, indicating the stock may be oversold. Additionally, the volume ratio is 3.4x higher than the 20-day average, suggesting high volume on this move which can be an indication of capitulation or exhaustion. However, the stock is not at its 52-week low (-11.4% from the 52W low), and there was a gap today (-22.7%). This suggests that while there is potential for a bounce, it may not be an immediate reversal to the 52-week high.",
+      "fundamental_reason": "The selloff appears driven by sector rotation and broader market sentiment rather than company-specific issues. PINS has no recent earnings misses or guidance cuts, and the high P/E ratio suggests potential overreaction. Mean reversion potential is moderate due to sector dynamics.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        15.11,
+        15.57
+      ],
+      "target": 16.96,
+      "stop": 14.65
+    }
+  ],
+  "top_fades": []
+}

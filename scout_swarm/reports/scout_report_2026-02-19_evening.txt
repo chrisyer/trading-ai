@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-19
+   Scanned: 7 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 RIOT @ $16.22
+   Move: +6.6% (3d) | RSI: 47
+   Score: 79/100 (HIGH)
+   Tech: The stock is currently not oversold (RSI is 46.8) but it's close to the 30 level which indicates a potential for mean reversion. The stock has also moved significantly from its 52-week low and is at 162.0%. Although the volume ratio is only 0.8x of the 20-day average, the high volatility in price movement suggests some level of exhaustion. However, there's no gap fill today which slightly reduces the score.
+   Fund: Recent move likely driven by sector rotation (crypto/banking sector rally) and Bitcoin price action, with no reported company-specific catalysts. High P/E suggests potential overvaluation, but structural risks in crypto sector remain.
+   Entry: $15.90-$16.38
+   Target: $17.84 | Stop: $15.41
+
+#2 SMCI @ $32.16
+   Move: +5.3% (3d) | RSI: 55
+   Score: 73/100 (MEDIUM)
+   Tech: The stock SMCI has shown a significant increase in the past three days (+5.3%), which could indicate a potential short-term overbought condition as RSI(14) is at 55.2. However, the volume ratio is slightly higher than the 20-day average, suggesting some level of buying interest. The stock is also currently far from its 52-week high (-51.6%), indicating there's room for further price increase. Lastly, today's gap (+4.8%) could potentially be filled in the near future.
+   Fund: Sector rotation and no fundamental issues; stock appears oversold with strong fundamentals
+   Entry: $31.52-$32.48
+   Target: $35.38 | Stop: $30.55
+
+#3 MSTR @ $129.45
+   Move: -3.3% (3d) | RSI: 44
+   Score: 73/100 (MEDIUM)
+   Tech: The RSI is slightly oversold (44.3), indicating a potential bounce. The stock is also close to its 52-week low (-71.7%), suggesting it may have reached an extreme level. However, the volume ratio is only 0.6x of the 20-day average, which is not indicative of significant capitulation or exhaustion.
+   Fund: Quality tech company with temporary selloff likely driven by sector rotation or Bitcoin price volatility. No fundamental issues reported; strong balance sheet and long-term growth potential.
+   Entry: $126.86-$130.74
+   Target: $142.39 | Stop: $122.98
+
+#4 OXY @ $51.53
+   Move: +11.9% (3d) | RSI: 68
+   Score: 69/100 (MEDIUM)
+   Tech: The stock has shown significant price increases in the last few days (3-Day Change: +11.9%, 5-Day Change: +9.1%). Although the RSI is not extremely overbought (RSI(14): 67.9), it indicates a strong upward trend. The high volume ratio (2.9x vs 20d avg) suggests some level of buying pressure. However, the stock is not at its 52-week high (-2.0% from 52W High), and there was a gap today (+5.6%). These factors suggest that the price might bounce due to profit-taking or consolidation, but it's not yet showing strong signs of mean reversion.
+   Fund: Recent move likely driven by energy sector rotation and rising oil prices. No company-specific news reported; fundamentals remain stable. Elevated P/E suggests potential overbought conditions, supporting moderate mean reversion potential.
+   Entry: $50.50-$52.05
+   Target: $56.68 | Stop: $48.95
+
+#5 MRNA @ $49.70
+   Move: +17.7% (3d) | RSI: 57
+   Score: 69/100 (MEDIUM)
+   Tech: The stock is currently not significantly oversold (RSI 57.2) nor at its 52-week high (-10.0%). However, the recent strong upward price movement (+22.7% in 5 days) suggests potential for a short-term correction or mean reversion. The gap today is also relatively small (+0.8%), which could indicate a potential fill of this gap.
+   Fund: Moderna is a quality healthcare company with no recent company-specific negative news. The move likely reflects sector rotation or speculative momentum rather than fundamental changes. Mean reversion potential is high due to overbought conditions and lack of earnings justification.
+   Entry: $48.71-$50.20
+   Target: $54.67 | Stop: $47.22
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

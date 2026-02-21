@@ -47,7 +47,7 @@ module.exports = {
       script: "ml/data/ingest.py",
       interpreter: "python3",
       env: {
-        CRELLA_IP: "100.91.17.86",
+        CRELLA_IP: "100.119.161.65",
         CRELLA_PORT: "8097",
         INGEST_POLL_SECONDS: "60",
       },

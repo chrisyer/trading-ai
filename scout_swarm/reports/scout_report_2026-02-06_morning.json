@@ -1,0 +1,143 @@
+{
+  "scan_time": "2026-02-06T11:06:03.444989",
+  "scan_date": "2026-02-06",
+  "stocks_scanned": 25,
+  "bounce_candidates": 24,
+  "fade_candidates": 1,
+  "top_bounces": [
+    {
+      "symbol": "ORCL",
+      "price": 136.47999572753906,
+      "change_1d": -6.9475711247154015,
+      "change_3d": -14.73197687787211,
+      "rsi": 14.424719372202546,
+      "volume_ratio": 1.465012528980586,
+      "technical_score": 85,
+      "fundamental_score": 88,
+      "combined_score": 86.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 14.4 (below the 30 oversold threshold), it has experienced a large drop in price (-19.2% over 5 days) which puts it near its 52-week low, and there was a high volume on the move (1.5x vs 20d avg). The gap today is relatively small, but given the other factors, it could potentially be filled.",
+      "fundamental_reason": "Oracle is a quality tech company with no fundamental issues. The selloff aligns with broader tech sector rotation and macroeconomic concerns, not company-specific problems. Oversold blue-chip with strong fundamentals suggests high mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        133.75,
+        137.84
+      ],
+      "target": 150.13,
+      "stop": 129.66
+    },
+    {
+      "symbol": "MSFT",
+      "price": 393.6700134277344,
+      "change_1d": -4.954245368724164,
+      "change_3d": -7.01513617686399,
+      "rsi": 29.057788383881416,
+      "volume_ratio": 1.6514526362040753,
+      "technical_score": 85,
+      "fundamental_score": 88,
+      "combined_score": 86.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 29.1, indicating a potential bounce. Additionally, the price is at the lower end of its 52-week range and there has been high volume on the recent move down, which could indicate capitulation or exhaustion. The gap today also suggests potential for a gap fill.",
+      "fundamental_reason": "Microsoft is a high-quality blue-chip with no recent earnings misses or guidance cuts. The selloff aligns with broader tech sector rotation amid macroeconomic concerns, not company-specific issues. Oversold valuation and strong fundamentals suggest strong mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        385.8,
+        397.61
+      ],
+      "target": 433.04,
+      "stop": 373.99
+    },
+    {
+      "symbol": "QCOM",
+      "price": 136.3000030517578,
+      "change_1d": -8.455904620526145,
+      "change_3d": -10.693220146481174,
+      "rsi": 17.01288832074674,
+      "volume_ratio": 2.7372628549473332,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 17.0, indicating a potential rebound. Additionally, the high volume on the recent move suggests capitulation or exhaustion. The stock is also at the lower end of its 52-week range, which adds to the potential for a reversal. Lastly, there's a gap today that could potentially fill.",
+      "fundamental_reason": "Temporary sector rotation and broader tech sell-off; no company-specific issues. Oversold blue-chip with strong fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        133.57,
+        137.66
+      ],
+      "target": 149.93,
+      "stop": 129.49
+    },
+    {
+      "symbol": "NOW",
+      "price": 102.62999725341797,
+      "change_1d": -7.598813779234703,
+      "change_3d": -13.025426056425449,
+      "rsi": 24.40817106157384,
+      "volume_ratio": 1.7281615055190416,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold as indicated by the RSI of 24.4, which is below the threshold of 30. The high volume on a negative move suggests capitulation or exhaustion. Additionally, the stock is currently at 52-week low extremes and there was a small gap today. These factors suggest a potential mean reversion scenario.",
+      "fundamental_reason": "Likely sector rotation in high-P/E tech stocks; no reported company-specific issues or guidance cuts; strong fundamentals with temporary overreaction.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        100.58,
+        103.66
+      ],
+      "target": 112.89,
+      "stop": 97.5
+    },
+    {
+      "symbol": "SNOW",
+      "price": 156.7100067138672,
+      "change_1d": -5.190868728158781,
+      "change_3d": -17.81518107129059,
+      "rsi": 17.608222739221304,
+      "volume_ratio": 1.376392874962153,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with a RSI of 17.6, indicating potential for mean reversion. Additionally, it's currently at a 44.2% distance from its 52-week high and has experienced high volume on the recent move, which could suggest capitulation or exhaustion. The gap today is also a factor that might indicate a potential gap fill.",
+      "fundamental_reason": "Sector rotation and temporary selloff without fundamental issues; no earnings miss or company-specific bad news reported.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        153.58,
+        158.28
+      ],
+      "target": 172.38,
+      "stop": 148.87
+    }
+  ],
+  "top_fades": [
+    {
+      "symbol": "MRNA",
+      "price": 40.869998931884766,
+      "change_1d": -4.44236966458581,
+      "change_3d": -3.948296910220672,
+      "rsi": 52.71875818624816,
+      "volume_ratio": 0.8132966596021209,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "FADE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The RSI is not extremely oversold (below 30), and the volume ratio is only slightly below average. However, the stock is currently at a distance of -26.0% from its 52-week high, indicating it might be overextended. The gap today also suggests potential for downward movement.",
+      "fundamental_reason": "Moderna's drop appears driven by sector rotation and macro concerns (e.g., interest rates) rather than company-specific issues. No earnings miss or guidance cut reported. The stock remains fundamentally strong with a robust pipeline, and the selloff may present a short-term overreaction.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        40.46,
+        41.69
+      ],
+      "target": 36.78,
+      "stop": 42.91
+    }
+  ]
+}

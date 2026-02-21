@@ -1,0 +1,59 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-13
+   Scanned: 22 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 ROKU @ $82.93
+   Move: -6.3% (3d) | RSI: 18
+   Score: 83/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 18.4, indicating a potential for mean reversion. The high volume ratio and the fact that it's close to its 52-week low suggest possible capitulation or exhaustion. However, there is no gap today which slightly reduces the score.
+   Fund: Roku is a quality company with a high P/E ratio suggesting potential overvaluation. The selloff aligns with sector rotation out of high-growth tech stocks rather than company-specific issues. No fundamental red flags, indicating mean reversion potential if the sector stabilizes.
+   Entry: $81.27-$83.76
+   Target: $91.22 | Stop: $78.78
+
+#2 MS @ $168.06
+   Move: -7.8% (3d) | RSI: 37
+   Score: 80/100 (HIGH)
+   Tech: The stock is currently oversold as indicated by the RSI of 36.8, which is below the threshold of 30. Additionally, the volume ratio is 1.6x higher than the 20-day average, suggesting increased trading activity and potential for exhaustion. Furthermore, the price is at a distance of -12.8% from the 52-week high, indicating it might be due for a bounce.
+   Fund: Morgan Stanley (MS) is a quality financial institution with a reasonable P/E ratio. The decline appears linked to sector rotation amid broader market volatility, not company-specific issues. No fundamental red flags (e.g., earnings misses, guidance cuts) are present, and the stock remains an oversold blue chip with strong mean reversion potential.
+   Entry: $164.70-$169.74
+   Target: $184.87 | Stop: $159.66
+
+#3 SLV @ $67.73
+   Move: -10.9% (3d) | RSI: 36
+   Score: 79/100 (HIGH)
+   Tech: The stock SLV is significantly oversold with an RSI of 35.9, indicating a potential for mean reversion. Additionally, it's currently at a 38.3% distance from its 52-week high, suggesting it may have reached an extreme point. However, the volume ratio is only 0.7x compared to the 20-day average, which slightly reduces the score.
+   Fund: SLV tracks silver prices, which are influenced by macroeconomic factors. Recent drop likely due to sector rotation or temporary demand shifts, not company-specific issues. No fundamental structural problems in the ETF itself.
+   Entry: $66.38-$68.41
+   Target: $74.50 | Stop: $64.34
+
+#4 AAPL @ $261.73
+   Move: -4.7% (3d) | RSI: 62
+   Score: 79/100 (HIGH)
+   Tech: AAPL's current RSI of 62.5 is slightly oversold, indicating a potential for mean reversion. The stock is also relatively close to its 52-week low, which suggests it might be undervalued. Additionally, the volume ratio being 1.4x the 20-day average indicates higher than usual trading activity, potentially signaling exhaustion or capitulation.
+   Fund: Sector rotation and temporary selloff; no company-specific issues or structural problems. Oversold blue-chip with strong fundamentals.
+   Entry: $256.50-$264.35
+   Target: $287.90 | Stop: $248.64
+
+#5 COIN @ $141.09
+   Move: -15.6% (3d) | RSI: 18
+   Score: 77/100 (HIGH)
+   Tech: The stock is significantly oversold with a RSI of 17.9, indicating potential for mean reversion. Additionally, the high volume on a move suggests possible capitulation or exhaustion. The stock is also at 68.3% distance from its 52-week high, which further indicates it may be nearing a potential reversal point. However, the gap today is minimal and does not significantly contribute to the score.
+   Fund: Sector rotation and macro concerns likely drove the selloff; no clear fundamental issues reported, but high P/E and sector volatility limit mean reversion potential.
+   Entry: $138.27-$142.50
+   Target: $155.20 | Stop: $134.04
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+#1 GLD @ $451.39
+   Move: -3.3% (3d) | RSI: 48
+   Score: 73/100 (MEDIUM)
+   Tech: GLD is not oversold (RSI is at 48.3) and while it's near the 52-week high, volume ratio is only 0.7x average which suggests that the move might not be due to heavy selling or exhaustion. However, the stock has experienced a significant increase in the past few months, making it a potential candidate for a correction.
+   Fund: GLD tracks gold prices, which recently fell due to macro factors (e.g., dollar strength, rate expectations). No company-specific issues; likely temporary sector rotation. Oversold blue-chip ETF with strong fundamentals.
+   Entry: $446.88-$460.42
+   Target: $406.25 | Stop: $473.96
+
+══════════════════════════════════════════════════

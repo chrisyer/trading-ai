@@ -1,0 +1,143 @@
+{
+  "scan_time": "2026-02-13T11:04:35.892925",
+  "scan_date": "2026-02-13",
+  "stocks_scanned": 22,
+  "bounce_candidates": 21,
+  "fade_candidates": 1,
+  "top_bounces": [
+    {
+      "symbol": "ROKU",
+      "price": 82.93000030517578,
+      "change_1d": -5.643416906266174,
+      "change_3d": -6.31495317428763,
+      "rsi": 18.445294450712723,
+      "volume_ratio": 3.11499496905625,
+      "technical_score": 85,
+      "fundamental_score": 80,
+      "combined_score": 83.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 18.4, indicating a potential for mean reversion. The high volume ratio and the fact that it's close to its 52-week low suggest possible capitulation or exhaustion. However, there is no gap today which slightly reduces the score.",
+      "fundamental_reason": "Roku is a quality company with a high P/E ratio suggesting potential overvaluation. The selloff aligns with sector rotation out of high-growth tech stocks rather than company-specific issues. No fundamental red flags, indicating mean reversion potential if the sector stabilizes.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        81.27,
+        83.76
+      ],
+      "target": 91.22,
+      "stop": 78.78
+    },
+    {
+      "symbol": "MS",
+      "price": 168.05999755859375,
+      "change_1d": -4.878874504486608,
+      "change_3d": -7.836582433021578,
+      "rsi": 36.81947579218454,
+      "volume_ratio": 1.6350593887250147,
+      "technical_score": 75,
+      "fundamental_score": 88,
+      "combined_score": 80.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently oversold as indicated by the RSI of 36.8, which is below the threshold of 30. Additionally, the volume ratio is 1.6x higher than the 20-day average, suggesting increased trading activity and potential for exhaustion. Furthermore, the price is at a distance of -12.8% from the 52-week high, indicating it might be due for a bounce.",
+      "fundamental_reason": "Morgan Stanley (MS) is a quality financial institution with a reasonable P/E ratio. The decline appears linked to sector rotation amid broader market volatility, not company-specific issues. No fundamental red flags (e.g., earnings misses, guidance cuts) are present, and the stock remains an oversold blue chip with strong mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        164.7,
+        169.74
+      ],
+      "target": 184.87,
+      "stop": 159.66
+    },
+    {
+      "symbol": "SLV",
+      "price": 67.7300033569336,
+      "change_1d": -11.53343062073936,
+      "change_3d": -10.928455363678003,
+      "rsi": 35.86028263900022,
+      "volume_ratio": 0.7370290997064447,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock SLV is significantly oversold with an RSI of 35.9, indicating a potential for mean reversion. Additionally, it's currently at a 38.3% distance from its 52-week high, suggesting it may have reached an extreme point. However, the volume ratio is only 0.7x compared to the 20-day average, which slightly reduces the score.",
+      "fundamental_reason": "SLV tracks silver prices, which are influenced by macroeconomic factors. Recent drop likely due to sector rotation or temporary demand shifts, not company-specific issues. No fundamental structural problems in the ETF itself.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        66.38,
+        68.41
+      ],
+      "target": 74.5,
+      "stop": 64.34
+    },
+    {
+      "symbol": "AAPL",
+      "price": 261.7300109863281,
+      "change_1d": -4.998181130189428,
+      "change_3d": -4.693752953188602,
+      "rsi": 62.498051428053245,
+      "volume_ratio": 1.3723591010755063,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "AAPL's current RSI of 62.5 is slightly oversold, indicating a potential for mean reversion. The stock is also relatively close to its 52-week low, which suggests it might be undervalued. Additionally, the volume ratio being 1.4x the 20-day average indicates higher than usual trading activity, potentially signaling exhaustion or capitulation.",
+      "fundamental_reason": "Sector rotation and temporary selloff; no company-specific issues or structural problems. Oversold blue-chip with strong fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        256.5,
+        264.35
+      ],
+      "target": 287.9,
+      "stop": 248.64
+    },
+    {
+      "symbol": "COIN",
+      "price": 141.08999633789062,
+      "change_1d": -7.904700294767542,
+      "change_3d": -15.641257794983188,
+      "rsi": 17.888590439126773,
+      "volume_ratio": 1.5853405805740768,
+      "technical_score": 85,
+      "fundamental_score": 65,
+      "combined_score": 77.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with a RSI of 17.9, indicating potential for mean reversion. Additionally, the high volume on a move suggests possible capitulation or exhaustion. The stock is also at 68.3% distance from its 52-week high, which further indicates it may be nearing a potential reversal point. However, the gap today is minimal and does not significantly contribute to the score.",
+      "fundamental_reason": "Sector rotation and macro concerns likely drove the selloff; no clear fundamental issues reported, but high P/E and sector volatility limit mean reversion potential.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        138.27,
+        142.5
+      ],
+      "target": 155.2,
+      "stop": 134.04
+    }
+  ],
+  "top_fades": [
+    {
+      "symbol": "GLD",
+      "price": 451.3900146484375,
+      "change_1d": -3.472828959819363,
+      "change_3d": -3.3488178857329243,
+      "rsi": 48.32650117008007,
+      "volume_ratio": 0.7080024978688473,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "FADE",
+      "confidence": "MEDIUM",
+      "technical_reason": "GLD is not oversold (RSI is at 48.3) and while it's near the 52-week high, volume ratio is only 0.7x average which suggests that the move might not be due to heavy selling or exhaustion. However, the stock has experienced a significant increase in the past few months, making it a potential candidate for a correction.",
+      "fundamental_reason": "GLD tracks gold prices, which recently fell due to macro factors (e.g., dollar strength, rate expectations). No company-specific issues; likely temporary sector rotation. Oversold blue-chip ETF with strong fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        446.88,
+        460.42
+      ],
+      "target": 406.25,
+      "stop": 473.96
+    }
+  ]
+}

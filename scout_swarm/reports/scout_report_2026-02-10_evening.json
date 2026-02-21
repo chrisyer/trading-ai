@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-10T23:02:25.104250",
+  "scan_date": "2026-02-10",
+  "stocks_scanned": 9,
+  "bounce_candidates": 9,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "IREN",
+      "price": 42.93000030517578,
+      "change_1d": -6.9772505183937845,
+      "change_3d": 7.89142829203382,
+      "rsi": 40.56181779177949,
+      "volume_ratio": 0.7124471631973817,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 40.6 and has recently reached a 52-week low (737.7%). The volume ratio is also slightly above the 20-day average, indicating some level of activity. However, it's not a high volume move that suggests capitulation or exhaustion. The recent large drop (-21.1% in 5 days) and today's gap could indicate potential for a bounce.",
+      "fundamental_reason": "Positive move likely due to sector rotation in Financial Services with no fundamental issues reported. High-quality company with stable fundamentals suggests mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        42.07,
+        43.36
+      ],
+      "target": 47.22,
+      "stop": 40.78
+    },
+    {
+      "symbol": "REGN",
+      "price": 754.9099731445312,
+      "change_1d": -3.25140400878966,
+      "change_3d": -1.5287728974386794,
+      "rsi": 51.8958802523361,
+      "volume_ratio": 0.9151510101999533,
+      "technical_score": 65,
+      "fundamental_score": 88,
+      "combined_score": 74.2,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "REGN has moved away from its 52-week high (-8.1%) and is currently in a neutral RSI range (51.9). While there is no significant volume spike or gap today, the stock's recent modest decline might indicate potential for mean reversion.",
+      "fundamental_reason": "No fundamental issues reported; likely sector rotation or temporary selloff. Strong fundamentals, stable healthcare sector, and reasonable valuation suggest mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        739.81,
+        762.46
+      ],
+      "target": 830.4,
+      "stop": 717.16
+    },
+    {
+      "symbol": "MARA",
+      "price": 7.659999847412109,
+      "change_1d": -4.9627859972693695,
+      "change_3d": 13.818719549820369,
+      "rsi": 30.458222392678252,
+      "volume_ratio": 0.9108408010816043,
+      "technical_score": 75,
+      "fundamental_score": 70,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is currently oversold as indicated by the RSI of 30.5, which suggests a potential rebound. Additionally, it is close to its 52-week low, indicating potential for mean reversion. However, the volume ratio and today's gap are not extremely high, which slightly reduces the score.",
+      "fundamental_reason": "Low P/E suggests undervaluation, but SPAC nature introduces speculative risk. Recent move may reflect sector rotation or short-term speculation rather than fundamental improvement.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        7.51,
+        7.74
+      ],
+      "target": 8.43,
+      "stop": 7.28
+    },
+    {
+      "symbol": "SHOP",
+      "price": 127.23999786376953,
+      "change_1d": 7.466213026997681,
+      "change_3d": 14.383315630403427,
+      "rsi": 40.6456993899895,
+      "volume_ratio": 2.0695744982636435,
+      "technical_score": 65,
+      "fundamental_score": 80,
+      "combined_score": 71.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is currently not extremely oversold (RSI 40.6) but it has recently experienced significant price increases (+14.4% in 3 days). The high volume ratio and the proximity to the 52-week high suggest potential exhaustion of buyers. However, the gap fill potential is limited due to today's smaller gap (+3.6%).",
+      "fundamental_reason": "Recent positive move likely driven by sector rotation and speculative optimism rather than company-specific fundamentals. High P/E ratio suggests overvaluation, increasing mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        124.7,
+        128.51
+      ],
+      "target": 139.96,
+      "stop": 120.88
+    },
+    {
+      "symbol": "SNOW",
+      "price": 182.5800018310547,
+      "change_1d": 3.7681187824986306,
+      "change_3d": 16.508196036531906,
+      "rsi": 37.73836384283101,
+      "volume_ratio": 1.41182477202918,
+      "technical_score": 65,
+      "fundamental_score": 65,
+      "combined_score": 65.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is currently oversold (RSI of 37.7), has experienced a significant price increase in the past few days (+16.5% in 3 days and +5.4% in 5 days), and is at a distance of -34.9% from its 52-week high. However, the volume ratio is only 1.4x compared to the 20-day average which suggests that while there has been some increased activity, it might not be enough for a full capitulation or exhaustion. The gap today also adds to the potential for a bounce.",
+      "fundamental_reason": "Snowflake (SNOW) is a quality tech company, but its P/E ratio being N/A suggests ongoing unprofitability. The recent move may reflect sector rotation or speculative buying rather than fundamental improvement. While structural issues (unprofitability) exist, the absence of company-specific news supports moderate mean reversion potential.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        178.93,
+        184.41
+      ],
+      "target": 200.84,
+      "stop": 173.45
+    }
+  ],
+  "top_fades": []
+}

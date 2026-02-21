@@ -1,0 +1,282 @@
+{
+  "date": "2026-02-20",
+  "defcon_level": 3,
+  "phases": {
+    "pre_market": {
+      "status": "COMPLETED",
+      "started_at": "2026-02-20T11:00:01.539137",
+      "completed_at": "2026-02-20T11:00:01.953143",
+      "tasks": {
+        "overnight_news_scan": {
+          "status": "COMPLETED",
+          "agent": "claudia",
+          "result": {
+            "success": true,
+            "data": "News scan completed (manual check needed)"
+          },
+          "started_at": "2026-02-20T11:00:01.539787",
+          "completed_at": "2026-02-20T11:00:01.597824"
+        },
+        "macro_events_check": {
+          "status": "COMPLETED",
+          "agent": "claudia",
+          "result": {
+            "success": true,
+            "data": "Macro events reviewed"
+          },
+          "started_at": "2026-02-20T11:00:01.598568",
+          "completed_at": "2026-02-20T11:00:01.660788"
+        },
+        "gap_analysis": {
+          "status": "COMPLETED",
+          "agent": "quant",
+          "result": {
+            "success": true,
+            "data": "Gap analysis completed"
+          },
+          "started_at": "2026-02-20T11:00:01.661328",
+          "completed_at": "2026-02-20T11:00:01.709701"
+        },
+        "sector_scout_scan": {
+          "status": "COMPLETED",
+          "agent": "scouts",
+          "result": {
+            "success": true,
+            "data": "Scout scan queued"
+          },
+          "started_at": "2026-02-20T11:00:01.710238",
+          "completed_at": "2026-02-20T11:00:01.758543"
+        },
+        "technical_levels": {
+          "status": "COMPLETED",
+          "agent": "quant",
+          "result": {
+            "success": true,
+            "data": "Technical levels calculated"
+          },
+          "started_at": "2026-02-20T11:00:01.759119",
+          "completed_at": "2026-02-20T11:00:01.807379"
+        },
+        "pattern_check": {
+          "status": "COMPLETED",
+          "agent": "sentinel",
+          "result": {
+            "success": true,
+            "data": "Pattern check completed"
+          },
+          "started_at": "2026-02-20T11:00:01.807962",
+          "completed_at": "2026-02-20T11:00:01.858463"
+        },
+        "defcon_assessment": {
+          "status": "COMPLETED",
+          "agent": "neo",
+          "result": {
+            "success": true,
+            "data": {
+              "defcon": 3
+            }
+          },
+          "started_at": "2026-02-20T11:00:01.858870",
+          "completed_at": "2026-02-20T11:00:01.907255"
+        },
+        "daily_battle_card": {
+          "status": "COMPLETED",
+          "agent": "neo",
+          "result": {
+            "success": true,
+            "data": "Battle card generated"
+          },
+          "started_at": "2026-02-20T11:00:01.907695",
+          "completed_at": "2026-02-20T11:00:01.952656"
+        }
+      }
+    },
+    "market_open": {
+      "status": "COMPLETED",
+      "started_at": "2026-02-20T14:35:00.025582",
+      "completed_at": "2026-02-20T14:35:00.159891",
+      "tasks": {
+        "first_30_observation": {
+          "status": "COMPLETED",
+          "agent": "sentinel",
+          "result": {
+            "success": true,
+            "data": "First 30 minutes observed"
+          },
+          "started_at": "2026-02-20T14:35:00.026259",
+          "completed_at": "2026-02-20T14:35:00.070604"
+        },
+        "stop_hunt_check": {
+          "status": "COMPLETED",
+          "agent": "neo",
+          "result": {
+            "success": true,
+            "data": "Stop hunt patterns checked"
+          },
+          "started_at": "2026-02-20T14:35:00.071168",
+          "completed_at": "2026-02-20T14:35:00.115203"
+        },
+        "initial_entries_eval": {
+          "status": "COMPLETED",
+          "agent": "all",
+          "result": {
+            "success": true,
+            "data": "Entry opportunities evaluated"
+          },
+          "started_at": "2026-02-20T14:35:00.115731",
+          "completed_at": "2026-02-20T14:35:00.159369"
+        }
+      }
+    },
+    "mid_day": {
+      "status": "COMPLETED",
+      "started_at": "2026-02-20T17:00:00.021237",
+      "completed_at": "2026-02-20T17:00:00.156789",
+      "tasks": {
+        "position_management": {
+          "status": "COMPLETED",
+          "agent": "neo",
+          "result": {
+            "success": true,
+            "data": "Positions reviewed"
+          },
+          "started_at": "2026-02-20T17:00:00.021638",
+          "completed_at": "2026-02-20T17:00:00.066355"
+        },
+        "stop_adjustments": {
+          "status": "COMPLETED",
+          "agent": "quant",
+          "result": {
+            "success": true,
+            "data": "Stops adjusted where applicable"
+          },
+          "started_at": "2026-02-20T17:00:00.066782",
+          "completed_at": "2026-02-20T17:00:00.111083"
+        },
+        "scout_background_scan": {
+          "status": "COMPLETED",
+          "agent": "scouts",
+          "result": {
+            "success": true,
+            "data": "Background scanning active"
+          },
+          "started_at": "2026-02-20T17:00:00.111647",
+          "completed_at": "2026-02-20T17:00:00.156174"
+        }
+      }
+    },
+    "power_hour": {
+      "status": "COMPLETED",
+      "started_at": "2026-02-20T20:00:00.009326",
+      "completed_at": "2026-02-20T20:00:00.145164",
+      "tasks": {
+        "eod_assessment": {
+          "status": "COMPLETED",
+          "agent": "neo",
+          "result": {
+            "success": true,
+            "data": "End of day assessment complete"
+          },
+          "started_at": "2026-02-20T20:00:00.009758",
+          "completed_at": "2026-02-20T20:00:00.055679"
+        },
+        "overnight_decision": {
+          "status": "COMPLETED",
+          "agent": "claudia",
+          "result": {
+            "success": true,
+            "data": "Overnight hold decisions made"
+          },
+          "started_at": "2026-02-20T20:00:00.056276",
+          "completed_at": "2026-02-20T20:00:00.100352"
+        },
+        "position_review": {
+          "status": "COMPLETED",
+          "agent": "all",
+          "result": {
+            "success": true,
+            "data": "All positions reviewed"
+          },
+          "started_at": "2026-02-20T20:00:00.100938",
+          "completed_at": "2026-02-20T20:00:00.144605"
+        }
+      }
+    },
+    "after_hours": {
+      "status": "COMPLETED",
+      "started_at": "2026-02-20T21:30:00.005358",
+      "completed_at": "2026-02-20T21:30:00.204559",
+      "tasks": {
+        "performance_log": {
+          "status": "COMPLETED",
+          "agent": "neo",
+          "result": {
+            "success": true,
+            "data": "Performance logged"
+          },
+          "started_at": "2026-02-20T21:30:00.005809",
+          "completed_at": "2026-02-20T21:30:00.068682"
+        },
+        "lessons_learned": {
+          "status": "COMPLETED",
+          "agent": "all",
+          "result": {
+            "success": true,
+            "data": "Lessons documented"
+          },
+          "started_at": "2026-02-20T21:30:00.069306",
+          "completed_at": "2026-02-20T21:30:00.113657"
+        },
+        "tomorrow_prep": {
+          "status": "COMPLETED",
+          "agent": "claudia",
+          "result": {
+            "success": true,
+            "data": "Tomorrow's watchlist prepared"
+          },
+          "started_at": "2026-02-20T21:30:00.114260",
+          "completed_at": "2026-02-20T21:30:00.158105"
+        },
+        "scenario_generation": {
+          "status": "COMPLETED",
+          "agent": "all",
+          "result": {
+            "success": true,
+            "data": "Scenario generation completed"
+          },
+          "started_at": "2026-02-20T21:30:00.158713",
+          "completed_at": "2026-02-20T21:30:00.203935"
+        }
+      }
+    }
+  },
+  "trades": [],
+  "alerts": [],
+  "agent_predictions": [],
+  "performance": {
+    "trades_taken": 0,
+    "wins": 0,
+    "losses": 0,
+    "pnl": 0.0,
+    "best_agent": null,
+    "worst_agent": null
+  },
+  "telegram_reports_sent": [
+    {
+      "phase": "pre_market",
+      "sent_at": "2026-02-20T11:00:02.413142"
+    },
+    {
+      "phase": "market_open",
+      "sent_at": "2026-02-20T14:35:00.623366"
+    },
+    {
+      "phase": "mid_day",
+      "sent_at": "2026-02-20T17:00:00.621189"
+    },
+    {
+      "phase": "power_hour",
+      "sent_at": "2026-02-20T20:00:00.610532"
+    }
+  ]
+}

@@ -1,78 +1,78 @@
 {
-  "timestamp": "2026-02-06T00:48:39.401391",
+  "timestamp": "2026-02-21T19:03:40.022592",
   "source": "MQL5 Top Signals",
   "consensus_signals": [],
   "top_traders_positions": [],
   "top_signals": [
     {
-      "name": "Daily Gold Sniper",
-      "growth_pct": 993.13,
-      "drawdown": 34.3,
-      "subscribers": 0,
-      "url": "https://www.mql5.com/en/signals/2284676"
-    },
-    {
       "name": "Tharos II LiquidityMinerEA",
-      "growth_pct": 900.67,
+      "growth_pct": 933.9,
       "drawdown": 46.7,
       "subscribers": 0,
       "url": "https://www.mql5.com/en/signals/1059619"
     },
     {
-      "name": "FXtrading",
-      "growth_pct": 831.4,
-      "drawdown": 14.1,
+      "name": "Scalp IC Markets MT5",
+      "growth_pct": 746.95,
+      "drawdown": 32.9,
       "subscribers": 0,
-      "url": "https://www.mql5.com/en/signals/2356441"
+      "url": "https://www.mql5.com/en/signals/1560883"
     },
     {
-      "name": "Steady",
-      "growth_pct": 545.42,
-      "drawdown": 22.2,
+      "name": "Gold Reaper Goldtrade Pro Daytrade Pro",
+      "growth_pct": 745.72,
+      "drawdown": 32.6,
       "subscribers": 0,
-      "url": "https://www.mql5.com/en/signals/2303631"
+      "url": "https://www.mql5.com/en/signals/2204998"
+    },
+    {
+      "name": "THPX 5",
+      "growth_pct": 736.56,
+      "drawdown": 39.0,
+      "subscribers": 0,
+      "url": "https://www.mql5.com/en/signals/2302164"
+    },
+    {
+      "name": "MSC Gold Invest Pro",
+      "growth_pct": 717.37,
+      "drawdown": 26.2,
+      "subscribers": 0,
+      "url": "https://www.mql5.com/en/signals/1988269"
     },
     {
       "name": "XAU For Living",
-      "growth_pct": 533.09,
+      "growth_pct": 578.02,
       "drawdown": 20.7,
       "subscribers": 0,
       "url": "https://www.mql5.com/en/signals/2327733"
     },
     {
+      "name": "Abo Hmeid 01",
+      "growth_pct": 562.7,
+      "drawdown": 40.8,
+      "subscribers": 0,
+      "url": "https://www.mql5.com/en/signals/2322150"
+    },
+    {
       "name": "Falqonea pro _Robofxea Pro",
-      "growth_pct": 478.76,
+      "growth_pct": 530.99,
       "drawdown": 18.7,
       "subscribers": 0,
       "url": "https://www.mql5.com/en/signals/2329641"
     },
     {
-      "name": "King222",
-      "growth_pct": 423.61,
-      "drawdown": 21.7,
-      "subscribers": 0,
-      "url": "https://www.mql5.com/en/signals/2335155"
-    },
-    {
       "name": "GoldWave signal",
-      "growth_pct": 414.46,
+      "growth_pct": 446.5,
       "drawdown": 15.0,
       "subscribers": 0,
       "url": "https://www.mql5.com/en/signals/2339082"
     },
     {
-      "name": "The Pursuit of Happyness",
-      "growth_pct": 413.89,
-      "drawdown": 4.3,
+      "name": "Goldora",
+      "growth_pct": 443.31,
+      "drawdown": 41.2,
       "subscribers": 0,
-      "url": "https://www.mql5.com/en/signals/2337989"
-    },
-    {
-      "name": "Gold V2 Lmax 100",
-      "growth_pct": 372.29,
-      "drawdown": 29.0,
-      "subscribers": 0,
-      "url": "https://www.mql5.com/en/signals/2340140"
+      "url": "https://www.mql5.com/en/signals/2317345"
     }
   ],
   "summary": {
@@ -80,6 +80,6 @@
     "total_positions_found": 0,
     "consensus_count": 0,
     "confidence_boost": 0,
-    "top_growth": 993.13
+    "top_growth": 933.9
   }
 }

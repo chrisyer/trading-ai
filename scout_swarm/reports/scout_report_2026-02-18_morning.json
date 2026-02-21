@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-18T11:01:55.606907",
+  "scan_date": "2026-02-18",
+  "stocks_scanned": 10,
+  "bounce_candidates": 10,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "SLV",
+      "price": 66.37000274658203,
+      "change_1d": -4.804931749092289,
+      "change_3d": -13.309816009611286,
+      "rsi": 29.451572781908652,
+      "volume_ratio": 0.4939251309841621,
+      "technical_score": 85,
+      "fundamental_score": 88,
+      "combined_score": 86.2,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock SLV is significantly oversold with an RSI(14) of 29.5 and has a high negative 3-day change (-13.3%). It's also at the lower end of its 52W range, which indicates potential for mean reversion. Additionally, there was a gap today, suggesting potential for a gap fill.",
+      "fundamental_reason": "SLV tracks silver prices, which fell due to macro factors (e.g., dollar strength, rate hikes). No company-specific issues; ETF structure ensures price reflects commodity value. Oversold commodity with potential mean reversion.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        65.04,
+        67.03
+      ],
+      "target": 73.01,
+      "stop": 63.05
+    },
+    {
+      "symbol": "MARA",
+      "price": 7.510000228881836,
+      "change_1d": -5.176765700284724,
+      "change_3d": -0.6613718819595937,
+      "rsi": 29.579373978148297,
+      "volume_ratio": 0.8377640159595251,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 29.6, which indicates a potential for mean reversion. Additionally, it is close to its 52-week low and has experienced a high volume ratio compared to the 20-day average. However, the score is not at its maximum due to the absence of a gap fill in today's trading.",
+      "fundamental_reason": "Low P/E ratio suggests undervaluation; no company-specific bad news indicated; likely sector rotation or temporary selloff.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        7.36,
+        7.59
+      ],
+      "target": 8.26,
+      "stop": 7.13
+    },
+    {
+      "symbol": "MRNA",
+      "price": 43.93000030517578,
+      "change_1d": 4.025576086590288,
+      "change_3d": 8.44236515760275,
+      "rsi": 45.149967245216835,
+      "volume_ratio": 0.776380698265738,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently not oversold (RSI 45.1) but it's close to the 52-week high (-20.4% from peak), indicating a potential for mean reversion. The volume ratio is also slightly above the 20-day average, suggesting some activity but not necessarily capitulation or exhaustion. There was a small gap today (+0.1%) which could potentially be filled.",
+      "fundamental_reason": "Moderna is a quality healthcare company with no recent company-specific news. The move likely reflects sector rotation into defensive healthcare stocks rather than structural issues. P/E N/A may indicate temporary unprofitability but not a structural problem.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        43.05,
+        44.37
+      ],
+      "target": 48.32,
+      "stop": 41.73
+    },
+    {
+      "symbol": "ORCL",
+      "price": 153.97000122070312,
+      "change_1d": -3.8528776023862954,
+      "change_3d": -2.0297800757657747,
+      "rsi": 36.059683872557116,
+      "volume_ratio": 0.6095912956120549,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "ORCL's RSI is at 36.1 which indicates it may be oversold. The stock is also close to its 52-week low (29.5%). Although the volume ratio is not particularly high, the combination of these factors suggests a potential mean reversion scenario.",
+      "fundamental_reason": "Strong fundamentals with no company-specific issues; likely sector rotation or market-wide correction. High-quality blue-chip with strong cloud growth and solid balance sheet.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        150.89,
+        155.51
+      ],
+      "target": 169.37,
+      "stop": 146.27
+    },
+    {
+      "symbol": "AAPL",
+      "price": 263.8800048828125,
+      "change_1d": 3.1667863563111576,
+      "change_3d": -4.217784071574416,
+      "rsi": 54.915067240250536,
+      "volume_ratio": 0.9881281193807995,
+      "technical_score": 65,
+      "fundamental_score": 88,
+      "combined_score": 74.2,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "AAPL's RSI is neither extremely oversold nor overbought at 54.9, but it has recently been in an uptrend. The stock is currently about 8.6% away from its 52-week high and has seen a significant drop in the past 5 days, which could indicate potential for mean reversion. However, the volume ratio is only at 1.0x of the 20-day average, suggesting that the recent move might not be due to heavy selling or buying pressure. The gap today is +0.9%, but without context about previous gaps it's hard to definitively say if this indicates a potential gap fill.",
+      "fundamental_reason": "Temporary selloff likely due to sector rotation and macroeconomic concerns, no fundamental issues reported; AAPL remains a high-quality, oversold blue-chip with strong fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        258.6,
+        266.52
+      ],
+      "target": 290.27,
+      "stop": 250.69
+    }
+  ],
+  "top_fades": []
+}

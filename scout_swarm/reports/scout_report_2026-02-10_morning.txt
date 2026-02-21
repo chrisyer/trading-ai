@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-10
+   Scanned: 14 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 ROKU @ $88.52
+   Move: -3.9% (3d) | RSI: 28
+   Score: 81/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 27.8, indicating a potential rebound. It's also close to its 52-week low and has experienced a high volume on the move, suggesting possible capitulation or exhaustion. Additionally, there was a gap today which could potentially fill.
+   Fund: Roku is a quality company in a competitive sector. The recent selloff aligns with sector rotation in Communication Services, with no company-specific fundamental issues reported. No earnings misses or guidance cuts identified, suggesting a temporary pullback rather than structural problems.
+   Entry: $86.75-$89.41
+   Target: $97.37 | Stop: $84.09
+
+#2 IREN @ $46.15
+   Move: +2.7% (3d) | RSI: 42
+   Score: 79/100 (HIGH)
+   Tech: The stock is currently oversold with an RSI of 42.4 (below the oversold threshold of 30), it's at a 52-week extreme (-40.0% from high), and there was a gap today (-2.4%). These factors suggest a potential mean reversion or bounce in the near future.
+   Fund: Recent move likely driven by sector rotation in Financial Services; no company-specific fundamental issues reported. P/E ratio is elevated but not extreme, suggesting potential overbought conditions without structural problems.
+   Entry: $45.23-$46.61
+   Target: $50.77 | Stop: $43.84
+
+#3 ORCL @ $156.59
+   Move: +6.8% (3d) | RSI: 36
+   Score: 79/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 35.9, indicating a potential for mean reversion. Additionally, the high volume on the recent move suggests possible capitulation or exhaustion. Furthermore, the current price is near the 52-week low, which could indicate a bottoming process. Lastly, there's a gap up today, which might suggest a potential gap fill.
+   Fund: Sector rotation in tech without company-specific catalyst; Oracle remains a stable, high-quality company with no recent negative fundamentals.
+   Entry: $153.46-$158.16
+   Target: $172.25 | Stop: $148.76
+
+#4 SLV @ $76.04
+   Move: -4.0% (3d) | RSI: 44
+   Score: 79/100 (HIGH)
+   Tech: The stock SLV is currently not extremely overbought (RSI of 44.5) but has recently moved away from its 52-week high (-30.8%). The volume ratio is also slightly above the 20-day average, suggesting some increased interest in the stock. However, the score is reduced due to the recent gap up (+3.8%) which might indicate further upward momentum.
+   Fund: SLV tracks silver prices, which are influenced by macroeconomic factors (e.g., dollar strength, inflation). The selloff likely reflects temporary market conditions, not structural issues. No company-specific risks apply to this ETF.
+   Entry: $74.52-$76.80
+   Target: $83.64 | Stop: $72.24
+
+#5 SNOW @ $175.95
+   Move: +6.4% (3d) | RSI: 33
+   Score: 79/100 (HIGH)
+   Tech: The stock is currently oversold with an RSI of 33.4 and has recently moved away from its 52-week high by -37.3%. Additionally, the volume ratio is 1.4x higher than the 20-day average, suggesting increased trading activity. However, there was no gap today which slightly reduces the score.
+   Fund: No fundamental catalyst identified; likely sector rotation in tech. Company remains a high-quality cloud data platform with strong long-term positioning. Recent move appears overbought, suggesting potential mean reversion.
+   Entry: $172.43-$177.71
+   Target: $193.54 | Stop: $167.15
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

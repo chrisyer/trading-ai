@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-17
+   Scanned: 13 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 PINS @ $15.42
+   Move: -24.2% (3d) | RSI: 8
+   Score: 85/100 (HIGH)
+   Tech: The stock PINS has shown significant signs of oversold conditions with an RSI(14) of 8.1, indicating a potential rebound. The high volume on the recent move suggests capitulation or exhaustion. Additionally, the stock is at a 52-week extreme, having dropped -61.4% from its high, which increases the potential for a reversal. Lastly, today's gap of -22.7% indicates a possible gap fill, further supporting the case for a bounce.
+   Fund: Significant selloff likely due to sector rotation and market sentiment rather than company-specific issues. P/E ratio remains reasonable, and no fundamental red flags reported.
+   Entry: $15.11-$15.57
+   Target: $16.96 | Stop: $14.65
+
+#2 IREN @ $42.22
+   Move: -1.7% (3d) | RSI: 40
+   Score: 79/100 (HIGH)
+   Tech: The stock is currently oversold (RSI of 40.1), it's close to its 52-week low (-45.1%), and there was a gap today (+2.0%). These factors suggest a potential bounce in the near future.
+   Fund: Recent selloff likely due to sector rotation in Financial Services amid macroeconomic concerns. No company-specific fundamental issues reported. P/E ratio remains elevated but not extreme, suggesting potential mean reversion if sector stabilizes.
+   Entry: $41.38-$42.64
+   Target: $46.44 | Stop: $40.11
+
+#3 VRTX @ $491.47
+   Move: +6.0% (3d) | RSI: 57
+   Score: 73/100 (MEDIUM)
+   Tech: The stock is not extremely overbought as the RSI is at 56.9, but it has been on an upward trend for the past few days. The high volume ratio and being close to the 52-week high suggest some potential for a bounce. However, the gap today is only +1.4%, which slightly reduces the score.
+   Fund: Quality healthcare company with no recent fundamental issues; recent move likely driven by sector rotation or temporary oversold conditions.
+   Entry: $481.64-$496.38
+   Target: $540.62 | Stop: $466.90
+
+#4 SNOW @ $182.29
+   Move: -0.2% (3d) | RSI: 37
+   Score: 73/100 (MEDIUM)
+   Tech: The stock is currently oversold with an RSI of 36.7, indicating a potential for mean reversion. Additionally, the stock is at a distance of -35.1% from its 52-week high, suggesting it may have reached an extreme level and could potentially reverse. However, the score is not as high due to the lack of significant volume on the move and no gap fill today.
+   Fund: No fundamental issues reported; minor selloff likely due to sector rotation or market noise. Snowflake remains a high-quality tech company with strong market position.
+   Entry: $178.64-$184.11
+   Target: $200.52 | Stop: $173.18
+
+#5 MSTR @ $133.88
+   Move: +0.7% (3d) | RSI: 39
+   Score: 71/100 (MEDIUM)
+   Tech: The stock is significantly undervalued relative to its 52-week high (-70.7%), indicating a potential for mean reversion. The RSI (14) of 39.4 indicates the stock may be oversold, suggesting a bounce could occur. While volume ratio is only 1.0x vs 20d avg, the large one-day increase (+8.8%) and today's gap (+3.3%) suggest some level of exhaustion or capitulation.
+   Fund: MSTR's move likely driven by sector/crypto rotation, not fundamentals. Core business remains stable, but P/E N/A and Bitcoin exposure create volatility. No immediate company-specific issues, but structural risks persist.
+   Entry: $131.20-$135.22
+   Target: $147.27 | Stop: $127.19
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

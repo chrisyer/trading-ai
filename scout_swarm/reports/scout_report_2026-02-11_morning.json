@@ -1,0 +1,143 @@
+{
+  "scan_time": "2026-02-11T11:02:02.212358",
+  "scan_date": "2026-02-11",
+  "stocks_scanned": 9,
+  "bounce_candidates": 8,
+  "fade_candidates": 1,
+  "top_bounces": [
+    {
+      "symbol": "SLV",
+      "price": 73.41000366210938,
+      "change_1d": -3.458702290574178,
+      "change_3d": 10.076474695899606,
+      "rsi": 43.86699393560172,
+      "volume_ratio": 0.3819420061658658,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock SLV is currently oversold as indicated by the RSI of 43.9. It is also at a distance of -33.2% from its 52-week high, suggesting it may have reached an extreme point. However, the volume ratio is only 0.4x of the 20-day average, which slightly reduces the score. The gap today is also present, but it doesn't significantly contribute to a strong mean reversion potential.",
+      "fundamental_reason": "SLV tracks silver prices, which are influenced by macroeconomic factors. The move likely reflects temporary demand/sentiment shifts rather than structural issues. No company-specific news; mean reversion potential is high due to overbought conditions.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        71.94,
+        74.14
+      ],
+      "target": 80.75,
+      "stop": 69.74
+    },
+    {
+      "symbol": "INTC",
+      "price": 47.130001068115234,
+      "change_1d": -6.190287632264413,
+      "change_3d": -2.300996210054118,
+      "rsi": 38.1727541530475,
+      "volume_ratio": 0.6816041530726616,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "INTC's RSI is slightly oversold at 38.2, indicating potential for a bounce. Additionally, the stock is currently at -13.7% from its 52-week high, suggesting it may be nearing an extreme level. However, the volume ratio and gap fill score are not as strong, which slightly reduces the overall mean reversion potential.",
+      "fundamental_reason": "Intel is a quality blue-chip tech stock with no recent earnings misses or guidance cuts. The selloff aligns with broader tech sector rotation amid macroeconomic concerns (e.g., interest rates, AI investment slowdowns). No structural issues; oversold conditions suggest strong mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        46.19,
+        47.6
+      ],
+      "target": 51.84,
+      "stop": 44.77
+    },
+    {
+      "symbol": "MARA",
+      "price": 7.659999847412109,
+      "change_1d": -4.9627859972693695,
+      "change_3d": 13.818719549820369,
+      "rsi": 30.458222392678252,
+      "volume_ratio": 0.9148627404159575,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is currently oversold with an RSI of 30.5 and has a significant drop from its 52-week high (-67.3%). However, the volume ratio is only 0.9x of the 20-day average, which suggests that the volume on the move might not be as high as expected for a capitulation or exhaustion event. The gap today is minimal (-0.7%), which may indicate a potential fill but not necessarily a strong reversal signal.",
+      "fundamental_reason": "Oversold with no fundamental issues indicated; likely sector rotation or temporary selloff-driven rebound",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        7.51,
+        7.74
+      ],
+      "target": 8.43,
+      "stop": 7.28
+    },
+    {
+      "symbol": "REGN",
+      "price": 754.9099731445312,
+      "change_1d": -3.25140400878966,
+      "change_3d": -1.5287728974386794,
+      "rsi": 51.8958802523361,
+      "volume_ratio": 0.9152689165391611,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The RSI is slightly below the oversold level at 51.9, indicating some potential for a bounce. The stock is also close to its 52-week high but not yet at the extremes. However, the volume ratio and today's gap are not particularly significant, which slightly reduces the score.",
+      "fundamental_reason": "Quality healthcare company with no recent earnings misses or guidance cuts. Drop likely due to sector rotation or temporary market sentiment, not structural issues. P/E ratio remains reasonable for sector.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        739.81,
+        762.46
+      ],
+      "target": 830.4,
+      "stop": 717.16
+    },
+    {
+      "symbol": "SHOP",
+      "price": 127.23999786376953,
+      "change_1d": 7.466213026997681,
+      "change_3d": 14.383315630403427,
+      "rsi": 40.6456993899895,
+      "volume_ratio": 2.070953586132077,
+      "technical_score": 65,
+      "fundamental_score": 75,
+      "combined_score": 69.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is currently not oversold (RSI is 40.6) but it has seen a significant price increase in the past few days (+14.4% in 3 days). The high volume ratio and being at 82.2% of its 52-week high suggest potential for a correction or consolidation, which indicates a bounce might occur.",
+      "fundamental_reason": "SHOP is a quality company with a high P/E ratio (93.6), suggesting potential overvaluation. The recent 14.4% move may reflect sector rotation or speculative momentum rather than fundamental catalysts. No earnings miss or guidance cut reported, but structural risks (high valuation) limit mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        124.7,
+        128.51
+      ],
+      "target": 139.96,
+      "stop": 120.88
+    }
+  ],
+  "top_fades": [
+    {
+      "symbol": "IREN",
+      "price": 42.93000030517578,
+      "change_1d": -6.9772505183937845,
+      "change_3d": 7.89142829203382,
+      "rsi": 40.56181779177949,
+      "volume_ratio": 0.7153068143034523,
+      "technical_score": 75,
+      "fundamental_score": 50,
+      "combined_score": 65.0,
+      "direction": "FADE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is currently oversold as indicated by the RSI of 40.6. It has also moved away from its 52-week high by -44.2%. However, the volume ratio and today's gap are not significantly high, which slightly reduces the score.",
+      "fundamental_reason": "Parse error",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        42.5,
+        43.79
+      ],
+      "target": 38.64,
+      "stop": 45.08
+    }
+  ]
+}

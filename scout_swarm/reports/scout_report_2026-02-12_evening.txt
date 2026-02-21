@@ -1,0 +1,59 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-12
+   Scanned: 23 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 COIN @ $141.09
+   Move: -15.6% (3d) | RSI: 18
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 17.9, indicating a potential rebound. Additionally, it's at the lower end of its 52-week range and has shown high volume on the recent move, which could suggest capitulation or exhaustion. However, there was no gap today, which slightly reduces the score.
+   Fund: Recent selloff likely due to sector rotation and macroeconomic concerns in crypto, not company-specific issues. Low P/E suggests undervaluation, and COIN remains a blue-chip in the sector with strong fundamentals.
+   Entry: $138.27-$142.50
+   Target: $155.20 | Stop: $134.04
+
+#2 IREN @ $40.03
+   Move: -13.3% (3d) | RSI: 34
+   Score: 85/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 34.3, indicating a potential for mean reversion. Additionally, it's currently at a 47.9% distance from its 52-week high and has experienced a large drop in the past few days (-13.3% in 3 days), suggesting possible exhaustion or capitulation. However, the volume ratio is only 0.6x of the 20-day average, which slightly reduces the score.
+   Fund: Likely sector rotation in Financial Services due to macro factors (e.g., interest rate concerns), no company-specific fundamental issues indicated. Oversold blue-chip with strong balance sheet and reasonable P/E, suggesting temporary selloff.
+   Entry: $39.23-$40.43
+   Target: $44.03 | Stop: $38.03
+
+#3 PLTR @ $129.13
+   Move: -9.6% (3d) | RSI: 27
+   Score: 83/100 (HIGH)
+   Tech: The stock is significantly oversold with a RSI of 27.2, indicating a potential for mean reversion. It's also near its 52-week low, which suggests it might have reached an extreme point. The high volume on the recent move could indicate exhaustion or capitulation. However, today's gap is small, which slightly reduces the score.
+   Fund: Recent selloff likely due to sector rotation and high P/E overvaluation, not company-specific issues. PLTR remains a quality tech company with strong fundamentals.
+   Entry: $126.55-$130.42
+   Target: $142.04 | Stop: $122.67
+
+#4 SLV @ $67.73
+   Move: -10.9% (3d) | RSI: 36
+   Score: 79/100 (HIGH)
+   Tech: The stock SLV is currently oversold with an RSI(14) of 35.9, indicating a potential for mean reversion. Additionally, it has recently reached a 52-week low (distance from 52W Low: 154.9%). However, the score is not at its maximum due to the lack of high volume on the move and no gap fill today.
+   Fund: SLV tracks silver prices, which are influenced by macroeconomic factors. The selloff likely reflects temporary commodity price volatility, not company-specific issues. No fundamental problems reported, and the ETF remains a blue-chip, oversold asset with strong mean reversion potential.
+   Entry: $66.38-$68.41
+   Target: $74.50 | Stop: $64.34
+
+#5 MARA @ $7.25
+   Move: -10.0% (3d) | RSI: 28
+   Score: 79/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 27.9 and it's also close to its 52-week low. The volume ratio is slightly above the average which suggests some level of selling pressure but not enough for a strong trend reversal. However, the recent price drop might have exhausted some sellers, indicating potential for a bounce.
+   Fund: Low P/E ratio suggests undervaluation; recent selloff likely sector-driven with no company-specific fundamental issues indicated; strong fundamentals imply mean reversion potential.
+   Entry: $7.10-$7.32
+   Target: $7.98 | Stop: $6.89
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+#1 AVGO @ $331.17
+   Move: -3.7% (3d) | RSI: 56
+   Score: 73/100 (MEDIUM)
+   Tech: The stock is not extremely oversold (RSI 56.0) and it's not at its 52-week high or low. However, it has recently moved away from its 52-week high by -20.1%. The volume ratio is only 0.8x the 20-day average, suggesting that the move may not be due to significant buying or selling pressure. There is no gap fill today.
+   Fund: AVGO (Broadcom) is a high-quality, diversified tech company with strong fundamentals. The recent selloff likely reflects sector-wide rotation amid macro concerns (e.g., interest rates, AI hype correction) rather than company-specific issues. High P/E (69.6) may contribute to volatility, but no earnings misses, guidance cuts, or structural problems are evident. Oversold blue-chip with strong cash flow and market position.
+   Entry: $327.86-$337.79
+   Target: $298.05 | Stop: $347.73
+
+══════════════════════════════════════════════════

@@ -766,18 +766,15 @@ def _send_to_chat(token: str, chat_id: str, message: str, label: str) -> bool:
 
 
 def send_telegram(message: str) -> bool:
-    """Send to Admin DM + AiiQ Trading Signals group."""
+    """Send XAUUSD truth reports to Crella Cortex admin DM only.
+    Gold Mirror signals go to AiiQ Trading Signals via ops_monitor instead."""
     if not BOT_TOKEN or not CHAT_ID:
         logger.error("Telegram not configured")
         logger.info(f"Would have sent:\n{message}")
         return False
     
-    # Primary: Admin DM via Cortex Bot
+    # Admin DM via Cortex Bot (Crella Cortex)
     ok = _send_to_chat(BOT_TOKEN, CHAT_ID, message, "ADMIN")
-    
-    # Secondary: AiiQ Trading Signals group
-    if AIIQ_BOT_TOKEN and AIIQ_CHAT_ID:
-        _send_to_chat(AIIQ_BOT_TOKEN, AIIQ_CHAT_ID, message, "AIIQ_GROUP")
     
     return ok
 

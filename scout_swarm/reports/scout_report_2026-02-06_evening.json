@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-06T23:06:02.839334",
+  "scan_date": "2026-02-06",
+  "stocks_scanned": 28,
+  "bounce_candidates": 28,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "COIN",
+      "price": 165.1199951171875,
+      "change_1d": 13.003011658166352,
+      "change_3d": -8.09306926892176,
+      "rsi": 16.662282034023505,
+      "volume_ratio": 1.696813443526844,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock COIN is significantly overbought as indicated by the RSI(14) of 16.7, which is well below the oversold threshold of 30. The high volume on a move of 1.7x vs 20d avg also suggests potential exhaustion. Additionally, the stock is currently at -62.9% from its 52W High, indicating it may be due for a rebound. Lastly, there was a gap up today (+5.8%) which could potentially fill.",
+      "fundamental_reason": "Quality company with no fundamental issues; likely sector rotation or market volatility, not company-specific problems. Oversold blue-chip with strong fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        161.82,
+        166.77
+      ],
+      "target": 181.63,
+      "stop": 156.86
+    },
+    {
+      "symbol": "SNOW",
+      "price": 168.42999267578125,
+      "change_1d": 7.4787731860118445,
+      "change_3d": -2.7765023463778515,
+      "rsi": 26.124061545131283,
+      "volume_ratio": 1.5684755546871927,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 26.1, indicating a potential for mean reversion. Additionally, the high volume on the move suggests possible capitulation or exhaustion. The current price is also far from its 52-week high, which could indicate a potential reversal. Lastly, there was a gap today, which can sometimes signal a potential gap fill.",
+      "fundamental_reason": "Snowflake is a high-quality tech company with a large market cap. The recent selloff likely reflects sector rotation and broader tech market volatility rather than company-specific issues. No fundamental red flags are present, suggesting strong mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        165.06,
+        170.11
+      ],
+      "target": 185.27,
+      "stop": 160.01
+    },
+    {
+      "symbol": "ORCL",
+      "price": 142.82000732421875,
+      "change_1d": 4.645377927279926,
+      "change_3d": -7.661466984555643,
+      "rsi": 19.872676419900003,
+      "volume_ratio": 1.0095914862689181,
+      "technical_score": 85,
+      "fundamental_score": 75,
+      "combined_score": 81.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 19.9 (below the threshold of 30), it has recently reached a 52-week low (-58.7%), and there was a large gap up today (+6.7%). These factors suggest a potential mean reversion or bounce in the price.",
+      "fundamental_reason": "Oracle's fundamentals remain strong with consistent cloud growth and solid cash flow. The recent drop likely reflects sector rotation and macroeconomic concerns rather than company-specific issues. No structural problems or earnings misses justify the move, suggesting mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        139.96,
+        144.25
+      ],
+      "target": 157.1,
+      "stop": 135.68
+    },
+    {
+      "symbol": "AMD",
+      "price": 208.44000244140625,
+      "change_1d": 8.280520748782472,
+      "change_3d": -13.906901030136854,
+      "rsi": 41.20081406219307,
+      "volume_ratio": 1.188552517083258,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently oversold with an RSI of 41.2 (below the oversold threshold of 30). It has also moved away from its 52-week high by -22.0%, indicating it may have reached an extreme point. The high volume on the recent move suggests potential capitulation or exhaustion. However, there is a gap today which could potentially be filled, adding to the mean reversion potential.",
+      "fundamental_reason": "AMD is a quality tech company with no recent earnings misses or guidance cuts. The selloff aligns with broader tech sector rotation and macroeconomic concerns (e.g., interest rates, AI hype correction), not company-specific issues. Oversold valuation (high P/E but strong growth prospects) suggests mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        204.27,
+        210.52
+      ],
+      "target": 229.28,
+      "stop": 198.02
+    },
+    {
+      "symbol": "AVGO",
+      "price": 332.9200134277344,
+      "change_1d": 7.2171598200729825,
+      "change_3d": 3.9303304040280596,
+      "rsi": 40.21864632203563,
+      "volume_ratio": 1.171488645152438,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently oversold with an RSI of 40.2 (below the 30 threshold), indicating a potential bounce. Additionally, it has moved significantly from its 52-week high (-19.7%) and today's gap (+3.1%). However, the score is not full (100) because there was only moderate volume on the move compared to the 20-day average.",
+      "fundamental_reason": "Sector rotation into tech/AI without company-specific news; high P/E suggests potential overvaluation but no fundamental issues reported.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        326.26,
+        336.25
+      ],
+      "target": 366.21,
+      "stop": 316.27
+    }
+  ],
+  "top_fades": []
+}

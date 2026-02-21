@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-09T23:03:11.941729",
+  "scan_date": "2026-02-09",
+  "stocks_scanned": 14,
+  "bounce_candidates": 13,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "MSFT",
+      "price": 413.6000061035156,
+      "change_1d": 3.106145236096225,
+      "change_3d": -0.1424458182024968,
+      "rsi": 37.35320326989621,
+      "volume_ratio": 1.0326378277913137,
+      "technical_score": 75,
+      "fundamental_score": 92,
+      "combined_score": 81.80000000000001,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently oversold (RSI < 30), it is close to the 52-week low, and there was a small gap today. These factors suggest a potential mean reversion or bounce in Microsoft's stock price.",
+      "fundamental_reason": "No fundamental issues detected; minor selloff likely due to sector rotation or market volatility. Strong fundamentals and blue-chip status suggest temporary dip with high mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        405.33,
+        417.74
+      ],
+      "target": 454.96,
+      "stop": 392.92
+    },
+    {
+      "symbol": "IREN",
+      "price": 46.150001525878906,
+      "change_1d": 10.327514955108219,
+      "change_3d": 2.692485394182431,
+      "rsi": 42.413472556122265,
+      "volume_ratio": 0.970198349277493,
+      "technical_score": 85,
+      "fundamental_score": 70,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 42.4 and has recently reached a 40.0% distance from its 52-week high. Additionally, it has experienced a large move upwards in the last three days, indicating potential exhaustion. However, the volume ratio is only 1.0x vs the 20-day average, which slightly reduces the score.",
+      "fundamental_reason": "Recent move likely due to sector rotation in Financial Services with no fundamental issues reported. P/E ratio is elevated but not extreme, suggesting potential for mean reversion if sector momentum shifts. No company-specific news or structural problems identified.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        45.23,
+        46.61
+      ],
+      "target": 50.77,
+      "stop": 43.84
+    },
+    {
+      "symbol": "NOW",
+      "price": 103.87000274658203,
+      "change_1d": 3.1070130525962414,
+      "change_3d": -6.482395757652737,
+      "rsi": 30.430829913442906,
+      "volume_ratio": 0.9390891084141144,
+      "technical_score": 75,
+      "fundamental_score": 75,
+      "combined_score": 75.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold as indicated by the RSI of 30.4, and it has also moved away from its 52-week high by -50.9%. Although there was a slight gap today, it was not very significant. The volume ratio being 0.9x vs the 20d average suggests some level of buying interest but not enough to reverse the downward trend yet.",
+      "fundamental_reason": "Sector rotation and high P/E suggest temporary selloff; no company-specific fundamental issues reported.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        101.79,
+        104.91
+      ],
+      "target": 114.26,
+      "stop": 98.68
+    },
+    {
+      "symbol": "SLV",
+      "price": 76.04000091552734,
+      "change_1d": 8.3345181231538,
+      "change_3d": -3.9656471047565534,
+      "rsi": 44.48767858484205,
+      "volume_ratio": 0.4732561945102976,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The RSI is slightly below the oversold level at 44.5, indicating a potential for mean reversion. The stock is also currently 30.8% away from its 52-week high, suggesting it might be due for a correction. However, the volume ratio is only 0.5x of the 20-day average, which slightly reduces the score as higher volume typically indicates stronger market sentiment. The gap today also adds to the potential for a bounce.",
+      "fundamental_reason": "SLV tracks silver prices, which are influenced by macroeconomic factors. The selloff likely reflects temporary market conditions (e.g., dollar strength, inflation expectations) rather than structural issues. No company-specific problems; strong potential for mean reversion if fundamentals stabilize.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        74.52,
+        76.8
+      ],
+      "target": 83.64,
+      "stop": 72.24
+    },
+    {
+      "symbol": "AMD",
+      "price": 216.0,
+      "change_1d": 3.626941791424576,
+      "change_3d": 7.897496061633347,
+      "rsi": 44.329678057857954,
+      "volume_ratio": 0.83832391728236,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is not extremely overbought (RSI of 44.3) and has recently moved away from its 52-week high (-19.1%). However, it's also worth noting that the volume ratio is only 0.8x the 20-day average, which suggests that the move might not be due to significant buying or selling pressure. The gap today is minimal (-0.8%), indicating a lack of strong directional movement.",
+      "fundamental_reason": "AMD's rise aligns with sector rotation in tech (AI/semiconductor demand) and strong fundamentals. High P/E suggests optimism, but no company-specific issues or structural problems. Quality remains high with no recent bad news.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        211.68,
+        218.16
+      ],
+      "target": 237.6,
+      "stop": 205.2
+    }
+  ],
+  "top_fades": []
+}

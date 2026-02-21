@@ -25,5 +25,113 @@
       "neo": 1.0,
       "claudia": 1.0
     }
+  },
+  {
+    "timestamp": "2026-02-06T01:00:00.038114",
+    "analysis_summary": {},
+    "updated_weights": {
+      "quant": 1.0,
+      "neo": 1.0,
+      "claudia": 1.0
+    }
+  },
+  {
+    "timestamp": "2026-02-07T01:00:00.026313",
+    "analysis_summary": {},
+    "updated_weights": {
+      "quant": 1.0,
+      "neo": 1.0,
+      "claudia": 1.0
+    }
+  },
+  {
+    "timestamp": "2026-02-10T01:00:00.007091",
+    "analysis_summary": {},
+    "updated_weights": {
+      "quant": 1.0,
+      "neo": 1.0,
+      "claudia": 1.0
+    }
+  },
+  {
+    "timestamp": "2026-02-11T01:00:00.023504",
+    "analysis_summary": {},
+    "updated_weights": {
+      "quant": 1.0,
+      "neo": 1.0,
+      "claudia": 1.0
+    }
+  },
+  {
+    "timestamp": "2026-02-12T01:00:00.054780",
+    "analysis_summary": {},
+    "updated_weights": {
+      "quant": 1.0,
+      "neo": 1.0,
+      "claudia": 1.0
+    }
+  },
+  {
+    "timestamp": "2026-02-13T01:00:00.051606",
+    "analysis_summary": {},
+    "updated_weights": {
+      "quant": 1.0,
+      "neo": 1.0,
+      "claudia": 1.0
+    }
+  },
+  {
+    "timestamp": "2026-02-14T01:00:00.026270",
+    "analysis_summary": {},
+    "updated_weights": {
+      "quant": 1.0,
+      "neo": 1.0,
+      "claudia": 1.0
+    }
+  },
+  {
+    "timestamp": "2026-02-17T01:00:00.004392",
+    "analysis_summary": {},
+    "updated_weights": {
+      "quant": 1.0,
+      "neo": 1.0,
+      "claudia": 1.0
+    }
+  },
+  {
+    "timestamp": "2026-02-18T01:00:00.009496",
+    "analysis_summary": {},
+    "updated_weights": {
+      "quant": 1.0,
+      "neo": 1.0,
+      "claudia": 1.0
+    }
+  },
+  {
+    "timestamp": "2026-02-19T01:00:00.015792",
+    "analysis_summary": {},
+    "updated_weights": {
+      "quant": 1.0,
+      "neo": 1.0,
+      "claudia": 1.0
+    }
+  },
+  {
+    "timestamp": "2026-02-20T01:00:00.009899",
+    "analysis_summary": {},
+    "updated_weights": {
+      "quant": 1.0,
+      "neo": 1.0,
+      "claudia": 1.0
+    }
+  },
+  {
+    "timestamp": "2026-02-21T01:00:00.045219",
+    "analysis_summary": {},
+    "updated_weights": {
+      "quant": 1.0,
+      "neo": 1.0,
+      "claudia": 1.0
+    }
   }
 ]

@@ -241,5 +241,329 @@
     "meta_signal": "BUY",
     "meta_confidence": 67.0,
     "timestamp": "2026-02-05T18:30:10.648456"
+  },
+  {
+    "symbol": "IREN",
+    "action": "ACCUMULATE",
+    "reason": "Only 50.0/1000 shares, Meta bullish",
+    "price": 42.81999969482422,
+    "meta_signal": "BUY",
+    "meta_confidence": 69.6,
+    "timestamp": "2026-02-06T18:30:04.749630"
+  },
+  {
+    "symbol": "CLSK",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 9.864999771118164,
+    "meta_signal": "HOLD",
+    "meta_confidence": 68.7,
+    "timestamp": "2026-02-06T18:30:08.317632"
+  },
+  {
+    "symbol": "CIFR",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 14.585000038146973,
+    "meta_signal": "HOLD",
+    "meta_confidence": 70.0,
+    "timestamp": "2026-02-06T18:30:10.960000"
+  },
+  {
+    "symbol": "IREN",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 45.22700119018555,
+    "meta_signal": "HOLD",
+    "meta_confidence": 70.9,
+    "timestamp": "2026-02-09T18:30:04.118169"
+  },
+  {
+    "symbol": "CLSK",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 10.015000343322754,
+    "meta_signal": "HOLD",
+    "meta_confidence": 68.4,
+    "timestamp": "2026-02-09T18:30:06.534795"
+  },
+  {
+    "symbol": "CIFR",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 16.645000457763672,
+    "meta_signal": "HOLD",
+    "meta_confidence": 71.5,
+    "timestamp": "2026-02-09T18:30:08.979088"
+  },
+  {
+    "symbol": "IREN",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 44.220001220703125,
+    "meta_signal": "HOLD",
+    "meta_confidence": 66.5,
+    "timestamp": "2026-02-10T18:30:04.153909"
+  },
+  {
+    "symbol": "CLSK",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 9.944999694824219,
+    "meta_signal": "HOLD",
+    "meta_confidence": 65.6,
+    "timestamp": "2026-02-10T18:30:05.412861"
+  },
+  {
+    "symbol": "CIFR",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 17.3799991607666,
+    "meta_signal": "HOLD",
+    "meta_confidence": 70.1,
+    "timestamp": "2026-02-10T18:30:06.468785"
+  },
+  {
+    "symbol": "IREN",
+    "action": "ACCUMULATE",
+    "reason": "Only 100.0/1000 shares, Meta bullish",
+    "price": 41.16999816894531,
+    "meta_signal": "BUY",
+    "meta_confidence": 70.8,
+    "timestamp": "2026-02-11T18:30:05.438211"
+  },
+  {
+    "symbol": "CLSK",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 9.626500129699707,
+    "meta_signal": "HOLD",
+    "meta_confidence": 69.2,
+    "timestamp": "2026-02-11T18:30:09.382264"
+  },
+  {
+    "symbol": "CIFR",
+    "action": "ACCUMULATE",
+    "reason": "Only 0/500 shares, Meta bullish",
+    "price": 15.890000343322754,
+    "meta_signal": "BUY",
+    "meta_confidence": 68.6,
+    "timestamp": "2026-02-11T18:30:10.775294"
+  },
+  {
+    "symbol": "IREN",
+    "action": "ACCUMULATE",
+    "reason": "Only 150.0/1000 shares, Meta bullish",
+    "price": 40.2400016784668,
+    "meta_signal": "BUY",
+    "meta_confidence": 67.1,
+    "timestamp": "2026-02-12T18:30:03.799800"
+  },
+  {
+    "symbol": "CLSK",
+    "action": "ACCUMULATE",
+    "reason": "Only 0/500 shares, Meta bullish",
+    "price": 9.232500076293945,
+    "meta_signal": "BUY",
+    "meta_confidence": 71.2,
+    "timestamp": "2026-02-12T18:30:05.591493"
+  },
+  {
+    "symbol": "CIFR",
+    "action": "ACCUMULATE",
+    "reason": "Only 0/500 shares, Meta bullish",
+    "price": 15.859999656677246,
+    "meta_signal": "BUY",
+    "meta_confidence": 65.8,
+    "timestamp": "2026-02-12T18:30:07.461643"
+  },
+  {
+    "symbol": "IREN",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 42.2400016784668,
+    "meta_signal": "HOLD",
+    "meta_confidence": 69.1,
+    "timestamp": "2026-02-13T18:30:03.961850"
+  },
+  {
+    "symbol": "CLSK",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 9.970000267028809,
+    "meta_signal": "HOLD",
+    "meta_confidence": 69.7,
+    "timestamp": "2026-02-13T18:30:06.412070"
+  },
+  {
+    "symbol": "CIFR",
+    "action": "ACCUMULATE",
+    "reason": "Only 50.0/500 shares, Meta bullish",
+    "price": 16.850000381469727,
+    "meta_signal": "BUY",
+    "meta_confidence": 67.7,
+    "timestamp": "2026-02-13T18:30:08.582803"
+  },
+  {
+    "symbol": "IREN",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 42.2400016784668,
+    "meta_signal": "HOLD",
+    "meta_confidence": 66.5,
+    "timestamp": "2026-02-16T14:30:03.235745"
+  },
+  {
+    "symbol": "CLSK",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 9.835000038146973,
+    "meta_signal": "HOLD",
+    "meta_confidence": 66.6,
+    "timestamp": "2026-02-16T14:30:04.388317"
+  },
+  {
+    "symbol": "CIFR",
+    "action": "ACCUMULATE",
+    "reason": "Only 100.0/500 shares, Meta bullish",
+    "price": 16.415000915527344,
+    "meta_signal": "BUY",
+    "meta_confidence": 62.3,
+    "timestamp": "2026-02-16T14:30:06.043585"
+  },
+  {
+    "symbol": "IREN",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 42.2400016784668,
+    "meta_signal": "HOLD",
+    "meta_confidence": 66.5,
+    "timestamp": "2026-02-16T18:30:05.311742"
+  },
+  {
+    "symbol": "CLSK",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 9.835000038146973,
+    "meta_signal": "HOLD",
+    "meta_confidence": 66.6,
+    "timestamp": "2026-02-16T18:30:07.564251"
+  },
+  {
+    "symbol": "CIFR",
+    "action": "ACCUMULATE",
+    "reason": "Only 150.0/500 shares, Meta bullish",
+    "price": 16.415000915527344,
+    "meta_signal": "BUY",
+    "meta_confidence": 62.3,
+    "timestamp": "2026-02-16T18:30:09.906037"
+  },
+  {
+    "symbol": "IREN",
+    "action": "ACCUMULATE",
+    "reason": "Only 200.0/1000 shares, Meta bullish",
+    "price": 41.060001373291016,
+    "meta_signal": "BUY",
+    "meta_confidence": 64.4,
+    "timestamp": "2026-02-17T18:30:03.301652"
+  },
+  {
+    "symbol": "CLSK",
+    "action": "ACCUMULATE",
+    "reason": "Only 50.0/500 shares, Meta bullish",
+    "price": 9.303999900817871,
+    "meta_signal": "BUY",
+    "meta_confidence": 67.9,
+    "timestamp": "2026-02-17T18:30:05.052189"
+  },
+  {
+    "symbol": "CIFR",
+    "action": "ACCUMULATE",
+    "reason": "Only 50.0/500 shares, Meta bullish",
+    "price": 15.52649974822998,
+    "meta_signal": "BUY",
+    "meta_confidence": 68.2,
+    "timestamp": "2026-02-17T18:30:05.750670"
+  },
+  {
+    "symbol": "IREN",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 42.87969970703125,
+    "meta_signal": "HOLD",
+    "meta_confidence": 68.8,
+    "timestamp": "2026-02-18T18:30:03.721075"
+  },
+  {
+    "symbol": "CLSK",
+    "action": "ACCUMULATE",
+    "reason": "Only 100.0/500 shares, Meta bullish",
+    "price": 9.170000076293945,
+    "meta_signal": "BUY",
+    "meta_confidence": 66.7,
+    "timestamp": "2026-02-18T18:30:04.678399"
+  },
+  {
+    "symbol": "CIFR",
+    "action": "ACCUMULATE",
+    "reason": "Only 100.0/500 shares, Meta bullish",
+    "price": 15.65999984741211,
+    "meta_signal": "BUY",
+    "meta_confidence": 62.5,
+    "timestamp": "2026-02-18T18:30:06.749113"
+  },
+  {
+    "symbol": "IREN",
+    "action": "HOLD",
+    "reason": "No action needed",
+    "price": 42.11000061035156,
+    "meta_signal": "HOLD",
+    "meta_confidence": 63.1,
+    "timestamp": "2026-02-19T18:30:04.009896"
+  },
+  {
+    "symbol": "CLSK",
+    "action": "ACCUMULATE",
+    "reason": "Only 150.0/500 shares, Meta bullish",
+    "price": 9.489999771118164,
+    "meta_signal": "BUY",
+    "meta_confidence": 65.3,
+    "timestamp": "2026-02-19T18:30:05.840331"
+  },
+  {
+    "symbol": "CIFR",
+    "action": "ACCUMULATE",
+    "reason": "Only 150.0/500 shares, Meta bullish",
+    "price": 15.164999961853027,
+    "meta_signal": "BUY",
+    "meta_confidence": 66.3,
+    "timestamp": "2026-02-19T18:30:07.508769"
+  },
+  {
+    "symbol": "IREN",
+    "action": "ACCUMULATE",
+    "reason": "Only 250.0/1000 shares, Meta bullish",
+    "price": 40.29999923706055,
+    "meta_signal": "BUY",
+    "meta_confidence": 67.4,
+    "timestamp": "2026-02-20T18:30:06.111748"
+  },
+  {
+    "symbol": "CLSK",
+    "action": "ACCUMULATE",
+    "reason": "Only 200.0/500 shares, Meta bullish",
+    "price": 9.489999771118164,
+    "meta_signal": "BUY",
+    "meta_confidence": 61.7,
+    "timestamp": "2026-02-20T18:30:10.281883"
+  },
+  {
+    "symbol": "CIFR",
+    "action": "DCA_SHARES",
+    "reason": "Down -6.3%, Meta BUY - DCA",
+    "price": 14.569999694824219,
+    "meta_signal": "BUY",
+    "meta_confidence": 69.1,
+    "timestamp": "2026-02-20T18:30:11.877534"
   }
 ]

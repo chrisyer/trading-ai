@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-19T23:01:37.365843",
+  "scan_date": "2026-02-19",
+  "stocks_scanned": 7,
+  "bounce_candidates": 7,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "RIOT",
+      "price": 16.219999313354492,
+      "change_1d": 4.712714996919809,
+      "change_3d": 6.570295852701058,
+      "rsi": 46.819338669379334,
+      "volume_ratio": 0.8260712226167413,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is currently not oversold (RSI is 46.8) but it's close to the 30 level which indicates a potential for mean reversion. The stock has also moved significantly from its 52-week low and is at 162.0%. Although the volume ratio is only 0.8x of the 20-day average, the high volatility in price movement suggests some level of exhaustion. However, there's no gap fill today which slightly reduces the score.",
+      "fundamental_reason": "Recent move likely driven by sector rotation (crypto/banking sector rally) and Bitcoin price action, with no reported company-specific catalysts. High P/E suggests potential overvaluation, but structural risks in crypto sector remain.",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        15.9,
+        16.38
+      ],
+      "target": 17.84,
+      "stop": 15.41
+    },
+    {
+      "symbol": "SMCI",
+      "price": 32.15999984741211,
+      "change_1d": 8.246384511738004,
+      "change_3d": 5.304515007598165,
+      "rsi": 55.22540768358646,
+      "volume_ratio": 1.231378751674377,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock SMCI has shown a significant increase in the past three days (+5.3%), which could indicate a potential short-term overbought condition as RSI(14) is at 55.2. However, the volume ratio is slightly higher than the 20-day average, suggesting some level of buying interest. The stock is also currently far from its 52-week high (-51.6%), indicating there's room for further price increase. Lastly, today's gap (+4.8%) could potentially be filled in the near future.",
+      "fundamental_reason": "Sector rotation and no fundamental issues; stock appears oversold with strong fundamentals",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        31.52,
+        32.48
+      ],
+      "target": 35.38,
+      "stop": 30.55
+    },
+    {
+      "symbol": "MSTR",
+      "price": 129.4499969482422,
+      "change_1d": 3.3945687728386797,
+      "change_3d": -3.308939179116388,
+      "rsi": 44.27213535206268,
+      "volume_ratio": 0.610224588244114,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The RSI is slightly oversold (44.3), indicating a potential bounce. The stock is also close to its 52-week low (-71.7%), suggesting it may have reached an extreme level. However, the volume ratio is only 0.6x of the 20-day average, which is not indicative of significant capitulation or exhaustion.",
+      "fundamental_reason": "Quality tech company with temporary selloff likely driven by sector rotation or Bitcoin price volatility. No fundamental issues reported; strong balance sheet and long-term growth potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        126.86,
+        130.74
+      ],
+      "target": 142.39,
+      "stop": 122.98
+    },
+    {
+      "symbol": "OXY",
+      "price": 51.529998779296875,
+      "change_1d": 9.382292743961674,
+      "change_3d": 11.851528371262532,
+      "rsi": 67.87595646467443,
+      "volume_ratio": 2.8519392008609756,
+      "technical_score": 65,
+      "fundamental_score": 75,
+      "combined_score": 69.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock has shown significant price increases in the last few days (3-Day Change: +11.9%, 5-Day Change: +9.1%). Although the RSI is not extremely overbought (RSI(14): 67.9), it indicates a strong upward trend. The high volume ratio (2.9x vs 20d avg) suggests some level of buying pressure. However, the stock is not at its 52-week high (-2.0% from 52W High), and there was a gap today (+5.6%). These factors suggest that the price might bounce due to profit-taking or consolidation, but it's not yet showing strong signs of mean reversion.",
+      "fundamental_reason": "Recent move likely driven by energy sector rotation and rising oil prices. No company-specific news reported; fundamentals remain stable. Elevated P/E suggests potential overbought conditions, supporting moderate mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        50.5,
+        52.05
+      ],
+      "target": 56.68,
+      "stop": 48.95
+    },
+    {
+      "symbol": "MRNA",
+      "price": 49.70000076293945,
+      "change_1d": 6.652365644475111,
+      "change_3d": 17.688849873730184,
+      "rsi": 57.19716223639098,
+      "volume_ratio": 0.9347034037475422,
+      "technical_score": 65,
+      "fundamental_score": 75,
+      "combined_score": 69.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is currently not significantly oversold (RSI 57.2) nor at its 52-week high (-10.0%). However, the recent strong upward price movement (+22.7% in 5 days) suggests potential for a short-term correction or mean reversion. The gap today is also relatively small (+0.8%), which could indicate a potential fill of this gap.",
+      "fundamental_reason": "Moderna is a quality healthcare company with no recent company-specific negative news. The move likely reflects sector rotation or speculative momentum rather than fundamental changes. Mean reversion potential is high due to overbought conditions and lack of earnings justification.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        48.71,
+        50.2
+      ],
+      "target": 54.67,
+      "stop": 47.22
+    }
+  ],
+  "top_fades": []
+}

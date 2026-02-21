@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-16
+   Scanned: 13 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 ROKU @ $90.06
+   Move: -0.9% (3d) | RSI: 30
+   Score: 84/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 30.4, high volume on move (3.4x the 20-day average), and it's currently at a distance of -22.8% from its 52-week high. Additionally, there was a large gap up today which could indicate potential for a gap fill.
+   Fund: Roku is a quality company in a growing sector. The minor 3-day decline likely reflects sector rotation or market-wide volatility, not company-specific issues. High P/E suggests potential overvaluation, but no fundamental red flags justify the move. Mean reversion potential is strong if the sector stabilizes.
+   Entry: $88.26-$90.96
+   Target: $99.07 | Stop: $85.56
+
+#2 VRTX @ $491.47
+   Move: +6.0% (3d) | RSI: 57
+   Score: 79/100 (HIGH)
+   Tech: The stock is currently not oversold (RSI 56.9) but it has recently experienced a significant price increase (+6.0% in 3 days). The volume ratio is also higher than the 20-day average, suggesting increased trading activity. The stock is also close to its 52-week high (-5.4%) and there was a gap today (+1.4%), both of which could indicate potential for a short-term reversal.
+   Fund: Vertex Pharmaceuticals is a high-quality healthcare company with no recent company-specific news driving the move. The recent rally aligns with sector rotation into healthcare, not structural issues or earnings misses, suggesting the move is overbought and likely to revert.
+   Entry: $481.64-$496.38
+   Target: $540.62 | Stop: $466.90
+
+#3 IREN @ $42.22
+   Move: -1.7% (3d) | RSI: 40
+   Score: 79/100 (HIGH)
+   Tech: The stock is currently oversold with an RSI of 40.1 and has a high distance from its 52-week low (723.8%). Additionally, it has shown a significant gap today (+2.0%) which could indicate potential for a gap fill.
+   Fund: Temporary sector rotation in Financial Services without company-specific issues; no earnings misses or structural problems reported; P/E suggests potential overvaluation but not extreme.
+   Entry: $41.38-$42.64
+   Target: $46.44 | Stop: $40.11
+
+#4 NOW @ $107.08
+   Move: +0.6% (3d) | RSI: 25
+   Score: 79/100 (HIGH)
+   Tech: The stock is significantly oversold as indicated by the RSI of 25.2, which is below the oversold threshold of 30. Additionally, it's currently at a distance of -49.4% from its 52-week high, suggesting it may have reached an extreme point and could potentially revert. However, the volume ratio is only 0.9x versus the 20-day average, which is slightly below the criterion for high volume on a move. The gap fill potential is also present due to today's +1.8% gap.
+   Fund: Quality tech company with no evident fundamental issues; recent move likely due to sector rotation or temporary selloff, suggesting strong mean reversion potential.
+   Entry: $104.94-$108.15
+   Target: $117.79 | Stop: $101.73
+
+#5 PINS @ $15.42
+   Move: -24.2% (3d) | RSI: 8
+   Score: 75/100 (HIGH)
+   Tech: The stock PINS has shown significant price drop in the last few days (-24.2% in 3 days, -21.3% in 5 days), which could indicate a potential reversal. The RSI(14) is at 8.1, indicating the stock may be oversold. Additionally, the volume ratio is 3.4x higher than the 20-day average, suggesting high volume on this move which can be an indication of capitulation or exhaustion. However, the stock is not at its 52-week low (-11.4% from the 52W low), and there was a gap today (-22.7%). This suggests that while there is potential for a bounce, it may not be an immediate reversal to the 52-week high.
+   Fund: The selloff appears driven by sector rotation and broader market sentiment rather than company-specific issues. PINS has no recent earnings misses or guidance cuts, and the high P/E ratio suggests potential overreaction. Mean reversion potential is moderate due to sector dynamics.
+   Entry: $15.11-$15.57
+   Target: $16.96 | Stop: $14.65
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

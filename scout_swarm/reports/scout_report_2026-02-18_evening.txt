@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-18
+   Scanned: 9 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 SLV @ $70.09
+   Move: +3.5% (3d) | RSI: 29
+   Score: 85/100 (HIGH)
+   Tech: The stock SLV is significantly oversold with an RSI(14) of 29.2, indicating a potential bounce. Additionally, it's currently at a distance of -36.2% from its 52-week high, which suggests it may be nearing a potential reversal point. The gap today also contributes to the score as it indicates potential for gap fill.
+   Fund: SLV tracks silver prices, not a company. Recent move likely due to temporary commodity demand/sentiment. No company-specific issues; mean reversion potential high if driven by short-term factors.
+   Entry: $68.69-$70.79
+   Target: $77.10 | Stop: $66.59
+
+#2 XOM @ $150.68
+   Move: +0.5% (3d) | RSI: 68
+   Score: 74/100 (MEDIUM)
+   Tech: The RSI is slightly below the oversold level (67.7 < 70), and the stock is currently at a distance of -4.0% from its 52-week high, indicating it might be due for a potential reversion. However, the volume ratio is only 0.9x compared to the 20-day average and there's no significant gap fill today. Therefore, while there are signs of mean reversion, they are not as strong.
+   Fund: Blue-chip energy company with no fundamental issues; recent move likely due to sector rotation and stable fundamentals.
+   Entry: $147.67-$152.19
+   Target: $165.75 | Stop: $143.15
+
+#3 SLB @ $51.59
+   Move: +1.9% (3d) | RSI: 62
+   Score: 73/100 (MEDIUM)
+   Tech: The stock is currently not oversold (RSI 62.0) and it's not at its 52-week extreme (-1.5% from high, 65.8% from low). However, the recent positive price movement (+3.5% in 1 day, +1.9% in 3 days, +3.1% in 5 days) and the gap today suggest a potential short-term bounce.
+   Fund: SLB's move aligns with sector rotation in energy, no recent earnings misses or guidance cuts. As a blue-chip with stable fundamentals, temporary selloffs are likely overcorrected, supporting strong mean reversion potential.
+   Entry: $50.56-$52.11
+   Target: $56.75 | Stop: $49.01
+
+#4 MRNA @ $46.60
+   Move: +16.2% (3d) | RSI: 54
+   Score: 69/100 (MEDIUM)
+   Tech: The stock is currently not significantly oversold (RSI 53.6) nor at its 52-week high (-15.6% from the high), but it has shown a strong upward trend in the last few days (+16.2% in 3 days, +11.0% in 5 days). The volume ratio is 1.0x which is close to average, and there was a gap today (+6.3%). While not extremely high, these factors suggest a potential bounce in the near term.
+   Fund: Moderna (MRNA) is a quality healthcare company, but the recent 16.2% move may reflect sector rotation or speculative momentum rather than clear fundamental catalysts. While the P/E is N/A (likely due to unprofitability), the stock lacks structural issues or company-specific bad news. Mean reversion potential is moderate due to mixed fundamentals and possible overbought conditions.
+   Entry: $45.67-$47.07
+   Target: $51.26 | Stop: $44.27
+
+#5 RIOT @ $15.49
+   Move: +9.1% (3d) | RSI: 41
+   Score: 69/100 (MEDIUM)
+   Tech: The stock is currently oversold with an RSI of 41.2 and has a high volume on move (1.3x average). Additionally, it is at the lower end of its 52-week range (-35.3%), suggesting potential for mean reversion.
+   Fund: Recent move likely driven by sector rotation/crypto market optimism rather than company-specific fundamentals. P/E ratio suggests growth expectations but no clear earnings issues. Not a blue chip, but structural risks in crypto sector could limit mean reversion.
+   Entry: $15.18-$15.64
+   Target: $17.04 | Stop: $14.72
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

@@ -1,0 +1,143 @@
+{
+  "scan_time": "2026-02-12T23:04:08.894541",
+  "scan_date": "2026-02-12",
+  "stocks_scanned": 23,
+  "bounce_candidates": 21,
+  "fade_candidates": 1,
+  "top_bounces": [
+    {
+      "symbol": "COIN",
+      "price": 141.08999633789062,
+      "change_1d": -7.904700294767542,
+      "change_3d": -15.641257794983188,
+      "rsi": 17.888590439126773,
+      "volume_ratio": 1.4243330263373615,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 17.9, indicating a potential rebound. Additionally, it's at the lower end of its 52-week range and has shown high volume on the recent move, which could suggest capitulation or exhaustion. However, there was no gap today, which slightly reduces the score.",
+      "fundamental_reason": "Recent selloff likely due to sector rotation and macroeconomic concerns in crypto, not company-specific issues. Low P/E suggests undervaluation, and COIN remains a blue-chip in the sector with strong fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        138.27,
+        142.5
+      ],
+      "target": 155.2,
+      "stop": 134.04
+    },
+    {
+      "symbol": "IREN",
+      "price": 40.029998779296875,
+      "change_1d": -6.187015474422486,
+      "change_3d": -13.261110605056425,
+      "rsi": 34.33677945635641,
+      "volume_ratio": 0.6168280268931468,
+      "technical_score": 85,
+      "fundamental_score": 85,
+      "combined_score": 85.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 34.3, indicating a potential for mean reversion. Additionally, it's currently at a 47.9% distance from its 52-week high and has experienced a large drop in the past few days (-13.3% in 3 days), suggesting possible exhaustion or capitulation. However, the volume ratio is only 0.6x of the 20-day average, which slightly reduces the score.",
+      "fundamental_reason": "Likely sector rotation in Financial Services due to macro factors (e.g., interest rate concerns), no company-specific fundamental issues indicated. Oversold blue-chip with strong balance sheet and reasonable P/E, suggesting temporary selloff.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        39.23,
+        40.43
+      ],
+      "target": 44.03,
+      "stop": 38.03
+    },
+    {
+      "symbol": "PLTR",
+      "price": 129.1300048828125,
+      "change_1d": -4.827526641028424,
+      "change_3d": -9.642431198782797,
+      "rsi": 27.225669926682272,
+      "volume_ratio": 1.2983972330390605,
+      "technical_score": 85,
+      "fundamental_score": 80,
+      "combined_score": 83.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with a RSI of 27.2, indicating a potential for mean reversion. It's also near its 52-week low, which suggests it might have reached an extreme point. The high volume on the recent move could indicate exhaustion or capitulation. However, today's gap is small, which slightly reduces the score.",
+      "fundamental_reason": "Recent selloff likely due to sector rotation and high P/E overvaluation, not company-specific issues. PLTR remains a quality tech company with strong fundamentals.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        126.55,
+        130.42
+      ],
+      "target": 142.04,
+      "stop": 122.67
+    },
+    {
+      "symbol": "SLV",
+      "price": 67.7300033569336,
+      "change_1d": -11.53343062073936,
+      "change_3d": -10.928455363678003,
+      "rsi": 35.86028263900022,
+      "volume_ratio": 0.7246110164355516,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock SLV is currently oversold with an RSI(14) of 35.9, indicating a potential for mean reversion. Additionally, it has recently reached a 52-week low (distance from 52W Low: 154.9%). However, the score is not at its maximum due to the lack of high volume on the move and no gap fill today.",
+      "fundamental_reason": "SLV tracks silver prices, which are influenced by macroeconomic factors. The selloff likely reflects temporary commodity price volatility, not company-specific issues. No fundamental problems reported, and the ETF remains a blue-chip, oversold asset with strong mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        66.38,
+        68.41
+      ],
+      "target": 74.5,
+      "stop": 64.34
+    },
+    {
+      "symbol": "MARA",
+      "price": 7.25,
+      "change_1d": -4.100528374680978,
+      "change_3d": -10.049632474525595,
+      "rsi": 27.8911604787055,
+      "volume_ratio": 0.7699524061267046,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock is significantly oversold with an RSI of 27.9 and it's also close to its 52-week low. The volume ratio is slightly above the average which suggests some level of selling pressure but not enough for a strong trend reversal. However, the recent price drop might have exhausted some sellers, indicating potential for a bounce.",
+      "fundamental_reason": "Low P/E ratio suggests undervaluation; recent selloff likely sector-driven with no company-specific fundamental issues indicated; strong fundamentals imply mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        7.1,
+        7.32
+      ],
+      "target": 7.98,
+      "stop": 6.89
+    }
+  ],
+  "top_fades": [
+    {
+      "symbol": "AVGO",
+      "price": 331.1700134277344,
+      "change_1d": -3.38137355808098,
+      "change_3d": -3.712853673031935,
+      "rsi": 55.990103648663094,
+      "volume_ratio": 0.7786384727164936,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "FADE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is not extremely oversold (RSI 56.0) and it's not at its 52-week high or low. However, it has recently moved away from its 52-week high by -20.1%. The volume ratio is only 0.8x the 20-day average, suggesting that the move may not be due to significant buying or selling pressure. There is no gap fill today.",
+      "fundamental_reason": "AVGO (Broadcom) is a high-quality, diversified tech company with strong fundamentals. The recent selloff likely reflects sector-wide rotation amid macro concerns (e.g., interest rates, AI hype correction) rather than company-specific issues. High P/E (69.6) may contribute to volatility, but no earnings misses, guidance cuts, or structural problems are evident. Oversold blue-chip with strong cash flow and market position.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        327.86,
+        337.79
+      ],
+      "target": 298.05,
+      "stop": 347.73
+    }
+  ]
+}

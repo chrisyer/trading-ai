@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-16
+   Scanned: 13 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 PINS @ $15.42
+   Move: -24.2% (3d) | RSI: 8
+   Score: 82/100 (HIGH)
+   Tech: The stock PINS has shown significant signs of oversold conditions with an RSI(14) of 8.1, indicating a potential rebound. Additionally, the high volume on the recent move suggests capitulation or exhaustion. Furthermore, the stock is currently at 61.4% below its 52-week high, which increases the potential for a reversal. Lastly, the large gap today also indicates a potential gap fill.
+   Fund: Sector rotation in Communication Services likely drove the selloff. No company-specific fundamental issues reported; P/E ratio remains reasonable. Oversold but not a blue-chip or structural problem.
+   Entry: $15.11-$15.57
+   Target: $16.96 | Stop: $14.65
+
+#2 COIN @ $164.32
+   Move: +1.1% (3d) | RSI: 32
+   Score: 79/100 (HIGH)
+   Tech: The stock COIN has a high RSI (32.2) indicating it is oversold, which suggests potential mean reversion. Additionally, the stock has a high volume ratio (2.4x vs 20d avg), suggesting capitulation or exhaustion. The stock is also at a distance of -63.0% from its 52W High, indicating it is near a potential extreme point. Lastly, there was a gap today (+8.9%) which could potentially fill.
+   Fund: Recent move likely driven by sector rotation in crypto and fintech, no company-specific fundamental issues reported. High-quality player with elevated P/E but no structural problems.
+   Entry: $161.03-$165.96
+   Target: $180.75 | Stop: $156.10
+
+#3 IREN @ $42.22
+   Move: -1.7% (3d) | RSI: 40
+   Score: 79/100 (HIGH)
+   Tech: The stock is currently oversold with an RSI of 40.1 and it's also close to its 52-week low, indicating potential for a rebound. However, the volume ratio is only 0.7x of the 20-day average, which is slightly lower than ideal for a strong reversal. The gap today could potentially be filled, contributing to the score.
+   Fund: Likely sector rotation in Financial Services without company-specific fundamental issues; P/E suggests potential overvaluation but no earnings misses or guidance cuts reported.
+   Entry: $41.38-$42.64
+   Target: $46.44 | Stop: $40.11
+
+#4 SNOW @ $182.29
+   Move: -0.2% (3d) | RSI: 37
+   Score: 79/100 (HIGH)
+   Tech: The stock is currently oversold with an RSI of 36.7 (below the 30 threshold), indicating a potential bounce. Additionally, it's relatively close to its 52-week low and has shown a high volume on the recent move, which could suggest capitulation or exhaustion. Lastly, there was a positive gap today, which can sometimes indicate a potential gap fill.
+   Fund: Small selloff likely due to sector rotation; no company-specific issues reported. Strong fundamentals and blue-chip status suggest mean reversion potential.
+   Entry: $178.64-$184.11
+   Target: $200.52 | Stop: $173.18
+
+#5 MARA @ $7.92
+   Move: +3.4% (3d) | RSI: 36
+   Score: 73/100 (MEDIUM)
+   Tech: The RSI is relatively low at 36.3, indicating the stock may be oversold. Additionally, there was a gap today which can sometimes indicate potential for a gap fill. However, the stock is not as close to its 52-week high or low extremes, and volume ratio is only 1x average, suggesting it might not be a strong capitulation/exhaustion event.
+   Fund: Low P/E ratio (3.1) suggests undervaluation; no company-specific bad news reported; likely sector rotation or temporary selloff driving mean reversion potential.
+   Entry: $7.76-$8.00
+   Target: $8.71 | Stop: $7.52
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

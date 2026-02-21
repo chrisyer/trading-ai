@@ -1,9 +1,9 @@
 {
   "symbol": "XAUUSD",
-  "action": "HOLD",
-  "price": 4721.39990234375,
-  "confidence": 70,
-  "timestamp": "2026-02-06T00:21:41.938012",
+  "action": "SELL",
+  "price": 5080.89990234375,
+  "confidence": 85,
+  "timestamp": "2026-02-21T18:58:51.892653",
   "source": "GOLD_HUNTER_RL",
   "env_info": {
     "stop_hunt": 

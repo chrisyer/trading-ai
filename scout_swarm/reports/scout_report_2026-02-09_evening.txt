@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-09
+   Scanned: 14 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 MSFT @ $413.60
+   Move: -0.1% (3d) | RSI: 37
+   Score: 82/100 (HIGH)
+   Tech: The stock is currently oversold (RSI < 30), it is close to the 52-week low, and there was a small gap today. These factors suggest a potential mean reversion or bounce in Microsoft's stock price.
+   Fund: No fundamental issues detected; minor selloff likely due to sector rotation or market volatility. Strong fundamentals and blue-chip status suggest temporary dip with high mean reversion potential.
+   Entry: $405.33-$417.74
+   Target: $454.96 | Stop: $392.92
+
+#2 IREN @ $46.15
+   Move: +2.7% (3d) | RSI: 42
+   Score: 79/100 (HIGH)
+   Tech: The stock is significantly oversold with an RSI of 42.4 and has recently reached a 40.0% distance from its 52-week high. Additionally, it has experienced a large move upwards in the last three days, indicating potential exhaustion. However, the volume ratio is only 1.0x vs the 20-day average, which slightly reduces the score.
+   Fund: Recent move likely due to sector rotation in Financial Services with no fundamental issues reported. P/E ratio is elevated but not extreme, suggesting potential for mean reversion if sector momentum shifts. No company-specific news or structural problems identified.
+   Entry: $45.23-$46.61
+   Target: $50.77 | Stop: $43.84
+
+#3 NOW @ $103.87
+   Move: -6.5% (3d) | RSI: 30
+   Score: 75/100 (HIGH)
+   Tech: The stock is significantly oversold as indicated by the RSI of 30.4, and it has also moved away from its 52-week high by -50.9%. Although there was a slight gap today, it was not very significant. The volume ratio being 0.9x vs the 20d average suggests some level of buying interest but not enough to reverse the downward trend yet.
+   Fund: Sector rotation and high P/E suggest temporary selloff; no company-specific fundamental issues reported.
+   Entry: $101.79-$104.91
+   Target: $114.26 | Stop: $98.68
+
+#4 SLV @ $76.04
+   Move: -4.0% (3d) | RSI: 44
+   Score: 73/100 (MEDIUM)
+   Tech: The RSI is slightly below the oversold level at 44.5, indicating a potential for mean reversion. The stock is also currently 30.8% away from its 52-week high, suggesting it might be due for a correction. However, the volume ratio is only 0.5x of the 20-day average, which slightly reduces the score as higher volume typically indicates stronger market sentiment. The gap today also adds to the potential for a bounce.
+   Fund: SLV tracks silver prices, which are influenced by macroeconomic factors. The selloff likely reflects temporary market conditions (e.g., dollar strength, inflation expectations) rather than structural issues. No company-specific problems; strong potential for mean reversion if fundamentals stabilize.
+   Entry: $74.52-$76.80
+   Target: $83.64 | Stop: $72.24
+
+#5 AMD @ $216.00
+   Move: +7.9% (3d) | RSI: 44
+   Score: 73/100 (MEDIUM)
+   Tech: The stock is not extremely overbought (RSI of 44.3) and has recently moved away from its 52-week high (-19.1%). However, it's also worth noting that the volume ratio is only 0.8x the 20-day average, which suggests that the move might not be due to significant buying or selling pressure. The gap today is minimal (-0.8%), indicating a lack of strong directional movement.
+   Fund: AMD's rise aligns with sector rotation in tech (AI/semiconductor demand) and strong fundamentals. High P/E suggests optimism, but no company-specific issues or structural problems. Quality remains high with no recent bad news.
+   Entry: $211.68-$218.16
+   Target: $237.60 | Stop: $205.20
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

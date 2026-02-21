@@ -1,0 +1,51 @@
+══════════════════════════════════════════════════
+🔍 SCOUT REPORT - 2026-02-13
+   Scanned: 13 stocks
+══════════════════════════════════════════════════
+
+🟢 TOP BOUNCE SETUPS (Buy the dip):
+
+#1 PINS @ $15.42
+   Move: -24.2% (3d) | RSI: 8
+   Score: 81/100 (HIGH)
+   Tech: The stock PINS has shown significant signs of oversold conditions with an RSI(14) of 8.1, indicating a potential rebound. Additionally, the high volume on the recent move suggests possible capitulation or exhaustion. Furthermore, the stock is currently at 61.4% below its 52-week high, which could indicate a potential reversal. Lastly, today's gap of -22.7% might lead to a gap fill, further supporting the idea of a bounce.
+   Fund: Significant drop likely due to sector rotation and macro concerns in Communication Services, with no clear company-specific fundamental issues reported. P/E remains reasonable, suggesting potential overreaction.
+   Entry: $15.11-$15.57
+   Target: $16.96 | Stop: $14.65
+
+#2 IREN @ $42.22
+   Move: -1.7% (3d) | RSI: 40
+   Score: 79/100 (HIGH)
+   Tech: The stock is currently at a 45.1% distance from its 52W high and has shown a significant increase of +5.5% in one day, which indicates potential for mean reversion. The RSI (14) is 40.1, slightly below the oversold level of 30, but not overly so. The volume ratio is 0.7x versus the 20-day average, suggesting some increased activity but not necessarily capitulation or exhaustion. The gap today is +1.8%, which can be a potential gap fill opportunity.
+   Fund: No fundamental issues reported; likely sector rotation or temporary selloff. P/E ratio suggests potential overvaluation correction, but company-specific fundamentals remain stable.
+   Entry: $41.38-$42.64
+   Target: $46.44 | Stop: $40.11
+
+#3 MRNA @ $42.23
+   Move: +0.6% (3d) | RSI: 33
+   Score: 79/100 (HIGH)
+   Tech: The stock is currently oversold (RSI of 32.6), indicating a potential for mean reversion. Additionally, it is close to its 52-week low (-89.5% from high) and has shown a significant increase in volume (1.2x vs 20d avg). Furthermore, there was a gap today (+4.3%) which could potentially be filled.
+   Fund: No fundamental issues reported; recent move likely due to sector rotation and potential oversold conditions in healthcare biotech stocks.
+   Entry: $41.39-$42.65
+   Target: $46.45 | Stop: $40.12
+
+#4 ROKU @ $90.06
+   Move: -0.9% (3d) | RSI: 30
+   Score: 75/100 (HIGH)
+   Tech: The stock is currently oversold with an RSI of 30.4, indicating a potential bounce. It's also close to the 52-week low and has shown high volume on the recent move, which could suggest capitulation or exhaustion. Additionally, there was a significant gap today, which can sometimes lead to a gap fill.
+   Fund: Roku is a quality company with no recent earnings misses or guidance cuts. The minor selloff likely reflects sector rotation and high P/E volatility, not structural issues. Mean reversion potential is strong if broader market or sector conditions improve.
+   Entry: $88.26-$90.96
+   Target: $99.07 | Stop: $85.56
+
+#5 MSTR @ $133.88
+   Move: +0.7% (3d) | RSI: 39
+   Score: 73/100 (MEDIUM)
+   Tech: The stock is currently not extremely oversold (RSI 39.4) but it's close to the lower bound of the normal range. The recent move up (+8.8% in 1 day) suggests some buying pressure, but there's also a gap that needs to be filled (-3.3% today's gap). However, the volume ratio is only slightly above average and the stock is not at its 52-week low, which reduces the score.
+   Fund: MSTR is a high-quality tech company with no recent fundamental issues. The minor 3-day gain aligns with sector rotation rather than company-specific news. Oversold blue-chip characteristics and stable fundamentals suggest strong mean reversion potential.
+   Entry: $131.20-$135.22
+   Target: $147.27 | Stop: $127.19
+
+
+🔴 TOP FADE SETUPS (Short the rip):
+
+══════════════════════════════════════════════════

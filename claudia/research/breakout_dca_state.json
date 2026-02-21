@@ -298,10 +298,10 @@
           "reason": "DCA triggered: 5.4% drop from $320.16"
         }
       ],
-      "supertrend_status": "BEARISH",
-      "buying_enabled": false
+      "supertrend_status": "BULLISH",
+      "buying_enabled": true
     }
   },
   "signals_history": [],
-  "updated_at": "2026-02-05T20:30:03.561889"
+  "updated_at": "2026-02-20T20:30:03.797310"
 }

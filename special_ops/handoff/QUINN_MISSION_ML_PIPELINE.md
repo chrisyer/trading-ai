@@ -47,7 +47,7 @@ Expected: `True NVIDIA H100 80GB HBM3`
 ## STEP 2: Start Data Ingest (runs continuously)
 
 ```bash
-export CRELLA_IP=100.91.17.86
+export CRELLA_IP=100.119.161.65
 cd /home/jbot/trading_ai/special_ops
 python3 -m ml.data.ingest
 ```
@@ -222,7 +222,7 @@ WorkingDirectory=/home/jbot/trading_ai/special_ops
 ExecStart=/usr/bin/python3 -m ml.data.ingest
 Restart=always
 RestartSec=10
-Environment=CRELLA_IP=100.91.17.86
+Environment=CRELLA_IP=100.119.161.65
 
 [Install]
 WantedBy=multi-user.target
@@ -307,7 +307,7 @@ curl -X POST http://localhost:8043/reload
 ## DATA FLOW
 
 ```
-CRELLA (100.91.17.86:8097)
+CRELLA (100.119.161.65:8097)
     |
     v  /truth/latest (every 60s)
 Data Ingest → DuckDB (trading.duckdb)

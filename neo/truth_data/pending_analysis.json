@@ -1,0 +1,174 @@
+[
+  {
+    "unix": 1771628400,
+    "timestamp": "2026.02.20 20:59:58",
+    "price": 5096.82,
+    "session": "TRANSITION",
+    "market_open": true,
+    "scorecard": {
+      "buy": 4,
+      "hold": 5,
+      "sell": 1
+    },
+    "metrics": [
+      {
+        "id": 1,
+        "name": "VWAP",
+        "raw": "5036.74",
+        "interpretation": "ABOVE (60.08)",
+        "bias": "BUY"
+      },
+      {
+        "id": 2,
+        "name": "RSI(14)",
+        "raw": "72.28",
+        "interpretation": "OVERBOUGHT",
+        "bias": "SELL"
+      },
+      {
+        "id": 3,
+        "name": "ATR(14)",
+        "raw": "25.37",
+        "interpretation": "STABLE (7.5%)",
+        "bias": "HOLD"
+      },
+      {
+        "id": 4,
+        "name": "Session",
+        "raw": "TRANSITION",
+        "interpretation": "TRANSITION",
+        "bias": "HOLD"
+      },
+      {
+        "id": 5,
+        "name": "Spread",
+        "raw": "4 (avg: 8)",
+        "interpretation": "NORMAL",
+        "bias": "HOLD"
+      },
+      {
+        "id": 6,
+        "name": "EMA 50/200",
+        "raw": "50=5012.06 200=4987.38",
+        "interpretation": "BULLISH (50 > 200)",
+        "bias": "BUY"
+      },
+      {
+        "id": 7,
+        "name": "Ichimoku",
+        "raw": "4931.86 - 4991.13",
+        "interpretation": "ABOVE CLOUD",
+        "bias": "BUY"
+      },
+      {
+        "id": 8,
+        "name": "H1 H/L Break",
+        "raw": "H=5098.16 L=5076.83",
+        "interpretation": "INSIDE RANGE",
+        "bias": "HOLD"
+      },
+      {
+        "id": 9,
+        "name": "H4 Bias",
+        "raw": "H4_50=4985.76 H4_200=4850.73",
+        "interpretation": "BULL",
+        "bias": "BUY"
+      },
+      {
+        "id": 10,
+        "name": "Regime",
+        "raw": "ADX=27.2",
+        "interpretation": "TREND (ADX 27.2)",
+        "bias": "HOLD"
+      }
+    ],
+    "report_number": 113,
+    "added_at": "2026-02-20T21:00:34.514563+00:00"
+  },
+  {
+    "unix": 1771631999,
+    "timestamp": "2026.02.21 11:43:08",
+    "price": 5107.13,
+    "session": "TRANSITION",
+    "market_open": true,
+    "scorecard": {
+      "buy": 5,
+      "hold": 4,
+      "sell": 1
+    },
+    "metrics": [
+      {
+        "id": 1,
+        "name": "VWAP",
+        "raw": "5038.15",
+        "interpretation": "ABOVE (68.98)",
+        "bias": "BUY"
+      },
+      {
+        "id": 2,
+        "name": "RSI(14)",
+        "raw": "72.28",
+        "interpretation": "OVERBOUGHT",
+        "bias": "SELL"
+      },
+      {
+        "id": 3,
+        "name": "ATR(14)",
+        "raw": "25.37",
+        "interpretation": "STABLE (7.5%)",
+        "bias": "HOLD"
+      },
+      {
+        "id": 4,
+        "name": "Session",
+        "raw": "TRANSITION",
+        "interpretation": "TRANSITION",
+        "bias": "HOLD"
+      },
+      {
+        "id": 5,
+        "name": "Spread",
+        "raw": "49 (avg: 49)",
+        "interpretation": "NORMAL",
+        "bias": "HOLD"
+      },
+      {
+        "id": 6,
+        "name": "EMA 50/200",
+        "raw": "50=5012.06 200=4987.38",
+        "interpretation": "BULLISH (50 > 200)",
+        "bias": "BUY"
+      },
+      {
+        "id": 7,
+        "name": "Ichimoku",
+        "raw": "4931.86 - 4991.13",
+        "interpretation": "ABOVE CLOUD",
+        "bias": "BUY"
+      },
+      {
+        "id": 8,
+        "name": "H1 H/L Break",
+        "raw": "H=5098.16 L=5076.83",
+        "interpretation": "BROKE HIGH",
+        "bias": "BUY"
+      },
+      {
+        "id": 9,
+        "name": "H4 Bias",
+        "raw": "H4_50=4985.76 H4_200=4850.73",
+        "interpretation": "BULL",
+        "bias": "BUY"
+      },
+      {
+        "id": 10,
+        "name": "Regime",
+        "raw": "ADX=27.2",
+        "interpretation": "TREND (ADX 27.2)",
+        "bias": "HOLD"
+      }
+    ],
+    "report_number": 0,
+    "added_at": "2026-02-21T11:43:34.226441+00:00"
+  }
+]

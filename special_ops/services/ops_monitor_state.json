@@ -1,0 +1,12 @@
+{
+  "last_alerts": {
+    "gold_mgc_buy_starter": "2026-02-21T18:47:07.479182+00:00"
+  },
+  "last_recap_date": "2026-02-20",
+  "last_crella_data": {
+    "equity": 578288.36,
+    "balance": 550262.56,
+    "timestamp": "2026-02-21T19:01:35.178090+00:00"
+  },
+  "gold_mgc_last_action": "BUY_STARTER"
+}

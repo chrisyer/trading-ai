@@ -1,0 +1,120 @@
+{
+  "scan_time": "2026-02-19T11:02:02.539718",
+  "scan_date": "2026-02-19",
+  "stocks_scanned": 9,
+  "bounce_candidates": 8,
+  "fade_candidates": 0,
+  "top_bounces": [
+    {
+      "symbol": "PINS",
+      "price": 16.3799991607666,
+      "change_1d": 5.609277363289156,
+      "change_3d": -11.650494326306804,
+      "rsi": 19.466398431601377,
+      "volume_ratio": 1.458825454331895,
+      "technical_score": 85,
+      "fundamental_score": 70,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock PINS is significantly oversold with an RSI of 19.5, indicating a potential rebound. The stock is also at the lower end of its 52-week range and has experienced high volume on the recent move, which could suggest capitulation or exhaustion. Additionally, there was a small gap today, although it was not significant, it could still contribute to a potential gap fill.",
+      "fundamental_reason": "Sector rotation and elevated P/E ratio suggest temporary selloff, but lack of company-specific news and mid-cap size limit high-quality designation",
+      "fundamental_quality": "MEDIUM",
+      "entry_zone": [
+        16.05,
+        16.54
+      ],
+      "target": 18.02,
+      "stop": 15.56
+    },
+    {
+      "symbol": "SLV",
+      "price": 70.08999633789062,
+      "change_1d": 5.604932103909199,
+      "change_3d": 3.4844129100658483,
+      "rsi": 29.212026417492666,
+      "volume_ratio": 0.38627085076000783,
+      "technical_score": 75,
+      "fundamental_score": 85,
+      "combined_score": 79.0,
+      "direction": "BOUNCE",
+      "confidence": "HIGH",
+      "technical_reason": "The stock SLV is currently oversold with an RSI of 29.2, indicating a potential bounce. Additionally, it is at the lower end of its 52-week range (-36.2%), suggesting a possible reversal. The gap today also adds to the potential for a gap fill.",
+      "fundamental_reason": "SLV tracks silver prices, which are influenced by macroeconomic factors. The recent move likely reflects temporary demand shifts or market rotation, not structural issues. No company-specific fundamentals justify the move, suggesting high mean reversion potential.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        68.69,
+        70.79
+      ],
+      "target": 77.1,
+      "stop": 66.59
+    },
+    {
+      "symbol": "SLB",
+      "price": 51.59000015258789,
+      "change_1d": 3.5112359443063346,
+      "change_3d": 1.8759888909746891,
+      "rsi": 62.03479348620788,
+      "volume_ratio": 0.7331992917750958,
+      "technical_score": 65,
+      "fundamental_score": 85,
+      "combined_score": 73.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is currently not oversold (RSI 62.0) or extremely overbought, but it's close to the upper Bollinger Band which can indicate a potential short-term reversal. The stock is also near its 52-week high, suggesting it might be due for a pullback. However, the volume ratio is only 0.7x of the 20-day average, indicating less than usual trading activity, which slightly reduces the likelihood of a significant reversal. The gap up today could potentially indicate a continuation of the upward trend rather than a fill and reverse.",
+      "fundamental_reason": "Quality energy company with no recent earnings misses or guidance cuts. The move aligns with sector rotation and potential oversold conditions, lacking company-specific fundamental catalysts.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        50.56,
+        52.11
+      ],
+      "target": 56.75,
+      "stop": 49.01
+    },
+    {
+      "symbol": "MU",
+      "price": 420.95001220703125,
+      "change_1d": 5.295415851812413,
+      "change_3d": 1.6861151691537124,
+      "rsi": 46.67594865345357,
+      "volume_ratio": 0.8009448479372903,
+      "technical_score": 65,
+      "fundamental_score": 78,
+      "combined_score": 70.2,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The stock is not extremely oversold (RSI is 46.7) but it has recently experienced a significant price increase (12.8% in 5 days). The distance from the 52-week high suggests potential for mean reversion, although it's not at the extremes yet. There is no gap fill today.",
+      "fundamental_reason": "Micron is a quality semiconductor company in a cyclical sector. The minor 1.7% move aligns with sector rotation and macroeconomic sentiment rather than company-specific issues. No recent earnings misses or guidance cuts reported, and the stock remains oversold relative to its high P/E ratio, suggesting potential for mean reversion.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        412.53,
+        425.16
+      ],
+      "target": 463.05,
+      "stop": 399.9
+    },
+    {
+      "symbol": "SHOP",
+      "price": 121.63999938964844,
+      "change_1d": 7.134048272685334,
+      "change_3d": 9.922280285716889,
+      "rsi": 39.54248378084078,
+      "volume_ratio": 1.0406702763786755,
+      "technical_score": 65,
+      "fundamental_score": 65,
+      "combined_score": 65.0,
+      "direction": "BOUNCE",
+      "confidence": "MEDIUM",
+      "technical_reason": "The RSI is below 70 but not extremely low, suggesting a potential for mean reversion. The stock is also at a distance of -33.2% from its 52-week high, indicating it might be near a peak. However, the volume ratio and today's gap are not particularly significant in this case.",
+      "fundamental_reason": "Shopify is a quality company with a high P/E ratio, suggesting potential overvaluation. The move may reflect sector rotation or optimism in tech, but fundamentals (high valuation) imply limited mean reversion potential unless the rally is overextended.",
+      "fundamental_quality": "HIGH",
+      "entry_zone": [
+        119.21,
+        122.86
+      ],
+      "target": 133.8,
+      "stop": 115.56
+    }
+  ],
+  "top_fades": []
+}
