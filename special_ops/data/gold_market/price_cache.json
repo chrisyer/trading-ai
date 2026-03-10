@@ -1,50 +1,50 @@
 {
-  "updated_at": "2026-02-21T19:34:24.977136+00:00",
+  "updated_at": "2026-03-10T11:20:23.764584+00:00",
   "mgc": {
     "ok": true,
     "symbol": "MGC=F",
-    "price": 5059.3,
-    "prev_close": 4975.9,
-    "change": 83.4,
-    "change_pct": 1.676,
-    "volume": 52,
-    "high": 5059.3,
-    "low": 4991.2,
-    "date": "2026-02-20"
+    "price": 5198.2,
+    "prev_close": 5103.7,
+    "change": 94.5,
+    "change_pct": 1.852,
+    "volume": 153309,
+    "high": 5203.9,
+    "low": 5126.0,
+    "date": "2026-03-10"
   },
   "gc": {
     "ok": true,
     "symbol": "GC=F",
-    "price": 5059.3,
-    "prev_close": 4975.9,
-    "change_pct": 1.676,
-    "volume": 37,
-    "date": "2026-02-20"
+    "price": 5198.2,
+    "prev_close": 5091.5,
+    "change_pct": 2.096,
+    "volume": 53458,
+    "date": "2026-03-10"
   },
   "gld": {
     "ok": true,
     "symbol": "GLD",
-    "price": 468.62,
-    "prev_close": 459.56,
-    "change": 9.06,
-    "change_pct": 1.971,
-    "volume": 14261600,
-    "date": "2026-02-20",
+    "price": 472.53,
+    "prev_close": 473.51,
+    "change": -0.98,
+    "change_pct": -0.207,
+    "volume": 8785100,
+    "date": "2026-03-09",
     "options": {
-      "expiry": "2026-02-23",
-      "atm_strike": 469.0,
-      "atm_call_bid": 3.45,
-      "atm_call_ask": 3.7,
-      "atm_call_iv": 22.9,
-      "atm_put_bid": 4.15,
-      "atm_put_ask": 4.65,
-      "atm_put_iv": 26.3,
-      "strangle_cost": 8.35
+      "expiry": "2026-03-11",
+      "atm_strike": 473.0,
+      "atm_call_bid": 0.0,
+      "atm_call_ask": 0.0,
+      "atm_call_iv": 0.4,
+      "atm_put_bid": 0.0,
+      "atm_put_ask": 0.0,
+      "atm_put_iv": 0.0,
+      "strangle_cost": 0.0
     }
   },
   "mirror_state": {
-    "price": 5107.13,
-    "regime": "EXPANSION",
+    "price": 5183.62,
+    "regime": "BULL_TREND",
     "recommendation": {
       "mgc": {
         "action": "BUY_STARTER",
@@ -59,32 +59,32 @@
     }
   },
   "comparison": {
-    "ts": "2026-02-21T19:34:24.977117+00:00",
+    "ts": "2026-03-10T11:20:23.764537+00:00",
     "mgc_vs_spot": {
-      "xauusd_spot": 5107.13,
-      "mgc_price": 5059.3,
-      "basis": -47.83,
-      "basis_pct": -0.937,
+      "xauusd_spot": 5183.62,
+      "mgc_price": 5198.2,
+      "basis": 14.58,
+      "basis_pct": 0.281,
       "note": "positive = futures premium (contango)"
     },
     "mgc_signal": {
       "mirror_action": "BUY_STARTER",
       "mirror_contracts": 2,
       "mirror_reason": "FRESH_ENTRY",
-      "actual_mgc_price": 5059.3,
-      "mgc_daily_change": 1.676,
-      "mgc_volume": 52
+      "actual_mgc_price": 5198.2,
+      "mgc_daily_change": 1.852,
+      "mgc_volume": 153309
     },
     "gld_signal": {
       "mirror_action": "NO_TRADE",
       "mirror_structure": null,
       "mirror_reason": "CONF_TOO_LOW",
-      "actual_gld_price": 468.62,
-      "gld_daily_change": 1.971,
-      "gld_volume": 14261600,
-      "atm_iv_call": 22.9,
-      "atm_iv_put": 26.3,
-      "strangle_cost": 8.35
+      "actual_gld_price": 472.53,
+      "gld_daily_change": -0.207,
+      "gld_volume": 8785100,
+      "atm_iv_call": 0.4,
+      "atm_iv_put": 0.0,
+      "strangle_cost": 0.0
     }
   }
 }

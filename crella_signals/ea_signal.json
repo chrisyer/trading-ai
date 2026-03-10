@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-02-21T19:05:04.896094",
+  "timestamp": "2026-03-10T12:14:28.425229",
   "symbol": "XAUUSD",
-  "direction": "BEARISH_BIAS",
+  "direction": "BULLISH_BIAS",
   "conviction": 50,
   "defcon": 3,
   "defcon_color": "ORANGE",
   "action": "DEFCON 3 - ORANGE",
   "market_data": {
-    "gold_gld": 468.62,
-    "gold_spot_approx": 4920.51,
-    "spy": 689.43,
-    "vix": 19.09,
+    "gold_gld": 472.53,
+    "gold_spot_approx": 4961.56,
+    "spy": 678.27,
+    "vix": 25.0,
     "data_source": "GLD_ETF"
   },
   "targets": {
@@ -26,22 +26,40 @@
     "max_drawdown_override": 0,
     "close_partial": 0,
     "set_breakeven": false,
-    "consider_hedge": false
+    "consider_hedge": false,
+    "sweep_override_active": false
   },
   "analysis": {
-    "sentiment": "neutral",
-    "intensity": 0.3,
+    "sentiment": "bullish",
+    "intensity": 0.8,
     "risk_level": "medium",
-    "reasoning": "Unable to analyze - defaulting to neutral"
+    "reasoning": "High VIX indicates high fear, while gold prices remain stable against a falling SPY"
   },
   "neo_intelligence": {
     "defcon": 3,
-    "bullish_patterns": 0,
-    "bearish_patterns": 20,
-    "latest_pattern": "FAILED_BREAKOUT",
+    "bullish_patterns": 15,
+    "bearish_patterns": 5,
+    "latest_pattern": "DISTRIBUTION_VOLUME",
     "latest_direction": "BEARISH",
-    "latest_message": "Failed breakout above $5104.60 - bull trap"
+    "latest_message": "3 consecutive red candles with RISING volume"
   },
-  "valid_until": "2026-02-21T19:10:04.896115",
+  "macro_intel": {
+    "status": "live",
+    "dxy_price": 98.725,
+    "dxy_momentum": "FLAT",
+    "dxy_gold_implication": "NEUTRAL",
+    "oil_momentum": "SURGING",
+    "vix_level": "ELEVATED",
+    "us10y_yield": 4.136,
+    "liquidity_sweep_risk": "LOW",
+    "liquidity_sweep_score": 0.2,
+    "geo_risk": "MEDIUM",
+    "geo_implication": "NEUTRAL",
+    "composite_gold_bias": "NEUTRAL",
+    "composite_conviction": 48,
+    "recommended_stance": "NEUTRAL",
+    "max_lot_multiplier": 0.7
+  },
+  "valid_until": "2026-03-10T12:19:28.425434",
   "source": "quinn_v2_REAL_DATA_+_NEO"
 }

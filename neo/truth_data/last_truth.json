@@ -4,106 +4,106 @@
   "symbol": "XAUUSD",
   "timeframe": "H1",
   "timestamps": {
-    "broker": "2026.02.20 23:59:59",
-    "utc": "2026.02.21 11:43:08",
-    "unix": 1771631999,
-    "last_tick": "2026.02.20 23:59:43",
-    "next_update": "2026.02.21 00:00"
+    "broker": "2026.03.10 14:00:00",
+    "utc": "2026.03.10 11:59:58",
+    "unix": 1773151200,
+    "last_tick": "2026.03.10 14:00:00",
+    "next_update": "2026.03.10 15:00"
   },
   "market": {
     "open": true,
-    "session": "TRANSITION",
-    "price": 5107.13,
-    "bid": 5107.13,
-    "ask": 5107.62,
-    "spread": 49
+    "session": "LONDON/NY",
+    "price": 5175.14,
+    "bid": 5175.14,
+    "ask": 5175.26,
+    "spread": 12
   },
   "metrics": [
     {
       "id": 1,
       "name": "VWAP",
-      "raw": "5038.15",
-      "interpretation": "ABOVE (68.98)",
+      "raw": "5168.64",
+      "interpretation": "ABOVE (6.50)",
       "bias": "BUY"
     },
     {
       "id": 2,
       "name": "RSI(14)",
-      "raw": "72.28",
-      "interpretation": "OVERBOUGHT",
+      "raw": "60.33",
+      "interpretation": "LEANING OVERBOUGHT",
       "bias": "SELL"
     },
     {
       "id": 3,
       "name": "ATR(14)",
-      "raw": "25.37",
-      "interpretation": "STABLE (7.5%)",
+      "raw": "19.66",
+      "interpretation": "STABLE (-3.0%)",
       "bias": "HOLD"
     },
     {
       "id": 4,
       "name": "Session",
-      "raw": "TRANSITION",
-      "interpretation": "TRANSITION",
+      "raw": "LONDON/NY",
+      "interpretation": "LONDON/NY",
       "bias": "HOLD"
     },
     {
       "id": 5,
       "name": "Spread",
-      "raw": "49 (avg: 49)",
+      "raw": "12 (avg: 12)",
       "interpretation": "NORMAL",
       "bias": "HOLD"
     },
     {
       "id": 6,
       "name": "EMA 50/200",
-      "raw": "50=5012.06 200=4987.38",
-      "interpretation": "BULLISH (50 > 200)",
-      "bias": "BUY"
+      "raw": "50=5137.92 200=5148.36",
+      "interpretation": "BEARISH (50 < 200)",
+      "bias": "SELL"
     },
     {
       "id": 7,
       "name": "Ichimoku",
-      "raw": "4931.86 - 4991.13",
+      "raw": "5086.52 - 5104.86",
       "interpretation": "ABOVE CLOUD",
       "bias": "BUY"
     },
     {
       "id": 8,
       "name": "H1 H/L Break",
-      "raw": "H=5098.16 L=5076.83",
-      "interpretation": "BROKE HIGH",
-      "bias": "BUY"
+      "raw": "H=5191.94 L=5171.81",
+      "interpretation": "INSIDE RANGE",
+      "bias": "HOLD"
     },
     {
       "id": 9,
       "name": "H4 Bias",
-      "raw": "H4_50=4985.76 H4_200=4850.73",
+      "raw": "H4_50=5149.28 H4_200=5014.39",
       "interpretation": "BULL",
       "bias": "BUY"
     },
     {
       "id": 10,
       "name": "Regime",
-      "raw": "ADX=27.2",
-      "interpretation": "TREND (ADX 27.2)",
+      "raw": "ADX=24.7",
+      "interpretation": "RANGE (ADX 24.7)",
       "bias": "HOLD"
     }
   ],
   "scorecard": {
-    "buy": 5,
-    "hold": 4,
-    "sell": 1
+    "buy": 3,
+    "hold": 5,
+    "sell": 2
   },
   "system": {
     "ea_status": "RUNNING",
-    "reports_sent": 0,
+    "reports_sent": 68,
     "magic": 999001
   },
   "_server": {
-    "served_at": "2026-02-21 19:04:32 UTC",
-    "file_age_seconds": 26484,
-    "freshness": "VERY_STALE",
+    "served_at": "2026-03-10 12:14:17 UTC",
+    "file_age_seconds": 858,
+    "freshness": "FRESH",
     "source_host": "CRELLA001",
     "port": 8097
   }

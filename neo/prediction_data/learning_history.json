@@ -1,14 +1,14 @@
 {
   "feature_stats": {
     "ema_trend": {
-      "total_uses": 165,
-      "correct_predictions": 43,
-      "bullish_signals": 81,
-      "bearish_signals": 84,
-      "bullish_correct": 33,
-      "bearish_correct": 10,
-      "avg_contribution": 0.1272616551612381,
-      "accuracy": 26.060606060606062,
+      "total_uses": 265,
+      "correct_predictions": 59,
+      "bullish_signals": 141,
+      "bearish_signals": 124,
+      "bullish_correct": 47,
+      "bearish_correct": 12,
+      "avg_contribution": 0.09780640964584807,
+      "accuracy": 22.264150943396228,
       "inverted": true
     },
     "rsi_overbought": {
@@ -23,102 +23,102 @@
       "inverted": true
     },
     "momentum_h4": {
-      "total_uses": 99,
-      "correct_predictions": 28,
-      "bullish_signals": 54,
-      "bearish_signals": 45,
-      "bullish_correct": 21,
-      "bearish_correct": 7,
-      "avg_contribution": 0.15,
-      "accuracy": 28.28282828282828,
+      "total_uses": 138,
+      "correct_predictions": 39,
+      "bullish_signals": 80,
+      "bearish_signals": 58,
+      "bullish_correct": 30,
+      "bearish_correct": 9,
+      "avg_contribution": 0.12260869565217392,
+      "accuracy": 28.26086956521739,
       "inverted": true
     },
     "macd_signal": {
-      "total_uses": 155,
-      "correct_predictions": 37,
-      "bullish_signals": 79,
-      "bearish_signals": 76,
-      "bullish_correct": 28,
-      "bearish_correct": 9,
-      "avg_contribution": 0.09708089816571788,
-      "accuracy": 23.870967741935484,
+      "total_uses": 255,
+      "correct_predictions": 54,
+      "bullish_signals": 148,
+      "bearish_signals": 107,
+      "bullish_correct": 43,
+      "bearish_correct": 11,
+      "avg_contribution": 0.07447793156478276,
+      "accuracy": 21.176470588235293,
       "inverted": true
     },
     "session_london": {
-      "total_uses": 54,
-      "correct_predictions": 13,
-      "bullish_signals": 54,
+      "total_uses": 86,
+      "correct_predictions": 19,
+      "bullish_signals": 86,
       "bearish_signals": 0,
-      "bullish_correct": 13,
+      "bullish_correct": 19,
       "bearish_correct": 0,
-      "avg_contribution": 0.06,
-      "accuracy": 24.074074074074073,
+      "avg_contribution": 0.046186046511627894,
+      "accuracy": 22.093023255813954,
       "inverted": true
     },
     "near_resistance": {
-      "total_uses": 32,
+      "total_uses": 48,
       "correct_predictions": 0,
       "bullish_signals": 0,
-      "bearish_signals": 32,
+      "bearish_signals": 48,
       "bullish_correct": 0,
       "bearish_correct": 0,
-      "avg_contribution": 0.05687500000000001,
+      "avg_contribution": 0.045625000000000006,
       "accuracy": 0.0,
       "inverted": true
     },
     "session_asia": {
-      "total_uses": 51,
+      "total_uses": 85,
       "correct_predictions": 3,
       "bullish_signals": 0,
-      "bearish_signals": 51,
+      "bearish_signals": 85,
       "bullish_correct": 0,
       "bearish_correct": 3,
       "avg_contribution": 0.0,
-      "accuracy": 5.88235294117647,
+      "accuracy": 3.5294117647058822,
       "inverted": true
     },
     "patterns": {
-      "total_uses": 141,
-      "correct_predictions": 43,
-      "bullish_signals": 125,
-      "bearish_signals": 16,
-      "bullish_correct": 40,
-      "bearish_correct": 3,
-      "avg_contribution": 0.12308706897642824,
-      "accuracy": 30.49645390070922,
+      "total_uses": 237,
+      "correct_predictions": 73,
+      "bullish_signals": 219,
+      "bearish_signals": 18,
+      "bullish_correct": 68,
+      "bearish_correct": 5,
+      "avg_contribution": 0.12381417550197465,
+      "accuracy": 30.801687763713083,
       "inverted": true
     },
     "atr_spike": {
-      "total_uses": 5,
-      "correct_predictions": 1,
+      "total_uses": 8,
+      "correct_predictions": 2,
       "bullish_signals": 0,
-      "bearish_signals": 5,
+      "bearish_signals": 8,
       "bullish_correct": 0,
-      "bearish_correct": 1,
+      "bearish_correct": 2,
       "avg_contribution": 0.0,
-      "accuracy": 20.0,
+      "accuracy": 25.0,
       "inverted": false
     },
     "rsi_oversold": {
-      "total_uses": 4,
-      "correct_predictions": 3,
-      "bullish_signals": 4,
+      "total_uses": 7,
+      "correct_predictions": 6,
+      "bullish_signals": 7,
       "bearish_signals": 0,
-      "bullish_correct": 3,
+      "bullish_correct": 6,
       "bearish_correct": 0,
       "avg_contribution": 0.15,
-      "accuracy": 75.0,
+      "accuracy": 85.71428571428571,
       "inverted": false
     },
     "near_support": {
-      "total_uses": 2,
-      "correct_predictions": 0,
-      "bullish_signals": 2,
+      "total_uses": 4,
+      "correct_predictions": 1,
+      "bullish_signals": 4,
       "bearish_signals": 0,
-      "bullish_correct": 0,
+      "bullish_correct": 1,
       "bearish_correct": 0,
       "avg_contribution": 0.12,
-      "accuracy": 0.0,
+      "accuracy": 25.0,
       "inverted": false
     }
   },
@@ -1074,7 +1074,137 @@
       },
       "total_features": 11,
       "adjusted_features": 1
+    },
+    {
+      "timestamp": "2026-02-21T20:32:42.162780",
+      "adjustments": {
+        "patterns": {
+          "old_weight": 0.012561413546727594,
+          "new_weight": 0.010049130837382077,
+          "accuracy": 30.28169014084507,
+          "samples": 142,
+          "reason": "Still weak after inversion (30%)"
+        }
+      },
+      "total_features": 11,
+      "adjusted_features": 1
+    },
+    {
+      "timestamp": "2026-02-22T16:32:44.895417",
+      "adjustments": {
+        "patterns": {
+          "old_weight": 0.010049130837382077,
+          "new_weight": 0.01,
+          "accuracy": 29.25170068027211,
+          "samples": 147,
+          "reason": "Still weak after inversion (29%)"
+        }
+      },
+      "total_features": 11,
+      "adjusted_features": 1
+    },
+    {
+      "timestamp": "2026-02-23T12:32:47.316963",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-02-24T08:32:49.617211",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-02-25T04:32:51.946758",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-02-26T00:32:54.232532",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-02-26T20:32:56.795582",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-02-28T04:39:58.972259",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-03-01T12:43:06.886485",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-03-02T08:47:38.636732",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-03-03T12:48:55.171761",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-03-04T08:49:01.866059",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-03-05T04:49:07.826083",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-03-06T00:49:14.268060",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-03-06T20:49:21.032941",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-03-07T16:49:27.718277",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-03-08T12:49:38.587961",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-03-09T08:49:48.129324",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
+    },
+    {
+      "timestamp": "2026-03-10T04:49:54.835524",
+      "adjustments": {},
+      "total_features": 11,
+      "adjusted_features": 0
     }
   ],
-  "updated_at": "2026-02-21T16:32:41.382354"
+  "updated_at": "2026-03-10T08:49:55.273649"
 }

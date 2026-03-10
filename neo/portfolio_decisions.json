@@ -710,5 +710,1077 @@
     "price": 0.02,
     "reason": "Call TP hit: +100.0% (2x)",
     "timestamp": "2026-02-20T21:15:04.119093+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 325,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:00:03.853796+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 330,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:00:03.946181+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 331,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:00:04.039529+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 332,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:00:04.130452+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 333,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:00:04.221753+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 334,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:00:04.313327+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 335,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:00:04.405837+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 336,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:00:04.498395+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 337,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:00:04.589821+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 325,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:15:03.933139+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 330,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:15:04.035451+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 331,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:15:04.137723+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 332,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:15:04.239341+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 333,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:15:04.337438+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 334,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:15:04.433971+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 335,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:15:04.529319+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 336,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:15:04.625307+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 337,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:15:04.720629+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 325,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:30:03.639121+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 330,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:30:03.731435+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 331,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:30:03.826079+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 332,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:30:03.921230+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 333,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:30:04.013895+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 334,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:30:04.108682+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 335,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:30:04.201510+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 336,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:30:04.294735+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 337,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-23T20:30:04.387541+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 325,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-24T15:15:04.199977+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 330,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-24T15:15:04.295481+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 331,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-24T15:15:04.388250+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 332,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-24T15:15:04.481201+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 333,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-24T15:15:04.574405+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 334,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-24T15:15:04.667991+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 335,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-24T15:15:04.762084+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 336,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-24T15:15:04.854318+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 337,
+    "current_pnl": -12.499999999999993,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-24T15:15:04.947068+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 341,
+    "current_pnl": -11.538461538461538,
+    "reason": "DCA opportunity: -11.5% + NEO bullish",
+    "timestamp": "2026-02-24T16:15:03.757825+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 345,
+    "current_pnl": -6.2499999999999885,
+    "reason": "DCA opportunity: -6.2% + NEO bullish",
+    "timestamp": "2026-02-24T17:15:04.234481+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 345,
+    "current_pnl": -6.2499999999999885,
+    "reason": "DCA opportunity: -6.2% + NEO bullish",
+    "timestamp": "2026-02-24T17:30:03.783737+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 346,
+    "current_pnl": -6.2499999999999885,
+    "reason": "DCA opportunity: -6.2% + NEO bullish",
+    "timestamp": "2026-02-24T17:30:03.878021+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 345,
+    "current_pnl": -6.2499999999999885,
+    "reason": "DCA opportunity: -6.2% + NEO bullish",
+    "timestamp": "2026-02-24T17:45:03.900192+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 346,
+    "current_pnl": -6.2499999999999885,
+    "reason": "DCA opportunity: -6.2% + NEO bullish",
+    "timestamp": "2026-02-24T17:45:03.997431+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 347,
+    "current_pnl": -6.2499999999999885,
+    "reason": "DCA opportunity: -6.2% + NEO bullish",
+    "timestamp": "2026-02-24T17:45:04.093536+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 345,
+    "current_pnl": -18.75,
+    "reason": "DCA opportunity: -18.8% + NEO bullish",
+    "timestamp": "2026-02-24T18:00:04.197411+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 346,
+    "current_pnl": -18.75,
+    "reason": "DCA opportunity: -18.8% + NEO bullish",
+    "timestamp": "2026-02-24T18:00:04.289766+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 347,
+    "current_pnl": -18.75,
+    "reason": "DCA opportunity: -18.8% + NEO bullish",
+    "timestamp": "2026-02-24T18:00:04.384543+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 348,
+    "current_pnl": -18.75,
+    "reason": "DCA opportunity: -18.8% + NEO bullish",
+    "timestamp": "2026-02-24T18:00:04.478826+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 345,
+    "current_pnl": -6.2499999999999885,
+    "reason": "DCA opportunity: -6.2% + NEO bullish",
+    "timestamp": "2026-02-24T18:15:03.315025+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 346,
+    "current_pnl": -6.2499999999999885,
+    "reason": "DCA opportunity: -6.2% + NEO bullish",
+    "timestamp": "2026-02-24T18:15:03.406933+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 347,
+    "current_pnl": -6.2499999999999885,
+    "reason": "DCA opportunity: -6.2% + NEO bullish",
+    "timestamp": "2026-02-24T18:15:03.498575+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 348,
+    "current_pnl": -6.2499999999999885,
+    "reason": "DCA opportunity: -6.2% + NEO bullish",
+    "timestamp": "2026-02-24T18:15:03.590371+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 351,
+    "current_pnl": -10.000000000000009,
+    "reason": "DCA opportunity: -10.0% + NEO bullish",
+    "timestamp": "2026-02-24T18:45:04.295437+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 351,
+    "current_pnl": -15.0,
+    "reason": "DCA opportunity: -15.0% + NEO bullish",
+    "timestamp": "2026-02-24T19:00:04.733585+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 354,
+    "current_pnl": -5.555555555555546,
+    "reason": "DCA opportunity: -5.6% + NEO bullish",
+    "timestamp": "2026-02-24T19:00:04.926231+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 351,
+    "current_pnl": -5.000000000000004,
+    "reason": "DCA opportunity: -5.0% + NEO bullish",
+    "timestamp": "2026-02-24T19:15:04.388326+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 355,
+    "current_pnl": -5.000000000000004,
+    "reason": "DCA opportunity: -5.0% + NEO bullish",
+    "timestamp": "2026-02-24T19:15:04.674360+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 357,
+    "current_pnl": -11.538461538461549,
+    "reason": "DCA opportunity: -11.5% + NEO bullish",
+    "timestamp": "2026-02-24T20:45:04.063608+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 357,
+    "current_pnl": -11.538461538461538,
+    "reason": "DCA opportunity: -11.5% + NEO bullish",
+    "timestamp": "2026-02-24T21:30:03.514455+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 357,
+    "current_pnl": -15.384615384615389,
+    "reason": "DCA opportunity: -15.4% + NEO bullish",
+    "timestamp": "2026-02-24T21:45:03.832022+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 358,
+    "current_pnl": -8.33333333333333,
+    "reason": "DCA opportunity: -8.3% + NEO bullish",
+    "timestamp": "2026-02-24T21:45:03.925110+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 357,
+    "current_pnl": -7.692307692307699,
+    "reason": "DCA opportunity: -7.7% + NEO bullish",
+    "timestamp": "2026-02-25T14:00:04.539345+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 357,
+    "current_pnl": -7.692307692307699,
+    "reason": "DCA opportunity: -7.7% + NEO bullish",
+    "timestamp": "2026-02-25T14:15:04.275340+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 357,
+    "current_pnl": -7.692307692307699,
+    "reason": "DCA opportunity: -7.7% + NEO bullish",
+    "timestamp": "2026-02-25T14:30:04.187466+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 357,
+    "current_pnl": -7.692307692307699,
+    "reason": "DCA opportunity: -7.7% + NEO bullish",
+    "timestamp": "2026-02-25T14:45:03.929853+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 357,
+    "current_pnl": -7.692307692307699,
+    "reason": "DCA opportunity: -7.7% + NEO bullish",
+    "timestamp": "2026-02-25T15:00:04.158301+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 356,
+    "current_pnl": -22.72727272727272,
+    "reason": "DCA opportunity: -22.7% + NEO bullish",
+    "timestamp": "2026-02-25T15:15:03.060861+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 358,
+    "current_pnl": -29.166666666666657,
+    "reason": "DCA opportunity: -29.2% + NEO bullish",
+    "timestamp": "2026-02-25T15:15:03.160034+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 359,
+    "current_pnl": -29.166666666666657,
+    "reason": "DCA opportunity: -29.2% + NEO bullish",
+    "timestamp": "2026-02-25T15:15:03.253031+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 360,
+    "current_pnl": -29.166666666666657,
+    "reason": "DCA opportunity: -29.2% + NEO bullish",
+    "timestamp": "2026-02-25T15:15:03.345980+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 361,
+    "current_pnl": -29.166666666666657,
+    "reason": "DCA opportunity: -29.2% + NEO bullish",
+    "timestamp": "2026-02-25T15:15:03.438211+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 362,
+    "current_pnl": -29.166666666666657,
+    "reason": "DCA opportunity: -29.2% + NEO bullish",
+    "timestamp": "2026-02-25T15:15:03.529411+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 363,
+    "current_pnl": -29.166666666666657,
+    "reason": "DCA opportunity: -29.2% + NEO bullish",
+    "timestamp": "2026-02-25T15:15:03.620976+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 356,
+    "current_pnl": -9.090909090909086,
+    "reason": "DCA opportunity: -9.1% + NEO bullish",
+    "timestamp": "2026-02-25T15:30:03.827082+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 358,
+    "current_pnl": -16.66666666666666,
+    "reason": "DCA opportunity: -16.7% + NEO bullish",
+    "timestamp": "2026-02-25T15:30:03.925165+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 359,
+    "current_pnl": -16.66666666666666,
+    "reason": "DCA opportunity: -16.7% + NEO bullish",
+    "timestamp": "2026-02-25T15:30:04.020264+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 360,
+    "current_pnl": -16.66666666666666,
+    "reason": "DCA opportunity: -16.7% + NEO bullish",
+    "timestamp": "2026-02-25T15:30:04.114030+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 361,
+    "current_pnl": -16.66666666666666,
+    "reason": "DCA opportunity: -16.7% + NEO bullish",
+    "timestamp": "2026-02-25T15:30:04.207583+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 362,
+    "current_pnl": -16.66666666666666,
+    "reason": "DCA opportunity: -16.7% + NEO bullish",
+    "timestamp": "2026-02-25T15:30:04.303072+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 363,
+    "current_pnl": -16.66666666666666,
+    "reason": "DCA opportunity: -16.7% + NEO bullish",
+    "timestamp": "2026-02-25T15:30:04.397982+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 358,
+    "current_pnl": -12.49999999999999,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-25T15:45:04.188818+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 359,
+    "current_pnl": -12.49999999999999,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-25T15:45:04.288316+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 360,
+    "current_pnl": -12.49999999999999,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-25T15:45:04.391895+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 361,
+    "current_pnl": -12.49999999999999,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-25T15:45:04.497104+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 362,
+    "current_pnl": -12.49999999999999,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-25T15:45:04.595285+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 363,
+    "current_pnl": -12.49999999999999,
+    "reason": "DCA opportunity: -12.5% + NEO bullish",
+    "timestamp": "2026-02-25T15:45:04.691794+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 356,
+    "current_pnl": -18.181818181818183,
+    "reason": "DCA opportunity: -18.2% + NEO bullish",
+    "timestamp": "2026-02-25T16:00:03.657786+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 364,
+    "current_pnl": -10.000000000000009,
+    "reason": "DCA opportunity: -10.0% + NEO bullish",
+    "timestamp": "2026-02-25T16:00:03.757679+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 365,
+    "current_pnl": -18.181818181818183,
+    "reason": "DCA opportunity: -18.2% + NEO bullish",
+    "timestamp": "2026-02-25T16:00:03.853546+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 364,
+    "current_pnl": -30.0,
+    "reason": "DCA opportunity: -30.0% + NEO bullish",
+    "timestamp": "2026-02-25T16:15:03.729462+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 366,
+    "current_pnl": -30.0,
+    "reason": "DCA opportunity: -30.0% + NEO bullish",
+    "timestamp": "2026-02-25T16:15:03.824359+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 370,
+    "current_pnl": -8.33333333333333,
+    "reason": "DCA opportunity: -8.3% + NEO bullish",
+    "timestamp": "2026-02-25T17:15:03.387891+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 370,
+    "current_pnl": -8.33333333333333,
+    "reason": "DCA opportunity: -8.3% + NEO bullish",
+    "timestamp": "2026-02-25T17:30:03.676362+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 371,
+    "current_pnl": -8.33333333333333,
+    "reason": "DCA opportunity: -8.3% + NEO bullish",
+    "timestamp": "2026-02-25T17:30:03.772126+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 370,
+    "current_pnl": -8.33333333333333,
+    "reason": "DCA opportunity: -8.3% + NEO bullish",
+    "timestamp": "2026-02-25T17:45:03.389431+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 371,
+    "current_pnl": -8.33333333333333,
+    "reason": "DCA opportunity: -8.3% + NEO bullish",
+    "timestamp": "2026-02-25T17:45:03.483353+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 372,
+    "current_pnl": -8.33333333333333,
+    "reason": "DCA opportunity: -8.3% + NEO bullish",
+    "timestamp": "2026-02-25T17:45:03.577088+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 370,
+    "current_pnl": -8.33333333333333,
+    "reason": "DCA opportunity: -8.3% + NEO bullish",
+    "timestamp": "2026-02-25T18:00:03.777869+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 371,
+    "current_pnl": -8.33333333333333,
+    "reason": "DCA opportunity: -8.3% + NEO bullish",
+    "timestamp": "2026-02-25T18:00:03.873531+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 372,
+    "current_pnl": -8.33333333333333,
+    "reason": "DCA opportunity: -8.3% + NEO bullish",
+    "timestamp": "2026-02-25T18:00:03.967327+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 373,
+    "current_pnl": -8.33333333333333,
+    "reason": "DCA opportunity: -8.3% + NEO bullish",
+    "timestamp": "2026-02-25T18:00:04.063951+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 381,
+    "current_pnl": -10.000000000000009,
+    "reason": "DCA opportunity: -10.0% + NEO bullish",
+    "timestamp": "2026-02-25T19:30:03.209326+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 384,
+    "current_pnl": -21.428571428571423,
+    "reason": "DCA opportunity: -21.4% + NEO bullish",
+    "timestamp": "2026-02-25T20:15:03.286838+00:00"
+  },
+  {
+    "action": "DCA_OPPORTUNITY",
+    "symbol": "IREN",
+    "position_id": 386,
+    "current_pnl": -21.428571428571434,
+    "reason": "DCA opportunity: -21.4% + NEO bullish",
+    "timestamp": "2026-02-25T20:45:04.169828+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 389,
+    "price": 0.02,
+    "reason": "Call SL hit: -60.0%",
+    "timestamp": "2026-02-26T15:15:03.864261+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 397,
+    "price": 0.030000000000000002,
+    "reason": "Call TP hit: +200.0% (2x)",
+    "timestamp": "2026-02-26T21:15:04.196942+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 398,
+    "price": 0.030000000000000002,
+    "reason": "Call TP hit: +200.0% (2x)",
+    "timestamp": "2026-02-26T21:15:04.355761+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 399,
+    "price": 0.030000000000000002,
+    "reason": "Call TP hit: +200.0% (2x)",
+    "timestamp": "2026-02-26T21:15:04.479160+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 400,
+    "price": 0.030000000000000002,
+    "reason": "Call TP hit: +200.0% (2x)",
+    "timestamp": "2026-02-26T21:15:04.600747+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 401,
+    "price": 0.030000000000000002,
+    "reason": "Call TP hit: +200.0% (2x)",
+    "timestamp": "2026-02-26T21:15:04.712616+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 402,
+    "price": 0.030000000000000002,
+    "reason": "Call TP hit: +200.0% (2x)",
+    "timestamp": "2026-02-26T21:15:04.827731+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 403,
+    "price": 0.030000000000000002,
+    "reason": "Call TP hit: +200.0% (2x)",
+    "timestamp": "2026-02-26T21:15:04.942080+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 404,
+    "price": 0.030000000000000002,
+    "reason": "Call TP hit: +200.0% (2x)",
+    "timestamp": "2026-02-26T21:15:05.055315+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 405,
+    "price": 0.030000000000000002,
+    "reason": "Call TP hit: +200.0% (2x)",
+    "timestamp": "2026-02-26T21:15:05.260383+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 398,
+    "price": 0.02,
+    "reason": "Call TP hit: +100.0% (2x)",
+    "timestamp": "2026-02-26T21:30:04.419014+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 400,
+    "price": 0.02,
+    "reason": "Call TP hit: +100.0% (2x)",
+    "timestamp": "2026-02-26T21:30:04.532666+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 402,
+    "price": 0.02,
+    "reason": "Call TP hit: +100.0% (2x)",
+    "timestamp": "2026-02-26T21:30:04.649361+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 404,
+    "price": 0.02,
+    "reason": "Call TP hit: +100.0% (2x)",
+    "timestamp": "2026-02-26T21:30:04.812877+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 404,
+    "price": 0.02,
+    "reason": "Call TP hit: +100.0% (2x)",
+    "timestamp": "2026-02-27T15:15:04.234719+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 410,
+    "price": 0.02,
+    "reason": "Call TP hit: +100.0% (2x)",
+    "timestamp": "2026-02-27T15:15:04.521021+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 419,
+    "price": 0.02,
+    "reason": "Call TP hit: +100.0% (2x)",
+    "timestamp": "2026-02-27T21:15:04.401452+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 420,
+    "price": 0.02,
+    "reason": "Call TP hit: +100.0% (2x)",
+    "timestamp": "2026-02-27T21:15:04.515758+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 421,
+    "price": 0.02,
+    "reason": "Call TP hit: +100.0% (2x)",
+    "timestamp": "2026-02-27T21:15:04.632282+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 422,
+    "price": 0.02,
+    "reason": "Call TP hit: +100.0% (2x)",
+    "timestamp": "2026-02-27T21:15:04.746515+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 423,
+    "price": 0.02,
+    "reason": "Call TP hit: +100.0% (2x)",
+    "timestamp": "2026-02-27T21:15:04.859713+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 424,
+    "price": 0.02,
+    "reason": "Call TP hit: +100.0% (2x)",
+    "timestamp": "2026-02-27T21:15:04.982283+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 425,
+    "price": 0.02,
+    "reason": "Call TP hit: +100.0% (2x)",
+    "timestamp": "2026-02-27T21:15:05.097619+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 426,
+    "price": 0.02,
+    "reason": "Call TP hit: +100.0% (2x)",
+    "timestamp": "2026-02-27T21:15:05.214419+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 428,
+    "price": 0.02,
+    "reason": "Call TP hit: +100.0% (2x)",
+    "timestamp": "2026-02-27T21:15:05.380990+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 420,
+    "price": 0.03,
+    "reason": "Call TP hit: +200.0% (2x)",
+    "timestamp": "2026-02-27T21:30:03.720737+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 422,
+    "price": 0.03,
+    "reason": "Call TP hit: +200.0% (2x)",
+    "timestamp": "2026-02-27T21:30:03.837924+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 424,
+    "price": 0.03,
+    "reason": "Call TP hit: +200.0% (2x)",
+    "timestamp": "2026-02-27T21:30:03.961337+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 426,
+    "price": 0.03,
+    "reason": "Call TP hit: +200.0% (2x)",
+    "timestamp": "2026-02-27T21:30:04.083372+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 422,
+    "price": 0.03,
+    "reason": "Call TP hit: +200.0% (2x)",
+    "timestamp": "2026-02-27T21:45:04.210560+00:00"
+  },
+  {
+    "action": "CLOSE",
+    "symbol": "IREN",
+    "position_id": 426,
+    "price": 0.03,
+    "reason": "Call TP hit: +200.0% (2x)",
+    "timestamp": "2026-02-27T21:45:04.349500+00:00"
   }
 ]

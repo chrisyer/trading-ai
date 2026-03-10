@@ -1,0 +1,44 @@
+{
+  "symbol": "XAUUSD",
+  "timestamp": "2026-03-05T06:51:41.151836",
+  "signal_type": "UNIFIED_CONSENSUS",
+  "action": "BUY",
+  "direction": "BUY",
+  "confidence": 58.2,
+  "reasoning": "CONSENSUS: NEO + Meta both BUY",
+  "current_price": 5161.2001953125,
+  "entry": 5114.0,
+  "entry_zone_low": 5099.0,
+  "entry_zone_high": 5129.0,
+  "in_entry_zone": false,
+  "stop_loss": 5094.0,
+  "take_profit_1": 5177.0,
+  "take_profit_2": 5207.0,
+  "strategy": "BUY_THE_DIP",
+  "valid": true,
+  "invalidation": {
+    "level": 5094.0,
+    "reason": null,
+    "confidence_check": "PASS"
+  },
+  "neo": {
+    "action": "BUY",
+    "confidence": 60,
+    "strategy": "BUY_THE_DIP",
+    "signal_type": "PREMARKET_PLAN"
+  },
+  "meta": {
+    "action": "BUY",
+    "confidence": 56.5,
+    "reasoning": "3 bullish, 1 bearish. Bullish: supertrend, momentum, support_resistance. Bearish: ema_cross.",
+    "bullish_count": 3,
+    "bearish_count": 1
+  },
+  "supertrend": "BULLISH",
+  "supertrend_confidence": 50,
+  "last_updated": "2026-03-05T06:51:41.151853",
+  "signal_id": "NEO_XAUUSD_20260305_065141",
+  "is_new_signal": true,
+  "direction_age_seconds": 0,
+  "signals_same_direction": 1
+}

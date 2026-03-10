@@ -21,6 +21,7 @@ OUTPUT_DIR = Path("/home/jbot/trading_ai/crella_signals")
 EA_SIGNAL_FILE = OUTPUT_DIR / "ea_signal.json"
 DEFCON_FILE = OUTPUT_DIR / "defcon_state.json"
 MARKET_DATA_FILE = OUTPUT_DIR / "market_data.json"
+MACRO_INTEL_FILE = OUTPUT_DIR / "macro_intel.json"
 
 SENTIMENT_FILE = Path("/home/jbot/.wine/drive_c/Program Files/MetaTrader 5/MQL5/Files/aiiq_sentiment.json")
 
@@ -112,8 +113,9 @@ def fetch_vix():
 # ══════════════════════════════════════════════════════════════════════════════
 
 def ollama_analyze(market_data: dict) -> dict:
-    """Ask Ollama for market analysis based on REAL data"""
-    
+    """Ask Ollama for market analysis based on REAL data via HTTP API"""
+    import requests as _req
+
     prompt = f"""You are a risk analyst for gold trading. Based on this REAL market data:
 
 Gold (GLD ETF): ${market_data.get('gold', {}).get('gld_price', 'N/A')}
@@ -137,24 +139,39 @@ Analyze based on:
 - Weekend/off-hours = lower liquidity risk
 """
 
+    # Primary: Ollama HTTP API (fast, no cold-start penalty)
     try:
-        result = subprocess.run(
-            ["ollama", "run", OLLAMA_MODEL, prompt],
-            capture_output=True,
-            text=True,
-            timeout=60
+        resp = _req.post(
+            "http://localhost:11434/api/generate",
+            json={"model": OLLAMA_MODEL, "prompt": prompt, "stream": False},
+            timeout=30,
         )
-        
-        response = result.stdout.strip()
-        
-        # Extract JSON from response
+        resp.raise_for_status()
+        response = resp.json().get("response", "")
+
         start = response.find('{')
         end = response.rfind('}') + 1
         if start >= 0 and end > start:
             return json.loads(response[start:end])
     except Exception as e:
-        print(f"  Ollama error: {e}")
-    
+        print(f"  Ollama HTTP API error: {e}")
+
+    # Fallback: subprocess CLI
+    try:
+        result = subprocess.run(
+            ["ollama", "run", OLLAMA_MODEL, prompt],
+            capture_output=True,
+            text=True,
+            timeout=60,
+        )
+        response = result.stdout.strip()
+        start = response.find('{')
+        end = response.rfind('}') + 1
+        if start >= 0 and end > start:
+            return json.loads(response[start:end])
+    except Exception as e:
+        print(f"  Ollama CLI fallback error: {e}")
+
     # Default safe response
     return {
         "sentiment": "neutral",
@@ -254,6 +271,75 @@ def calculate_defcon(analysis: dict, vix: float, neo_data: dict) -> int:
     return neo_defcon
 
 
+def _load_macro_intel() -> dict:
+    """Load latest macro intel from the Macro Intelligence Feed (port 5001)."""
+    try:
+        if MACRO_INTEL_FILE.exists():
+            data = json.loads(MACRO_INTEL_FILE.read_text(encoding="utf-8"))
+            ts = data.get("timestamp", "")
+            if ts:
+                from datetime import timezone
+                age = (datetime.now(timezone.utc) - datetime.fromisoformat(ts)).total_seconds()
+                if age > 180:
+                    return {"status": "stale", "age_seconds": round(age)}
+            comp = data.get("composite_score", {})
+            sweep = data.get("liquidity_sweep_risk", {})
+            dxy = data.get("dxy", {})
+            geo = data.get("geopolitical", {})
+            return {
+                "status": "live",
+                "dxy_price": dxy.get("price"),
+                "dxy_momentum": dxy.get("momentum"),
+                "dxy_gold_implication": dxy.get("gold_implication"),
+                "oil_momentum": data.get("oil_wti", {}).get("momentum"),
+                "vix_level": data.get("vix", {}).get("level"),
+                "us10y_yield": data.get("us10y", {}).get("yield_pct"),
+                "liquidity_sweep_risk": sweep.get("level"),
+                "liquidity_sweep_score": sweep.get("score"),
+                "geo_risk": geo.get("risk_level"),
+                "geo_implication": geo.get("gold_implication"),
+                "composite_gold_bias": comp.get("gold_bias"),
+                "composite_conviction": comp.get("conviction"),
+                "recommended_stance": comp.get("recommended_stance"),
+                "max_lot_multiplier": comp.get("max_lot_multiplier"),
+            }
+    except Exception:
+        pass
+    return {"status": "unavailable"}
+
+
+def _build_ea_instructions(defcon: int, lot_mult: float) -> dict:
+    """Build EA instructions with macro sweep override."""
+    macro = _load_macro_intel()
+    sweep = macro.get("liquidity_sweep_risk", "LOW")
+    macro_mult = macro.get("max_lot_multiplier")
+
+    effective_mult = lot_mult
+    consider_hedge = defcon >= 4
+
+    if sweep == "CRITICAL":
+        effective_mult = min(lot_mult, 0.3)
+        consider_hedge = True
+    elif sweep == "HIGH":
+        effective_mult = min(lot_mult, 0.5)
+        consider_hedge = True
+
+    if macro_mult is not None and macro.get("status") == "live":
+        effective_mult = min(effective_mult, macro_mult)
+
+    return {
+        "pause_longs": defcon >= 5,
+        "pause_shorts": defcon >= 5,
+        "reduce_lot_multiplier": round(effective_mult, 2),
+        "tighten_sl_pips": 0,
+        "max_drawdown_override": 0,
+        "close_partial": 0,
+        "set_breakeven": False,
+        "consider_hedge": consider_hedge,
+        "sweep_override_active": sweep in ("CRITICAL", "HIGH"),
+    }
+
+
 def create_signal(market_data: dict, analysis: dict, defcon: int, neo_data: dict) -> dict:
     """Create the signal JSON with NEO's existing intelligence"""
     
@@ -300,16 +386,7 @@ def create_signal(market_data: dict, analysis: dict, defcon: int, neo_data: dict
             "hunt_zone": 0
         },
         
-        "ea_instructions": {
-            "pause_longs": defcon >= 5,
-            "pause_shorts": defcon >= 5,
-            "reduce_lot_multiplier": lot_mult,
-            "tighten_sl_pips": 0,
-            "max_drawdown_override": 0,
-            "close_partial": 0,
-            "set_breakeven": False,
-            "consider_hedge": defcon >= 4
-        },
+        "ea_instructions": _build_ea_instructions(defcon, lot_mult),
         
         "analysis": {
             "sentiment": analysis.get("sentiment"),
@@ -327,6 +404,8 @@ def create_signal(market_data: dict, analysis: dict, defcon: int, neo_data: dict
             "latest_message": latest_pattern.get("message") if latest_pattern else None
         },
         
+        "macro_intel": _load_macro_intel(),
+
         "valid_until": (datetime.now() + timedelta(minutes=5)).isoformat(),
         "source": "quinn_v2_REAL_DATA_+_NEO"
     }

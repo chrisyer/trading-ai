@@ -1,0 +1,44 @@
+{
+  "symbol": "XAUUSD",
+  "timestamp": "2026-03-03T17:39:27.456926",
+  "signal_type": "UNIFIED_CONSENSUS",
+  "action": "HOLD",
+  "direction": "SELL",
+  "confidence": 40,
+  "reasoning": "CONFLICT: NEO=SELL, Meta=BUY - waiting for agreement",
+  "current_price": 5096.2,
+  "entry": 5235.94,
+  "entry_zone_low": 5205.93,
+  "entry_zone_high": 5265.94,
+  "in_entry_zone": false,
+  "stop_loss": 5431.71,
+  "take_profit_1": 4983.67,
+  "take_profit_2": 4871.14,
+  "strategy": "SELL_THE_RALLY",
+  "valid": true,
+  "invalidation": {
+    "level": 5431.71,
+    "reason": null,
+    "confidence_check": "PASS"
+  },
+  "neo": {
+    "action": "SELL",
+    "confidence": 55,
+    "strategy": "SELL_THE_RALLY",
+    "signal_type": "FRESH_INTRADAY"
+  },
+  "meta": {
+    "action": "BUY",
+    "confidence": 65.0,
+    "reasoning": "4 bullish, 2 bearish. Bullish: supertrend, rsi, bollinger. Bearish: ema_cross, momentum.",
+    "bullish_count": 4,
+    "bearish_count": 2
+  },
+  "supertrend": "BULLISH",
+  "supertrend_confidence": 50,
+  "last_updated": "2026-03-03T17:39:27.456940",
+  "signal_id": "NEO_XAUUSD_20260303_173927",
+  "is_new_signal": true,
+  "direction_age_seconds": 0,
+  "signals_same_direction": 1
+}

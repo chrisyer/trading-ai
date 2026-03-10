@@ -1,0 +1,128 @@
+{
+  "timestamp": "2026-03-10T12:14:54.927975+00:00",
+  "timestamp_unix": 1773144894.927975,
+  "dxy": {
+    "price": 98.738,
+    "change_pct_1h": 0.045,
+    "change_pct_4h": 0.081,
+    "change_pct_24h": -0.612,
+    "high_24h": 99.346,
+    "low_24h": 98.518,
+    "ema_20": 98.8172,
+    "ema_50": 98.976,
+    "momentum": "FLAT",
+    "trend": "BEARISH",
+    "gold_implication": "NEUTRAL"
+  },
+  "oil_wti": {
+    "price": 89.42,
+    "change_pct_1h": 0.247,
+    "change_pct_4h": 0.982,
+    "change_pct_24h": -12.505,
+    "high_24h": 102.23,
+    "low_24h": 84.9,
+    "ema_20": 90.3083,
+    "ema_50": 91.2373,
+    "momentum": "SURGING",
+    "trend": "BEARISH",
+    "gold_implication": "BULLISH"
+  },
+  "vix": {
+    "price": 25.08,
+    "change_pct_1h": -1.26,
+    "change_pct_4h": -7.42,
+    "change_pct_24h": 20.867,
+    "high_24h": 30.97,
+    "low_24h": 20.58,
+    "ema_20": 26.2949,
+    "momentum": "PLUNGING",
+    "trend": "BEARISH_SHORT_TERM",
+    "level": "ELEVATED",
+    "gold_implication": "CAUTIOUS"
+  },
+  "us10y": {
+    "price": 4.136,
+    "change_pct_1h": 0.145,
+    "change_pct_4h": -0.097,
+    "change_pct_24h": 1.697,
+    "high_24h": 4.167,
+    "low_24h": 4.067,
+    "ema_20": 4.1304,
+    "momentum": "FLAT",
+    "trend": "BULLISH_SHORT_TERM",
+    "yield_pct": 4.136,
+    "change_bps_24h": 7.0,
+    "gold_implication": "BEARISH"
+  },
+  "spy": {
+    "price": 678.316,
+    "change_pct_1h": 0.137,
+    "change_pct_4h": 1.11,
+    "change_pct_24h": -1.135,
+    "high_24h": 686.6,
+    "low_24h": 664.06,
+    "ema_20": 674.3513,
+    "momentum": "SURGING",
+    "trend": "BULLISH_SHORT_TERM"
+  },
+  "btc": {
+    "price": 70412.1172,
+    "change_pct_1h": -0.284,
+    "change_pct_4h": -0.344,
+    "change_pct_24h": 3.247,
+    "high_24h": 71034.4531,
+    "low_24h": 68197.7969,
+    "ema_20": 69775.6241,
+    "ema_50": 68908.5965,
+    "momentum": "PLUNGING",
+    "trend": "BULLISH",
+    "gold_implication": "NEUTRAL"
+  },
+  "liquidity_sweep_risk": {
+    "level": "LOW",
+    "score": 0.2,
+    "triggers": [
+      "VIX elevated (25.1)"
+    ],
+    "warning": ""
+  },
+  "geopolitical": {
+    "risk_level": "MEDIUM",
+    "intensity": 0.6,
+    "gold_implication": "NEUTRAL",
+    "active_events": [
+      {
+        "event": "Middle East crisis",
+        "impact": "GOLD_BULLISH",
+        "severity": "HIGH"
+      },
+      {
+        "event": "Firming dollar and higher rate expectations",
+        "impact": "GOLD_BEARISH",
+        "severity": "MEDIUM"
+      }
+    ],
+    "reasoning": "The Middle East crisis is bullish for gold, but the firming dollar and higher rate expectations are bearish. The overall risk level remains medium with a neutral implication for gold prices."
+  },
+  "dxy_patterns": [
+    {
+      "pattern": "DXY_BELOW_EMA20",
+      "signal": "Gold continuation likely",
+      "action": "Increase lot multiplier"
+    }
+  ],
+  "composite_score": {
+    "gold_bias": "NEUTRAL",
+    "conviction": 48,
+    "raw_score": -0.6,
+    "factors_bullish": [
+      "OIL_WTI surging"
+    ],
+    "factors_bearish": [
+      "VIX plunging",
+      "US10Y flat"
+    ],
+    "recommended_stance": "NEUTRAL",
+    "max_lot_multiplier": 0.7
+  }
+}

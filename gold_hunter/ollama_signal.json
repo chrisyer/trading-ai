@@ -1,16 +1,16 @@
 {
   "symbol": "XAUUSD",
-  "action": "BUY",
-  "price": 5080.9,
-  "confidence": 90,
-  "timestamp": "2026-02-21T18:55:05.552901",
+  "action": "HOLD",
+  "price": 5176.6,
+  "confidence": 50,
+  "timestamp": "2026-03-10T12:14:51.208247",
   "source": "OLLAMA_LOCAL",
   "model": "mistral:latest",
   "indicators": {
-    "rsi": 28.283352244390358,
-    "rsi_2": 3.253890343222949,
-    "trend": "NEUTRAL",
-    "bb_position": -0.3337063898963293,
-    "atr": 7.826566913609514
+    "rsi": 38.95920050193525,
+    "rsi_2": 11.500514735775667,
+    "trend": "BEARISH",
+    "bb_position": 0.19430055844822638,
+    "atr": 6.795725360345636
   }
 }

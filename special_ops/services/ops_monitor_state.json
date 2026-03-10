@@ -1,12 +1,14 @@
 {
   "last_alerts": {
-    "gold_mgc_buy_starter": "2026-02-21T18:47:07.479182+00:00"
+    "gold_mgc_buy_starter": "2026-02-24T12:48:30.983300+00:00",
+    "gold_mgc_add_dca": "2026-02-24T12:43:29.990290+00:00",
+    "equity_drawdown": "2026-03-09T00:44:39.828625+00:00"
   },
-  "last_recap_date": "2026-02-20",
+  "last_recap_date": "2026-03-09",
   "last_crella_data": {
-    "equity": 578288.36,
-    "balance": 550262.56,
-    "timestamp": "2026-02-21T19:41:39.282988+00:00"
+    "equity": 212386.74,
+    "balance": 215056.82,
+    "timestamp": "2026-03-10T12:14:37.274371+00:00"
   },
   "gold_mgc_last_action": "BUY_STARTER"
 }
