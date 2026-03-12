@@ -678,38 +678,17 @@ class NEOTrader:
         return decision
     
     def _call_llm(self, prompt: str, model: str = None, temperature: float = 0.3) -> str:
-        """Call Ollama LLM with the given prompt."""
-        model = model or self.current_model
-        
-        try:
-            response = requests.post(
-                f"{OLLAMA_URL}/api/generate",
-                json={
-                    "model": model,
-                    "prompt": prompt,
-                    "stream": False,
-                    "options": {
-                        "temperature": temperature,
-                        "num_predict": 2000
-                    }
-                },
-                timeout=LLM_CONFIG["primary"]["timeout"]
-            )
-            
-            if response.status_code == 200:
-                return response.json().get("response", "")
-            else:
-                logger.error(f"LLM error: {response.status_code}")
-                return ""
-                
-        except requests.exceptions.Timeout:
-            logger.warning(f"LLM timeout, trying backup model")
-            if model != LLM_CONFIG["backup"]["model"]:
-                return self._call_llm(prompt, LLM_CONFIG["backup"]["model"])
-            return ""
-        except Exception as e:
-            logger.error(f"LLM call failed: {e}")
-            return ""
+        """Call LLM via unified adapter (supports ollama/openai/anthropic/deepseek)."""
+        from llm_adapter import call_llm, get_active_provider
+        provider = get_active_provider()
+        logger.debug(f"LLM call via provider={provider} model={model or 'default'}")
+        return call_llm(
+            prompt=prompt,
+            model=model,
+            temperature=temperature,
+            max_tokens=2000,
+            timeout=LLM_CONFIG["primary"]["timeout"],
+        )
     
     def _build_think_prompt(
         self,

@@ -9,49 +9,45 @@ Disagreement = caution / WAIT
 Like having a board of directors vote on major decisions.
 """
 
-import subprocess
 import json
 import time
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 import sys
 sys.path.append('..')
-from config import OLLAMA_URL
+from llm_adapter import call_llm, get_active_provider, PROVIDER_MODELS
 
-# Models to consult (in order of preference)
-CONSENSUS_MODELS = [
-    {
-        "name": "deepseek-r1:70b",
-        "weight": 1.5,  # Best reasoning, higher weight
-        "timeout": 120
-    },
-    {
-        "name": "qwen3:32b",
-        "weight": 1.0,
-        "timeout": 90
-    },
-    {
-        "name": "llama3.1:70b",
-        "weight": 1.2,
-        "timeout": 120
-    }
+# Models to consult (in order of preference).
+# When using a cloud provider the model names are resolved automatically
+# from PROVIDER_MODELS; when using ollama the ollama names are used.
+_OLLAMA_CONSENSUS_MODELS = [
+    {"name": "deepseek-r1:70b", "weight": 1.5, "timeout": 120},
+    {"name": "qwen3:32b",       "weight": 1.0, "timeout": 90},
+    {"name": "llama3.1:70b",    "weight": 1.2, "timeout": 120},
 ]
 
 
+def _get_consensus_models() -> List[Dict]:
+    """Return consensus model list for the active provider."""
+    provider = get_active_provider()
+    if provider == "ollama":
+        return _OLLAMA_CONSENSUS_MODELS
+    # For cloud providers use primary + backup (2-model consensus)
+    models = PROVIDER_MODELS.get(provider, PROVIDER_MODELS["openai"])
+    return [
+        {"name": models["primary"], "weight": 1.5, "timeout": 120},
+        {"name": models["backup"],  "weight": 1.0, "timeout": 90},
+    ]
+
+
+CONSENSUS_MODELS = _OLLAMA_CONSENSUS_MODELS  # kept for backwards-compat imports
+
+
 def call_model(model: str, prompt: str, timeout: int = 120) -> Optional[str]:
-    """Call a single model via Ollama CLI."""
+    """Call a single model via the unified LLM adapter."""
     try:
-        result = subprocess.run(
-            ["ollama", "run", model],
-            input=prompt,
-            capture_output=True,
-            text=True,
-            timeout=timeout
-        )
-        return result.stdout
-    except subprocess.TimeoutExpired:
-        print(f"  ⚠️ {model} timed out")
-        return None
+        result = call_llm(prompt=prompt, model=model, timeout=timeout)
+        return result if result else None
     except Exception as e:
         print(f"  ❌ {model} error: {e}")
         return None
@@ -97,11 +93,13 @@ def get_consensus(prompt: str, min_models: int = 2) -> Dict[str, Any]:
             "note": "Explanation"
         }
     """
-    print("🧠 Consulting multiple models for consensus...")
-    
+    provider = get_active_provider()
+    consensus_models = _get_consensus_models()
+    print(f"🧠 Consulting multiple models for consensus (provider={provider})...")
+
     decisions = []
-    
-    for model_config in CONSENSUS_MODELS:
+
+    for model_config in consensus_models:
         model_name = model_config["name"]
         timeout = model_config["timeout"]
         weight = model_config["weight"]
