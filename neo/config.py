@@ -91,5 +91,48 @@ PROVEN_PARAMETERS = {
 # Ollama endpoint
 OLLAMA_URL = "http://localhost:11434"
 
+# ---------------------------------------------------------------------------
+# LLM Provider Configuration
+# Set LLM_PROVIDER env var to switch between providers:
+#   ollama    - local Ollama (default, free)
+#   deepseek  - DeepSeek API (cheapest cloud, $0.14/M tokens)
+#   anthropic - Claude API (best analysis quality)
+#   openai    - OpenAI GPT-4o
+#
+# Example:
+#   export LLM_PROVIDER=deepseek
+#   export DEEPSEEK_API_KEY=sk-xxx
+# ---------------------------------------------------------------------------
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "ollama")
+
+# API keys (set via environment variables, never hardcode)
+OPENAI_API_KEY    = os.getenv("OPENAI_API_KEY", "")
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
+DEEPSEEK_API_KEY  = os.getenv("DEEPSEEK_API_KEY", "")
+
+# Per-provider model defaults (override via env vars)
+PROVIDER_MODELS = {
+    "ollama": {
+        "primary": os.getenv("OLLAMA_PRIMARY_MODEL", "qwen2.5:32b"),
+        "backup":  os.getenv("OLLAMA_BACKUP_MODEL",  "qwen3:32b"),
+        "fast":    os.getenv("OLLAMA_FAST_MODEL",    "llama3.1:8b"),
+    },
+    "openai": {
+        "primary": os.getenv("OPENAI_PRIMARY_MODEL", "gpt-4o"),
+        "backup":  os.getenv("OPENAI_BACKUP_MODEL",  "gpt-4o-mini"),
+        "fast":    os.getenv("OPENAI_FAST_MODEL",    "gpt-4o-mini"),
+    },
+    "anthropic": {
+        "primary": os.getenv("ANTHROPIC_PRIMARY_MODEL", "claude-sonnet-4-6"),
+        "backup":  os.getenv("ANTHROPIC_BACKUP_MODEL",  "claude-haiku-4-5-20251001"),
+        "fast":    os.getenv("ANTHROPIC_FAST_MODEL",    "claude-haiku-4-5-20251001"),
+    },
+    "deepseek": {
+        "primary": os.getenv("DEEPSEEK_PRIMARY_MODEL", "deepseek-reasoner"),
+        "backup":  os.getenv("DEEPSEEK_BACKUP_MODEL",  "deepseek-chat"),
+        "fast":    os.getenv("DEEPSEEK_FAST_MODEL",    "deepseek-chat"),
+    },
+}
+
 # User agent for web requests
 USER_AGENT = "Mozilla/5.0 (compatible; NEO-Trader/1.0)"
